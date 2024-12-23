@@ -4,8 +4,10 @@ node_modules/
 dist/
 .env
 .DS_Store
+.next
 .vscode/
 .idea/
 npm-debug.log
 yarn-error.log
 *.log
+node_modules
