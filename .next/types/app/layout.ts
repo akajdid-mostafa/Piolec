@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // File: /Users/ocean_dev3/Desktop/work/next/next/app/layout.js
+=======
+// File: /Users/ocean_dev2/WebstormProjects/next/app/layout.js
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

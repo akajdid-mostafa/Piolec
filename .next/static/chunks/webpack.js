@@ -178,10 +178,14 @@
 /******/ 	
 /******/ 	/* webpack/runtime/get mini-css chunk filename */
 /******/ 	!function() {
+<<<<<<< HEAD
 /******/ 		// This function allow to reference async chunks
+=======
+/******/ 		// This function allow to reference all chunks
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
 /******/ 		__webpack_require__.miniCssF = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return undefined;
+/******/ 			return "static/css/" + chunkId + ".css";
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -192,7 +196,11 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
+<<<<<<< HEAD
 /******/ 		__webpack_require__.h = function() { return "641e9d79e2a9b03f"; }
+=======
+/******/ 		__webpack_require__.h = function() { return "c248eee264ce756b"; }
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -237,7 +245,6 @@
 /******/ 					script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 				}
 /******/ 				script.setAttribute("data-webpack", dataWebpackPrefix + key);
-/******/ 		
 /******/ 				script.src = __webpack_require__.tu(url);
 /******/ 			}
 /******/ 			inProgress[url] = [done];
@@ -327,6 +334,7 @@
 /******/ 		var currentUpdateApplyHandlers;
 /******/ 		var queuedInvalidatedModules;
 /******/ 		
+/******/ 		// eslint-disable-next-line no-unused-vars
 /******/ 		__webpack_require__.hmrD = currentModuleData;
 /******/ 		
 /******/ 		__webpack_require__.i.push(function (options) {
@@ -387,8 +395,8 @@
 /******/ 					Object.defineProperty(fn, name, createPropertyDescriptor(name));
 /******/ 				}
 /******/ 			}
-/******/ 			fn.e = function (chunkId, fetchPriority) {
-/******/ 				return trackBlockingPromise(require.e(chunkId, fetchPriority));
+/******/ 			fn.e = function (chunkId) {
+/******/ 				return trackBlockingPromise(require.e(chunkId));
 /******/ 			};
 /******/ 			return fn;
 /******/ 		}
@@ -580,7 +588,8 @@
 /******/ 									updatedModules
 /******/ 								);
 /******/ 								return promises;
-/******/ 							}, [])
+/******/ 							},
+/******/ 							[])
 /******/ 						).then(function () {
 /******/ 							return waitForBlockingPromises(function () {
 /******/ 								if (applyOnUpdate) {

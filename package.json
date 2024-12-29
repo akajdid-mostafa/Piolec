@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "next": "^14.2.21",
+=======
+    "next": "^14.1.0",
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
     "react": "^18.3.1",
     "react-bootstrap": "^1.6.1",
     "react-countup": "^6.5.3",

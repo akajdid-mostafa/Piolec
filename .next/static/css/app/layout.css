@@ -1,11 +1,19 @@
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
+<<<<<<< HEAD
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css ***!
+=======
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./app/globals.css ***!
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
   \*************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+<<<<<<< HEAD
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./public/assets/css/animate.css ***!
+=======
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./public/assets/css/animate.css ***!
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
   \***************************************************************************************************************************************************************************************************************************************************************************/
 @charset "UTF-8";
 
@@ -1206,7 +1214,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: rollOut;
 }
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+<<<<<<< HEAD
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./public/assets/css/bootstrap.min.css ***!
+=======
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./public/assets/css/bootstrap.min.css ***!
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
   \*********************************************************************************************************************************************************************************************************************************************************************************/
 @charset "UTF-8";
 /*!
@@ -13743,7 +13755,11 @@ fieldset:disabled .btn {
 
 /*# sourceMappingURL=bootstrap.min.css.map */
 /*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+<<<<<<< HEAD
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./public/assets/css/font-awesome.css ***!
+=======
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./public/assets/css/font-awesome.css ***!
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
   \********************************************************************************************************************************************************************************************************************************************************************************/
 /*!
  * Font Awesome Pro 5.14.0 by @fontawesome - https://fontawesome.com
@@ -13836,7 +13852,11 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before, span[class^="flatic
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+<<<<<<< HEAD
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./public/assets/css/magnific-popup.css ***!
+=======
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./public/assets/css/magnific-popup.css ***!
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
   \**********************************************************************************************************************************************************************************************************************************************************************************/
 /* Magnific Popup CSS */
 .mfp-bg {
@@ -14184,7 +14204,11 @@ img.mfp-img {
     padding-right: 6px; } }
 
 /*!************************************************************************************************************************************************************************************************************************************************************************!*\
+<<<<<<< HEAD
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./public/assets/css/main.css ***!
+=======
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./public/assets/css/main.css ***!
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
   \************************************************************************************************************************************************************************************************************************************************************************/
 /*
 Theme Name: Next
@@ -23318,7 +23342,11 @@ p.sticky-label {
   }
 }/*# sourceMappingURL=main.css.map */
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+<<<<<<< HEAD
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./public/assets/css/meanmenu.css ***!
+=======
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./public/assets/css/meanmenu.css ***!
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
   \****************************************************************************************************************************************************************************************************************************************************************************/
 /*! #######################################################################
 
@@ -23467,7 +23495,11 @@ a.meanmenu-reveal {
     display: none !important
 }
 /*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+<<<<<<< HEAD
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./public/assets/css/nice-select.css ***!
+=======
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./public/assets/css/nice-select.css ***!
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
   \*******************************************************************************************************************************************************************************************************************************************************************************/
 .nice-select {
   -webkit-tap-highlight-color: transparent;
@@ -23597,7 +23629,11 @@ a.meanmenu-reveal {
   display: block; }
 
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+<<<<<<< HEAD
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./public/assets/css/swiper-bundle.min.css ***!
+=======
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./public/assets/css/swiper-bundle.min.css ***!
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
   \*************************************************************************************************************************************************************************************************************************************************************************************/
 /**
  * Swiper 8.3.2

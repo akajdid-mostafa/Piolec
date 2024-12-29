@@ -18,7 +18,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+<<<<<<< HEAD
       {/* <Preloader /> */}
+=======
+
+>>>>>>> 2c14090907937b032114598e6646c1bdcd69da07
       {children}
       </body>
     </html>
