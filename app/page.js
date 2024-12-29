@@ -3,20 +3,23 @@ import Pricing from "@/components/Pricing";
 import { TestimonialSlider1 } from "@/components/TestimonialSlider";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
+import Service from "@/components/service";
+
+
 const page = () => {
   return (
-    <NextLayout header={1}>
+    <NextLayout>
       <section
         className="hero-section hero-1 bg-cover fix"
-        style={{ backgroundImage: 'url("assets/img/hero/01.jpg")' }}
+        style={{ backgroundImage: 'url("assets/img/hero/01.png")' }}
       >
         <div className="container">
-          <div className="row g-4 justify-content-between">
+          <div className="row g-4  justify-content-between">
             <div className="col-lg-6">
               <div className="hero-content">
-                <h1 className="wow fadeInUp" data-wow-delay=".2s">
-                  We Take Care <br />
-                  Your IT Solutions <br /> &amp; Provide Best <br /> Services
+                <h1 className="wow fadeInUp " data-wow-delay=".2s">
+                  Spécialisé en électricité,<br></br> informatique et
+                  technologies de sécurité.
                 </h1>
                 <div className="hero-button">
                   <Link
@@ -31,10 +34,10 @@ const page = () => {
                     className="btn-link wow fadeInUp"
                     data-wow-delay=".6s"
                   >
-                    View Services <i className="far fa-arrow-right" />
+                    Voir les services <i className="far fa-arrow-right" />
                   </Link>
                 </div>
-                <div
+                {/* <div
                   className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
                   data-wow-delay=".8s"
                 >
@@ -43,7 +46,7 @@ const page = () => {
                     Trusted by 1M+ people <br />
                     around the globe
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
@@ -88,21 +91,7 @@ const page = () => {
                       </div>
                     </div>
                     <div className="col-lg-12">
-                      <div className="payment-save">
-                        <input
-                          type="checkbox"
-                          className="form-check-input"
-                          name="save-for-next"
-                          id="saveForNext"
-                        />
-                        <p>
-                          I’ve Read and agreed to{" "}
-                          <Link href="/">Terms &amp; Conditions</Link>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <button type="submit" className="theme-btn">
+                      <button type="submit" className="theme-btn hover-white">
                         Get Started Now <i className="far fa-arrow-right" />
                       </button>
                     </div>
@@ -114,13 +103,13 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <section className="service-section fix pt-80 pb-80 section-bg">
+      {/* <section className="service-section fix pt-80 pb-80 section-bg">
         <div className="container">
           <h4
             className="mb-5 text-white text-center wow fadeInUp"
             data-wow-delay=".3s"
           >
-            Preparing For Your Business Success With IT Solution
+            Ensuring Your Success with Premium Electrical, and Security System Solutions.
           </h4>
           <div className="row g-4">
             <div
@@ -191,7 +180,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* About Section Start */}
       <section className="about-section fix section-padding">
         <div className="container">
@@ -203,21 +192,21 @@ const page = () => {
                     className="experience-text wow fadeInUp"
                     data-wow-delay=".6s"
                   >
-                    <li>25+ Years Of Experience</li>
+                    <li>Plus de 25 ans d'expérience</li>
                     <li>
                       <i className="fas fa-star" />
                     </li>
-                    <li>Awards Winning Company</li>
+                    <li>Entreprise primée</li>
                   </ul>
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
-                        <img src="assets/img/about/01.jpg" alt="about-img" />
+                        <img src="assets/img/about/about2.png" alt="about-img" />
                       </div>
                     </div>
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                       <div className="about-image">
-                        <img src="assets/img/about/02.jpg" alt="about-img" />
+                        <img src="assets/img/about/about1.png" alt="about-img" />
                       </div>
                     </div>
                   </div>
@@ -227,29 +216,32 @@ const page = () => {
                 <div className="about-content">
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />
-                      About Company
+                      <img src="assets/img/bale.png" alt="img" />À propos de
+                      l'entreprise
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Preparing Your Success Trusted IT Services
+                    PIOLEC : Électricité, Informatique et Sécurité
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Sed ut perspiciatis unde omnis iste natus error sit volupta
-                    temes accusantium doloremque laudantium, totam rem
+                    PIOLEC, entreprise marocaine spécialisée en électricité,
+                    informatique et systèmes de sécurité, est un partenaire de
+                    confiance sur tout le territoire national. Son expertise et
+                    son professionnalisme garantissent des solutions innovantes
+                    et sur mesure pour répondre aux besoins de ses clients.
                   </p>
                   <ul className="about-list wow fadeInUp" data-wow-delay=".3s">
                     <li>
                       <i className="fas fa-check" />
-                      Connect with leads with zero hassle.
+                      Analyse et Conseil
                     </li>
                     <li>
                       <i className="fas fa-check" />
-                      Take quick payments direct from meetings
+                      Installation et Mise en Œuvre
                     </li>
                     <li>
                       <i className="fas fa-check" />
-                      Start finding leads that get coverts quickly
+                      Maintenance et Suivi 
                     </li>
                   </ul>
                   <div
@@ -257,19 +249,19 @@ const page = () => {
                     data-wow-delay=".5s"
                   >
                     <div className="about-button">
-                      <Link href="about" className="theme-btn">
-                        Learn More Us
+                      <Link href="about" className=" theme-btn hover-white">
+                      En savoir plus
                         <i className="far fa-arrow-right" />
                       </Link>
                     </div>
-                    <div className="author-image">
+                    {/* <div className="author-image">
                       <img src="assets/img/about/author.jpg" alt="author-img" />
                       <div className="content">
                         <h5>
                           Lucas J. Swe / <span>CO Founder</span>
                         </h5>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -278,122 +270,8 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <section className="service-section section-padding pt-0">
-        <div className="container">
-          <div className="section-title text-center">
-            <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
-              Popular Services
-            </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              We Provide Best Quality Service <br />
-              For Your Business
-            </h2>
-          </div>
-          <div className="row">
-            <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".2s"
-            >
-              <div className="service-card-items">
-                <div className="icon">
-                  <i className="flaticon-technical" />
-                </div>
-                <h3>
-                  <Link href="service-details">
-                    Data Center and Cloud Services
-                  </Link>
-                </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/04.png" alt="service-img" />
-                  <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
-                  </div>
-                </div>
-                <Link className="link-btn" href="service-details">
-                  Read More
-                  <i className="far fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-            <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".4s"
-            >
-              <div className="service-card-items active">
-                <div className="icon">
-                  <i className="flaticon-vector-design" />
-                </div>
-                <h3>
-                  <Link href="service-details">
-                    Web Development Software Renew
-                  </Link>
-                </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/05.png" alt="service-img" />
-                  <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
-                  </div>
-                </div>
-                <Link className="link-btn" href="service-details">
-                  Read More
-                  <i className="far fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-            <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".6s"
-            >
-              <div className="service-card-items">
-                <div className="icon">
-                  <i className="flaticon-database" />
-                </div>
-                <h3>
-                  <Link href="service-details">
-                    IT Management Machine Learning
-                  </Link>
-                </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/06.png" alt="service-img" />
-                  <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
-                  </div>
-                </div>
-                <Link className="link-btn" href="service-details">
-                  Read More
-                  <i className="far fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-            <div
-              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay=".8s"
-            >
-              <div className="service-card-items">
-                <div className="icon">
-                  <i className="flaticon-design-thinking" />
-                </div>
-                <h3>
-                  <Link href="service-details">
-                    Digital Product UI/UX Design
-                  </Link>
-                </h3>
-                <div className="service-thumb">
-                  <img src="assets/img/service/07.png" alt="service-img" />
-                  <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
-                  </div>
-                </div>
-                <Link className="link-btn" href="service-details">
-                  Read More
-                  <i className="far fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Service/>
+      
       {/* Cta Video Section Start */}
       <div
         className="cta-video-section fix bg-cover"
@@ -705,10 +583,10 @@ const page = () => {
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
               <img src="assets/img/bale.png" alt="img" />
-              Company Fun Fact
+              Faits amusants sur l'entreprise
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Learn Our Company Statistics
+            Découvrez les statistiques de notre entreprise
             </h2>
           </div>
           <FunFactCounter />
@@ -806,9 +684,9 @@ const page = () => {
         </div>
       </section>
       {/* Pricing Section Start */}
-      <Pricing />
+      {/* <Pricing /> */}
       {/* Testimonial Section Start */}
-      <section className="testimonial-section fix section-padding pt-0">
+      {/* <section className="testimonial-section fix section-padding pt-0">
         <div className="container">
           <div className="testimonial-wrapper">
             <div className="row g-4">
@@ -823,9 +701,10 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* News Section Start */}
-      <section className="news-section section-padding pt-0">
+      
+      <section className="news-section section-padding pt-0 mt-20">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
