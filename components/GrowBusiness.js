@@ -98,17 +98,16 @@ export const GrowBusiness2 = ({ bg }) => {
                 <div className="section-title">
                   <span className="sub-content wow fadeInUp">
                     <img src="assets/img/bale.png" alt="img" />
-                    Grow your Business
+                    Faites croître votre entreprise
                   </span>
                   <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    Innovative Business Increase and Branding Solutions
+                    Électricité innovante
                   </h2>
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta.
+                  Boostez la croissance de votre entreprise avec des systèmes
+                  électriques modernes et performants, conçus pour répondre à
+                  vos besoins spécifiques.
                 </p>
                 <div className="grow-percent-area">
                   <div className="row g-4">
@@ -120,13 +119,14 @@ export const GrowBusiness2 = ({ bg }) => {
                           </span>
                           %
                         </h2>
-                        <h3>Increase Sales</h3>
+                        <h3>d’efficacité</h3>
                         <p>
-                          Sed perspiciatis unde omnis natus error sit voluptate
+                          Optimisez votre énergie avec des solutions
+                          intelligentes pour des performances maximales.
                         </p>
-                        <div className="vector-shape pt-3">
+                        {/* <div className="vector-shape pt-3">
                           <img src="assets/img/vector.png" alt="img" />
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".5s">
@@ -137,13 +137,14 @@ export const GrowBusiness2 = ({ bg }) => {
                           </span>
                           %
                         </h2>
-                        <h3>Reduced Losses</h3>
+                        <h3>de coûts</h3>
                         <p>
-                          Sed perspiciatis unde omnis natus error sit voluptate
+                          Réduisez vos dépenses grâce à des installations
+                          électriques efficaces et durables.
                         </p>
-                        <div className="vector-shape pt-3">
+                        {/* <div className="vector-shape pt-3">
                           <img src="assets/img/vector.png" alt="img" />
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

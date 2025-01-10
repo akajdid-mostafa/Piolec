@@ -250,7 +250,7 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 35px;
   line-height: 120%;
   font-weight: 500;
 }
@@ -2016,7 +2016,7 @@ input.main-search-input::placeholder {
   text-align: center;
 }
 .breadcrumb-wrapper .page-heading h1 {
-  font-size: 65px;
+  font-size: 45px;
   position: relative;
   z-index: 9;
   line-height: 1.2;
@@ -4450,8 +4450,9 @@ input.main-search-input::placeholder {
   margin-bottom: 10px;
 }
 .about-wrapper .about-image-3 img {
-  width: 100%;
+  width: 80%;
   height: 100%;
+  border-radius: 5%;
 }
 .about-wrapper .about-image-items-4 {
   position: relative;

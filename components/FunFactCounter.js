@@ -13,8 +13,10 @@ const FunFactCounter = ({ style }) => {
             </span>
             %
           </h2>
-          <h6>Average Conversion Rate</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <h6>Satisfaction Client</h6>
+          <p>
+          Des solutions sur mesure pour des résultats exceptionnels.
+          </p>
         </div>
       </div>
       <div
@@ -28,8 +30,8 @@ const FunFactCounter = ({ style }) => {
             </span>
             m+
           </h2>
-          <h6>Traffic Generated</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <h6>Projets Réussis</h6>
+          <p>Plus de 35 projets réalisés avec succès à travers le Maroc.</p>
         </div>
       </div>
       <div
@@ -43,8 +45,8 @@ const FunFactCounter = ({ style }) => {
             </span>
             %
           </h2>
-          <h6>Positive Customer Review</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <h6>Avis Positifs</h6>
+          <p>La confiance de nos clients témoigne de notre professionnalisme.</p>
         </div>
       </div>
       <div
@@ -58,8 +60,8 @@ const FunFactCounter = ({ style }) => {
             </span>
             %
           </h2>
-          <h6>Professional Team Members</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <h6>Équipe Certifiée</h6>
+          <p>Des experts certifiés pour des services de qualité supérieure.</p>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Breadcrumb = ({ pageName = "About Company", pageTitle }) => {
+const Breadcrumb = ({ pageName = "À propos de l'entreprise", pageTitle }) => {
   return (
     <div
       className="breadcrumb-wrapper section-padding bg-cover"

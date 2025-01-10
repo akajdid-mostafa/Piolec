@@ -1,29 +1,28 @@
-const WorkingProcess = () => {
+const WorkingProcess = ({title1,title2,title3,title4,desc1,desc2,desc3,desc4}) => {
   return (
     <section className="working-section-2 section-padding">
       <div className="container">
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
             <img src="assets/img/bale.png" alt="img" />
-            Working Process
+            Processus de travail
           </span>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            We Complete Our Work to Follow <br />
-            Some Easy Ways
+          Nous achevons notre travail pour suivre <br />
+          Quelques moyens simples
           </h2>
         </div>
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
             <div className="working-card-items">
-              <div className="icon">
+              {/* <div className="icon">
                 <img src="assets/img/working-process/icon-1.png" alt="img" />
-              </div>
+              </div> */}
               <div className="content">
-                <span className="sub-title">Step 01</span>
-                <h3>Discovery &amp; Analysis</h3>
+                <span className="sub-title">Étape 01</span>
+                <h3>{title1}</h3>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error <br />{" "}
-                  voluptatem accusantium
+                  {desc1}
                 </p>
               </div>
             </div>
@@ -44,29 +43,27 @@ const WorkingProcess = () => {
           <div className="col-lg-8 wow fadeInUp" data-wow-delay=".5s">
             <div className="working-card-items">
               <div className="content">
-                <span className="sub-title">Step 02</span>
-                <h3>Competitor Analysis</h3>
+                <span className="sub-title">Étape 02</span>
+                <h3>{title2}</h3>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error <br />{" "}
-                  voluptatem accusantium
+                 {desc2}
                 </p>
               </div>
-              <div className="icon">
+              {/* <div className="icon">
                 <img src="assets/img/working-process/icon-2.png" alt="img" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
             <div className="working-card-items">
-              <div className="icon">
+              {/* <div className="icon">
                 <img src="assets/img/working-process/icon-3.png" alt="img" />
-              </div>
+              </div> */}
               <div className="content">
-                <span className="sub-title">Step 03</span>
-                <h3>Strategy &amp; Execution</h3>
+                <span className="sub-title">Étape 03</span>
+                <h3>{title3}</h3>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error <br />{" "}
-                  voluptatem accusantium
+                {desc3}
                 </p>
               </div>
             </div>
@@ -87,16 +84,15 @@ const WorkingProcess = () => {
           <div className="col-lg-8 wow fadeInUp" data-wow-delay=".5s">
             <div className="working-card-items">
               <div className="content">
-                <span className="sub-title">Step 04</span>
-                <h3>Get 3x Results</h3>
+                <span className="sub-title">Étape 04</span>
+                <h3>{title4}</h3>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error <br />{" "}
-                  voluptatem accusantium
+                  {desc4}
                 </p>
               </div>
-              <div className="icon">
+              {/* <div className="icon">
                 <img src="assets/img/working-process/icon-4.png" alt="img" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -113,12 +109,14 @@ export const WorkingProcess2 = () => {
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
             <img src="assets/img/bale.png" alt="img" />
-            Working Process
+            Nos Valeurs
           </span>
-          <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            We Complete Our Work to Follow <br />
-            Some Easy Ways
-          </h2>
+        </div>
+        <div className="about-content text-center">
+          <h4 className="wow fadeInUp" data-wow-delay=".3s">
+            Chez PIOLEC, nous plaçons la satisfaction de nos clients au cœur de
+            notre démarche. Nos valeurs fondamentales sont :
+          </h4>
         </div>
         <div className="work-process-wrapper">
           <div className="row align-items-center">
@@ -129,10 +127,10 @@ export const WorkingProcess2 = () => {
                   data-wow-delay=".3s"
                 >
                   <div className="digit-box">01</div>
-                  <h4>Market Research</h4>
+                  <h4>Écoute et Compréhension </h4>
                   <p>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate
-                    velit esse quam nihil molestiae
+                    Nous sommes à l'écoute de nos clients pour comprendre leurs
+                    besoins et leur proposer des solutions adaptées.
                   </p>
                 </div>
                 <div
@@ -140,10 +138,10 @@ export const WorkingProcess2 = () => {
                   data-wow-delay=".5s"
                 >
                   <div className="digit-box">02</div>
-                  <h4>Process and Analysis</h4>
+                  <h4>Engagement et Fiabilité</h4>
                   <p>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate
-                    velit esse quam nihil molestiae
+                    Nous tenons nos promesses en respectant les délais, les
+                    budgets et les normes de qualité convenus.
                   </p>
                 </div>
                 <div
@@ -151,10 +149,11 @@ export const WorkingProcess2 = () => {
                   data-wow-delay=".7s"
                 >
                   <div className="digit-box">03</div>
-                  <h4>Successful Project</h4>
+                  <h4>Innovation et Évolution</h4>
                   <p>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate
-                    velit esse quam nihil molestiae
+                    Nous proposons des solutions évolutives qui créent une
+                    réelle valeur ajoutée pour nos clients et les aident à se
+                    développer.
                   </p>
                 </div>
               </div>

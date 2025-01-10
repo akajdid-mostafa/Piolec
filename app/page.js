@@ -583,10 +583,10 @@ const page = () => {
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
               <img src="assets/img/bale.png" alt="img" />
-              Faits amusants sur l'entreprise
+              Chiffres Clés de PIOLEC
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            Découvrez les statistiques de notre entreprise
+            Découvrez les performances et les réalisations de notre entreprise.
             </h2>
           </div>
           <FunFactCounter />

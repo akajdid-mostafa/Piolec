@@ -172,11 +172,20 @@ const page = () => {
         </div>
       </section>
       {/* Working Process Section Start */}
-      <WorkingProcess />
+      <WorkingProcess
+       title1="Découverte et analyse"
+       desc1="Nous analysons vos besoins pour créer une solution sur mesure, adaptée à vos objectifs et contraintes."
+       title2="Conception et planification"
+       desc2=" Nos experts conçoivent des plans détaillés et des schémas techniques conformes aux normes pour une mise en œuvre optimale."
+       title3="Installation et exécution"
+       desc3="Nous installons votre système électrique avec des matériaux de qualité et des techniques éprouvées, garantissant fiabilité et sécurité."
+       title4="Tests et remise des clés"
+       desc4="Nous testons rigoureusement votre installation avant la livraison, et vous fournissons un support technique pour une utilisation optimale."
+       />
       {/* Grow Business Section Start */}
       <GrowBusiness2 bg={"footer-bg"} />
       {/* Pricing Section Start */}
-      <Pricing />
+      {/* <Pricing /> */}
       <Cta sectionPadding={true} />
     </NextLayout>
   );

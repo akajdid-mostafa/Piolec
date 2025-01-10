@@ -27,7 +27,7 @@ const Service = () => {
                 <i className="flaticon-technical" />
               </div>
               <h3>
-                <Link href="service-details">
+                <Link href="etude-et-installation-electrique-complete">
                   Étude et installation électrique complète.
                 </Link>
               </h3>
@@ -37,7 +37,7 @@ const Service = () => {
                   <img src="assets/img/service/line.png" alt="shape-img" />
                 </div>
               </div>
-              <Link className="link-btn" href="service-details">
+              <Link className="link-btn" href="etude-et-installation-electrique-complete">
                 Read More
                 <i className="far fa-arrow-right" />
               </Link>
@@ -52,7 +52,7 @@ const Service = () => {
                 <i className="flaticon-vector-design" />
               </div>
               <h3>
-                <Link href="service-details">
+                <Link href="systemes-de-securite-installation">
                   Systèmes de sécurité - Installation.
                 </Link>
               </h3>
@@ -62,7 +62,7 @@ const Service = () => {
                   <img src="assets/img/service/line.png" alt="shape-img" />
                 </div>
               </div>
-              <Link className="link-btn" href="service-details">
+              <Link className="link-btn" href="systemes-de-securite-installation">
                 Read More
                 <i className="far fa-arrow-right" />
               </Link>
@@ -77,7 +77,7 @@ const Service = () => {
                 <i className="flaticon-database" />
               </div>
               <h3>
-                <Link href="service-details">
+                <Link href="reseaux-informatiques-nstallations">
                   Réseaux informatiques - Installations.
                 </Link>
               </h3>
@@ -87,7 +87,7 @@ const Service = () => {
                   <img src="assets/img/service/line.png" alt="shape-img" />
                 </div>
               </div>
-              <Link className="link-btn" href="service-details">
+              <Link className="link-btn" href="reseaux-informatiques-nstallations">
                 Read More
                 <i className="far fa-arrow-right" />
               </Link>
@@ -102,7 +102,7 @@ const Service = () => {
                 <i className="flaticon-design-thinking" />
               </div>
               <h3>
-                <Link href="service-details">
+                <Link href="maintenance-et-service-apres-vente">
                   Maintenance et service après-vente.
                 </Link>
               </h3>
@@ -112,7 +112,7 @@ const Service = () => {
                   <img src="assets/img/service/line.png" alt="shape-img" />
                 </div>
               </div>
-              <Link className="link-btn" href="service-details">
+              <Link className="link-btn" href="maintenance-et-service-apres-vente">
                 Read More
                 <i className="far fa-arrow-right" />
               </Link>

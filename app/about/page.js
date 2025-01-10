@@ -1,6 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FunFactCounter from "@/components/FunFactCounter";
-import Team from "@/components/Team";
+import {Team2} from "@/components/Team";
 import { TestimonialSlider2 } from "@/components/TestimonialSlider";
 import { WorkingProcess2 } from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
@@ -19,26 +19,42 @@ const page = () => {
                 <div className="about-content ms-0 style-about">
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />
-                      About Company
+                      <img src="assets/img/bale.png" alt="img" />À propos de
+                      l'entreprise
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      We Increase Your Website Lead and Grow Sales
-                    </h2>
+                    {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    Nous augmentons le nombre de visiteurs de votre site web et augmentons les ventes
+                    </h2> */}
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Sed ut perspiciatis unde omnis iste natus error voluptatem
-                    accusantium doloremque laudantium, totam rem aperiam, eaque
-                    ipsa quae
+                    Bienvenue sur le site web de **PIOLEC**, votre partenaire
+                    privilégié en électricité, informatique, automatisme et
+                    systèmes de sécurité. Depuis notre création, nous nous
+                    engageons à fournir des solutions innovantes et sur mesure
+                    pour répondre aux besoins de nos clients à travers le Maroc.
                   </p>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                     <div className="dot" />
                     <div className="content">
-                      <h4>Superior Quality Of Work</h4>
+                      <h4>Qui sommes-nous ?</h4>
                       <p>
-                        Our attention to detail and quality is unmatched in the
-                        industry. <br /> We’re not just a resource provider but
-                        also a key
+                        PIOLEC est une entreprise marocaine spécialisée dans les
+                        domaines de l'électricité industrielle, de
+                        l'automatisme, de l'informatique et des systèmes de
+                        sécurité. Forte de son expertise et de son
+                        professionnalisme, PIOLEC a su gagner la confiance d'un
+                        large éventail de clients et de partenaires, tant dans
+                        le secteur public que privé.
+                      </p>
+                      <p>
+                        Notre mission est de proposer des solutions techniques
+                        performantes et adaptées, tout en respectant les normes
+                        en vigueur et en garantissant une qualité de service
+                        optimale. Que ce soit pour des installations
+                        électriques, des systèmes de sécurité, des réseaux
+                        informatiques ou des solutions d'automatisme, PIOLEC met
+                        à votre disposition son savoir-faire et son expérience
+                        pour accompagner vos projets de A à Z.
                       </p>
                     </div>
                   </div>
@@ -66,22 +82,56 @@ const page = () => {
               <div className="col-lg-6">
                 <div className="about-content">
                   <h4 className="wow fadeInUp" data-wow-delay=".3s">
-                    Flexible Scaling &amp; Support
+                    Nos Domaines d&apos;Expertise
                   </h4>
-                  <p className="mt-3 wow fadeInUp" data-wow-delay=".5s">
+                  {/* <p className="mt-3 wow fadeInUp" data-wow-delay=".5s">
                     In the early years, our dedicated team worked tirelessly to
                     key Next milestones or achievements, such as product
                     launches, partnerships or expansions these efforts laid the
                     foundation
-                  </p>
+                  </p> */}
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                     <div className="dot" />
                     <div className="content">
-                      <h4>Flexible Scaling &amp; Support</h4>
+                      <h6>Électricité Industrielle et Automatisme</h6>
                       <p>
-                        Our attention to detail and quality is unmatched in the
-                        industry. <br /> We’re not just a resource provider but
-                        also a key
+                        Conception et réalisation d'armoires électriques,
+                        câblage de machines, solutions en énergies
+                        renouvelables, alimentation de secours (groupes
+                        électrogènes, onduleurs, etc.).
+                      </p>
+                    </div>
+                  </div>
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                    <div className="dot" />
+                    <div className="content">
+                      <h6>Contrôle d'Accès et Systèmes d'Évacuation</h6>
+                      <p>
+                        Installation et configuration de systèmes de contrôle
+                        d'accès (badges, digicodes, lecteurs biométriques) et de
+                        gestion centralisée des issues de secours (UGIS).
+                      </p>
+                    </div>
+                  </div>
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                    <div className="dot" />
+                    <div className="content">
+                      <h6>Systèmes de Sécurité Incendie et Intrusion</h6>
+                      <p>
+                        Installation de systèmes de détection d'incendie,
+                        centrales d'alarme, et logiciels de supervision.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                    <div className="dot" />
+                    <div className="content">
+                      <h6>Réseaux Informatiques et Vidéosurveillance </h6>
+                      <p>
+                        Câblage informatique, installation de caméras de
+                        surveillance (IP et analogique), et mise en place
+                        d'infrastructures réseau (armoires de brassage, switchs,
+                        routeurs).
                       </p>
                     </div>
                   </div>
@@ -100,17 +150,34 @@ const page = () => {
         </div>
       </section>
       {/* Team Section Start */}
-      <Team />
-      {/* Funfact Section Start */}
-      <section className="funfact-section-2 section-padding pt-0">
+      
+      
+      {/* <section className="funfact-section-2 section-padding pt-0">
         <div className="container">
-          <FunFactCounter style={2} />
+         
         </div>
-      </section>
+      </section> */}
       {/* Working Process Section Start */}
       <WorkingProcess2 />
+      {/* Funfact Section Start */}
+      <section className="funfact-section section-padding pt-0">
+        <div className="container">
+          <div className="section-title text-center">
+            <span className="sub-content wow fadeInUp">
+              <img src="assets/img/bale.png" alt="img" />
+              Chiffres Clés de PIOLEC
+            </span>
+            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            Découvrez les performances et les réalisations de notre entreprise.
+            </h2>
+          </div>
+          <FunFactCounter />
+        </div>
+      </section>
+      {/* Team Section Start */}
+      <Team2 />
       {/* Brand Section Start */}
-      <section className="brand-section-2 mt-0 mb-0 fix section-padding pt-0">
+      {/* <section className="brand-section-2 mt-0 mb-0 fix section-padding pt-0">
         <div className="container-fluid">
           <div className="brand-wrapper-2">
             <div className="radius-shape">
@@ -153,7 +220,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Testimonial Section Start */}
       <section className="testimonial-section-2 fix section-padding fix">
         <div className="bg-shape">
