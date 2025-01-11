@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const WorkingProcess = ({title1,title2,title3,title4,desc1,desc2,desc3,desc4}) => {
   return (
     <section className="working-section-2 section-padding">

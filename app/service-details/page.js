@@ -49,7 +49,7 @@ const page = () => {
                     className="about-button mt-5 wow fadeInUp"
                     data-wow-delay=".5s"
                   >
-                    <Link href="about" className="theme-btn">
+                    <Link href="/about" className="theme-btn">
                       Learn More Us
                       <i className="far fa-arrow-right" />
                     </Link>

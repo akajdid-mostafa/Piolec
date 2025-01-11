@@ -5,8 +5,9 @@ import { GrowBusiness2 } from "@/components/GrowBusiness";
 import Pricing from "@/components/Pricing";
 import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
-// import Link from "next/link";
-import { Start,Start2 } from "@/components/servicess";
+import Link from "next/link";
+import { Start } from "@/components/servicess";
+import { Start2 } from "@/components/servicess";
 
 const page = () => {
   return (
@@ -14,6 +15,11 @@ const page = () => {
       {/* <Breadcrumb pageName="Étude et installation électrique complète." /> */}
       {/* About Section Start */}
       <Start/>
+      <Link href="/about">
+      <h4>
+        about
+      </h4>
+      </Link>
       {/* Service Video Section Start */}
       <Start2/>
       {/* Working Process Section Start */}

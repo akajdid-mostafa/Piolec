@@ -1,4 +1,5 @@
 import Counter from "./Counter";
+import Link from "next/link";
 
 const GrowBusiness = ({ paddingTop = 0 }) => {
   return (
@@ -119,7 +120,7 @@ export const GrowBusiness2 = ({ bg }) => {
                           </span>
                           %
                         </h2>
-                        <h3>d’efficacité</h3>
+                        <h3>d&apos;efficacité</h3>
                         <p>
                           Optimisez votre énergie avec des solutions
                           intelligentes pour des performances maximales.

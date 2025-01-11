@@ -2,7 +2,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FunFactCounter from "@/components/FunFactCounter";
 import {Team2} from "@/components/Team";
 import { TestimonialSlider2 } from "@/components/TestimonialSlider";
-import { WorkingProcess2 } from "@/components/WorkingProcess";
+import  WorkingProcess2  from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 const page = () => {
@@ -136,7 +136,7 @@ const page = () => {
                     </div>
                   </div>
                   <Link
-                    href="about"
+                    href="/about"
                     className="theme-btn mt-50 wow fadeInUp"
                     data-wow-delay=".5s"
                   >

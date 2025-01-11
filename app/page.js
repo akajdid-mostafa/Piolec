@@ -5,7 +5,6 @@ import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import Service from "@/components/service";
 
-
 const page = () => {
   return (
     <NextLayout>
@@ -30,7 +29,7 @@ const page = () => {
                     Get Started Now <i className="far fa-arrow-right" />
                   </Link>
                   <Link
-                    href="service"
+                    href="/service"
                     className="btn-link wow fadeInUp"
                     data-wow-delay=".6s"
                   >
@@ -120,12 +119,12 @@ const page = () => {
                 <div className="content">
                   <p>01</p>
                   <h5>
-                    <Link href="service-details">
+                    <Link href="/service-details">
                       Data Manage &amp; <br />
                       Solutions Center
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="service-details">
+                  <Link className="arrow-btn" href="/service-details">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -142,12 +141,12 @@ const page = () => {
                 <div className="content">
                   <p>02</p>
                   <h5>
-                    <Link href="service-details">
+                    <Link href="/service-details">
                       Preparing For <br />
                       Cloud Services
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="service-details">
+                  <Link className="arrow-btn" href="/service-details">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -164,12 +163,12 @@ const page = () => {
                 <div className="content">
                   <p>03</p>
                   <h5>
-                    <Link href="service-details">
+                    <Link href="/service-details">
                       Machine Learning <br />
                       &amp; Development
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="service-details">
+                  <Link className="arrow-btn" href="/service-details">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -201,12 +200,18 @@ const page = () => {
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
-                        <img src="assets/img/about/about2.png" alt="about-img" />
+                        <img
+                          src="assets/img/about/about2.png"
+                          alt="about-img"
+                        />
                       </div>
                     </div>
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                       <div className="about-image">
-                        <img src="assets/img/about/about1.png" alt="about-img" />
+                        <img
+                          src="assets/img/about/about1.png"
+                          alt="about-img"
+                        />
                       </div>
                     </div>
                   </div>
@@ -220,7 +225,7 @@ const page = () => {
                       l'entreprise
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    PIOLEC : Électricité, Informatique et Sécurité
+                      PIOLEC : Électricité, Informatique et Sécurité
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
@@ -241,7 +246,7 @@ const page = () => {
                     </li>
                     <li>
                       <i className="fas fa-check" />
-                      Maintenance et Suivi 
+                      Maintenance et Suivi
                     </li>
                   </ul>
                   <div
@@ -249,8 +254,8 @@ const page = () => {
                     data-wow-delay=".5s"
                   >
                     <div className="about-button">
-                      <Link href="about" className=" theme-btn hover-white">
-                      En savoir plus
+                      <Link href="/about" className=" theme-btn hover-white">
+                        En savoir plus
                         <i className="far fa-arrow-right" />
                       </Link>
                     </div>
@@ -270,8 +275,8 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <Service/>
-      
+      <Service />
+
       {/* Cta Video Section Start */}
       <div
         className="cta-video-section fix bg-cover"
@@ -361,7 +366,7 @@ const page = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Robert E. Whitmore</Link>
+                    <Link href="/team-details">Robert E. Whitmore</Link>
                   </h4>
                   <p>Product Designer</p>
                   <div className="social-profile">
@@ -447,7 +452,7 @@ const page = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Angelo H. Tomlin</Link>
+                    <Link href="/team-details">Angelo H. Tomlin</Link>
                   </h4>
                   <p>Senior Manager</p>
                   <div className="social-profile">
@@ -490,7 +495,7 @@ const page = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Robert E. Whitmore</Link>
+                    <Link href="/team-details">Robert E. Whitmore</Link>
                   </h4>
                   <p>Web Designer</p>
                   <div className="social-profile">
@@ -533,7 +538,7 @@ const page = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Manuel G. Wilmer</Link>
+                    <Link href="/team-details">Manuel G. Wilmer</Link>
                   </h4>
                   <p>CEO &amp; Founder</p>
                   <div className="social-profile">
@@ -570,7 +575,7 @@ const page = () => {
               className="col-xl-3 col-lg-4 col-md-6 ps-xxl-5 wow fadeInUp"
               data-wow-delay=".8s"
             >
-              <Link href="team" className="theme-btn">
+              <Link href="/team" className="theme-btn">
                 View More Members
               </Link>
             </div>
@@ -586,7 +591,8 @@ const page = () => {
               Chiffres Clés de PIOLEC
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            Découvrez les performances et les réalisations de notre entreprise.
+              Découvrez les performances et les réalisations de notre
+              entreprise.
             </h2>
           </div>
           <FunFactCounter />
@@ -612,7 +618,7 @@ const page = () => {
                 Completes
               </h2>
             </div>
-            <Link href="project" className="theme-btn white-border">
+            <Link href="/project" className="theme-btn white-border">
               View More Cases
             </Link>
           </div>
@@ -628,11 +634,11 @@ const page = () => {
                 <div className="content">
                   <p>IT Consulting</p>
                   <h3>
-                    <Link href="case-study-details">
+                    <Link href="/case-study-details">
                       How to achieve more with your nine to five
                     </Link>
                   </h3>
-                  <Link className="arrow-btn" href="case-study-details">
+                  <Link className="arrow-btn" href="/case-study-details">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -649,11 +655,11 @@ const page = () => {
                 <div className="content">
                   <p>Machine Learning</p>
                   <h3>
-                    <Link href="case-study-details">
+                    <Link href="/case-study-details">
                       Strategies for outstanding future results
                     </Link>
                   </h3>
-                  <Link className="arrow-btn" href="case-study-details">
+                  <Link className="arrow-btn" href="/case-study-details">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -670,11 +676,11 @@ const page = () => {
                 <div className="content">
                   <p>Software Design</p>
                   <h3>
-                    <Link href="case-study-details">
+                    <Link href="/case-study-details">
                       Discover a better way of system defining company goals.
                     </Link>
                   </h3>
-                  <Link className="arrow-btn" href="case-study-details">
+                  <Link className="arrow-btn" href="/case-study-details">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
@@ -703,7 +709,7 @@ const page = () => {
         </div>
       </section> */}
       {/* News Section Start */}
-      
+
       <section className="news-section section-padding pt-0 mt-20">
         <div className="container">
           <div className="section-title text-center">
@@ -724,12 +730,12 @@ const page = () => {
                 <div className="news-content">
                   <p>November 25, 2024</p>
                   <h4>
-                    <Link href="news-details">
+                    <Link href="/news-details">
                       Revealing Images With Animations Gradients, Blend Modes
                       Cool
                     </Link>
                   </h4>
-                  <Link className="link-btn" href="news-details">
+                  <Link className="link-btn" href="/news-details">
                     Read More
                     <i className="far fa-arrow-right" />
                   </Link>
@@ -748,12 +754,12 @@ const page = () => {
                 <div className="news-content">
                   <p>November 25, 2024</p>
                   <h4>
-                    <Link href="news-details">
+                    <Link href="/news-details">
                       List of 5 ways Generating Real Time Audio Sentiment
                       Analysis
                     </Link>
                   </h4>
-                  <Link className="link-btn" href="news-details">
+                  <Link className="link-btn" href="/news-details">
                     Read More
                     <i className="far fa-arrow-right" />
                   </Link>
@@ -772,12 +778,12 @@ const page = () => {
                 <div className="news-content">
                   <p>November 25, 2024</p>
                   <h4>
-                    <Link href="news-details">
+                    <Link href="/news-details">
                       Revealing Images With Animations Gradients, Blend Modes
                       Cool
                     </Link>
                   </h4>
-                  <Link className="link-btn" href="news-details">
+                  <Link className="link-btn" href="/news-details">
                     Read More
                     <i className="far fa-arrow-right" />
                   </Link>
