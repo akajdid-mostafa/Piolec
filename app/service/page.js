@@ -8,7 +8,7 @@ import NextLayout from "@/layouts/NextLayout";
 const page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="Our Services" pageTitle="Popular Services" />
+      {/* <Breadcrumb pageName="Our Services" pageTitle="Popular Services" /> */}
       <GrowBusiness paddingTop={9} />
       <Services />
       <Service2 paddingTop={9} title="Core Features" />

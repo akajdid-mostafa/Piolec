@@ -1452,6 +1452,7 @@ input.main-search-input::placeholder {
 .header-main .main-menu ul li .submenu {
   position: absolute;
   top: 100%;
+  border-radius: 5%;
   inset-inline-start: 0;
   min-width: 240px;
   background: var(--white);
@@ -2130,6 +2131,7 @@ input.main-search-input::placeholder {
   padding: 0;
   min-height: auto;
   background: none;
+  border-radius: 5%;
 }
 
 .mean-container .mean-nav > ul {
@@ -2138,6 +2140,7 @@ input.main-search-input::placeholder {
   width: 100%;
   list-style-type: none;
   display: block !important;
+  border-radius: 5%;
 }
 .mean-container .mean-nav > ul .homemenu {
   position: relative;
@@ -2234,7 +2237,7 @@ input.main-search-input::placeholder {
   font-weight: 500;
 }
 .mean-container .mean-nav ul li a:hover {
-  color: var(--theme);
+  color: var(--hov);
 }
 
 .mean-container .mean-nav ul li a:last-child {
@@ -2242,7 +2245,7 @@ input.main-search-input::placeholder {
 }
 
 .mean-container .mean-nav ul li a:hover {
-  color: var(--theme);
+  color: var(--hov);
 }
 
 .mean-container .mean-nav ul li > a > i {

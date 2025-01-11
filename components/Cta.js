@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Cta = ({ sectionPadding = false }) => {
+const Cta = ({ sectionPadding = false ,h2,p }) => {
   return (
     <section
       className={`cta-marketing-section fix ${
@@ -11,10 +11,12 @@ const Cta = ({ sectionPadding = false }) => {
         <div className="cta-marketing-wrapper">
           <div className="content">
             <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-            Prêt à optimiser vos installations électriques ?
+            
+            {h2}
             </h2>
             <p className="text-white wow fadeInUp" data-wow-delay=".5s">
-            Découvrez des solutions sur mesure pour plus de performance et de sécurité.
+            
+            {p}
             </p>
           </div>
           <div className="thumb wow fadeInUp" data-wow-delay=".6s">

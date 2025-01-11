@@ -9,7 +9,7 @@ const page = () => {
   return (
     <NextLayout>
       {/*<< Breadcrumb Section Start >>*/}
-      <Breadcrumb />
+      {/* <Breadcrumb /> */}
       {/* About Section Start */}
       <section className="about-section fix section-padding pb-0">
         <div className="container">

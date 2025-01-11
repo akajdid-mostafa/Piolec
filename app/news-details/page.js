@@ -5,7 +5,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="Blog Standard" />
+      {/* <Breadcrumb pageName="Blog Standard" /> */}
       <section className="blog-wrapper news-wrapper section-padding">
         <div className="container">
           <div className="news-area">

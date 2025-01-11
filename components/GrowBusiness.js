@@ -88,7 +88,15 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
 };
 export default GrowBusiness;
 
-export const GrowBusiness2 = ({ bg }) => {
+export const GrowBusiness2 = ({
+  bg,
+  title,
+  desc,
+  firsttitle,
+  firstdesc,
+  secondtitle,
+  seconddesc,
+}) => {
   return (
     <section className={`grow-business-section fix section-padding ${bg}`}>
       <div className="container">
@@ -102,13 +110,11 @@ export const GrowBusiness2 = ({ bg }) => {
                     Faites croître votre entreprise
                   </span>
                   <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    Électricité innovante
+                    {title}
                   </h2>
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                  Boostez la croissance de votre entreprise avec des systèmes
-                  électriques modernes et performants, conçus pour répondre à
-                  vos besoins spécifiques.
+                  {desc}
                 </p>
                 <div className="grow-percent-area">
                   <div className="row g-4">
@@ -120,11 +126,8 @@ export const GrowBusiness2 = ({ bg }) => {
                           </span>
                           %
                         </h2>
-                        <h3>d&apos;efficacité</h3>
-                        <p>
-                          Optimisez votre énergie avec des solutions
-                          intelligentes pour des performances maximales.
-                        </p>
+                        <h3>{firsttitle}</h3>
+                        <p>{firstdesc}</p>
                         {/* <div className="vector-shape pt-3">
                           <img src="assets/img/vector.png" alt="img" />
                         </div> */}
@@ -138,11 +141,8 @@ export const GrowBusiness2 = ({ bg }) => {
                           </span>
                           %
                         </h2>
-                        <h3>de coûts</h3>
-                        <p>
-                          Réduisez vos dépenses grâce à des installations
-                          électriques efficaces et durables.
-                        </p>
+                        <h3>{secondtitle}</h3>
+                        <p>{seconddesc}</p>
                         {/* <div className="vector-shape pt-3">
                           <img src="assets/img/vector.png" alt="img" />
                         </div> */}

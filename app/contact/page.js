@@ -3,7 +3,7 @@ import NextLayout from "@/layouts/NextLayout";
 const page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="Contact Us" />
+      {/* <Breadcrumb pageName="Contact Us" /> */}
       {/* Contact Section Section Start */}
       <section className="contact-section section-padding">
         <div className="container">
@@ -14,11 +14,11 @@ const page = () => {
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
                       <img src="assets/img/bale.png" alt="img" />
-                      Contact Us
+                      Nous contacter
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Don’t Hessite to Contact <br />
-                      Our Team Member
+                    N'hésitez pas à nous contacter <br />
+                    Notre équipe
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
@@ -31,11 +31,11 @@ const page = () => {
                     data-wow-delay=".3s"
                   >
                     <li>
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="mailto:piolec21@outlook.com">piolec21@outlook.com</a>
                     </li>
-                    <li>55 Main Street, 2nd block, Malborne, Australia</li>
+                    <li>61 AV. Lalla yacout, N°39, 1er étage centre riad, casablanca</li>
                     <li>
-                      <a href="tel:+00012345688">+000 (123) 456 88</a>
+                      <a href="tel:+212662241871">0662241871 / 0666491605</a>
                     </li>
                   </ul>
                 </div>
@@ -45,7 +45,7 @@ const page = () => {
                   className="contact-right wow fadeInUp"
                   data-wow-delay=".4s"
                 >
-                  <h3>Send Us Message</h3>
+                  <h3>Envoyez-nous un message</h3>
                   <form
                     action="#"
                     id="contact-form"
@@ -59,7 +59,7 @@ const page = () => {
                             type="text"
                             name="name"
                             id="name"
-                            placeholder="Full Name"
+                            placeholder="Votre Nom"
                           />
                         </div>
                       </div>
@@ -69,7 +69,7 @@ const page = () => {
                             type="text"
                             name="phone"
                             id="phone"
-                            placeholder="Phone"
+                            placeholder="Votre Téléphone"
                           />
                         </div>
                       </div>
@@ -79,7 +79,7 @@ const page = () => {
                             type="text"
                             name="email"
                             id="email2"
-                            placeholder="Your Email"
+                            placeholder="Votre Email"
                           />
                         </div>
                       </div>
@@ -88,14 +88,14 @@ const page = () => {
                           <textarea
                             name="message"
                             id="message"
-                            placeholder="Comments"
+                            placeholder="Message"
                             defaultValue={""}
                           />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <button type="submit" className="theme-btn">
-                          Send a Message
+                        Envoyer un message
                         </button>
                       </div>
                     </div>

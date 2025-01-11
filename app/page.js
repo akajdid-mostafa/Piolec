@@ -50,8 +50,8 @@ const page = () => {
             </div>
             <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
               <div className="hero-contact-box">
-                <h4>Get Consultations</h4>
-                <p>Ready to Register Our Landsio Services</p>
+                <h4>Obtenir des consultations</h4>
+                <p>Prêt à enregistrer nos services Landsio</p>
                 <form
                   action="#"
                   id="contact-form"
@@ -65,7 +65,7 @@ const page = () => {
                           type="text"
                           name="name"
                           id="name"
-                          placeholder="Your Name"
+                          placeholder="Votre nom"
                         />
                       </div>
                     </div>
@@ -75,7 +75,7 @@ const page = () => {
                           type="text"
                           name="email"
                           id="email"
-                          placeholder="Email Address"
+                          placeholder="Adresse électronique"
                         />
                       </div>
                     </div>
@@ -85,13 +85,13 @@ const page = () => {
                           type="text"
                           name="phone"
                           id="phone"
-                          placeholder="Phone Number"
+                          placeholder="Numéro de téléphone"
                         />
                       </div>
                     </div>
                     <div className="col-lg-12">
                       <button type="submit" className="theme-btn hover-white">
-                        Get Started Now <i className="far fa-arrow-right" />
+                      Commencer maintenant <i className="far fa-arrow-right" />
                       </button>
                     </div>
                   </div>

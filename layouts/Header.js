@@ -168,16 +168,30 @@ const Menu = ({ single, menu }) => {
             <Link href="about">About</Link>
           </li>
           <li>
-            <Link href="service-details">
+            <Link href="service">
               Services
               <i className="fas fa-angle-down" />
             </Link>
             <ul className="submenu">
               <li>
-                <Link href="service">Services</Link>
+                <Link href="/etude-et-installation-electrique-complete">
+                  Installations électriques
+                </Link>
               </li>
               <li>
-                <Link href="service-details">Service Details</Link>
+                <Link href="/systemes-de-securite-installation">
+                  Systèmes de sécurité
+                </Link>
+              </li>
+              <li>
+                <Link href="/reseaux-informatiques-nstallations">
+                  Réseaux informatiques
+                </Link>
+              </li>
+              <li>
+                <Link href="/maintenance-et-service-apres-vente">
+                  Maintenance & S.A.V.
+                </Link>
               </li>
             </ul>
           </li>
@@ -215,12 +229,12 @@ const Menu = ({ single, menu }) => {
                   </li>
                 </ul>
               </li>
-              <li>
+              {/* <li>
                 <Link href="pricing">Pricing Table</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="404">404 Page</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li>
@@ -334,10 +348,24 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                   <ul className="submenu" style={activeLi("Services")}>
                     <li>
-                      <Link href="service">Services</Link>
+                      <Link href="/etude-et-installation-electrique-complete">
+                        Installations électriques
+                      </Link>
                     </li>
                     <li>
-                      <Link href="service-details">Service Details</Link>
+                      <Link href="/systemes-de-securite-installation">
+                        Systèmes de sécurité
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/reseaux-informatiques-nstallations">
+                        Réseaux informatiques
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/maintenance-et-service-apres-vente">
+                        Maintenance & S.A.V.
+                      </Link>
                     </li>
                   </ul>
                   <a
@@ -399,12 +427,12 @@ const MobileMenu = ({ single, menu }) => {
                         <i className="far fa-plus" />
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="pricing">Pricing Table</Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link href="404">404 Page</Link>
-                    </li>
+                    </li> */}
                   </ul>
                   <a
                     className="mean-expand"
@@ -471,8 +499,9 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
               </div>
               <p className="text d-none d-xl-block mb-5">
                 PIOLEC, entreprise Marocaine opérant dans les domaines
-                D&apos;électricité & Informatique, et automatisme et des systèmes de
-                sécurités, ayant comme vocation, réalisation des prestations :
+                D&apos;électricité & Informatique, et automatisme et des
+                systèmes de sécurités, ayant comme vocation, réalisation des
+                prestations :
               </p>
               <div className="offcanvas__contact">
                 <h4>Contact Info</h4>
@@ -483,8 +512,8 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                      61 AV. Lalla yacout, N°39, 1er
-                      étage centre riad, casablanca
+                        61 AV. Lalla yacout, N°39, 1er étage centre riad,
+                        casablanca
                       </a>
                     </div>
                   </li>
@@ -493,7 +522,9 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                       <i className="fal fa-envelope" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:piolec21@outlook.com">piolec21@outlook.com</a>
+                      <a href="mailto:piolec21@outlook.com">
+                        piolec21@outlook.com
+                      </a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -516,7 +547,10 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <Link href="contact" className="theme-btn hover-white text-center">
+                  <Link
+                    href="contact"
+                    className="theme-btn hover-white text-center"
+                  >
                     Contact Us
                   </Link>
                 </div>
@@ -568,33 +602,33 @@ const Header1 = ({ single, menu }) => {
                 </Link>
               </div>
               <div className="header-left">
-                 <div className="mean__menu-wrapper">
-                   <div className="main-menu">
-                     <Menu single={single} />
-                   </div>
-                 </div>
-               </div>
+                <div className="mean__menu-wrapper">
+                  <div className="main-menu">
+                    <Menu single={single} />
+                  </div>
+                </div>
+              </div>
               <div className="header-right d-flex justify-content-end align-items-center">
                 <div className="icon-items">
                   <div className="icon">
-                     <i className="fas fa-phone-alt" />
-                   </div>
-                   <div className="content">
-                     <p>Make A Call</p>
-                     <h4>
-                       <a href="tel:+00012345688">+000 (123) 456 88</a>
-                     </h4>
+                    <i className="fas fa-phone-alt" />
                   </div>
-                 </div>
-                 <div className="header__hamburger d-xl-block my-auto">
-                   <div
-                     className="sidebar__toggle"
-                     onClick={() => setSidebarToggle(true)}
-                   >
-                     <i className="far fa-bars" />
-                   </div>
-                 </div>
-               </div>
+                  <div className="content">
+                    <p>Make A Call</p>
+                    <h4>
+                      <a href="tel:+00012345688">+000 (123) 456 88</a>
+                    </h4>
+                  </div>
+                </div>
+                <div className="header__hamburger d-xl-block my-auto">
+                  <div
+                    className="sidebar__toggle"
+                    onClick={() => setSidebarToggle(true)}
+                  >
+                    <i className="far fa-bars" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
