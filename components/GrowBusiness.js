@@ -96,6 +96,7 @@ export const GrowBusiness2 = ({
   firstdesc,
   secondtitle,
   seconddesc,
+  image
 }) => {
   return (
     <section className={`grow-business-section fix section-padding ${bg}`}>
@@ -154,17 +155,17 @@ export const GrowBusiness2 = ({
             </div>
             <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
               <div className="grow-image-items">
-                <div className="grow-shape float-bob-y">
+                {/* <div className="grow-shape float-bob-y">
                   <img src="assets/img/grow/grow-shape.png" alt="shape-img" />
-                </div>
+                </div> */}
                 <div className="frame-shape">
-                  <img src="assets/img/grow/frame-shape.png" alt="shape-img" />
+                  <img src="assets/img/about/0107.png" alt="shape-img" />
                 </div>
                 <div className="user-shape float-bob-x">
-                  <img src="assets/img/grow/user-shape.png" alt="shape-img" />
+                  <img src="assets/img/about/0106.png" alt="shape-img" />
                 </div>
                 <div className="grow-image">
-                  <img src="assets/img/grow/01.jpg" alt="img" />
+                  <img src={image} alt="img" />
                 </div>
               </div>
             </div>

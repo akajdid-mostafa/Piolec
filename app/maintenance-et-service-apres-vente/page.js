@@ -72,7 +72,7 @@ const page = () => {
                       Plus de 400 clients au Maroc et au-delà lui font
                       confiance.
                     </h6>
-                    <img src="assets/img/about/face-mans.png" alt="img" />
+                    {/* <img src="assets/img/about/face-mans.png" alt="img" /> */}
                     <h2>
                       <span className="count">
                         <Counter end={5} />
@@ -89,7 +89,7 @@ const page = () => {
                           data-wow-delay=".3s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/07.jpg" alt="img" />
+                            <img src="assets/img/about/0401.png" alt="img" />
                           </div>
                         </div>
                         <div
@@ -97,14 +97,14 @@ const page = () => {
                           data-wow-delay=".5s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/08.jpg" alt="img" />
+                            <img src="assets/img/about/0402.png" alt="img" />
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
                       <div className="about-thumbs">
-                        <img src="assets/img/about/09.jpg" alt="img" />
+                        <img src="assets/img/about/0403.png" alt="img" />
                       </div>
                     </div>
                   </div>
@@ -121,7 +121,7 @@ const page = () => {
             <div className="row align-items-center">
               <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                 <div className="service-video-image">
-                  <img src="assets/img/service/service-video.jpg" alt="img" />
+                  <img src="assets/img/about/0404.png" alt="img" />
                   <div className="video-box">
                     <a
                       href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
@@ -214,6 +214,7 @@ const page = () => {
         firstdesc="Grâce à des interventions rapides et efficaces."
         secondtitle="de réduction des pannes"
         seconddesc="Grâce à une maintenance préventive régulière."
+        image="assets/img/about/0405.png"
       />
       {/* Pricing Section Start */}
       {/* <Pricing /> */}
