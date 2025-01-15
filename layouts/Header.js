@@ -195,7 +195,10 @@ const Menu = ({ single, menu }) => {
               </li>
             </ul>
           </li>
-          <li className="has-dropdown">
+          <li>
+            <Link href="project">Projects</Link>
+          </li>
+          {/* <li className="has-dropdown">
             <Link href="news">
               Pages
               <i className="fas fa-angle-down" />
@@ -229,14 +232,14 @@ const Menu = ({ single, menu }) => {
                   </li>
                 </ul>
               </li>
-              {/* <li>
+              <li>
                 <Link href="pricing">Pricing Table</Link>
-              </li> */}
-              {/* <li>
+              </li>
+              <li>
                 <Link href="404">404 Page</Link>
-              </li> */}
+              </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <Link href="news">
               Blog
@@ -376,9 +379,12 @@ const MobileMenu = ({ single, menu }) => {
                     <i className="far fa-plus" />
                   </a>
                 </li>
-                <li className="has-dropdown">
+                <li>
+                  <Link href="project">Projects</Link>
+                </li>
+                {/* <li className="has-dropdown">
                   <a href="#" onClick={() => activeMenuSet("Pages")}>
-                    Pages
+                  Projects
                     <i className="fas fa-angle-down" />
                   </a>
                   <ul className="submenu" style={activeLi("Pages")}>
@@ -427,12 +433,12 @@ const MobileMenu = ({ single, menu }) => {
                         <i className="far fa-plus" />
                       </a>
                     </li>
-                    {/* <li>
+                    <li>
                       <Link href="pricing">Pricing Table</Link>
-                    </li> */}
-                    {/* <li>
+                    </li>
+                    <li>
                       <Link href="404">404 Page</Link>
-                    </li> */}
+                    </li>
                   </ul>
                   <a
                     className="mean-expand"
@@ -441,7 +447,7 @@ const MobileMenu = ({ single, menu }) => {
                   >
                     <i className="far fa-plus" />
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#" onClick={() => activeMenuSet("Blog")}>
                     Blog
@@ -485,7 +491,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                    <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>
@@ -598,7 +604,7 @@ const Header1 = ({ single, menu }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                  <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
                 </Link>
               </div>
               <div className="header-left">
@@ -614,9 +620,9 @@ const Header1 = ({ single, menu }) => {
                     <i className="fas fa-phone-alt" />
                   </div>
                   <div className="content">
-                    <p>Make A Call</p>
+                    <p>Passer un appel</p>
                     <h4>
-                      <a href="tel:+00012345688">+000 (123) 456 88</a>
+                      <a href="tel:+00012345688">+2126 62241871</a>
                     </h4>
                   </div>
                 </div>

@@ -158,7 +158,7 @@ const page = () => {
         </div>
       </section> */}
       {/* Working Process Section Start */}
-      <WorkingProcess2 />
+      {/* <WorkingProcess2 /> */}
       {/* Funfact Section Start */}
       <section className="funfact-section section-padding pt-0">
         <div className="container">

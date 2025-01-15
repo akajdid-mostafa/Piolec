@@ -2,6 +2,33 @@
 
 import Link from "next/link";
 
+const services = [
+  {
+    id: 1,
+    image: "assets/img/service/04.png",
+    title: "Étude et installation électrique complète.",
+    link: "/etude-et-installation-electrique-complete",
+  },
+  {
+    id: 2,
+    image: "assets/img/service/05.png",
+    title: "Systèmes de sécurité - Installation.",
+    link: "/systemes-de-securite-installation",
+    active: true, // To mark this service as active
+  },
+  {
+    id: 3,
+    image: "assets/img/service/06.png",
+    title: "Réseaux informatiques - Installations.",
+    link: "/reseaux-informatiques-nstallations",
+  },
+  {
+    id: 4,
+    image: "assets/img/service/07.png",
+    title: "Maintenance et service après-vente.",
+    link: "/maintenance-et-service-apres-vente",
+  },
+];
 
 const Service = () => {
   return (
@@ -18,109 +45,54 @@ const Service = () => {
           </h2>
         </div>
         <div className="row">
-          <div
-            className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".2s"
-          >
-            <div className="service-card-items">
-              <div className="icon">
-                <i className="flaticon-technical" />
-              </div>
-              <h3>
-                <Link href="/etude-et-installation-electrique-complete">
-                  Étude et installation électrique complète.
-                </Link>
-              </h3>
-              <div className="service-thumb">
-                <img src="assets/img/service/04.png" alt="service-img" />
-                <div className="line-shape">
-                  <img src="assets/img/service/line.png" alt="shape-img" />
+          {services.map((service, index) => (
+            <div
+              key={service.id}
+              className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay={`${0.2 * (index + 1)}s`}
+              style={{ marginBottom: "20px" }} // Add space between cards
+            >
+              <div
+                className={`service-card-items ${service.active ? "active" : ""}`}
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  height: "100%", // Ensure the card takes full height
+                }}
+              >
+                <div
+                  className="service-thumb"
+                  style={{ flex: 1 }} // Allow the image section to grow
+                >
+                  <img src={service.image} alt="service-img" />
+                  <div className="line-shape">
+                    <img src="assets/img/service/line.png" alt="shape-img" />
+                  </div>
+                </div>
+                <div
+                  className="service-content"
+                  style={{
+                    flex: 1, // Ensure the content section takes equal space
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between", // Distribute space evenly
+                  }}
+                >
+                  <h4>
+                    <Link href={service.link}>{service.title}</Link>
+                  </h4>
+                  <Link className="link-btn" href={service.link}>
+                    Read More
+                    <i className="far fa-arrow-right" />
+                  </Link>
                 </div>
               </div>
-              <Link className="link-btn" href="/etude-et-installation-electrique-complete">
-                Read More
-                <i className="far fa-arrow-right" />
-              </Link>
             </div>
-          </div>
-          <div
-            className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".4s"
-          >
-            <div className="service-card-items active">
-              <div className="icon">
-                <i className="flaticon-vector-design" />
-              </div>
-              <h3>
-                <Link href="/systemes-de-securite-installation">
-                  Systèmes de sécurité - Installation.
-                </Link>
-              </h3>
-              <div className="service-thumb">
-                <img src="assets/img/service/05.png" alt="service-img" />
-                <div className="line-shape">
-                  <img src="assets/img/service/line.png" alt="shape-img" />
-                </div>
-              </div>
-              <Link className="link-btn" href="/systemes-de-securite-installation">
-                Read More
-                <i className="far fa-arrow-right" />
-              </Link>
-            </div>
-          </div>
-          <div
-            className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".6s"
-          >
-            <div className="service-card-items">
-              <div className="icon">
-                <i className="flaticon-database" />
-              </div>
-              <h3>
-                <Link href="/reseaux-informatiques-nstallations">
-                  Réseaux informatiques - Installations.
-                </Link>
-              </h3>
-              <div className="service-thumb">
-                <img src="assets/img/service/06.png" alt="service-img" />
-                <div className="line-shape">
-                  <img src="assets/img/service/line.png" alt="shape-img" />
-                </div>
-              </div>
-              <Link className="link-btn" href="/reseaux-informatiques-nstallations">
-                Read More
-                <i className="far fa-arrow-right" />
-              </Link>
-            </div>
-          </div>
-          <div
-            className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-            data-wow-delay=".8s"
-          >
-            <div className="service-card-items">
-              <div className="icon">
-                <i className="flaticon-design-thinking" />
-              </div>
-              <h3>
-                <Link href="/maintenance-et-service-apres-vente">
-                  Maintenance et service après-vente.
-                </Link>
-              </h3>
-              <div className="service-thumb">
-                <img src="assets/img/service/07.png" alt="service-img" />
-                <div className="line-shape">
-                  <img src="assets/img/service/line.png" alt="shape-img" />
-                </div>
-              </div>
-              <Link className="link-btn" href="/maintenance-et-service-apres-vente">
-                Read More
-                <i className="far fa-arrow-right" />
-              </Link>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
   );
 };
+
 export default Service;
