@@ -21,10 +21,10 @@ const Menu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "about", title: "About" },
-        { id: 2, href: "services", title: "Services" },
-        { id: 3, href: "team", title: "Team" },
-        { id: 4, href: "blog", title: "Blog" },
+        { id: 1, href: "/about", title: "About" },
+        { id: 2, href: "/services", title: "Services" },
+        { id: 3, href: "/team", title: "Team" },
+        { id: 4, href: "/blog", title: "Blog" },
       ];
   return (
     <Fragment>
@@ -45,7 +45,7 @@ const Menu = ({ single, menu }) => {
                           <Link href="/" className="theme-btn">
                             Multi Page
                           </Link>
-                          <Link href="index-one-page" className="theme-btn">
+                          <Link href="/index-one-page" className="theme-btn">
                             One Page
                           </Link>
                         </div>
@@ -61,7 +61,7 @@ const Menu = ({ single, menu }) => {
                           <Link href="index-2" className="theme-btn">
                             Multi Page
                           </Link>
-                          <Link href="index-two-page" className="theme-btn">
+                          <Link href="/index-two-page" className="theme-btn">
                             One Page
                           </Link>
                         </div>
@@ -74,10 +74,10 @@ const Menu = ({ single, menu }) => {
                       <div className="homemenu-thumb">
                         <img src="assets/img/header/home-3.jpg" alt="img" />
                         <div className="demo-button">
-                          <Link href="index-3" className="theme-btn">
+                          <Link href="/index-3" className="theme-btn">
                             Multi Page
                           </Link>
-                          <Link href="index-three-page" className="theme-btn">
+                          <Link href="/index-three-page" className="theme-btn">
                             One Page
                           </Link>
                         </div>
@@ -90,10 +90,10 @@ const Menu = ({ single, menu }) => {
                       <div className="homemenu-thumb">
                         <img src="assets/img/header/home-4.jpg" alt="img" />
                         <div className="demo-button">
-                          <Link href="index-4" className="theme-btn">
+                          <Link href="/index-4" className="theme-btn">
                             Multi Page
                           </Link>
-                          <Link href="index-four-page" className="theme-btn">
+                          <Link href="/index-four-page" className="theme-btn">
                             One Page
                           </Link>
                         </div>
@@ -106,10 +106,10 @@ const Menu = ({ single, menu }) => {
                       <div className="homemenu-thumb">
                         <img src="assets/img/header/home-5.jpg" alt="img" />
                         <div className="demo-button">
-                          <Link href="index-5" className="theme-btn">
+                          <Link href="/index-5" className="theme-btn">
                             Multi Page
                           </Link>
-                          <Link href="index-five-page" className="theme-btn">
+                          <Link href="/index-five-page" className="theme-btn">
                             One Page
                           </Link>
                         </div>
@@ -122,10 +122,10 @@ const Menu = ({ single, menu }) => {
                       <div className="homemenu-thumb">
                         <img src="assets/img/header/home-6.jpg" alt="img" />
                         <div className="demo-button">
-                          <Link href="index-6" className="theme-btn">
+                          <Link href="/index-6" className="theme-btn">
                             Multi Page
                           </Link>
-                          <Link href="index-six-page" className="theme-btn">
+                          <Link href="/index-six-page" className="theme-btn">
                             One Page
                           </Link>
                         </div>
@@ -148,27 +148,27 @@ const Menu = ({ single, menu }) => {
                   <Link href="/">Home 01</Link>
                 </li>
                 <li>
-                  <Link href="index-2">Home 02</Link>
+                  <Link href="/index-2">Home 02</Link>
                 </li>
                 <li>
-                  <Link href="index-3">Home 03</Link>
+                  <Link href="/index-3">Home 03</Link>
                 </li>
                 <li>
-                  <Link href="index-4">Home 04</Link>
+                  <Link href="/index-4">Home 04</Link>
                 </li>
                 <li>
-                  <Link href="index-5">Home 05</Link>
+                  <Link href="/index-5">Home 05</Link>
                 </li>
                 <li>
-                  <Link href="index-6">Home 06</Link>
+                  <Link href="/index-6">Home 06</Link>
                 </li>
               </ul> */}
           </li>
           <li>
-            <Link href="about">About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="service">
+            <Link href="/service">
               Services
               <i className="fas fa-angle-down" />
             </Link>
@@ -196,25 +196,25 @@ const Menu = ({ single, menu }) => {
             </ul>
           </li>
           <li>
-            <Link href="project">Projects</Link>
+            <Link href="/project">Projects</Link>
           </li>
           {/* <li className="has-dropdown">
-            <Link href="news">
+            <Link href="/news">
               Pages
               <i className="fas fa-angle-down" />
             </Link>
             <ul className="submenu">
               <li className="has-dropdown">
-                <Link href="project-details">
+                <Link href="/project-details">
                   Projects
                   <i className="fas fa-angle-down" />
                 </Link>
                 <ul className="submenu">
                   <li>
-                    <Link href="project">Projects</Link>
+                    <Link href="/project">Projects</Link>
                   </li>
                   <li>
-                    <Link href="project-details">Project Details</Link>
+                    <Link href="/project-details">Project Details</Link>
                   </li>
                 </ul>
               </li>
@@ -233,29 +233,29 @@ const Menu = ({ single, menu }) => {
                 </ul>
               </li>
               <li>
-                <Link href="pricing">Pricing Table</Link>
+                <Link href="/pricing">Pricing Table</Link>
               </li>
               <li>
-                <Link href="404">404 Page</Link>
+                <Link href="/404">404 Page</Link>
               </li>
             </ul>
           </li> */}
           <li>
-            <Link href="news">
+            <Link href="/news">
               Blog
               <i className="fas fa-angle-down" />
             </Link>
             <ul className="submenu">
               <li>
-                <Link href="news">Blog </Link>
+                <Link href="/news">Blog </Link>
               </li>
               <li>
-                <Link href="news-details">Blog Details</Link>
+                <Link href="/news-details">Blog Details</Link>
               </li>
             </ul>
           </li>
           <li>
-            <Link href="contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
@@ -277,10 +277,10 @@ const MobileMenu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "about", title: "About" },
-        { id: 2, href: "services", title: "Services" },
-        { id: 3, href: "team", title: "Team" },
-        { id: 4, href: "blog", title: "Blog" },
+        { id: 1, href: "/about", title: "About" },
+        { id: 2, href: "/services", title: "Services" },
+        { id: 3, href: "/team", title: "Team" },
+        { id: 4, href: "/blog", title: "Blog" },
       ];
   return (
     <div className="mobile-menu fix mb-3 mean-container d-block d-xl-none">
@@ -308,19 +308,19 @@ const MobileMenu = ({ single, menu }) => {
                   <Link href="/">Home 01</Link>
                 </li>
                 <li>
-                  <Link href="index-2">Home 02</Link>
+                  <Link href="/index-2">Home 02</Link>
                 </li>
                 <li>
-                  <Link href="index-3">Home 03</Link>
+                  <Link href="/index-3">Home 03</Link>
                 </li>
                 <li>
-                  <Link href="index-4">Home 04</Link>
+                  <Link href="/index-4">Home 04</Link>
                 </li>
                 <li>
-                  <Link href="index-5">Home 05</Link>
+                  <Link href="/index-5">Home 05</Link>
                 </li>
                 <li>
-                  <Link href="index-6">Home 06</Link>
+                  <Link href="/index-6">Home 06</Link>
                 </li>
               </ul> */}
               {/* <a
@@ -342,7 +342,7 @@ const MobileMenu = ({ single, menu }) => {
             ) : (
               <Fragment>
                 <li>
-                  <Link href="about">About</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li>
                   <a href="#" onClick={() => activeMenuSet("Services")}>
@@ -380,7 +380,7 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li>
                 <li>
-                  <Link href="project">Projects</Link>
+                  <Link href="/project">Projects</Link>
                 </li>
                 {/* <li className="has-dropdown">
                   <a href="#" onClick={() => activeMenuSet("Pages")}>
@@ -398,10 +398,10 @@ const MobileMenu = ({ single, menu }) => {
                         style={multiMenuActiveLi("Projects")}
                       >
                         <li>
-                          <Link href="project">Projects</Link>
+                          <Link href="/project">Projects</Link>
                         </li>
                         <li>
-                          <Link href="project-details">Project Details</Link>
+                          <Link href="/project-details">Project Details</Link>
                         </li>
                       </ul>
                       <a
@@ -419,10 +419,10 @@ const MobileMenu = ({ single, menu }) => {
                       </a>
                       <ul className="submenu" style={multiMenuActiveLi("Team")}>
                         <li>
-                          <Link href="team">Team</Link>
+                          <Link href="/team">Team</Link>
                         </li>
                         <li>
-                          <Link href="team-details">Team Details</Link>
+                          <Link href="/team-details">Team Details</Link>
                         </li>
                       </ul>
                       <a
@@ -434,10 +434,10 @@ const MobileMenu = ({ single, menu }) => {
                       </a>
                     </li>
                     <li>
-                      <Link href="pricing">Pricing Table</Link>
+                      <Link href="/pricing">Pricing Table</Link>
                     </li>
                     <li>
-                      <Link href="404">404 Page</Link>
+                      <Link href="/404">404 Page</Link>
                     </li>
                   </ul>
                   <a
@@ -455,10 +455,10 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                   <ul className="submenu" style={activeLi("Blog")}>
                     <li>
-                      <Link href="news">Blog </Link>
+                      <Link href="/news">Blog </Link>
                     </li>
                     <li>
-                      <Link href="news-details">Blog Details</Link>
+                      <Link href="/news-details">Blog Details</Link>
                     </li>
                   </ul>
                   <a
@@ -470,7 +470,7 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li>
                 <li className="mean-last">
-                  <Link href="contact">Contact</Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </Fragment>
             )}
@@ -554,7 +554,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                 </ul>
                 <div className="header-button mt-4">
                   <Link
-                    href="contact"
+                    href="/contact"
                     className="theme-btn hover-white text-center"
                   >
                     Contact Us
@@ -589,10 +589,10 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
 
 const Header1 = ({ single, menu }) => {
   const singleMenu = [
-    { id: 1, href: "about", title: "About" },
-    { id: 2, href: "services", title: "Services" },
-    { id: 3, href: "projects", title: "Projects" },
-    { id: 4, href: "testimonial", title: "Testimonial" },
+    { id: 1, href: "/about", title: "About" },
+    { id: 2, href: "/services", title: "Services" },
+    { id: 3, href: "/projects", title: "Projects" },
+    { id: 4, href: "/testimonial", title: "Testimonial" },
   ];
 
   const [sidebarToggle, setSidebarToggle] = useState(false);

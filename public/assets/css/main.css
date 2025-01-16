@@ -782,7 +782,7 @@ input.main-search-input::placeholder {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
@@ -9649,7 +9649,7 @@ p.sticky-label {
   margin-top: 20px;
 }
 .project-details-wrapper .project-information ul li {
-  font-size: 22px;
+  font-size: 18px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

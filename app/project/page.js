@@ -1,264 +1,10 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
+import { projects } from "./data";
 
-const projects = [
-  {
-    id: 1,
-    image: "/assets/img/project/05.jpg",
-    category: "Product Design",
-    title: "Business Task Management Dashboard Design",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "/assets/img/project/details-1.jpg",
-        "/assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 2,
-    image: "assets/img/project/06.jpg",
-    category: "Website Design",
-    title: "Business Consulting Web Explorations Design",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 3,
-    image: "assets/img/project/07.jpg",
-    category: "Product Design",
-    title: "Mobile Applications Design",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 4,
-    image: "assets/img/project/08.jpg",
-    category: "Website Design",
-    title: "Furniture Website Design",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 5,
-    image: "assets/img/project/09.jpg",
-    category: "Product Design",
-    title: "Business Card Design and Branding Identity",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 6,
-    image: "assets/img/project/10.jpg",
-    category: "Website Design",
-    title: "Modern T-Shirt Design and Branding Identity",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 7,
-    image: "assets/img/project/11.jpg",
-    category: "Product Design",
-    title: "Mobile Applications Design",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 8,
-    image: "assets/img/project/12.jpg",
-    category: "Product Design",
-    title: "Furniture Website Design",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 9,
-    image: "assets/img/project/12.jpg",
-    category: "Product Design",
-    title: "Furniture Website Design",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 10,
-    image: "assets/img/project/12.jpg",
-    category: "Product Design",
-    title: "Furniture Website Design",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-  {
-    id: 11,
-    image: "assets/img/project/12.jpg",
-    category: "Product Design",
-    title: "Furniture Website Design",
-    link: "project-details",
-    description: "Designing a dashboard for task management.",
-    details: {
-      images: [
-        "assets/img/project/details-1.jpg",
-        "assets/img/project/details-2.jpg",
-      ],
-      overview: "Introduction Of Projects Overview",
-      content: "Designing a digital product and branding project involves several key steps...",
-      information: {
-        client: "Myron S.",
-        category: "Design & Dev",
-        date: "October, 2024",
-        location: "New York",
-        duration: "1 month",
-      },
-    },
-  },
-];
 
-const page = () => {
+const Page = () => {
   return (
     <NextLayout>
       <section className="project-section fix section-padding">
@@ -282,8 +28,25 @@ const page = () => {
                     data-wow-delay=".3s"
                   >
                     <div className="project-card-items">
-                      <div className="project-image">
-                        <img src={project.image} alt="img" />
+                      {/* Image Container with Fixed Size */}
+                      <div
+                        className="project-image"
+                        style={{
+                          width: "100%", // Full width of the container
+                          height: "300px", // Fixed height for all images
+                          position: "relative", // Required for Next.js Image component
+                          overflow: "hidden", // Ensure images don't overflow
+                        }}
+                      >
+                        <img
+                          src={project.details.images[0]}
+                          alt="img"
+                          style={{
+                            width: "100%", // Ensure the image fills the container
+                            height: "100%", // Ensure the image fills the container
+                            objectFit: "cover", // Ensure the image covers the container without distortion
+                          }}
+                        />
                       </div>
                       <div className="project-content">
                         <p>{project.category}</p>
@@ -305,4 +68,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
