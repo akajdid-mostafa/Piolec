@@ -781,8 +781,12 @@ input.main-search-input::placeholder {
   background-color: var(--bg3);
 }
 
+.section-paddingg {
+  padding: 70px 0;
+}
+
 .section-padding {
-  padding: 50px 0;
+  padding: 120px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
@@ -5283,56 +5287,89 @@ input.main-search-input::placeholder {
   color: var(--white);
 }
 
+
+
+
+
+
 .service-popular-items {
+  background-color: #f9fafb;
   margin-top: 30px;
-  background-color: #F9FAFB;
+  margin-bottom: -30px;
   padding: 40px 50px;
-  border: 1.2px solid #EDEEF0;
+  border: 1.2px solid #edeef0;
   border-radius: 16px;
+  display: flex; /* Make the card a flex container */
+  flex-direction: column; /* Stack children vertically */
+  height: 100%; /* Ensure the card takes up full height */
 }
+
 @media (max-width: 1399px) {
   .service-popular-items {
     padding: 40px;
   }
 }
+
 @media (max-width: 575px) {
   .service-popular-items {
     padding: 30px;
   }
 }
+
 .service-popular-items .service-image img {
   width: 100%;
-  height: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 2%;
 }
+
 .service-popular-items .service-content {
   margin-top: 30px;
+  flex: 1; /* Allow the content to grow and fill the available space */
+  display: flex;
+  flex-direction: column;
 }
+
+/* Add space between the title and description */
+.service-popular-items .service-content h3 {
+  margin-bottom: 20px !important; /* Force this spacing */
+}
+
+.service-popular-items .service-content p {
+  margin-bottom: 10px;
+  flex-grow: 1; /* Allow the description to grow and fill the available space */
+}
+
+@media (max-width: 768px) {
+  .service-popular-items .service-image img {
+    height: 150px;
+  }
+  .service-popular-items .service-content {
+    min-height: 200px;
+  }
+}
+
 @media (max-width: 575px) {
   .service-popular-items .service-content {
     margin-top: 20px;
   }
 }
-.service-popular-items .service-content h3 {
-  margin-bottom: 7px;
-}
+
 .service-popular-items .service-content h3 a:hover {
   color: var(--theme);
 }
-.service-popular-items .service-content p {
-  margin-bottom: 30px;
-}
-@media (max-width: 575px) {
-  .service-popular-items .service-content p {
-    margin-bottom: 20px;
-  }
-}
+
 .service-popular-items .service-content .theme-btn {
   background: rgba(135, 96, 253, 0.2);
   color: var(--theme);
+  margin-top: auto; /* Push the button to the bottom of the card */
 }
-.service-popular-items .service-content .theme-btn::before, .service-popular-items .service-content .theme-btn::after {
+
+.service-popular-items .service-content .theme-btn::before,
+.service-popular-items .service-content .theme-btn::after {
   background: var(--theme);
 }
+
 .service-popular-items .service-content .theme-btn:hover {
   color: var(--white);
 }

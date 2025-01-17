@@ -28,17 +28,20 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                 <div className="section-title">
                   <span className="sub-content wow fadeInUp">
                     <img src="assets/img/bale.png" alt="img" />
-                    Grow your Business
+                    Grandir avec PIOLEC
                   </span>
                   <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    Innovative Business Increase and Branding Solutions
+                    Des solutions innovantes pour la croissance de votre
+                    entreprise
                   </h2>
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta.
+                  Chez PIOLEC, nous fournissons des solutions de pointe en
+                  matière d'électricité, d'informatique, d'automatisation et de
+                  systèmes de sécurité pour aider votre entreprise à prospérer.
+                  Notre expertise garantit des opérations efficaces, une
+                  sécurité renforcée et une croissance durable pour votre
+                  organisation.
                 </p>
                 <div className="grow-counting-area">
                   <div
@@ -47,11 +50,11 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                   >
                     <h2>
                       <span className="count">
-                        <Counter end={85} />
+                        <Counter end={90} />
                       </span>
                       %
                     </h2>
-                    <p>Increase Sales</p>
+                    <p>Efficacité opérationnelle</p>
                   </div>
                   <div
                     className="grow-counting-items wow fadeInUp"
@@ -59,11 +62,11 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                   >
                     <h2>
                       <span className="count">
-                        <Counter end={15} />
+                        <Counter end={95} />
                       </span>
                       %
                     </h2>
-                    <p>Reduced Losses</p>
+                    <p>Customer Satisfaction</p>
                   </div>
                   <div
                     className="grow-counting-items wow fadeInUp"
@@ -71,11 +74,11 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                   >
                     <h2>
                       <span className="count">
-                        <Counter end={93} />
+                        <Counter end={85} />
                       </span>
                       %
                     </h2>
-                    <p>Business growth</p>
+                    <p>Taux de réussite des projets</p>
                   </div>
                 </div>
               </div>
@@ -96,7 +99,7 @@ export const GrowBusiness2 = ({
   firstdesc,
   secondtitle,
   seconddesc,
-  image
+  image,
 }) => {
   return (
     <section className={`grow-business-section fix section-padding ${bg}`}>

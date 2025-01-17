@@ -9,9 +9,9 @@ const page = () => {
   return (
     <NextLayout>
       {/* <Breadcrumb pageName="Our Services" pageTitle="Popular Services" /> */}
-      <GrowBusiness paddingTop={9} />
-      <Services />
-      <Service2 paddingTop={9} title="Core Features" />
+      <GrowBusiness paddingTop={8} />
+      {/* <Services /> */}
+      <Service2 paddingTop={5} title="Our Services" />
       <Cta />
       <Faq />
     </NextLayout>

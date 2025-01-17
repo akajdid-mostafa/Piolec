@@ -1,5 +1,56 @@
 import Link from "next/link";
 
+const servicesData = [
+  {
+    id: 1,
+    image: "/assets/img/project/001.JPG",
+    icon: "flaticon-electricity",
+    title: "Electrical Installations",
+    description:
+      "We provide expert electrical installations for residential, commercial, and industrial projects, ensuring safety and efficiency.",
+  },
+  {
+    id: 2,
+    image: "/assets/img/project/002.png",
+    icon: "flaticon-automation",
+    title: "Automation Systems",
+    description:
+      "Our automation solutions streamline operations, reduce costs, and enhance productivity for businesses.",
+  },
+  {
+    id: 3,
+    image: "/assets/img/project/003.png",
+    icon: "flaticon-security",
+    title: "Security Systems",
+    description:
+      "We install advanced security systems, including access control, fire detection, and video surveillance, to protect your property.",
+  },
+  {
+    id: 4,
+    image: "/assets/img/project/004.png",
+    icon: "flaticon-network",
+    title: "IT Network Solutions",
+    description:
+      "We design and implement robust IT networks, ensuring seamless connectivity and data security for your business.",
+  },
+  {
+    id: 5,
+    image: "/assets/img/project/005.png",
+    icon: "flaticon-renewable-energy",
+    title: "Renewable Energy Solutions",
+    description:
+      "We offer sustainable energy solutions, including solar power systems, to help you reduce energy costs and environmental impact.",
+  },
+  {
+    id: 6,
+    image: "/assets/img/project/006.png",
+    icon: "flaticon-maintenance",
+    title: "Maintenance & Support",
+    description:
+      "Our maintenance and after-sales services ensure the longevity and optimal performance of your electrical and security systems.",
+  },
+];
+
 const Services = () => {
   return (
     <section
@@ -13,129 +64,33 @@ const Services = () => {
         <div className="section-title text-center">
           <span className="sub-content bg-color-3 wow fadeInUp">
             <img src="assets/img/bale.png" alt="img" />
-            Popular Services
+            Our Services
           </span>
           <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-            We Provide Best Digital Marketing <br />
-            service to build an modern &amp; <br /> professional service for
-            clients
+            We Provide the Best Solutions for <br />
+            Electricity, IT, Automation, and Security Systems
           </h2>
         </div>
         <div className="row">
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".3s"
-          >
-            <div className="service-box-items">
-              <div className="icon">
-                <i className="flaticon-keywords" />
-              </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">Keyword Research</Link>
-                </h3>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".5s"
-          >
-            <div className="service-box-items active">
-              <div className="icon">
-                <i className="flaticon-social-media" />
-              </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">Social Media Marketing</Link>
-                </h3>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium
-                </p>
+          {servicesData.map((service) => (
+            <div
+              key={service.id}
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div className="service-box-items">
+                <div className="icon">
+                  <i className={service.icon} />
+                </div>
+                <div className="content">
+                  <h3>
+                    <Link href="service-details">{service.title}</Link>
+                  </h3>
+                  <p>{service.description}</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".7s"
-          >
-            <div className="service-box-items">
-              <div className="icon">
-                <i className="flaticon-email-marketing" />
-              </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">Email Marketing</Link>
-                </h3>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".3s"
-          >
-            <div className="service-box-items">
-              <div className="icon">
-                <i className="flaticon-copy-writing" />
-              </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">Content Writing</Link>
-                </h3>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".5s"
-          >
-            <div className="service-box-items">
-              <div className="icon">
-                <i className="flaticon-software-development" />
-              </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">Website Development</Link>
-                </h3>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".7s"
-          >
-            <div className="service-box-items">
-              <div className="icon">
-                <i className="flaticon-www" />
-              </div>
-              <div className="content">
-                <h3>
-                  <Link href="service-details">SEO Optimizations</Link>
-                </h3>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
@@ -156,77 +111,41 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
             {title}
           </span>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            We Provide Best Modern SEO <br />
-            Service For Your Business
+            We Provide the Best Solutions for <br />
+            Electricity, IT, Automation, and Security Systems
           </h2>
         </div>
         <div className="row">
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".3s"
-          >
-            <div className="service-popular-items">
-              <div className="service-image">
-                <img src="assets/img/service/08.png" alt="img" />
-              </div>
-              <div className="service-content">
-                <h3>
-                  <Link href="service-details">Keyword Research</Link>
-                </h3>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium
-                </p>
-                <Link href="service-details" className="theme-btn bg-2">
-                  Learn More <i className="far fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".5s"
-          >
-            <div className="service-popular-items">
-              <div className="service-image">
-                <img src="assets/img/service/09.png" alt="img" />
-              </div>
-              <div className="service-content">
-                <h3>
-                  <Link href="service-details">Content Writing</Link>
-                </h3>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium
-                </p>
-                <Link href="service-details" className="theme-btn bg-2">
-                  Learn More <i className="far fa-arrow-right" />
-                </Link>
+          {servicesData.map((service) => (
+            <div
+              key={service.id}
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div className="service-popular-items">
+                <div className="service-image">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    style={{
+                      width: "100%",
+                      height: "200px",
+                      objectFit: "cover",
+                    }}
+                  />
+                </div>
+                <div className="service-content">
+                  <h3>
+                    <Link href="service-details">{service.title}</Link>
+                  </h3>
+                  <p>{service.description}</p>
+                  <Link href="service-details" className="theme-btn bg-2">
+                    Learn More <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".7s"
-          >
-            <div className="service-popular-items">
-              <div className="service-image">
-                <img src="assets/img/service/10.png" alt="img" />
-              </div>
-              <div className="service-content">
-                <h3>
-                  <Link href="service-details">Site Optimizations</Link>
-                </h3>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium
-                </p>
-                <Link href="service-details" className="theme-btn bg-2">
-                  Learn More <i className="far fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

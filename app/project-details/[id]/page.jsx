@@ -29,7 +29,7 @@ const ProjectDetailPage = () => {
 
   return (
     <NextLayout>
-      <section className="project-details-section fix section-padding">
+      <section className="project-details-section fix section-paddingg">
         <div className="container">
           <div className="project-details-wrapper">
             <div className="row g-4 justify-content-between">
