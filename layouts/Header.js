@@ -21,9 +21,9 @@ const Menu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "/about", title: "About" },
+        { id: 1, href: "/about", title: "A propos" },
         { id: 2, href: "/services", title: "Services" },
-        { id: 3, href: "/team", title: "Team" },
+        { id: 3, href: "/team", title: "L'équipe " },
         { id: 4, href: "/blog", title: "Blog" },
       ];
   return (
@@ -32,7 +32,7 @@ const Menu = ({ single, menu }) => {
         <ul>
           <li className="has-dropdown active menu-thumb">
             <Link href="/">
-              Home
+            Accueil
               {/* <i className="fas fa-angle-down" /> */}
             </Link>
             {/* <ul className="submenu has-homemenu">
@@ -140,7 +140,7 @@ const Menu = ({ single, menu }) => {
           </li>
           <li className="has-dropdown active d-xl-none">
             <Link href="/" className="border-none">
-              Home
+            Accueil
               {/* <i className="fas fa-angle-down" /> */}
             </Link>
             {/* <ul className="submenu">
@@ -165,7 +165,7 @@ const Menu = ({ single, menu }) => {
               </ul> */}
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">A propos</Link>
           </li>
           <li>
             <Link href="/service">
@@ -175,17 +175,17 @@ const Menu = ({ single, menu }) => {
             <ul className="submenu">
               <li>
                 <Link href="/etude-et-installation-electrique-complete">
-                  Electricite et automatisme
+                  Electricite & automatisme
                 </Link>
               </li>
               <li>
                 <Link href="/systemes-de-securite-installation">
-                  Controle dacces et surveillance
+                  Controle dacces & surveillance
                 </Link>
               </li>
               <li>
                 <Link href="/reseaux-informatiques-nstallations">
-                  Detection incendie et intrusion
+                  Detection incendie & intrusion
                 </Link>
               </li>
               <li>
@@ -200,13 +200,13 @@ const Menu = ({ single, menu }) => {
               </li>
               <li>
                 <Link href="/maintenance-et-service-apres-vente">
-                  Maintenance et S.A.V
+                  Maintenance & S.A.V
                 </Link>
               </li>
             </ul>
           </li>
           <li>
-            <Link href="/project">Projects</Link>
+            <Link href="/project">Projets</Link>
           </li>
           {/* <li className="has-dropdown">
             <Link href="/news">
@@ -260,7 +260,7 @@ const Menu = ({ single, menu }) => {
                 <Link href="/news">Blog </Link>
               </li>
               <li>
-                <Link href="/news-details">Blog Details</Link>
+                <Link href="/news-details">Détails du blog</Link>
               </li>
             </ul>
           </li>
@@ -287,9 +287,9 @@ const MobileMenu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "/about", title: "About" },
+        { id: 1, href: "/about", title: "A propos" },
         { id: 2, href: "/services", title: "Services" },
-        { id: 3, href: "/team", title: "Team" },
+        { id: 3, href: "/team", title: "L'équipe" },
         { id: 4, href: "/blog", title: "Blog" },
       ];
   return (
@@ -310,7 +310,7 @@ const MobileMenu = ({ single, menu }) => {
                 className="border-none"
                 onClick={() => activeMenuSet("home")}
               >
-                Home
+                Accueil
                 {/* <i className="fas fa-angle-down" /> */}
               </a>
               {/* <ul className="submenu" style={activeLi("home")}>
@@ -352,7 +352,7 @@ const MobileMenu = ({ single, menu }) => {
             ) : (
               <Fragment>
                 <li>
-                  <Link href="/about">About</Link>
+                  <Link href="/about">A propos</Link>
                 </li>
                 <li>
                   <a href="#" onClick={() => activeMenuSet("Services")}>
@@ -362,17 +362,17 @@ const MobileMenu = ({ single, menu }) => {
                   <ul className="submenu" style={activeLi("Services")}>
                     <li>
                       <Link href="/etude-et-installation-electrique-complete">
-                        Electricite et automatisme
+                        Electricite & automatisme
                       </Link>
                     </li>
                     <li>
                       <Link href="/systemes-de-securite-installation">
-                        Controle dacces et surveillance
+                        Controle dacces & surveillance
                       </Link>
                     </li>
                     <li>
                       <Link href="/reseaux-informatiques-nstallations">
-                        Detection incendie et intrusion
+                        Detection incendie & intrusion
                       </Link>
                     </li>
                     <li>
@@ -387,7 +387,7 @@ const MobileMenu = ({ single, menu }) => {
                     </li>
                     <li>
                       <Link href="/maintenance-et-service-apres-vente">
-                        Maintenance et S.A.V
+                        Maintenance & S.A.V
                       </Link>
                     </li>
                   </ul>
@@ -400,7 +400,7 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li>
                 <li>
-                  <Link href="/project">Projects</Link>
+                  <Link href="/project">Projets</Link>
                 </li>
                 {/* <li className="has-dropdown">
                   <a href="#" onClick={() => activeMenuSet("Pages")}>
@@ -478,7 +478,7 @@ const MobileMenu = ({ single, menu }) => {
                       <Link href="/news">Blog </Link>
                     </li>
                     <li>
-                      <Link href="/news-details">Blog Details</Link>
+                      <Link href="/news-details">Détails du blog</Link>
                     </li>
                   </ul>
                   <a
@@ -577,7 +577,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                     href="/contact"
                     className="theme-btn hover-white text-center"
                   >
-                    Contact Us
+                    Nous contacter
                   </Link>
                 </div>
                 <div className="social-icon d-flex align-items-center">

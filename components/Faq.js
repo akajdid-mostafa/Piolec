@@ -48,7 +48,7 @@ const Faq = () => {
       <div className="container">
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
-            <img src="assets/img/bale.png" alt="img" />
+            {/* <img src="assets/img/bale.png" alt="img" /> */}
             Quelques questions
           </span>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">

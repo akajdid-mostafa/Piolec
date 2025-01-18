@@ -188,7 +188,7 @@ const page = () => {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="about-image-items">
-                  <ul
+                  {/* <ul
                     className="experience-text wow fadeInUp"
                     data-wow-delay=".6s"
                   >
@@ -197,7 +197,7 @@ const page = () => {
                       <i className="fas fa-star" />
                     </li>
                     <li>Entreprise primée</li>
-                  </ul>
+                  </ul> */}
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
@@ -222,8 +222,8 @@ const page = () => {
                 <div className="about-content">
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />À propos de
-                      l'entreprise
+                      {/* <img src="assets/img/bale.png" alt="img" >/*/}
+                      À propos de l'entreprise
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
                       PIOLEC : Électricité, Informatique et Sécurité
@@ -584,7 +584,7 @@ const page = () => {
         </div>
       </section> */}
       {/* Funfact Section Start */}
-      <section className="funfact-section section-padding pt-0">
+      {/* <section className="funfact-section section-padding pt-0">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
@@ -598,7 +598,7 @@ const page = () => {
           </div>
           <FunFactCounter />
         </div>
-      </section>
+      </section> */}
       {/* Popular Case Study Section Start */}
       <section className="case-study-section fix section-padding theme-bg">
         <div className="left-shape">
@@ -611,7 +611,7 @@ const page = () => {
           <div className="section-title-area">
             <div className="section-title">
               <span className="sub-content wow fadeInUp">
-                <img src="assets/img/bale.png" alt="img" />
+                {/* <img src="assets/img/bale.png" alt="img" /> */}
                 Popular Case Study
               </span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
@@ -716,7 +716,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              {/* <img src="assets/img/bale.png" alt="img" /> */}
               News &amp; Blog
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">

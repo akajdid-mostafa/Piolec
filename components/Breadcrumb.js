@@ -4,22 +4,22 @@ const Breadcrumb = ({ pageName = "À propos de l'entreprise", pageTitle }) => {
   return (
     <div
       className="breadcrumb-wrapper section-padding bg-cover"
-      style={{ backgroundImage: 'url("assets/img/breadcrumb.jpg")' }}
+      style={{ backgroundImage: 'url("assets/img/breadcrumb.png")' }}
     >
       <div className="container">
         <div className="page-heading">
-          <h1 className="wow fadeInUp" data-wow-delay=".3s">
+          <h1 className="wow fadeInUp text-white" data-wow-delay=".3s">
             {pageTitle ? pageTitle : pageName}
           </h1>
-          <ul className="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+          {/* <ul className="breadcrumb-items  wow fadeInUp" data-wow-delay=".5s">
             <li>
-              <Link href="/">Home</Link>
+              <Link href="/" >Home</Link>
             </li>
             <li>
               <i className="fas fa-chevron-right" />
             </li>
             <li className="style-2">{pageName}</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

@@ -4,28 +4,29 @@ import {Team2} from "@/components/Team";
 import { TestimonialSlider2 } from "@/components/TestimonialSlider";
 import  WorkingProcess2  from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
+import Cta from "@/components/Cta";
 import Link from "next/link";
 const page = () => {
   return (
     <NextLayout>
-      {/*<< Breadcrumb Section Start >>*/}
+      <Breadcrumb pageName="À propos de l'entreprise" />
       {/* <Breadcrumb /> */}
       {/* About Section Start */}
-      <section className="about-section fix section-padding pb-0">
+      <section className="about-section fix section-paddingg pb-0">
         <div className="container">
           <div className="about-wrapper style-2">
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="about-content ms-0 style-about">
-                  <div className="section-title">
+                  {/* <div className="section-title">
                     <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />À propos de
-                      l'entreprise
+                      <img src="assets/img/bale.png" alt="img" />
+                      À propos de l'entreprise
                     </span>
-                    {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
                     Nous augmentons le nombre de visiteurs de votre site web et augmentons les ventes
-                    </h2> */}
-                  </div>
+                    </h2>
+                  </div> */}
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                     Bienvenue sur le site web de **PIOLEC**, votre partenaire
                     privilégié en électricité, informatique, automatisme et
@@ -160,7 +161,7 @@ const page = () => {
       {/* Working Process Section Start */}
       {/* <WorkingProcess2 /> */}
       {/* Funfact Section Start */}
-      <section className="funfact-section section-padding pt-0">
+      {/* <section className="funfact-section section-padding pt-0">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
@@ -173,7 +174,7 @@ const page = () => {
           </div>
           <FunFactCounter />
         </div>
-      </section>
+      </section> */}
       {/* Team Section Start */}
       <Team2 />
       {/* Brand Section Start */}
@@ -222,7 +223,7 @@ const page = () => {
         </div>
       </section> */}
       {/* Testimonial Section Start */}
-      <section className="testimonial-section-2 fix section-padding fix">
+      {/* <section className="testimonial-section-2 fix section-padding fix">
         <div className="bg-shape">
           <img src="assets/img/testimonial/bg-shape.png" alt="shape-img" />
         </div>
@@ -236,8 +237,13 @@ const page = () => {
           </div>
         </div>
         <TestimonialSlider2 />
-      </section>
+      </section> */}
       {/* Footer Section Start */}
+      <Cta
+       sectionPadding={true}
+       h2="Prêt à optimiser vos installations électriques ?"
+       p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
+        />
     </NextLayout>
   );
 };

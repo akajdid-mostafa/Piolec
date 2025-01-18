@@ -1,22 +1,24 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
+import Cta from "@/components/Cta";
 import { projects } from "./data";
 
 
 const Page = () => {
   return (
     <NextLayout>
-      <section className="project-section fix section-padding">
+      <Breadcrumb pageName="Galerie de travail" />
+      <section className="project-section fix section-paddingg ">
         <div className="container">
           <div className="section-title text-center">
-            <span className="sub-content wow fadeInUp">
+            {/* <span className="sub-content wow fadeInUp">
               <img src="assets/img/bale.png" alt="img" />
               Galerie de travail
-            </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            </span> */}
+            <h3 className="wow fadeInUp" data-wow-delay=".3s">
               Explorer les projets en vedette
-            </h2>
+            </h3>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -38,7 +40,7 @@ const Page = () => {
                           overflow: "hidden", // Ensure images don't overflow
                         }}
                       >
-                        <Link href={`/project-details/${project.id}`}>
+                        <Link href={`/project/${project.id}`}>
                         <img
                           src={project.details.images[0]}
                           alt="img"
@@ -52,11 +54,11 @@ const Page = () => {
                       </div>
                       <div className="project-content">
                         {/* <p>{project.category}</p> */}
-                        <h3>
-                          <Link href={`/project-details/${project.id}`}>
+                        <h6>
+                          <Link href={`/project/${project.id}`}>
                             {project.title}
                           </Link>
-                        </h3>
+                        </h6>
                       </div>
                     </div>
                   </div>
@@ -66,6 +68,11 @@ const Page = () => {
           </div>
         </div>
       </section>
+      <Cta
+       sectionPadding={true}
+       h2="Prêt à optimiser vos installations électriques ?"
+       p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
+        />
     </NextLayout>
   );
 };
