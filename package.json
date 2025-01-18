@@ -10,6 +10,7 @@
     "clean": "rm -rf .next"
   },
   "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
     "autoprefixer": "^10.4.20",
     "next": "^14.2.21",
     "postcss": "^8.5.1",

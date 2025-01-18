@@ -175,22 +175,32 @@ const Menu = ({ single, menu }) => {
             <ul className="submenu">
               <li>
                 <Link href="/etude-et-installation-electrique-complete">
-                  Installations électriques
+                  Electricite et automatisme
                 </Link>
               </li>
               <li>
                 <Link href="/systemes-de-securite-installation">
-                  Systèmes de sécurité
+                  Controle dacces et surveillance
                 </Link>
               </li>
               <li>
                 <Link href="/reseaux-informatiques-nstallations">
-                  Réseaux informatiques
+                  Detection incendie et intrusion
                 </Link>
               </li>
               <li>
                 <Link href="/maintenance-et-service-apres-vente">
-                  Maintenance & S.A.V.
+                  Precablage informatique
+                </Link>
+              </li>
+              <li>
+                <Link href="/maintenance-et-service-apres-vente">
+                  Panneau solaire
+                </Link>
+              </li>
+              <li>
+                <Link href="/maintenance-et-service-apres-vente">
+                  Maintenance et S.A.V
                 </Link>
               </li>
             </ul>
@@ -352,22 +362,32 @@ const MobileMenu = ({ single, menu }) => {
                   <ul className="submenu" style={activeLi("Services")}>
                     <li>
                       <Link href="/etude-et-installation-electrique-complete">
-                        Installations électriques
+                        Electricite et automatisme
                       </Link>
                     </li>
                     <li>
                       <Link href="/systemes-de-securite-installation">
-                        Systèmes de sécurité
+                        Controle dacces et surveillance
                       </Link>
                     </li>
                     <li>
                       <Link href="/reseaux-informatiques-nstallations">
-                        Réseaux informatiques
+                        Detection incendie et intrusion
                       </Link>
                     </li>
                     <li>
                       <Link href="/maintenance-et-service-apres-vente">
-                        Maintenance & S.A.V.
+                        Precablage informatique
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/maintenance-et-service-apres-vente">
+                        Panneau solaire
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/maintenance-et-service-apres-vente">
+                        Maintenance et S.A.V
                       </Link>
                     </li>
                   </ul>

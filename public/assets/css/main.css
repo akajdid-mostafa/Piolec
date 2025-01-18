@@ -10337,3 +10337,17 @@ p.sticky-label {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
+
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  width: 100%;
+}
+

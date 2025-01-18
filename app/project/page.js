@@ -49,7 +49,7 @@ const Page = () => {
                         />
                       </div>
                       <div className="project-content">
-                        <p>{project.category}</p>
+                        {/* <p>{project.category}</p> */}
                         <h3>
                           <Link href={`/project-details/${project.id}`}>
                             {project.title}

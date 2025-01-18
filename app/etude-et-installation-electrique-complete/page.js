@@ -11,7 +11,7 @@ import * as servicess from "@/components/servicess";
 const page = () => {
   return (
     <NextLayout>
-      {/* <Breadcrumb pageName="Étude et installation électrique complète." /> */}
+      <Breadcrumb pageName="Étude et installation électrique complète." />
       {/* About Section Start */}
       <section className="about-section fix section-padding">
         <div className="container">

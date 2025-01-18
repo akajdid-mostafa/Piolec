@@ -5,7 +5,7 @@ const servicesData = [
     id: 1,
     image: "/assets/img/project/001.JPG",
     icon: "flaticon-electricity",
-    title: "Electrical Installations",
+    title: "Electricite et automatisme",
     description:
       "We provide expert electrical installations for residential, commercial, and industrial projects, ensuring safety and efficiency.",
   },
@@ -13,7 +13,7 @@ const servicesData = [
     id: 2,
     image: "/assets/img/project/002.png",
     icon: "flaticon-automation",
-    title: "Automation Systems",
+    title: "Controle dacces et surveillance",
     description:
       "Our automation solutions streamline operations, reduce costs, and enhance productivity for businesses.",
   },
@@ -21,7 +21,7 @@ const servicesData = [
     id: 3,
     image: "/assets/img/project/003.png",
     icon: "flaticon-security",
-    title: "Security Systems",
+    title: "Detection incendie et intrusion",
     description:
       "We install advanced security systems, including access control, fire detection, and video surveillance, to protect your property.",
   },
@@ -29,7 +29,7 @@ const servicesData = [
     id: 4,
     image: "/assets/img/project/004.png",
     icon: "flaticon-network",
-    title: "IT Network Solutions",
+    title: "Precablage informatique",
     description:
       "We design and implement robust IT networks, ensuring seamless connectivity and data security for your business.",
   },
@@ -37,7 +37,7 @@ const servicesData = [
     id: 5,
     image: "/assets/img/project/005.png",
     icon: "flaticon-renewable-energy",
-    title: "Renewable Energy Solutions",
+    title: "Panneau solaire",
     description:
       "We offer sustainable energy solutions, including solar power systems, to help you reduce energy costs and environmental impact.",
   },
@@ -45,7 +45,7 @@ const servicesData = [
     id: 6,
     image: "/assets/img/project/006.png",
     icon: "flaticon-maintenance",
-    title: "Maintenance & Support",
+    title: "Maintenance et S.A.V",
     description:
       "Our maintenance and after-sales services ensure the longevity and optimal performance of your electrical and security systems.",
   },
