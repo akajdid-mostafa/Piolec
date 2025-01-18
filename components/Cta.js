@@ -10,12 +10,10 @@ const Cta = ({ sectionPadding = false ,h2,p }) => {
       <div className="container">
         <div className="cta-marketing-wrapper">
           <div className="content">
-            <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-            
+            <h3 className="text-white wow fadeInUp" data-wow-delay=".3s">
             {h2}
-            </h2>
+            </h3>
             <p className="text-white wow fadeInUp" data-wow-delay=".5s">
-            
             {p}
             </p>
           </div>

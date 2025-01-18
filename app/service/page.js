@@ -12,7 +12,10 @@ const page = () => {
       <GrowBusiness paddingTop={8} />
       {/* <Services /> */}
       <Service2 paddingTop={5} title="Our Services" />
-      <Cta />
+      <Cta
+        h2="Prêt à moderniser vos installations électriques ?"
+        p="Découvrez des solutions innovantes et fiables pour une performance énergétique optimale et une gestion simplifiée de vos systèmes électriques."
+       />
       <Faq />
     </NextLayout>
   );

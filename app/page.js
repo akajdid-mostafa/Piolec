@@ -3,7 +3,8 @@ import Pricing from "@/components/Pricing";
 import { TestimonialSlider1 } from "@/components/TestimonialSlider";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
-import Service from "@/components/service";
+import {Service2} from "@/components/Services";
+import Faq from "@/components/Faq";
 
 const page = () => {
   return (
@@ -275,10 +276,10 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <Service />
+      <Service2 paddingTop={5} title="Our Services" />
 
       {/* Cta Video Section Start */}
-      <div
+      {/* <div
         className="cta-video-section fix bg-cover"
         style={{ backgroundImage: 'url("assets/img/cta/cta-video.jpg")' }}
       >
@@ -335,9 +336,9 @@ const page = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Team Section Start */}
-      <section className="team-section fix section-padding">
+      {/* <section className="team-section fix section-padding">
         <div className="container">
           <div className="row g-4 align-items-center">
             <div className="col-lg-6">
@@ -581,7 +582,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Funfact Section Start */}
       <section className="funfact-section section-padding pt-0">
         <div className="container">
@@ -709,6 +710,7 @@ const page = () => {
         </div>
       </section> */}
       {/* News Section Start */}
+      <Faq/>
 
       <section className="news-section section-padding pt-0 mt-20">
         <div className="container">

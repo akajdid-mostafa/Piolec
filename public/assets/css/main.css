@@ -4997,6 +4997,7 @@ input.main-search-input::placeholder {
   max-width: 410px;
   margin-left: 120px;
   position: relative;
+  
 }
 @media (max-width: 1199px) {
   .grow-business-wrapper-2 .grow-business-image {
@@ -5007,6 +5008,7 @@ input.main-search-input::placeholder {
 .grow-business-wrapper-2 .grow-business-image img {
   width: 100%;
   height: 100%;
+  border-radius: 2%;
 }
 .grow-business-wrapper-2 .grow-business-image .grap-shape {
   position: absolute;

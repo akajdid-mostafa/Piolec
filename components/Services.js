@@ -51,6 +51,64 @@ const servicesData = [
   },
 ];
 
+export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
+  return (
+    <section
+      className={`service-section section-padding pt-${paddingTop}`}
+      id="services"
+    >
+      <div className="container">
+        <div className="section-title text-center">
+          <span className="sub-content wow fadeInUp">
+            <img src="assets/img/bale.png" alt="img" />
+            {title}
+          </span>
+          <h2 className="wow fadeInUp" data-wow-delay=".3s">
+            We Provide the Best Solutions for <br />
+            Electricity, IT, Automation, and Security Systems
+          </h2>
+        </div>
+        <div className="row">
+          {servicesData.map((service) => (
+            <div
+              key={service.id}
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".3s"
+              style={{ marginBottom: "30px" }} // Add margin-bottom to create space
+            >
+              <div className="service-popular-items">
+                <div className="service-image">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    style={{
+                      width: "100%",
+                      height: "200px",
+                      objectFit: "cover",
+                    }}
+                  />
+                </div>
+                <div className="service-content">
+                  <h3>
+                    <Link href="/service-details">{service.title}</Link>
+                  </h3>
+                  <p>{service.description}</p>
+                  <Link href="/service-details" className="theme-btn bg-2">
+                    Learn More <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+
+
+
 const Services = () => {
   return (
     <section
@@ -98,56 +156,4 @@ const Services = () => {
 };
 export default Services;
 
-export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
-  return (
-    <section
-      className={`service-section section-padding pt-${paddingTop}`}
-      id="services"
-    >
-      <div className="container">
-        <div className="section-title text-center">
-          <span className="sub-content wow fadeInUp">
-            <img src="assets/img/bale.png" alt="img" />
-            {title}
-          </span>
-          <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            We Provide the Best Solutions for <br />
-            Electricity, IT, Automation, and Security Systems
-          </h2>
-        </div>
-        <div className="row">
-          {servicesData.map((service) => (
-            <div
-              key={service.id}
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div className="service-popular-items">
-                <div className="service-image">
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    style={{
-                      width: "100%",
-                      height: "200px",
-                      objectFit: "cover",
-                    }}
-                  />
-                </div>
-                <div className="service-content">
-                  <h3>
-                    <Link href="service-details">{service.title}</Link>
-                  </h3>
-                  <p>{service.description}</p>
-                  <Link href="service-details" className="theme-btn bg-2">
-                    Learn More <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
+
