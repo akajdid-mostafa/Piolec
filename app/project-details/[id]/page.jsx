@@ -43,7 +43,7 @@ const ProjectDetailPage = () => {
             <div className="row g-4 justify-content-between">
               <div className="col-lg-7">
                 <div className="project-details-content">
-                  <h5>{project.category}</h5>
+                  {/* <h5>{project.category}</h5> */}
                   <h2>{project.details.overview}</h2>
                   <p className="mt-4">{project.details.content}</p>
                   <h4 className="mt-50">Project Initiation</h4>
