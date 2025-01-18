@@ -335,7 +335,7 @@
     {
       id: 1,
       image: "/assets/img/services/industrial-electricity.jpg",
-      category: "Industrial Electricity & Automation",
+      category: "Dépôt Hydrocarbures",
       title: "Electrical Systems Design & Installation",
       link: "industrial-electricity",
       description: "Design and installation of electrical systems for industrial and commercial applications.",
@@ -365,7 +365,7 @@
     {
       id: 2,
       image: "/assets/img/services/access-control.jpg",
-      category: "Security Systems",
+      category: "Dépôt Hydrocarbures",
       title: "Access Control & Evacuation Systems",
       link: "access-control",
       description: "Installation and configuration of access control and emergency evacuation systems.",
@@ -395,7 +395,7 @@
     {
       id: 3,
       image: "/assets/img/services/fire-detection.jpg",
-      category: "Security Systems",
+      category: "Dépôt Hydrocarbures",
       title: "Fire & Intrusion Detection Systems",
       link: "fire-detection",
       description: "Installation of fire and intrusion detection systems to protect your property.",
@@ -425,7 +425,7 @@
     {
       id: 4,
       image: "/assets/img/services/it-cabling.jpg",
-      category: "IT & Network Solutions",
+      category: "Dépôt Hydrocarbures",
       title: "IT Cabling & Video Surveillance",
       link: "it-cabling",
       description: "Professional IT cabling and video surveillance installation services.",
@@ -455,7 +455,7 @@
     {
       id: 5,
       image: "/assets/img/services/renewable-energy.jpg",
-      category: "Renewable Energy",
+      category: "Dépôt Hydrocarbures",
       title: "Renewable Energy Solutions",
       link: "renewable-energy",
       description: "Design and implementation of renewable energy systems.",
@@ -485,7 +485,7 @@
     {
       id: 6,
       image: "/assets/img/services/maintenance.jpg",
-      category: "Maintenance & Support",
+      category: "Dépôt Hydrocarbures",
       title: "Maintenance & After-Sales Service (S.A.V.)",
       link: "maintenance",
       description: "Ongoing maintenance and support for electrical and security systems.",
