@@ -38,6 +38,7 @@ const Page = () => {
                           overflow: "hidden", // Ensure images don't overflow
                         }}
                       >
+                        <Link href={`/project-details/${project.id}`}>
                         <img
                           src={project.details.images[0]}
                           alt="img"
@@ -47,6 +48,7 @@ const Page = () => {
                             objectFit: "cover", // Ensure the image covers the container without distortion
                           }}
                         />
+                        </Link>
                       </div>
                       <div className="project-content">
                         {/* <p>{project.category}</p> */}
