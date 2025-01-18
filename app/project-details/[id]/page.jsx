@@ -67,17 +67,21 @@ const ProjectDetailPage = () => {
                 <div className="project-information">
                   <h4>Project Information's</h4>
                   <ul>
+                    <li>Clients :</li>
                     <li>
-                      Clients : <span>{project.details.information.client}</span>
+                      <span>{project.details.information.client}</span>
                     </li>
+                    <li>Industrie :</li>
                     <li>
-                    Industrie : <span>{project.details.information.category}</span>
+                      <span>{project.details.information.category}</span>
                     </li>
+                    <li>Date :</li>
                     <li>
-                      Date : <span>{project.details.information.date}</span>
+                      <span>{project.details.information.date}</span>
                     </li>
+                    <li>Location :</li>
                     <li>
-                      Location : <span>{project.details.information.location}</span>
+                      <span>{project.details.information.location}</span>
                     </li>
                     {/* <li>
                       Duration <span>{project.details.information.duration}</span>
