@@ -782,7 +782,8 @@ input.main-search-input::placeholder {
 }
 
 .section-paddingg {
-  padding: 70px 0;
+  padding: 10px 0;
+  padding-bottom: 140px;
 }
 
 .section-padding {
