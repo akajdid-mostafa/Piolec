@@ -176,7 +176,7 @@ const page = () => {
         </div>
       </section> */}
       {/* Team Section Start */}
-      <Team2 />
+      {/* <Team2 /> */}
       {/* Brand Section Start */}
       {/* <section className="brand-section-2 mt-0 mb-0 fix section-padding pt-0">
         <div className="container-fluid">
