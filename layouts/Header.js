@@ -32,7 +32,7 @@ const Menu = ({ single, menu }) => {
         <ul>
           <li className="has-dropdown active menu-thumb">
             <Link href="/">
-            Accueil
+              Accueil
               {/* <i className="fas fa-angle-down" /> */}
             </Link>
             {/* <ul className="submenu has-homemenu">
@@ -140,7 +140,7 @@ const Menu = ({ single, menu }) => {
           </li>
           <li className="has-dropdown active d-xl-none">
             <Link href="/" className="border-none">
-            Accueil
+              Accueil
               {/* <i className="fas fa-angle-down" /> */}
             </Link>
             {/* <ul className="submenu">
@@ -174,39 +174,35 @@ const Menu = ({ single, menu }) => {
             </Link>
             <ul className="submenu">
               <li>
-                <Link href="/etude-et-installation-electrique-complete">
-                Electricité & Automatisme 
+                <Link href="/service#electricite_automatisme">
+                  Electricité & Automatisme
                 </Link>
               </li>
               <li>
-                <Link href="/systemes-de-securite-installation">
-                Contrôle d'accès & Surveillance 
+                <Link href="/service#contrôle_dacces_surveillance">
+                  Contrôle d'accès & Surveillance
                 </Link>
               </li>
               <li>
-                <Link href="/reseaux-informatiques-nstallations">
-                Détection incendie & intrusion  
+                <Link href="/service#detection_incendie_intrusion">
+                  Détection incendie & intrusion
                 </Link>
               </li>
               <li>
-                <Link href="/maintenance-et-service-apres-vente">
-                Precablage informatique
+                <Link href="/service#precablage_informatique">
+                  Precablage informatique
                 </Link>
               </li>
               <li>
-                <Link href="/maintenance-et-service-apres-vente">
-                Energies renouvelables
+                <Link href="/service#energies_renouvelables_travaux_divers">
+                  Energies renouvelables
                 </Link>
               </li>
               <li>
-                <Link href="/maintenance-et-service-apres-vente">
-                Maintenance & S.A.V
-                </Link>
+                <Link href="/service#maintenance_sav">Maintenance & S.A.V</Link>
               </li>
               <li>
-                <Link href="/maintenance-et-service-apres-vente">
-                Travaux divers
-                </Link>
+                <Link href="/service#travaux-divers">Travaux divers</Link>
               </li>
             </ul>
           </li>
@@ -366,39 +362,37 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                   <ul className="submenu" style={activeLi("Services")}>
                     <li>
-                      <Link href="/etude-et-installation-electrique-complete">
-                      Electricité & Automatisme 
+                      <Link href="/service#electricite_automatisme">
+                        Electricité & Automatisme
                       </Link>
                     </li>
                     <li>
-                      <Link href="/systemes-de-securite-installation">
-                      Contrôle d'accès & Surveillance 
+                      <Link href="/service#contrôle_dacces_surveillance">
+                        Contrôle d'accès & Surveillance
                       </Link>
                     </li>
                     <li>
-                      <Link href="/reseaux-informatiques-nstallations">
-                      Détection incendie & intrusion 
+                      <Link href="/service#detection_incendie_intrusion">
+                        Détection incendie & intrusion
                       </Link>
                     </li>
                     <li>
-                      <Link href="/maintenance-et-service-apres-vente">
+                      <Link href="/service#precablage_informatique">
                         Precablage informatique
                       </Link>
                     </li>
                     <li>
-                      <Link href="/maintenance-et-service-apres-vente">
-                      Energies renouvelables 
+                      <Link href="/service#energies_renouvelables_travaux_divers">
+                        Energies renouvelables
                       </Link>
                     </li>
                     <li>
-                      <Link href="/maintenance-et-service-apres-vente">
-                      Maintenance & S.A.V
+                      <Link href="/service#maintenance_sav">
+                        Maintenance & S.A.V
                       </Link>
                     </li>
                     <li>
-                      <Link href="/maintenance-et-service-apres-vente">
-                      Travaux divers
-                      </Link>
+                      <Link href="/service#travaux-divers">Travaux divers</Link>
                     </li>
                   </ul>
                   <a

@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Servicee = ({
+  id,
   title,
   description,
   images,
@@ -15,7 +16,7 @@ const Servicee = ({
 }) => {
   return (
     <section
-      id="dow"
+      id={id}
       className={`${serviceSectionClass ? "servic--section" : ""} fix section-padding`}
     >
       <div className="container">
@@ -23,7 +24,7 @@ const Servicee = ({
           <div className="row g-4 align-items-center justify-content-between">
             {/* Partie content */}
             {contentFirst && (
-              <div className="col-lg-7">
+              <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <div className="section-title">
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -49,7 +50,7 @@ const Servicee = ({
             )}
 
             {/* Partie Images */}
-            <div className="col-lg-5">
+            <div className="col-lg-6">
               <div className="about-image-items-4">
                 <div className="row g-4 align-items-center">
                   <div className="col-lg-6">
@@ -88,7 +89,7 @@ const Servicee = ({
 
             {/* Partie content if not first */}
             {!contentFirst && (
-              <div className="col-lg-7">
+              <div className="col-lg-6 ">
                 <div className="about-content ms-0">
                   <div className="section-title">
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
