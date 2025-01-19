@@ -251,7 +251,7 @@ const Menu = ({ single, menu }) => {
               </li>
             </ul>
           </li> */}
-          <li>
+          {/* <li>
             <Link href="/news">
               Blog
               <i className="fas fa-angle-down" />
@@ -264,7 +264,7 @@ const Menu = ({ single, menu }) => {
                 <Link href="/news-details">Détails du blog</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <Link href="/contact">Contact</Link>
           </li>
@@ -472,7 +472,7 @@ const MobileMenu = ({ single, menu }) => {
                     <i className="far fa-plus" />
                   </a>
                 </li> */}
-                <li>
+                {/* <li>
                   <a href="#" onClick={() => activeMenuSet("Blog")}>
                     Blog
                     <i className="fas fa-angle-down" />
@@ -492,7 +492,7 @@ const MobileMenu = ({ single, menu }) => {
                   >
                     <i className="far fa-plus" />
                   </a>
-                </li>
+                </li> */}
                 <li className="mean-last">
                   <Link href="/contact">Contact</Link>
                 </li>

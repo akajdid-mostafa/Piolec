@@ -1,4 +1,24 @@
 {
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/icon.svg/route": "app/icon.svg/route.js",
+  "/manifest.json/route": "app/manifest.json/route.js",
+  "/page": "app/page.js",
+  "/etude-et-installation-electrique-complete/page": "app/etude-et-installation-electrique-complete/page.js",
+  "/news-details/page": "app/news-details/page.js",
+  "/maintenance-et-service-apres-vente/page": "app/maintenance-et-service-apres-vente/page.js",
+  "/project-details/[id]/page": "app/project-details/[id]/page.js",
+  "/project-details/page": "app/project-details/page.js",
+  "/news/page": "app/news/page.js",
+  "/project/[id]/page": "app/project/[id]/page.js",
+  "/reseaux-informatiques-nstallations/page": "app/reseaux-informatiques-nstallations/page.js",
+  "/project/page": "app/project/page.js",
   "/service/page": "app/service/page.js",
-  "/about/page": "app/about/page.js"
+  "/team/page": "app/team/page.js",
+  "/systemes-de-securite-installation/page": "app/systemes-de-securite-installation/page.js",
+  "/team-details/page": "app/team-details/page.js"
 }
