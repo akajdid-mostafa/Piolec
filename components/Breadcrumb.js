@@ -1,16 +1,24 @@
 import Link from "next/link";
 
-const Breadcrumb = ({ pageName = "À propos de l'entreprise", pageTitle }) => {
+const Breadcrumb = ({
+  pageName = "À propos de l'entreprise",
+  pageTitle,
+  headingTag = "h1",
+  backgroundImage = "assets/img/breadcrumb.png", // Default image URL
+}) => {
+  // Create a dynamic heading element based on the prop
+  const HeadingTag = headingTag;
+
   return (
     <div
       className="breadcrumb-wrapper section-padding bg-cover"
-      style={{ backgroundImage: 'url("assets/img/breadcrumb.png")' }}
+      style={{ backgroundImage: `url(${backgroundImage})` }} // Use dynamic image URL
     >
       <div className="container">
         <div className="page-heading">
-          <h1 className="wow fadeInUp text-white" data-wow-delay=".3s">
+          <HeadingTag className="wow fadeInUp text-white" data-wow-delay=".3s">
             {pageTitle ? pageTitle : pageName}
-          </h1>
+          </HeadingTag>
           {/* <ul className="breadcrumb-items  wow fadeInUp" data-wow-delay=".5s">
             <li>
               <Link href="/" >Home</Link>
@@ -25,4 +33,5 @@ const Breadcrumb = ({ pageName = "À propos de l'entreprise", pageTitle }) => {
     </div>
   );
 };
+
 export default Breadcrumb;

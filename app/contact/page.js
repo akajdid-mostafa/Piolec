@@ -13,7 +13,7 @@ const page = () => {
                 <div className="contact-content">
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />
+                      {/* <img src="assets/img/bale.png" alt="img" /> */}
                       Nous contacter
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -45,7 +45,7 @@ const page = () => {
                   className="contact-right wow fadeInUp"
                   data-wow-delay=".4s"
                 >
-                  <h3>Envoyez-nous un message</h3>
+                  <h2 className="pb-4">Envoyez-nous un message</h2>
                   <form
                     action="#"
                     id="contact-form"
@@ -107,7 +107,7 @@ const page = () => {
         </div>
       </section>
       {/* Map Section Start */}
-      <div className="map-section">
+      {/* <div className="map-section">
         <div className="map-items">
           <div className="googpemap">
             <iframe
@@ -118,7 +118,7 @@ const page = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </NextLayout>
   );
 };

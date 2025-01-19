@@ -24,7 +24,7 @@ const Cta = ({ sectionPadding = false ,h2,p }) => {
             </div>
           </div>
           <Link
-            href="/about"
+            href="/contact"
             className="theme-btn bg-2 wow fadeInUp"
             data-wow-delay=".7s"
           >

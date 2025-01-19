@@ -38,7 +38,7 @@ const ProjectDetailPage = () => {
 
   return (
     <NextLayout>
-      <Breadcrumb pageName={project.details.overview} />
+      <Breadcrumb pageName={project.details.overview} headingTag="h1" backgroundImage={project.image} />
       <section className="project-details-section fix section-paddingg">
         <div className="container">
           <div className="project-details-wrapper">
@@ -65,7 +65,7 @@ const ProjectDetailPage = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-5">
+              <div className="col-lg-4">
                 <div className="project-information">
                   <h4>Project Information's</h4>
                   <ul>

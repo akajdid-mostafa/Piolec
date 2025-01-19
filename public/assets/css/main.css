@@ -5545,7 +5545,7 @@ input.main-search-input::placeholder {
 }
 
 .service-video-section {
-  background-color: rgba(92, 48, 253, 0.1);
+  background-color: rgba(143, 149, 222, 0.1);
 }
 
 .service-video-wrapper .service-video-image {
@@ -9685,20 +9685,20 @@ p.sticky-label {
   margin-right: 10px;
 }
 .project-details-wrapper .project-information {
-  padding: 40px 50px;
-  background-color: #EFEBFF;
+  padding: 20px 30px;
+  background-color: #eeeff5;
   border-radius: 10px;
   border: 1.2px solid rgba(16, 24, 40, 0.1);
   margin-top: 20px;
 }
 @media (max-width: 1199px) {
   .project-details-wrapper .project-information {
-    padding: 40px;
+    padding: 20px;
   }
 }
 @media (max-width: 575px) {
   .project-details-wrapper .project-information {
-    padding: 30px;
+    padding: 20px;
   }
 }
 .project-details-wrapper .project-information h4 {
@@ -9709,7 +9709,7 @@ p.sticky-label {
   margin-top: 20px;
 }
 .project-details-wrapper .project-information ul li {
-  font-size: 18px;
+  font-size: 16px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -9857,7 +9857,7 @@ p.sticky-label {
   margin-top: 30px;
 }
 .contact-wrapper .contact-content .contact-list li {
-  font-size: 24px;
+  font-size: 18px;
   color: var(--text);
 }
 @media (max-width: 767px) {
@@ -9875,7 +9875,7 @@ p.sticky-label {
 }
 .contact-wrapper .contact-content .contact-list li a {
   color: var(--header);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .contact-wrapper .contact-content .contact-list li a:hover {
   color: var(--theme);

@@ -17,7 +17,7 @@ const page = () => {
         <div className="container">
           <div className="about-wrapper">
             <div className="row g-4 align-items-center justify-content-between">
-              <div className="col-lg-5">
+              <div className="col-lg-7">
                 <div className="about-content ms-0">
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
@@ -62,14 +62,14 @@ const page = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-5">
                 <div className="about-image-items-4">
-                  <div className="experience-items">
+                  {/* <div className="experience-items">
                     <h6>
                       Plus de 400 clients au Maroc et au-delà lui font
                       confiance.
                     </h6>
-                    {/* <img src="assets/img/about/face-mans.png" alt="img" /> */}
+                    <img src="assets/img/about/face-mans.png" alt="img" />
                     <h2>
                       <span className="count">
                         <Counter end={5} />
@@ -77,7 +77,7 @@ const page = () => {
                       +
                     </h2>
                     <p>Années d&apos;expérience</p>
-                  </div>
+                  </div> */}
                   <div className="row g-4 align-items-center">
                     <div className="col-lg-6">
                       <div className="row g-4">
@@ -116,10 +116,10 @@ const page = () => {
         <div className="container">
           <div className="service-video-wrapper">
             <div className="row align-items-center">
-              <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
+              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="service-video-image">
                   <img src="assets/img/about/0104.png" alt="img" />
-                  <div className="video-box">
+                  {/* <div className="video-box">
                     <a
                       href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
                       className="video-buttton ripple video-popup"
@@ -137,10 +137,10 @@ const page = () => {
                       <i className="fas fa-star" />
                     </li>
                     <li>Services électriques primés</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
-              <div className="col-lg-5">
+              <div className="col-lg-6">
                 <div className="content">
                   <div className="section-title mb-0">
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
