@@ -54,7 +54,7 @@ const servicesData = [
 export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
   return (
     <section
-      className={`service-section section-padding pt-${paddingTop}`}
+      className={`service-section section-paddingg pt-${paddingTop}`}
       id="services"
     >
       <div className="container">
@@ -63,10 +63,10 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
             {/* <img src="assets/img/bale.png" alt="img" /> */}
             {title}
           </span>
-          <h2 className="wow fadeInUp" data-wow-delay=".3s">
+          {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
             We Provide the Best Solutions for <br />
             Electricity, IT, Automation, and Security Systems
-          </h2>
+          </h2> */}
         </div>
         <div className="row">
           {servicesData.map((service) => (

@@ -6,7 +6,7 @@ Description: Multipurpose HTML5 Template
 Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300..900;1,300..900&display=swap");
 :root {
   --body: #fff;
   --black: #000;
@@ -26,7 +26,7 @@ Version: 1.0.0
   --bg2: #0D0D0D;
   --bg3: #121416;
   ---box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
-  --font-family: "Rubik", sans-serif;
+  --font-family: "Roboto", sans-serif;
 }
 
 
@@ -139,7 +139,7 @@ Version: 1.0.0
 }
 
 .link-btn {
-  text-transform: capitalize;
+  
   color: var(--header);
   font-weight: 600;
   display: inline-block;
@@ -240,8 +240,7 @@ h6 {
   font-family: "Rubik", sans-serif;
   margin: 0px;
   padding: 0;
-  color: var(--header);
-  text-transform: capitalize;
+  color: var(--header); 
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -501,7 +500,6 @@ p {
   height: 70px;
   border: 0;
   padding: 0 50px;
-  text-transform: capitalize;
   background: transparent;
   font-size: 25px;
   color: var(--header);
@@ -704,7 +702,6 @@ input.main-search-input::placeholder {
   margin-bottom: 15px;
   display: inline-block;
   font-weight: 500;
-  text-transform: capitalize;
   font-size: 18px;
   position: relative;
   background-color: var(--white);
@@ -738,9 +735,7 @@ input.main-search-input::placeholder {
   margin-bottom: 20px;
   color: var(--theme);
 }
-.section-title h2 {
-  text-transform: capitalize;
-}
+
 @media (max-width: 767px) {
   .section-title h2 {
     font-size: 38px;
@@ -1445,7 +1440,6 @@ input.main-search-input::placeholder {
   color: var(--header);
   text-align: left;
   position: relative;
-  text-transform: capitalize;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -1462,7 +1456,6 @@ input.main-search-input::placeholder {
   top: 100%;
   border-radius: 5%;
   inset-inline-start: 0;
-  min-width: 240px;
   background: var(--white);
   z-index: 99999;
   visibility: hidden;
@@ -1477,6 +1470,7 @@ input.main-search-input::placeholder {
           transform: translateY(10px);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 .header-main .main-menu ul li .submenu li {
   display: block;
@@ -1674,13 +1668,13 @@ input.main-search-input::placeholder {
   border-bottom: 1px solid var(--border);
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
+  
 }
 .header-main .header-right .menu-cart .cart-box ul li a {
   padding: 0;
   position: relative;
   font-size: 16px;
-  text-transform: capitalize;
+  
 }
 .header-main .header-right .menu-cart .cart-box ul li a::after {
   position: absolute;
@@ -1714,7 +1708,7 @@ input.main-search-input::placeholder {
   font-size: 16px;
   font-weight: 600;
   color: var(--header);
-  text-transform: capitalize;
+  
 }
 .header-main .header-right .menu-cart .cart-box .cart-button {
   margin-top: 20px;
@@ -2064,7 +2058,7 @@ input.main-search-input::placeholder {
   font-size: 24px;
   color: var(--theme);
   font-weight: 400;
-  text-transform: capitalize;
+  
   letter-spacing: -0.72px;
   text-decoration: none;
 }
@@ -2383,7 +2377,7 @@ input.main-search-input::placeholder {
 .hero-1 .hero-content .hero-button .btn-link {
   color: var(--white);
   font-weight: 600;
-  text-transform: capitalize;
+  
   text-decoration-line: underline;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -2574,7 +2568,7 @@ input.main-search-input::placeholder {
   margin-bottom: 30px;
   display: inline-block;
   font-weight: 500;
-  text-transform: capitalize;
+  
   font-size: 18px;
   position: relative;
   background-color: var(--white);
@@ -2644,7 +2638,7 @@ input.main-search-input::placeholder {
   margin-bottom: 30px;
   display: inline-block;
   font-weight: 500;
-  text-transform: capitalize;
+  
   font-size: 18px;
   position: relative;
   background-color: var(--white);
@@ -2725,7 +2719,7 @@ input.main-search-input::placeholder {
 .hero-3 .hero-content .hero-button .btn-link {
   color: var(--header);
   font-weight: 600;
-  text-transform: capitalize;
+  
   text-decoration-line: underline;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -2837,7 +2831,7 @@ input.main-search-input::placeholder {
   margin-bottom: 30px;
   display: inline-block;
   font-weight: 500;
-  text-transform: capitalize;
+  
   font-size: 18px;
   position: relative;
   background-color: var(--white);
@@ -2918,7 +2912,7 @@ input.main-search-input::placeholder {
 .hero-4 .hero-content .hero-button .btn-link {
   color: var(--header);
   font-weight: 600;
-  text-transform: capitalize;
+  
   text-decoration-line: underline;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -3044,7 +3038,7 @@ input.main-search-input::placeholder {
   font-weight: 500;
   letter-spacing: -0.72px;
   background-color: var(--theme-2);
-  text-transform: capitalize;
+  
   color: var(--white);
   padding: 10px 22px;
   border-radius: 12px;
@@ -3236,7 +3230,7 @@ input.main-search-input::placeholder {
   margin-bottom: 30px;
   display: inline-block;
   font-weight: 500;
-  text-transform: capitalize;
+  
   font-size: 18px;
   position: relative;
   background-color: var(--white);
@@ -6729,7 +6723,7 @@ input.main-search-input::placeholder {
           box-shadow: none;
   background: #F9FAFB;
   padding: 25px 30px 0;
-  text-transform: capitalize;
+  
   font-size: 20px;
   border: none;
 }
@@ -7139,7 +7133,7 @@ input.main-search-input::placeholder {
   height: 150px;
   line-height: 1;
   font-weight: 500;
-  text-transform: capitalize;
+  
   margin-right: 20px;
   color: rgb(255, 255, 255);
   -webkit-text-stroke-width: 1px;
@@ -8790,7 +8784,7 @@ input.main-search-input::placeholder {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  
   font-family: "League Spartan", sans-serif;
 }
 @media (max-width: 767px) {
@@ -8948,7 +8942,7 @@ input.main-search-input::placeholder {
 .news-area .main-sidebar .single-sidebar-widget ul > li a {
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
+  
 }
 .news-area .main-sidebar .single-sidebar-widget ul > li a:hover {
   color: var(--theme);
@@ -9022,7 +9016,7 @@ input.main-search-input::placeholder {
   padding: 20px;
   width: 100%;
   border: none;
-  text-transform: capitalize;
+  
   color: var(--header);
 }
 .search_widget form button {
@@ -9070,7 +9064,7 @@ input.main-search-input::placeholder {
   line-height: 22px;
   font-weight: 600;
   margin-bottom: 0;
-  text-transform: capitalize;
+  
 }
 .popular-posts .single-post-item .post-content h5 a:hover, .popular_posts .single-post-item .post-content h5 a:hover {
   color: var(--theme);
@@ -9080,7 +9074,7 @@ input.main-search-input::placeholder {
   color: var(--theme);
   font-weight: 600;
   font-size: 15px;
-  text-transform: capitalize;
+  
 }
 .popular-posts .single-post-item .post-content .post-date i, .popular_posts .single-post-item .post-content .post-date i {
   margin-right: 7px;
@@ -9131,7 +9125,7 @@ input.main-search-input::placeholder {
   font-weight: 600;
   background: #F9FAFB;
   margin-right: 10px;
-  text-transform: capitalize;
+  
   margin-bottom: 10px;
 }
 .tagcloud a:last-child {
@@ -9399,7 +9393,7 @@ p.sticky-label {
   width: 100%;
   border: none;
   font-weight: 500;
-  text-transform: capitalize;
+  
   color: var(--header);
   background-color: #F9FAFB;
 }
@@ -10015,7 +10009,7 @@ p.sticky-label {
 }
 
 .footer-widgets-wrapper {
-  padding: 90px 0 120px;
+  padding: 40px 0 70px;
   position: relative;
   z-index: 9;
 }
@@ -10145,11 +10139,14 @@ p.sticky-label {
 .footer-widgets-wrapper .single-footer-widget .contact-info-area .contact-items .content p {
   color: rgba(255, 255, 255, 0.55);
 }
+.footer-widgets-wrapper .single-footer-widget .contact-info-area .contact-items .content p spam {
+  color: white;
+  /* font-weight: 500; */
+}
 .footer-widgets-wrapper .single-footer-widget .contact-info-area .contact-items.color-style-2 .icon {
   color: var(--theme-2);
 }
 .footer-widgets-wrapper .single-footer-widget .list-items li {
-  text-transform: capitalize;
   background-image: -webkit-gradient(linear, left top, left bottom, from(var(--hov)), to(var(--hov)));
   background-image: linear-gradient(var(--hov), var(--hov));
   background-position: 0 95%;
@@ -10394,3 +10391,15 @@ p.sticky-label {
 
 
 
+.parent-container {
+  display: flex;
+  justify-content: center; /* Centers the child horizontally */
+  align-items: center; /* Centers the child vertically */
+}
+
+.gallery-text {
+  font-size: 18px;
+  width: 70%; /* Adjust as needed */
+  text-align: center; /* Centers text horizontally */
+  margin: 0 auto; /* Centers the h4 element itself horizontally within its parent */
+}

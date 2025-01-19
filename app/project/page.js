@@ -16,9 +16,9 @@ const Page = () => {
               <img src="assets/img/bale.png" alt="img" />
               Galerie de travail
             </span> */}
-            <h3 className="wow fadeInUp" data-wow-delay=".3s">
-              Explorer les projets en vedette
-            </h3>
+            <h4 className="wow fadeInUp gallery-text" data-wow-delay=".3s">
+            Explorez la créativité et l’engagement qui animent notre travail à travers ces images, et profitez de la visite
+            </h4>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-9">

@@ -175,32 +175,37 @@ const Menu = ({ single, menu }) => {
             <ul className="submenu">
               <li>
                 <Link href="/etude-et-installation-electrique-complete">
-                  Electricite & automatisme
+                Electricité & Automatisme 
                 </Link>
               </li>
               <li>
                 <Link href="/systemes-de-securite-installation">
-                  Controle dacces & surveillance
+                Contrôle d'accès & Surveillance 
                 </Link>
               </li>
               <li>
                 <Link href="/reseaux-informatiques-nstallations">
-                  Detection incendie & intrusion
+                Détection incendie & intrusion  
                 </Link>
               </li>
               <li>
                 <Link href="/maintenance-et-service-apres-vente">
-                  Precablage informatique
+                Precablage informatique
                 </Link>
               </li>
               <li>
                 <Link href="/maintenance-et-service-apres-vente">
-                  Panneau solaire
+                Energies renouvelables
                 </Link>
               </li>
               <li>
                 <Link href="/maintenance-et-service-apres-vente">
-                  Maintenance & S.A.V
+                Maintenance & S.A.V
+                </Link>
+              </li>
+              <li>
+                <Link href="/maintenance-et-service-apres-vente">
+                Travaux divers
                 </Link>
               </li>
             </ul>
@@ -362,17 +367,17 @@ const MobileMenu = ({ single, menu }) => {
                   <ul className="submenu" style={activeLi("Services")}>
                     <li>
                       <Link href="/etude-et-installation-electrique-complete">
-                        Electricite & automatisme
+                      Electricité & Automatisme 
                       </Link>
                     </li>
                     <li>
                       <Link href="/systemes-de-securite-installation">
-                        Controle dacces & surveillance
+                      Contrôle d'accès & Surveillance 
                       </Link>
                     </li>
                     <li>
                       <Link href="/reseaux-informatiques-nstallations">
-                        Detection incendie & intrusion
+                      Détection incendie & intrusion 
                       </Link>
                     </li>
                     <li>
@@ -382,12 +387,17 @@ const MobileMenu = ({ single, menu }) => {
                     </li>
                     <li>
                       <Link href="/maintenance-et-service-apres-vente">
-                        Panneau solaire
+                      Energies renouvelables 
                       </Link>
                     </li>
                     <li>
                       <Link href="/maintenance-et-service-apres-vente">
-                        Maintenance & S.A.V
+                      Maintenance & S.A.V
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/maintenance-et-service-apres-vente">
+                      Travaux divers
                       </Link>
                     </li>
                   </ul>

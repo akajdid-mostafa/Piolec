@@ -45,7 +45,7 @@ const Footer1 = () => {
         <div className="footer-widgets-wrapper">
           <div className="row">
             <div
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+              className="col-xl-4 col-lg-3 col-md-6 wow fadeInUp"
               data-wow-delay=".2s"
             >
               <div className="single-footer-widget">
@@ -60,9 +60,10 @@ const Footer1 = () => {
                 <div className="footer-content">
                   <p>
                     <br></br>
-                    PIOLEC, entreprise Marocaine opérant dans les domaines
-                    D&apos;électricité & Informatique, et automatisme et des systèmes
-                    de sécurités, ayant comme vocation
+                    PIOLEC, entreprise marocaine opérant dans les domaines de
+                    l&apos;électricité CFA/CFO, a pour vocation de fournir des
+                    solutions innovantes et efficaces pour répondre aux besoins
+                    de ses clients.
                   </p>
                   <div className="social-icon d-flex align-items-center">
                     <a href="#">
@@ -82,36 +83,36 @@ const Footer1 = () => {
               </div>
             </div>
             <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
+              className="col-xl-4 col-lg-3 col-md-6 ps-lg-5 wow fadeInUp"
               data-wow-delay=".4s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h4>Quick Link</h4>
+                  <h4>Nos pages</h4>
                 </div>
                 <ul className="list-items">
                   <li>
-                    <Link href="service-details">Popular Services</Link>
+                    <Link href="/service">Popular Services</Link>
                   </li>
                   <li>
-                    <Link href="team-details">Team Member</Link>
+                    <Link href="/project">Projets</Link>
                   </li>
                   <li>
-                    <Link href="contact">Privacy &amp; Setting</Link>
+                    <Link href="/about">À propos de nous</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing Package</Link>
+                    <Link href="/contact">Contactez-nous</Link>
                   </li>
                 </ul>
               </div>
             </div>
             <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-1 wow fadeInUp"
+              className="col-xl-4 col-lg-3 col-md-6 ps-lg-1 wow fadeInUp"
               data-wow-delay=".6s"
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h4>Prendre contact</h4>
+                  <h4>Nos Contact</h4>
                 </div>
                 <div className="contact-info-area">
                   <div className="contact-items">
@@ -120,17 +121,31 @@ const Footer1 = () => {
                     </div>
                     <div className="content">
                       <p>
-                      61 AV. Lalla yacout, N°39, 1er étage centre riad, casablanca
+                        <spam>Siège</spam> :61 AV. Lalla yacout, N°39, 1er étage centre riad,
+                        casablanca
+                      </p>
+                      <p>
+                        <spam>succursale</spam> :Agadir
                       </p>
                     </div>
                   </div>
+                  {/* <div className="contact-items">
+                    <div className="icon">
+                      <i className="fas fa-map-marker-alt" />
+                    </div>
+                    <div className="content">
+                      <p>
+                        <spam>succursale :</spam> Agadir
+                      </p>
+                    </div>
+                  </div> */}
                   <div className="contact-items">
                     <div className="icon">
                       <i className="fas fa-envelope" />
                     </div>
                     <div className="content">
                       <a href="mailto:piolec21@outlook.com" className="link">
-                      piolec21@outlook.com
+                        piolec21@outlook.com
                       </a>
                     </div>
                   </div>
@@ -140,14 +155,26 @@ const Footer1 = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <a href="tel:0662241871">0662241871 / 0666491605</a>
+                        <a href="tel:0662241871">0662241871</a>
+                      </h4>
+                    </div>
+                    
+                  </div>
+                  <div className="contact-items">
+                    
+                    <div className="icon">
+                      <i className="fas fa-phone-alt" />
+                    </div>
+                    <div className="content">
+                      <h4>
+                        <a href="tel:0666491605">0666491605</a>
                       </h4>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay=".8s"
             >
@@ -194,10 +221,10 @@ const Footer1 = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="footer-bottom">
+        {/* <div className="footer-bottom">
           <div className="container">
             <div className="footer-wrapper d-flex align-items-center justify-content-between">
               <ul className="footer-menu wow fadeInUp" data-wow-delay=".2s">
@@ -224,7 +251,7 @@ const Footer1 = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

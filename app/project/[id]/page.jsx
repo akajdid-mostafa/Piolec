@@ -73,18 +73,20 @@ const ProjectDetailPage = () => {
                     <li>
                       <span>{project.details.information.client}</span>
                     </li>
+                    <li>Lieu :</li>
+                    <li>
+                      <span>{project.details.information.location}</span>
+                    </li>
+                    <li>Année :</li>
+                    <li>
+                      <span>{project.details.information.date}</span>
+                    </li>
                     <li>Industrie :</li>
                     <li>
                       <span>{project.details.information.category}</span>
                     </li>
-                    <li>Date :</li>
-                    <li>
-                      <span>{project.details.information.date}</span>
-                    </li>
-                    <li>Location :</li>
-                    <li>
-                      <span>{project.details.information.location}</span>
-                    </li>
+                    
+                    
                     {/* <li>
                       Duration <span>{project.details.information.duration}</span>
                     </li> */}

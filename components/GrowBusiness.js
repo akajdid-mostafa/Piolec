@@ -31,19 +31,19 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                     Grandir avec PIOLEC
                   </span>
                   <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    Des solutions innovantes pour la croissance de votre
-                    entreprise
+                    Des solutions innovantes pour optimiser vos installations et
+                    améliorer vos services
                   </h2>
                 </div>
                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                  Chez PIOLEC, nous fournissons des solutions de pointe en
-                  matière d'électricité, d'informatique, d'automatisation et de
-                  systèmes de sécurité pour aider votre entreprise à prospérer.
-                  Notre expertise garantit des opérations efficaces, une
-                  sécurité renforcée et une croissance durable pour votre
-                  organisation.
+                  Chez PIOLEC, nous offrons des solutions de pointe en
+                  électricité, informatique, automatisme et systèmes de
+                  sécurité, conçues pour améliorer vos installations et garantir
+                  le succès de vos projets. Notre expertise assure des
+                  opérations efficaces, une sécurité renforcée et une croissance
+                  durable pour votre organisation.
                 </p>
-                <div className="grow-counting-area">
+                {/* <div className="grow-counting-area">
                   <div
                     className="grow-counting-items wow fadeInUp"
                     data-wow-delay=".3s"
@@ -80,7 +80,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                     </h2>
                     <p>Taux de réussite des projets</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
