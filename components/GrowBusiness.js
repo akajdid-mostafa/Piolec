@@ -14,7 +14,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                 className="grow-business-image wow fadeInUp"
                 data-wow-delay=".3s"
               >
-                <img src="assets/img/grow/02.jpg" alt="img" />
+                <img src="assets/img/grow/02.png" alt="img" />
                 <div
                   className="grap-shape float-bob-x wow fadeInLeft"
                   data-wow-delay=".5s"
