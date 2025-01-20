@@ -4463,8 +4463,8 @@ input.main-search-input::placeholder {
   position: relative;
 }
 .about-wrapper .about-image-items-4 .about-thumbs img {
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 95%;
   border-radius: 10px;
 }
 .about-wrapper .about-image-items-4 .experience-items {
