@@ -11,7 +11,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
           <div className="row g-4 justify-content-between">
             <div className="col-lg-5">
               <div
-                className="grow-business-image wow fadeInUp"
+                className="grow-business-image  wow fadeInUp"
                 data-wow-delay=".3s"
               >
                 <img src="assets/img/grow/02.png" alt="img" />
@@ -35,7 +35,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                     améliorer vos services
                   </h2>
                 </div>
-                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                <p className="mt-3 mb-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                   Chez PIOLEC, nous offrons des solutions de pointe en
                   électricité, informatique, automatisme et systèmes de
                   sécurité, conçues pour améliorer vos installations et garantir
@@ -43,8 +43,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                   opérations efficaces, une sécurité renforcée et une croissance
                   durable pour votre organisation.
                 </p>
-                <br></br>
-                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                <p className="mt-3  wow fadeInUp" data-wow-delay=".5s">
                   Nous proposons une large gamme de services, incluant
                   l'installation, la maintenance, la réparation et la mise à
                   niveau de vos systèmes. De plus, nous nous engageons à fournir
