@@ -43,6 +43,14 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                   opérations efficaces, une sécurité renforcée et une croissance
                   durable pour votre organisation.
                 </p>
+                <br></br>
+                <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                  Nous proposons une large gamme de services, incluant
+                  l'installation, la maintenance, la réparation et la mise à
+                  niveau de vos systèmes. De plus, nous nous engageons à fournir
+                  un support technique continu et réactif pour répondre à toutes
+                  vos questions et besoins.
+                </p>
                 {/* <div className="grow-counting-area">
                   <div
                     className="grow-counting-items wow fadeInUp"

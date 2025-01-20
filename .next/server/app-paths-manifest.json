@@ -1,1 +1,5 @@
-{}
+{
+  "/service/page": "app/service/page.js",
+  "/manifest.json/route": "app/manifest.json/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
