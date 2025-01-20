@@ -12,8 +12,11 @@ const electricite_automatisme = {
   id: "electricite_automatisme",
   title: "Electricité & Automatisme",
   description:
-    "Nous excellons dans la conception, l’installation et la maintenance de systèmes électriques et d’automatisation, répondant aux besoins industriels, commerciaux et résidentiels. Nos services couvrent l’étude, le dimensionnement et la mise en service de vos installations, la préparation d’armoires électriques, l’automatisation des processus industriels, ainsi que la mise en œuvre de solutions de variation de vitesse et de démarrage spécifique. Nous nous engageons à respecter les normes en vigueur et à fournir des installations sûres et performantes, que ce soit pour des courants forts ou faibles. Besoin d’une alimentation de secours avec des groupes électrogènes ou des onduleurs ? Ou d’une solution sur mesure pour vos équipements électriques ? PIOLEC est votre partenaire de confiance pour des projets électriques aboutis.",
-  images: [
+    "Nous excellons dans la conception, l’installation et la maintenance de systèmes électriques et d’automatisation, répondant aux besoins industriels, commerciaux et résidentiels. Nos services couvrent l’étude, le dimensionnement et la mise en service de vos installations, la préparation d’armoires électriques, l’automatisation des processus industriels, ainsi que la mise en œuvre de solutions de variation de vitesse et de démarrage spécifique.",
+  
+    description2:
+    "Nous nous engageons à respecter les normes en vigueur et à fournir des installations sûres et performantes, que ce soit pour des courants forts ou faibles. Besoin d’une alimentation de secours avec des groupes électrogènes ou des onduleurs ? Ou d’une solution sur mesure pour vos équipements électriques ? PIOLEC est votre partenaire de confiance pour des projets électriques aboutis.",
+    images: [
     {
       src: "/assets/img/about/0101.png",
       alt: "Image 1",
@@ -43,8 +46,11 @@ const contrôle_dacces_surveillance = {
   id: "contrôle_dacces_surveillance",
   title: "Contrôle d'accès & Surveillance ",
   description:
-    "La sécurité de vos bâtiments et sites est une priorité pour PIOLEC. Nous proposons des systèmes de contrôle d’accès modernes et performants, incluant des lecteurs biométriques, des badges et des claviers à code, pour gérer les accès physiques de manière sécurisée. En complément, nous installons également des systèmes de vidéosurveillance avec des caméras IP et analogiques, offrant une surveillance continue et en temps réel de vos espaces. Nos solutions de gestion centralisée vous permettent de superviser et de contrôler les accès de vos installations de manière intuitive et efficace. Avec PIOLEC, vous pouvez protéger vos biens et vos personnes en toute confiance.",
-  images: [
+    "La sécurité de vos bâtiments et sites est une priorité pour PIOLEC. Nous proposons des systèmes de contrôle d’accès modernes et performants, incluant des lecteurs biométriques, des badges et des claviers à code, pour gérer les accès physiques de manière sécurisée.",
+  
+    description2:
+    "En complément, nous installons également des systèmes de vidéosurveillance avec des caméras IP et analogiques, offrant une surveillance continue et en temps réel de vos espaces. Nos solutions de gestion centralisée vous permettent de superviser et de contrôler les accès de vos installations de manière intuitive et efficace. Avec PIOLEC, vous pouvez protéger vos biens et vos personnes en toute confiance.",
+    images: [
     {
       src: "/assets/img/about/0101.png",
       alt: "Image 1",
@@ -107,7 +113,10 @@ const precablage_informatique = {
   id: "precablage_informatique",
   title: "Precablage informatique ",
   description:
-    "Dans un monde de plus en plus connecté, une infrastructure réseau fiable est indispensable. Chez PIOLEC, nous proposons des services de pré-câblage informatique pour assurer une connectivité optimale et sécurisée. Nous installons des câbles RJ45 et fibre optique avec leurs accessoires de raccordement, des panneaux de brassage, des switches et des chemins de câbles pour créer des réseaux performants et évolutifs. Nos équipes prennent en charge l’installation et la configuration de vos équipements réseau, garantissant une infrastructure robuste et prête à répondre à vos besoins actuels et futurs. Avec PIOLEC, vous bénéficiez d’une connectivité fluide et sécurisée pour tous vos projets informatiques.",
+    "Dans un monde de plus en plus connecté, une infrastructure réseau fiable est indispensable. Chez PIOLEC, nous proposons des services de pré-câblage informatique pour assurer une connectivité optimale et sécurisée. Nous installons des câbles RJ45 et fibre optique avec leurs accessoires de raccordement, des panneaux de brassage, des switches et des chemins de câbles pour créer des réseaux performants et évolutifs. ",
+    
+    description2:
+    "Nos équipes prennent en charge l’installation et la configuration de vos équipements réseau, garantissant une infrastructure robuste et prête à répondre à vos besoins actuels et futurs. Avec PIOLEC, vous bénéficiez d’une connectivité fluide et sécurisée pour tous vos projets informatiques.",
     images: [
     {
       src: "/assets/img/about/0101.png",
@@ -138,8 +147,9 @@ const energies_renouvelables = {
   id: "energies_renouvelables_travaux_divers",
   title: "Energies renouvelables ",
   description:
-    "Nous vous accompagnons dans la transition vers des énergies plus propres et durables. Nous proposons des solutions innovantes en énergies renouvelables pour le pompage ou l’injection, par l’installation de panneaux solaires photovoltaïques produisant de l’électricité à partir de l’énergie solaire. Nos experts vous conseillent et vous guident dans le choix des solutions les plus adaptées à vos besoins et à votre budget, vous permettant de réduire votre consommation d’énergie et votre empreinte carbone tout en réalisant des économies significatives. Avec PIOLEC, vous faites un pas vers un avenir plus durable.",
-  images: [
+    "Nous vous accompagnons dans la transition vers des énergies plus propres et durables. Nous proposons des solutions innovantes en énergies renouvelables pour le pompage ou l’injection, par l’installation de panneaux solaires photovoltaïques produisant de l’électricité à partir de l’énergie solaire. ",
+  description2:"Nos experts vous conseillent et vous guident dans le choix des solutions les plus adaptées à vos besoins et à votre budget, vous permettant de réduire votre consommation d’énergie et votre empreinte carbone tout en réalisant des économies significatives. Avec PIOLEC, vous faites un pas vers un avenir plus durable.",
+    images: [
     {
       src: "/assets/img/about/0101.png",
       alt: "Image 1",
