@@ -202,7 +202,7 @@ const travaux_divers = {
   id: "travaux-divers",
   title: "Travaux divers",
   description:
-    "PIOLEC réalise des travaux variés et sur mesure, adaptés aux spécificités de chaque projet. Que ce soit pour des rénovations électriques, des extensions de réseaux, ou des projets techniques complexes, nous nous engageons à respecter les délais, les budgets et les normes de qualité les plus strictes. Notre flexibilité et notre expertise nous permettent de répondre à tous vos besoins, même les plus exigeants. Avec PIOLEC, vous avez un partenaire fiable pour tous vos travaux, quels que soient leur taille et leur complexité.",
+    "En complément de nos services principaux, nous proposons également des travaux divers intégrés dans les projets d’électricité, tels que les travaux de génie civil, la menuiserie métallique, la peinture, et bien plus encore. Nos équipes sont capables de s'adapter et de suivre ces travaux divers pour garantir une exécution harmonieuse et cohérente.",
   images: [
     {
       src: "/assets/img/about/0101.png",
