@@ -26,8 +26,8 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
             <div className="col-lg-6">
               <div className="grow-business-content">
                 <div className="section-title">
-                  <span className="sub-contentt wow fadeInUp">
-                  <img src="assets/img/ser.png" alt="img" />
+                  <span className="sub-content wow fadeInUp">
+                  <img src="assets/img/bale.png" alt="img" />
                     Grandir avec PIOLEC
                   </span>
                   <h2 className="wow fadeInUp" data-wow-delay=".3s">

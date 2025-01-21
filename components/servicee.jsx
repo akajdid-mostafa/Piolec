@@ -30,7 +30,7 @@ const Servicee = ({
                 <div className="about-content ms-0">
                   <div className="section-title">
                   <span className="sub-contentt wow fadeInUp">
-                    <img src="assets/img/ser.png" alt="img" />
+                    <img src="assets/img/serv.png" alt="img" />
                     {title}
                   </span>
                     {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -146,7 +146,7 @@ const Servicee = ({
                 <div className="about-content ms-0">
                   <div className="section-title">
                   <span className="sub-contentt wow fadeInUp">
-                    <img src="assets/img/ser.png" alt="img" />
+                    <img src="assets/img/serv.png" alt="img" />
                     {title}
                   </span>
                     {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
