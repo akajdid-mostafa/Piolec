@@ -274,230 +274,80 @@ const Menu = ({ single, menu }) => {
   );
 };
 
-const MobileMenu = ({ single, menu }) => {
+const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
-  const [multiMenu, setMultiMenu] = useState("");
   const activeMenuSet = (value) =>
       setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
-  const multiMenuSet = (value) =>
-      setMultiMenu(multiMenu === value ? "" : value),
-    multiMenuActiveLi = (value) =>
-      value === multiMenu ? { display: "block" } : { display: "none" };
-  const singleMenu = menu
-    ? menu
-    : [
-        { id: 1, href: "/about", title: "A propos" },
-        { id: 2, href: "/services", title: "Services" },
-        { id: 3, href: "/team", title: "L'équipe" },
-        { id: 4, href: "/blog", title: "Blog" },
-      ];
+
   return (
     <div className="mobile-menu fix mb-3 mean-container d-block d-xl-none">
       <div className="mean-bar">
-        <a href="#nav" className="meanmenu-reveal">
-          <span>
-            <span>
-              <span />
-            </span>
-          </span>
-        </a>
         <nav className="mean-nav">
           <ul>
             <li className="has-dropdown active d-xl-none">
-              <a
-                href="#"
-                className="border-none"
-                onClick={() => activeMenuSet("home")}
-              >
+              <Link href="/" className="border-none">
                 Accueil
-                {/* <i className="fas fa-angle-down" /> */}
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">A propos</Link>
+            </li>
+            <li>
+              <a href="/service" onClick={() => activeMenuSet("Services")}>
+                <span>Services</span>
+                <i className="fas fa-angle-down" />
               </a>
-              {/* <ul className="submenu" style={activeLi("home")}>
+              <ul className="mean-navv" style={activeLi("Services")}>
                 <li>
-                  <Link href="/">Home 01</Link>
+                  <Link href="/service#electricite_automatisme">
+                    Electricité & Automatisme
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/index-2">Home 02</Link>
+                  <Link href="/service#contrôle_dacces_surveillance">
+                    Contrôle d'accès & Surveillance
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/index-3">Home 03</Link>
+                  <Link href="/service#detection_incendie_intrusion">
+                    Détection incendie & intrusion
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/index-4">Home 04</Link>
+                  <Link href="/service#precablage_informatique">
+                    Precablage informatique
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/index-5">Home 05</Link>
+                  <Link href="/service#energies_renouvelables_travaux_divers">
+                    Energies renouvelables
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/index-6">Home 06</Link>
+                  <Link href="/service#maintenance_sav">
+                    Maintenance & S.A.V
+                  </Link>
                 </li>
-              </ul> */}
-              {/* <a
+                <li>
+                  <Link href="/service#travaux-divers">Travaux divers</Link>
+                </li>
+              </ul>
+              <a
                 className="mean-expand"
                 href="#"
-                onClick={() => activeMenuSet("home")}
+                onClick={() => activeMenuSet("Services")}
               >
-                 <i className="far fa-plus" /> 
-              </a> */}
+                <i className="far fa-plus" />
+              </a>
             </li>
-            {single ? (
-              <Fragment>
-                {singleMenu.map((menu) => (
-                  <li key={menu.id}>
-                    <a href={`#${menu.href}`}>{menu.title}</a>
-                  </li>
-                ))}
-              </Fragment>
-            ) : (
-              <Fragment>
-                <li>
-                  <Link href="/about">A propos</Link>
-                </li>
-                <li>
-                  <a href="#" onClick={() => activeMenuSet("Services")}>
-                    Services
-                    <i className="fas fa-angle-down" />
-                  </a>
-                  <ul className="submenu" style={activeLi("Services")}>
-                    <li>
-                      <Link href="/service#electricite_automatisme">
-                        Electricité & Automatisme
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service#contrôle_dacces_surveillance">
-                        Contrôle d'accès & Surveillance
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service#detection_incendie_intrusion">
-                        Détection incendie & intrusion
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service#precablage_informatique">
-                        Precablage informatique
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service#energies_renouvelables_travaux_divers">
-                        Energies renouvelables
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service#maintenance_sav">
-                        Maintenance & S.A.V
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service#travaux-divers">Travaux divers</Link>
-                    </li>
-                  </ul>
-                  <a
-                    className="mean-expand"
-                    href="#"
-                    onClick={() => activeMenuSet("Services")}
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </li>
-                <li>
-                  <Link href="/project">Projets</Link>
-                </li>
-                {/* <li className="has-dropdown">
-                  <a href="#" onClick={() => activeMenuSet("Pages")}>
-                  Projects
-                    <i className="fas fa-angle-down" />
-                  </a>
-                  <ul className="submenu" style={activeLi("Pages")}>
-                    <li className="has-dropdown">
-                      <a href="#" onClick={() => multiMenuSet("Projects")}>
-                        Projects
-                        <i className="fas fa-angle-down" />
-                      </a>
-                      <ul
-                        className="submenu"
-                        style={multiMenuActiveLi("Projects")}
-                      >
-                        <li>
-                          <Link href="/project">Projects</Link>
-                        </li>
-                        <li>
-                          <Link href="/project-details">Project Details</Link>
-                        </li>
-                      </ul>
-                      <a
-                        className="mean-expand"
-                        href="#"
-                        onClick={() => multiMenuSet("Projects")}
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </li>
-                    <li className="has-dropdown">
-                      <a href="#" onClick={() => multiMenuSet("Team")}>
-                        Team
-                        <i className="fas fa-angle-down" />
-                      </a>
-                      <ul className="submenu" style={multiMenuActiveLi("Team")}>
-                        <li>
-                          <Link href="/team">Team</Link>
-                        </li>
-                        <li>
-                          <Link href="/team-details">Team Details</Link>
-                        </li>
-                      </ul>
-                      <a
-                        className="mean-expand"
-                        href="#"
-                        onClick={() => multiMenuSet("Team")}
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </li>
-                    <li>
-                      <Link href="/pricing">Pricing Table</Link>
-                    </li>
-                    <li>
-                      <Link href="/404">404 Page</Link>
-                    </li>
-                  </ul>
-                  <a
-                    className="mean-expand"
-                    href="#"
-                    onClick={() => activeMenuSet("Pages")}
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </li> */}
-                {/* <li>
-                  <a href="#" onClick={() => activeMenuSet("Blog")}>
-                    Blog
-                    <i className="fas fa-angle-down" />
-                  </a>
-                  <ul className="submenu" style={activeLi("Blog")}>
-                    <li>
-                      <Link href="/news">Blog </Link>
-                    </li>
-                    <li>
-                      <Link href="/news-details">Détails du blog</Link>
-                    </li>
-                  </ul>
-                  <a
-                    className="mean-expand"
-                    href="#"
-                    onClick={() => activeMenuSet("Blog")}
-                  >
-                    <i className="far fa-plus" />
-                  </a>
-                </li> */}
-                <li className="mean-last">
-                  <Link href="/contact">Contact</Link>
-                </li>
-              </Fragment>
-            )}
+            <li>
+              <Link href="/project">Projets</Link>
+            </li>
+            <li className="mean-last">
+              <Link href="/contact">Contact</Link>
+            </li>
           </ul>
         </nav>
       </div>
@@ -525,7 +375,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                 </div>
               </div>
               <div className="mobile-menu fix mb-3">
-                <MobileMenu single={single} menu={menu} />
+                <MobileMenu />
               </div>
               <p className="text d-none d-xl-block mb-5">
                 PIOLEC, entreprise Marocaine opérant dans les domaines
@@ -533,7 +383,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                 systèmes de sécurités, ayant comme vocation, réalisation des
                 prestations :
               </p>
-              <div className="offcanvas__contact">
+              <div className="offcanvas__contact d-none d-xl-block ">
                 <h4>Contact Info</h4>
                 <ul>
                   <li className="d-flex align-items-center">
@@ -576,6 +426,8 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                     </div>
                   </li>
                 </ul>
+              </div>
+              <div className="offcanvas__contact  ">
                 <div className="header-button mt-4">
                   <Link
                     href="/contact"
@@ -584,7 +436,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                     Nous contacter
                   </Link>
                 </div>
-                <div className="social-icon d-flex align-items-center">
+                <div className="social-icon d-flex align-items-center padding-soc">
                   <a href="#">
                     <i className="fab fa-facebook-f" />
                   </a>
