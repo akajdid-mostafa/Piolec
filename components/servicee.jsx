@@ -29,9 +29,13 @@ const Servicee = ({
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <div className="section-title">
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      {title}
-                    </h2>
+                  <span className="sub-contentt wow fadeInUp">
+                    <img src="assets/img/ser.png" alt="img" />
+                    {title}
+                  </span>
+                    {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                      
+                    </h2> */}
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                     {description}
@@ -141,9 +145,13 @@ const Servicee = ({
               <div className="col-lg-6">
                 <div className="about-content ms-0">
                   <div className="section-title">
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                  <span className="sub-contentt wow fadeInUp">
+                    <img src="assets/img/ser.png" alt="img" />
+                    {title}
+                  </span>
+                    {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
                       {title}
-                    </h2>
+                    </h2> */}
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                     {description}

@@ -5,8 +5,8 @@ const WorkingProcess = ({title1,title2,title3,title4,desc1,desc2,desc3,desc4}) =
     <section className="working-section-2 section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <span className="sub-content wow fadeInUp">
-            {/* <img src="assets/img/bale.png" alt="img" /> */}
+          <span className="sub-contentt wow fadeInUp">
+          <img src="assets/img/ser.png" alt="img" />
             Processus de travail
           </span>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
