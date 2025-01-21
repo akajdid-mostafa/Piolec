@@ -8,7 +8,7 @@ import { projects } from "./data";
 const Page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="Galerie de travail" headingTag="h1" />
+      <Breadcrumb pageName="Galerie de travail" headingTag="h1" backgroundImage = "assets/img/back.png" />
       <section className="project-section fix section-paddingg ">
         <div className="container">
           <div className="section-title text-center">

@@ -38,7 +38,11 @@ const ProjectDetailPage = () => {
 
   return (
     <NextLayout>
-      <Breadcrumb pageName={project.details.overview} headingTag="h1" backgroundImage={project.image} />
+      <Breadcrumb
+        pageName={project.details.overview}
+        headingTag="h1"
+        backgroundImage={project.image}
+      />
       <section className="project-details-section fix section-paddingg">
         <div className="container">
           <div className="project-details-wrapper">
@@ -85,8 +89,7 @@ const ProjectDetailPage = () => {
                     <li>
                       <span>{project.details.information.category}</span>
                     </li>
-                    
-                    
+
                     {/* <li>
                       Duration <span>{project.details.information.duration}</span>
                     </li> */}
@@ -94,27 +97,21 @@ const ProjectDetailPage = () => {
                 </div>
               </div>
               <div className="col-lg-12">
-                {/* Image Grid with Fancybox */}
-                <div className="image-grid">
+                {/* Image List with Fancybox */}
+                <div className="image-list">
                   {project.details.images.map((image, index) => (
-                    <div key={index} className="grid-item">
+                    <div key={index} className="project-details-image">
                       <a href={image} data-fancybox="gallery">
-                        <div
-                          className="project-details-image"
+                        <Image
+                          src={image}
+                          alt={`Project Image ${index + 1}`}
+                          width={500} // Fixed width for all images
+                          height={300} // Fixed height for all images (adjust as needed)
                           style={{
-                            width: "100%", // Full width of the container
-                            height: "300px", // Fixed height for all images
-                            position: "relative", // Required for Next.js Image component
-                            overflow: "hidden", // Ensure images don't overflow
+                            objectFit: "cover", // Ensures images cover the container
+                            borderRadius: "12px", // Optional: rounded corners
                           }}
-                        >
-                          <Image
-                            src={image}
-                            alt={`Project Image ${index + 1}`}
-                            fill // Fill the container
-                            style={{ objectFit: "cover" }} // Ensure the image covers the container
-                          />
-                        </div>
+                        />
                       </a>
                     </div>
                   ))}
@@ -125,10 +122,10 @@ const ProjectDetailPage = () => {
         </div>
       </section>
       <Cta
-       sectionPadding={true}
-       h2="Prêt à optimiser vos installations électriques ?"
-       p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
-        />
+        sectionPadding={true}
+        h2="Prêt à optimiser vos installations électriques ?"
+        p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
+      />
     </NextLayout>
   );
 };

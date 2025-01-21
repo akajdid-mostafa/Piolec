@@ -9683,11 +9683,7 @@ p.sticky-label {
 .project-details-wrapper {
   margin-bottom: -8px;
 }
-.project-details-wrapper .project-details-image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-}
+
 .project-details-wrapper .project-details-content {
   margin-top: 20px;
 }
@@ -10385,35 +10381,52 @@ p.sticky-label {
 
 
 
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 16px;
-  margin-top: 20px;
-}
 
-.grid-item {
+
+/* Existing CSS */
+.project-details-wrapper .project-details-image img {
   width: 100%;
-  overflow: hidden; /* Ensure the image doesn't overflow the container */
-  border-radius: 8px; /* Optional: Add rounded corners */
+  border-radius: 12px;
+  height: auto; /* Allow images to maintain their aspect ratio */
+  /* display: block; Remove extra space below images */
 }
 
 .project-details-image {
   width: 100%;
-  height: 300px;
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+  margin-bottom: 26px; /* Space between images */
 }
 
 .project-details-image:hover {
-  transform: scale(1.1); /* Zoom in effect on hover */
-}
-
-
-.project-details-image:hover {
-  transform: scale(1.1);
+  transform: scale(1.05); /* Slight zoom in effect on hover */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* New CSS for the image list with column-count */
+.image-list {
+  column-count: 4; /* Default to 3 columns */
+  column-gap: 26px; /* Space between columns */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1424px) {
+  .image-list {
+    column-count: 3; /* 2 columns for tablets */
+  }
+}
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .image-list {
+    column-count: 2; /* 2 columns for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .image-list {
+    column-count: 1; /* 1 column for mobile */
+  }
 }
 
 

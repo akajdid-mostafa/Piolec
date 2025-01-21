@@ -1,8 +1,8 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FunFactCounter from "@/components/FunFactCounter";
-import {Team2} from "@/components/Team";
+import { Team2 } from "@/components/Team";
 import { TestimonialSlider2 } from "@/components/TestimonialSlider";
-import  WorkingProcess2  from "@/components/WorkingProcess";
+import WorkingProcess2 from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Cta from "@/components/Cta";
 import Link from "next/link";
@@ -94,45 +94,63 @@ const page = () => {
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                     <div className="dot" />
                     <div className="content">
-                      <h6>Électricité Industrielle et Automatisme</h6>
+                      <h6>Electricité & Automatisme</h6>
                       <p>
-                        Conception et réalisation d'armoires électriques,
-                        câblage de machines, solutions en énergies
-                        renouvelables, alimentation de secours (groupes
-                        électrogènes, onduleurs, etc.).
+                        Conception et maintenance de systèmes électriques et
+                        d&apos;automatisation. Solutions sûres et conformes aux
+                        normes.
                       </p>
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                     <div className="dot" />
                     <div className="content">
-                      <h6>Contrôle d'Accès et Systèmes d'Évacuation</h6>
+                      <h6>Contrôle d'accès & Surveillance</h6>
                       <p>
-                        Installation et configuration de systèmes de contrôle
-                        d'accès (badges, digicodes, lecteurs biométriques) et de
-                        gestion centralisée des issues de secours (UGIS).
+                        Contrôle d&apos;accès (badges, biométrie) et
+                        vidéosurveillance. Sécurité optimale avec gestion
+                        centralisée.
                       </p>
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                     <div className="dot" />
                     <div className="content">
-                      <h6>Systèmes de Sécurité Incendie et Intrusion</h6>
+                      <h6>Détection incendie & intrusion</h6>
                       <p>
-                        Installation de systèmes de détection d'incendie,
-                        centrales d'alarme, et logiciels de supervision.
+                        Systèmes de détection d&apos;incendie et
+                        d&apos;intrusion. Alertes rapides et gestion
+                        centralisée.
                       </p>
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                     <div className="dot" />
                     <div className="content">
-                      <h6>Réseaux Informatiques et Vidéosurveillance </h6>
+                      <h6>Precablage informatique </h6>
                       <p>
-                        Câblage informatique, installation de caméras de
-                        surveillance (IP et analogique), et mise en place
-                        d'infrastructures réseau (armoires de brassage, switchs,
-                        routeurs).
+                        Installation de câbles RJ45 et fibre optique.
+                        Infrastructure réseau fiable et évolutive.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                    <div className="dot" />
+                    <div className="content">
+                      <h6>Energies renouvelables</h6>
+                      <p>
+                        Solutions solaires photovoltaïques. Énergie propre et
+                        économies durables.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                    <div className="dot" />
+                    <div className="content">
+                      <h6>Maintenance & S.A.V</h6>
+                      <p>
+                        Maintenance préventive et corrective. Support technique
+                        réactif 24h/24.
                       </p>
                     </div>
                   </div>
@@ -151,8 +169,7 @@ const page = () => {
         </div>
       </section>
       {/* Team Section Start */}
-      
-      
+
       {/* <section className="funfact-section-2 section-padding pt-0">
         <div className="container">
          
@@ -240,10 +257,10 @@ const page = () => {
       </section> */}
       {/* Footer Section Start */}
       <Cta
-       sectionPadding={true}
-       h2="Prêt à optimiser vos installations électriques ?"
-       p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
-        />
+        sectionPadding={true}
+        h2="Prêt à optimiser vos installations électriques ?"
+        p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
+      />
     </NextLayout>
   );
 };
