@@ -345,9 +345,9 @@ const MobileMenu = () => {
             <li>
               <Link href="/project">Projets</Link>
             </li>
-            <li className="mean-last">
+            {/* <li className="mean-last">
               <Link href="/contact">Contact</Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
