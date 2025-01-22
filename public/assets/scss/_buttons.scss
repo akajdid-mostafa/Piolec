@@ -82,7 +82,7 @@
         background: $theme-color-2;
 
         &::before,&::after {
-            background: $header-color;
+            background: $white;
         }
 
         &:hover {
@@ -127,6 +127,7 @@
 
     &:hover {
         color: $theme-color;
+        background-color: $white;
     }
 }
 
@@ -162,6 +163,7 @@
     &:hover {
         transform: translateX(95px);
         color: $theme-color;
+        background-color: $white;
 
         i {
             transform: rotate(0);

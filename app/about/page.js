@@ -28,41 +28,47 @@ const page = () => {
                     </h2>
                   </div> */}
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Bienvenue sur le site web de **PIOLEC**, votre partenaire
-                    privilégié en électricité, informatique, automatisme et
-                    systèmes de sécurité. Depuis notre création, nous nous
-                    engageons à fournir des solutions innovantes et sur mesure
-                    pour répondre aux besoins de nos clients à travers le Maroc.
+                    Bienvenue sur le site web de PIOLEC, votre partenaire
+                    privilégié en électricité, automatisme, précâblage
+                    informatique et systèmes de sécurité. Depuis notre création,
+                    nous nous engageons à fournir des solutions innovantes et
+                    sur mesure pour répondre aux besoins de nos clients à
+                    travers le Maroc.
                   </p>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
                     <div className="dot" />
                     <div className="content">
-                      <h4>Qui sommes-nous ?</h4>
+                      <h4>Qui sommes-nous ? </h4>
                       <p>
-                        PIOLEC est une entreprise marocaine spécialisée dans les
-                        domaines de l'électricité industrielle, de
-                        l'automatisme, de l'informatique et des systèmes de
-                        sécurité. Forte de son expertise et de son
-                        professionnalisme, PIOLEC a su gagner la confiance d'un
-                        large éventail de clients et de partenaires, tant dans
-                        le secteur public que privé.
+                        PIOLEC sarl est une entreprise marocaine crée en 2021
+                        grâce aux deux jeunes passionnés par le domaine de
+                        l&apos;électricité.
                       </p>
-                      <p>
+                      <p className="mt-2">
+                        PIOLEC active dans le domaine de l'électricité
+                        industrielle, de l'automatisme, du pré-câblage
+                        informatique et les systèmes de sécurité. Forte de son
+                        professionnalisme et de son engagement, Notre entreprise
+                        a su gagner la confiance d'un large éventail de clients
+                        et de partenaires, tant dans le secteur public que
+                        privé.
+                      </p>
+                      <p className="mt-2">
                         Notre mission est de proposer des solutions techniques
-                        performantes et adaptées, tout en respectant les normes
-                        en vigueur et en garantissant une qualité de service
-                        optimale. Que ce soit pour des installations
-                        électriques, des systèmes de sécurité, des réseaux
-                        informatiques ou des solutions d'automatisme, PIOLEC met
-                        à votre disposition son savoir-faire et son expérience
-                        pour accompagner vos projets de A à Z.
+                        performantes et adaptées à vos besoins et budgets, tout
+                        en respectant les normes en vigueur et en garantissant
+                        une qualité de service optimale.
+                      </p>
+                      <p className="mt-2">
+                        PIOLEC met à votre disposition son savoir-faire et son
+                        expérience pour accompagner vos projets de A à Z.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-                <div className="about-image-3">
+                <div className="about-image-4">
                   <img src="assets/img/about/05.jpg" alt="img" />
                 </div>
               </div>
@@ -75,12 +81,12 @@ const page = () => {
         <div className="container">
           <div className="about-wrapper style-2">
             <div className="row g-4 align-items-center">
-              <div className="col-lg-6 wow  fadeInUp" data-wow-delay=".3s">
+              <div className="col-lg-5 wow  fadeInUp" data-wow-delay=".3s">
                 <div className="about-image-3">
                   <img src="assets/img/about/06.jpg" alt="img" />
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-7">
                 <div className="about-content">
                   <h4 className="wow fadeInUp" data-wow-delay=".3s">
                     Nos Domaines d&apos;Expertise
@@ -154,12 +160,22 @@ const page = () => {
                       </p>
                     </div>
                   </div>
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                    <div className="dot" />
+                    <div className="content">
+                      <h6>Travaux divers</h6>
+                      <p>
+                        Travaux complémentaires (génie civil, menuiserie,
+                        peinture). Exécution harmonieuse des projets.
+                      </p>
+                    </div>
+                  </div>
                   <Link
-                    href="/about"
-                    className="theme-btn mt-50 wow fadeInUp"
+                    href="/service"
+                    className="theme-btn mt-30 wow fadeInUp"
                     data-wow-delay=".5s"
                   >
-                    Learn More Us
+                    En savoir plus
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
