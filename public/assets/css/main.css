@@ -6753,12 +6753,12 @@ input.main-search-input::placeholder {
   background: #F9FAFB;
   padding: 25px 30px 0;
   
-  font-size: 20px;
+  font-size: 17px;
   border: none;
 }
 @media (max-width: 575px) {
   .faq-content .accordion-item .accordion-header .accordion-button {
-    font-size: 18px;
+    font-size: 17px;
     padding: 18px 22px 0;
   }
 }
@@ -6802,6 +6802,7 @@ input.main-search-input::placeholder {
   color: var(--text);
   background: #F9FAFB;
   padding-bottom: 25px;
+  font-size: 14px;
 }
 @media (max-width: 1399px) {
   .faq-content .accordion-item .accordion-collapse .accordion-body {
