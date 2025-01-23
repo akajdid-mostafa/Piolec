@@ -1,24 +1,105 @@
+'use client';
+
 import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
-const page = () => {
+import Contact from "@/components/contact";
+import { useState } from "react"; // Import useState for form handling
+
+const Page = () => {
+  // State to manage form data
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    type: "0", // Default value for select
+    entreprise: "",
+    message: "",
+  });
+
+  // State to manage modal visibility
+  const [showModal, setShowModal] = useState(false);
+
+  // Handle input changes
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // Prevent default form submission
+
+    // Prepare the data to match the API's expected format
+    const apiData = {
+      name: formData.name,
+      number: formData.phone, // Map "phone" to "number" as per the API
+      email: formData.email,
+      type: formData.type,
+      entreprise: formData.entreprise,
+      message: formData.message,
+    };
+
+    try {
+      // Send a POST request to the API
+      const response = await fetch("https://email-lemon-pi.vercel.app/api/Piolec", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(apiData),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send message");
+      }
+
+      const result = await response.json();
+      console.log("API Response:", result); // Log the API response
+
+      // Show the modal
+      setShowModal(true);
+
+      // Clear all inputs and reset select to "0"
+      setFormData({
+        name: "",
+        phone: "",
+        email: "",
+        type: "0",
+        entreprise: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Error sending message:", error);
+      alert("Une erreur s'est produite. Veuillez réessayer."); // Show an error message
+    }
+  };
+
+  // Close the modal
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <NextLayout>
-      {/* <Breadcrumb pageName="Contact Us" /> */}
+      <Breadcrumb pageName="À propos de l'entreprise" />
+      <Contact />
       {/* Contact Section Section Start */}
-      <section className="contact-section section-padding">
+      <section className="contact-section section-paddingg">
         <div className="container">
           <div className="contact-wrapper">
             <div className="row g-4">
-              <div className="col-lg-6">
+              <div className="col-lg-4">
                 <div className="contact-content">
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
-                      {/* <img src="assets/img/bale.png" alt="img" /> */}
                       Nous contacter
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    N'hésitez pas à nous contacter <br />
-                    Notre équipe
+                      N'hésitez pas à nous contacter <br />
+                      Notre équipe
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
@@ -40,16 +121,15 @@ const page = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-8">
                 <div
                   className="contact-right wow fadeInUp"
                   data-wow-delay=".4s"
                 >
                   <h2 className="pb-4">Envoyez-nous un message</h2>
                   <form
-                    action="#"
+                    onSubmit={handleSubmit} // Add form submission handler
                     id="contact-form"
-                    method="POST"
                     className="contact-form-items"
                   >
                     <div className="row g-4">
@@ -60,6 +140,13 @@ const page = () => {
                             name="name"
                             id="name"
                             placeholder="Votre Nom"
+                            value={formData.name}
+                            onChange={handleInputChange}
+                            onFocus={(e) => (e.target.placeholder = "")} // Remove placeholder on focus
+                            onBlur={(e) =>
+                              (e.target.placeholder = "Votre Nom")
+                            } // Restore placeholder on blur
+                            required
                           />
                         </div>
                       </div>
@@ -70,32 +157,90 @@ const page = () => {
                             name="phone"
                             id="phone"
                             placeholder="Votre Téléphone"
+                            value={formData.phone}
+                            onChange={handleInputChange}
+                            onFocus={(e) => (e.target.placeholder = "")} // Remove placeholder on focus
+                            onBlur={(e) =>
+                              (e.target.placeholder = "Votre Téléphone")
+                            } // Restore placeholder on blur
+                            required
                           />
                         </div>
                       </div>
-                      <div className="col-lg-12">
+                      <div className="col-lg-6">
                         <div className="form-clt">
                           <input
-                            type="text"
+                            type="email"
                             name="email"
                             id="email2"
                             placeholder="Votre Email"
+                            value={formData.email}
+                            onChange={handleInputChange}
+                            onFocus={(e) => (e.target.placeholder = "")} // Remove placeholder on focus
+                            onBlur={(e) =>
+                              (e.target.placeholder = "Votre Email")
+                            } // Restore placeholder on blur
+                            required
                           />
                         </div>
                       </div>
+                      <div className="col-lg-6">
+                        <div className="form-clt">
+                          <select
+                            name="type"
+                            id="type"
+                            value={formData.type}
+                            onChange={handleInputChange}
+                            required
+                          >
+                            <option value="0" disabled>
+                              Sélectionner le type de personne
+                            </option>
+                            <option value="Particulier">Particulier</option>
+                            <option value="Entreprise">Entreprise</option>
+                            <option value="Autre">Autre</option>
+                          </select>
+                        </div>
+                      </div>
+                      {/* Conditionally render "Nom de Société" input */}
+                      {formData.type === "Entreprise" && (
+                        <div className="col-lg-12">
+                          <div className="form-clt">
+                            <input
+                              type="text"
+                              name="entreprise"
+                              id="entreprise"
+                              placeholder="Nom de Société"
+                              value={formData.entreprise}
+                              onChange={handleInputChange}
+                              onFocus={(e) => (e.target.placeholder = "")} // Remove placeholder on focus
+                              onBlur={(e) =>
+                                (e.target.placeholder = "Nom de Société")
+                              } // Restore placeholder on blur
+                              required
+                            />
+                          </div>
+                        </div>
+                      )}
                       <div className="col-lg-12">
                         <div className="form-clt">
                           <textarea
                             name="message"
                             id="message"
                             placeholder="Message"
-                            defaultValue={""}
+                            value={formData.message}
+                            onChange={handleInputChange}
+                            onFocus={(e) => (e.target.placeholder = "")} // Remove placeholder on focus
+                            onBlur={(e) =>
+                              (e.target.placeholder = "Message")
+                            } // Restore placeholder on blur
+                            required
                           />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <button type="submit" className="theme-btn">
-                        Envoyer un message
+                          Envoyer un message
                         </button>
                       </div>
                     </div>
@@ -106,20 +251,21 @@ const page = () => {
           </div>
         </div>
       </section>
-      {/* Map Section Start */}
-      {/* <div className="map-section">
-        <div className="map-items">
-          <div className="googpemap">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-            />
+
+      {/* Modal to thank the user */}
+      {showModal && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <h2>Merci !</h2>
+            <p>Votre message a été envoyé avec succès.</p>
+            <button onClick={closeModal} className="theme-btn">
+              Fermer
+            </button>
           </div>
         </div>
-      </div> */}
+      )}
     </NextLayout>
   );
 };
-export default page;
+
+export default Page;
