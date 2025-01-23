@@ -92,7 +92,9 @@ const Page = () => {
           <div className="contact-wrapper">
             <div className="row g-4">
               <div className="col-lg-4">
-                <div className="contact-content">
+                <div className="contact-content wow fadeInUp"
+                data-wow-delay=".4s"
+                >
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
                       Nous contacter

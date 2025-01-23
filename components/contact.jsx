@@ -27,7 +27,8 @@ const Contact = () => {
   return (
     <div id="Contact" className="contact-container">
       <div className="contact-inner-container">
-        <div className="contact-content">
+        <div className="contact-content wow fadeInUp"
+        data-wow-delay=".4s">
           <div className="contact-grid">
             <ContactCard
               icon={<FontAwesomeIcon icon={faEnvelopeCircleCheck} className="contact-card-icon" />}
