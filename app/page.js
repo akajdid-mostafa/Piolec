@@ -5,11 +5,13 @@ import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import {Service2} from "@/components/Services";
 import Faq from "@/components/Faq";
+import Hero from "@/components/hero";
 
 const page = () => {
   return (
     <NextLayout>
-      <section
+      <Hero/>
+      {/* <section
         className="hero-section hero-1 bg-cover fix"
         style={{ backgroundImage: 'url("assets/img/hero/01.png")' }}
       >
@@ -37,7 +39,7 @@ const page = () => {
                     Voir les services <i className="far fa-arrow-right" />
                   </Link>
                 </div>
-                {/* <div
+                <div
                   className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
                   data-wow-delay=".8s"
                 >
@@ -46,7 +48,7 @@ const page = () => {
                     Trusted by 1M+ people <br />
                     around the globe
                   </p>
-                </div> */}
+                </div>
               </div>
             </div>
             <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
@@ -101,7 +103,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Service Section Start */}
       {/* <section className="service-section fix pt-80 pb-80 section-bg">
         <div className="container">

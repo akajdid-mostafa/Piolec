@@ -84,7 +84,7 @@ const Page = () => {
 
   return (
     <NextLayout>
-      <Breadcrumb pageName="À propos de l'entreprise" />
+      <Breadcrumb pageName="CONTACTEZ-NOUS" />
       <Contact />
       {/* Contact Section Section Start */}
       <section className="contact-section section-paddingg">
@@ -109,7 +109,7 @@ const Page = () => {
                     accusantium <br />
                     doloremque laudantium, totam rem aperiam
                   </p>
-                  <ul
+                  {/* <ul
                     className="contact-list wow fadeInUp"
                     data-wow-delay=".3s"
                   >
@@ -120,7 +120,7 @@ const Page = () => {
                     <li>
                       <a href="tel:+212662241871">0662241871 / 0666491605</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
               <div className="col-lg-8">
