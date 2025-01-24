@@ -200,7 +200,6 @@ const Page = () => {
                             </option>
                             <option value="Particulier">Particulier</option>
                             <option value="Entreprise">Entreprise</option>
-                            <option value="Autre">Autre</option>
                           </select>
                         </div>
                       </div>

@@ -1,5 +1,7 @@
 {
-  "/page": "app/page.js",
   "/manifest.json/route": "app/manifest.json/route.js",
-  "/icon.png/route": "app/icon.png/route.js"
+  "/page": "app/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/project/page": "app/project/page.js",
+  "/about/page": "app/about/page.js"
 }

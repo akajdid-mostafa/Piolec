@@ -5325,6 +5325,33 @@ select.main-search-input::placeholder {
 }
 
 /* background */
+.bgg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.bgg-cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Noir (black) color with 50% opacity */
+  z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+/* If you have content inside .bg-cover that should be above the overlay */
+.bgg-cover > * {
+  position: relative;
+  z-index: 2; /* Ensure content is above the overlay */
+}
+
+
+
+/* background */
 .bg-cover {
   background-repeat: no-repeat;
   background-size: cover;
@@ -5958,17 +5985,7 @@ select.main-search-input::placeholder {
   font-size: 36px;
   margin-bottom: 5px;
 }
-.contact-form-items .form-clt input, .contact-form-items .form-clt textarea {
-  padding: 18px 30px;
-  border: none;
-  outline: none;
-  background-color: var(--white);
-  width: 100%;
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--text);
-}
-.contact-form-items .form-clt select, .contact-form-items .form-clt textarea {
+.contact-form-items .form-clt input,.contact-form-items .form-clt select, .contact-form-items .form-clt textarea {
   padding: 18px 30px;
   border: none;
   outline: none;
@@ -9294,12 +9311,12 @@ p.sticky-label {
   height: 100%;
   border-radius: 305px;
 }
-.contact-wrapper.style-2 .contact-form-items .form-clt input, .contact-wrapper.style-2 .contact-form-items .form-clt textarea {
+/* .contact-wrapper.style-2 .contact-form-items .form-clt input, .contact-wrapper.style-2 .contact-form-items .form-clt textarea {
   font-weight: 400;
   background-color: #1A1D20;
   border: 1.2px solid rgba(255, 255, 255, 0.1);
-}
-.contact-wrapper.style-2 .contact-form-items .form-clt input::-webkit-input-placeholder, .contact-wrapper.style-2 .contact-form-items .form-clt textarea::-webkit-input-placeholder {
+} */
+/* .contact-wrapper.style-2 .contact-form-items .form-clt input::-webkit-input-placeholder, .contact-wrapper.style-2 .contact-form-items .form-clt textarea::-webkit-input-placeholder {
   color: var(--white);
 }
 .contact-wrapper.style-2 .contact-form-items .form-clt input::-moz-placeholder, .contact-wrapper.style-2 .contact-form-items .form-clt textarea::-moz-placeholder {
@@ -9313,7 +9330,7 @@ p.sticky-label {
 }
 .contact-wrapper.style-2 .contact-form-items .form-clt input::placeholder, .contact-wrapper.style-2 .contact-form-items .form-clt textarea::placeholder {
   color: var(--white);
-}
+} */
 
 .map-items .googpemap iframe {
   width: 100%;
