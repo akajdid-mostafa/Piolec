@@ -491,7 +491,7 @@ const Header1 = ({ single, menu }) => {
                 </div>
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
-                <div className="icon-items">
+                {/* <div className="icon-items">
                   <div className="icon">
                     <i className="fas fa-phone-alt" />
                   </div>
@@ -501,7 +501,7 @@ const Header1 = ({ single, menu }) => {
                       <a href="tel:+00012345688">+2126 62241871</a>
                     </h4>
                   </div>
-                </div>
+                </div> */}
                 <div className="header__hamburger d-xl-block my-auto">
                   <div
                     className="sidebar__toggle"

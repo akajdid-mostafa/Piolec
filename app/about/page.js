@@ -29,7 +29,7 @@ const page = () => {
                   </div> */}
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                     Bienvenue sur le site web de PIOLEC, votre partenaire
-                    privilégié en électricité, automatisme, précâblage
+                    privilégié en électricité, automatisme, pré-câblage
                     informatique et systèmes de sécurité. Depuis notre création,
                     nous nous engageons à fournir des solutions innovantes et
                     sur mesure pour répondre aux besoins de nos clients à
