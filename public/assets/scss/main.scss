@@ -70,3 +70,14 @@ Version: 1.0.0
 
 //>> Template Section Style End <<//
 
+
+.cs_card_1_wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px 0;
+    .cs_card_1_col {
+      flex: none;
+      width: 305px;
+    }
+  }

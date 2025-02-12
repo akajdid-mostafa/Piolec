@@ -12,10 +12,17 @@ const Hero = () => {
               <h1 className="wow fadeInUp" data-wow-delay=".2s">
                 Installation & Maintenance Electrique CFA / CFO Travaux Divers
               </h1>
+              <br></br>
+              <h5 className="wow fadeInUp" data-wow-delay=".2s">
+                PIOLEC, expert en électricité, automatisme et technologies
+                innovantes. Installations sécurisées, réseaux performants.
+                Engagement client, respect des délais et normes pour votre
+                avantage concurrentiel.
+              </h5>
               <div className="hero-button">
                 <Link
                   href="/contact"
-                  className="theme-btn hover-white wow fadeInUp"
+                  className="theme-btn  wow fadeInUp"
                   data-wow-delay=".4s"
                 >
                   Contactez Nous <i className="far fa-arrow-right" />

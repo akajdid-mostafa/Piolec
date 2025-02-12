@@ -6,11 +6,121 @@ import Link from "next/link";
 import {Service2} from "@/components/Services";
 import Faq from "@/components/Faq";
 import Hero from "@/components/hero";
+import Steps from "@/components/steps";
 
 const page = () => {
   return (
     <NextLayout>
       <Hero/>
+      <Steps/>
+      {/* <section class="cs_bg_filed" data-src="/assets/img/how_to_work_bg.svg">
+      <div class="cs_height_115 cs_height_lg_70"></div>
+      <div class="container">
+        <div class="cs_section_heading_1_with_sub">
+          <div class="cs_section_heading cs_style_1">
+            <h3 class="cs_section_subtitle cs_accent_color text-uppercase cs_medium cs_fs_20 cs_mb_10 wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay="0.25s">
+              <img src="assets/img/icons/fan.svg" alt="" class="cs_section_subheading_icon"/>
+              Who To Work
+            </h3>
+            <h2 class="cs_section_title cs_fs_48 cs_semibold mb-0">Simple Working Process</h2>
+          </div>
+          <p class="mb-0">Keeping the outdoor unit clean, and sealing any you leaks in your home can improve efficiency</p>
+        </div>
+        <div class="cs_height_45 cs_height_lg_45"></div>
+        <div class="cs_card_1_wrap">
+          <div class="cs_card_1_col">
+            <div class="cs_card cs_style_1">
+              <div class="cs_card_in cs_white_bg">
+                <div class="cs_card_icon cs_center cs_mb_30">
+                  <img src="assets/img/icons/how_to_work_icon_1.svg" alt=""/>
+                </div>
+                <h3 class="cs_fs_24 cs_semibold cs_mb_6">Cool Wave System</h3>
+                <p class="cs_fs_14 cs_mb_25">Upgrade to the latest energy and efficient air conditioning Frost technology with Eco Cool</p>
+                <a href="about-us.html" class="cs_text_btn cs_fs_14 text-uppercase cs_heading_color cs_bold">
+                  READ MORE
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.28125 1.21875L13.7812 6.46875C13.9271 6.61458 14 6.79167 14 7C14 7.20833 13.9271 7.38542 13.7812 7.53125L8.28125 12.7812C7.90625 13.0729 7.55208 13.0729 7.21875 12.7812C6.92708 12.4062 6.92708 12.0521 7.21875 11.7188L11.375 7.75H0.75C0.291667 7.70833 0.0416667 7.45833 0 7C0.0416667 6.54167 0.291667 6.29167 0.75 6.25H11.375L7.21875 2.28125C6.92708 1.94792 6.92708 1.59375 7.21875 1.21875C7.55208 0.927083 7.90625 0.927083 8.28125 1.21875Z" fill="currentColor"></path>
+                  </svg>                    
+                </a>
+              </div>
+              <div class="cs_card_shape">
+                <svg width="305" height="145" viewBox="0 0 305 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M274.465 30.698L35.5518 41.3918L0 6.19539V120.27C0 133.924 11.1913 145 24.9875 145H280.012C293.809 145 305 133.924 305 120.27V0.478516L274.465 30.698Z" fill="currentColor"/>
+                </svg>                  
+              </div>
+            </div>
+          </div>
+          <div class="cs_card_1_col">
+            <div class="cs_card cs_style_1 cs_type_1">
+              <div class="cs_card_in cs_white_bg">
+                <h3 class="cs_fs_24 cs_semibold cs_mb_6">Arctic Installations</h3>
+                <p class="cs_fs_14 cs_mb_25">The Arctic Blast Repair service addresses all your air Eco Cool  conditioning repair needs</p>
+                <a href="about-us.html" class="cs_text_btn cs_fs_14 text-uppercase cs_heading_color cs_bold cs_mb_30">
+                  READ MORE
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.28125 1.21875L13.7812 6.46875C13.9271 6.61458 14 6.79167 14 7C14 7.20833 13.9271 7.38542 13.7812 7.53125L8.28125 12.7812C7.90625 13.0729 7.55208 13.0729 7.21875 12.7812C6.92708 12.4062 6.92708 12.0521 7.21875 11.7188L11.375 7.75H0.75C0.291667 7.70833 0.0416667 7.45833 0 7C0.0416667 6.54167 0.291667 6.29167 0.75 6.25H11.375L7.21875 2.28125C6.92708 1.94792 6.92708 1.59375 7.21875 1.21875C7.55208 0.927083 7.90625 0.927083 8.28125 1.21875Z" fill="currentColor"></path>
+                  </svg>                    
+                </a>
+                <div class="cs_card_icon cs_center">
+                  <img src="assets/img/icons/how_to_work_icon_2.svg" alt=""/>
+                </div>
+              </div>
+              <div class="cs_card_shape">
+                <svg width="305" height="146" viewBox="0 0 305 146" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M274.465 115.014L35.5518 104.253L0 139.669V24.883C0 11.1442 11.1913 -0.000549316 24.9875 -0.000549316H280.012C293.809 -0.000549316 305 11.1442 305 24.883V145.422L274.465 115.014Z" fill="currentColor"/>
+                </svg>                                   
+              </div>
+            </div>
+          </div>
+          <div class="cs_card_1_col">
+            <div class="cs_card cs_style_1">
+              <div class="cs_card_in cs_white_bg">
+                <div class="cs_card_icon cs_center cs_mb_30">
+                  <img src="assets/img/icons/how_to_work_icon_3.svg" alt=""/>
+                </div>
+                <h3 class="cs_fs_24 cs_semibold cs_mb_6">Air Flow Solutions</h3>
+                <p class="cs_fs_14 cs_mb_25">Our Quick Cool Installation and service provides fast and cooling efficient installation </p>
+                <a href="about-us.html" class="cs_text_btn cs_fs_14 text-uppercase cs_heading_color cs_bold">
+                  READ MORE
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.28125 1.21875L13.7812 6.46875C13.9271 6.61458 14 6.79167 14 7C14 7.20833 13.9271 7.38542 13.7812 7.53125L8.28125 12.7812C7.90625 13.0729 7.55208 13.0729 7.21875 12.7812C6.92708 12.4062 6.92708 12.0521 7.21875 11.7188L11.375 7.75H0.75C0.291667 7.70833 0.0416667 7.45833 0 7C0.0416667 6.54167 0.291667 6.29167 0.75 6.25H11.375L7.21875 2.28125C6.92708 1.94792 6.92708 1.59375 7.21875 1.21875C7.55208 0.927083 7.90625 0.927083 8.28125 1.21875Z" fill="currentColor"></path>
+                  </svg>                    
+                </a>
+              </div>
+              <div class="cs_card_shape">
+                <svg width="305" height="145" viewBox="0 0 305 145" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M274.465 30.698L35.5518 41.3918L0 6.19539V120.27C0 133.924 11.1913 145 24.9875 145H280.012C293.809 145 305 133.924 305 120.27V0.478516L274.465 30.698Z" fill="currentColor"/>
+                </svg>                  
+              </div>
+            </div>
+          </div>
+          <div class="cs_card_1_col">
+            <div class="cs_card cs_style_1 cs_type_1">
+              <div class="cs_card_in cs_white_bg">
+                <h3 class="cs_fs_24 cs_semibold cs_mb_6">Emergency Service</h3>
+                <p class="cs_fs_14 cs_mb_25">We handle everything from and assessing your cooling needs to positioning  Arctic Blast</p>
+                <a href="about-us.html" class="cs_text_btn cs_fs_14 text-uppercase cs_heading_color cs_bold cs_mb_30">
+                  READ MORE
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.28125 1.21875L13.7812 6.46875C13.9271 6.61458 14 6.79167 14 7C14 7.20833 13.9271 7.38542 13.7812 7.53125L8.28125 12.7812C7.90625 13.0729 7.55208 13.0729 7.21875 12.7812C6.92708 12.4062 6.92708 12.0521 7.21875 11.7188L11.375 7.75H0.75C0.291667 7.70833 0.0416667 7.45833 0 7C0.0416667 6.54167 0.291667 6.29167 0.75 6.25H11.375L7.21875 2.28125C6.92708 1.94792 6.92708 1.59375 7.21875 1.21875C7.55208 0.927083 7.90625 0.927083 8.28125 1.21875Z" fill="currentColor"></path>
+                  </svg>                    
+                </a>
+                <div class="cs_card_icon cs_center">
+                  <img src="assets/img/icons/how_to_work_icon_4.svg" alt=""/>
+                </div>
+              </div>
+              <div class="cs_card_shape">
+                <svg width="305" height="146" viewBox="0 0 305 146" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M274.465 115.014L35.5518 104.253L0 139.669V24.883C0 11.1442 11.1913 -0.000549316 24.9875 -0.000549316H280.012C293.809 -0.000549316 305 11.1442 305 24.883V145.422L274.465 115.014Z" fill="currentColor"/>
+                </svg>                                   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_120 cs_height_lg_70"></div>
+    </section> */}
+
       {/* <section
         className="hero-section hero-1 bg-cover fix"
         style={{ backgroundImage: 'url("assets/img/hero/01.png")' }}
