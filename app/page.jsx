@@ -13,8 +13,8 @@ const page = () => {
   return (
     <NextLayout>
       <Hero/>
-      
-      {/* <section class="cs_bg_filed" data-src="/assets/img/how_to_work_bg.svg">
+      <div>
+        {/* <section class="cs_bg_filed" data-src="/assets/img/how_to_work_bg.svg">
       <div class="cs_height_115 cs_height_lg_70"></div>
       <div class="container">
         <div class="cs_section_heading_1_with_sub">
@@ -294,6 +294,8 @@ const page = () => {
           </div>
         </div>
       </section> */}
+      </div>
+      
       {/* About Section Start */}
       <section className="about-section fix section-padding">
         <div className="container">
@@ -394,7 +396,9 @@ const page = () => {
       <Steps/>
 
       {/* Cta Video Section Start */}
-      {/* <div
+      
+      <div>
+        {/* <div
         className="cta-video-section fix bg-cover"
         style={{ backgroundImage: 'url("assets/img/cta/cta-video.jpg")' }}
       >
@@ -823,6 +827,7 @@ const page = () => {
           </div>
         </div>
       </section> */}
+      </div>
       {/* News Section Start */}
       <Faq/>
       <Cta

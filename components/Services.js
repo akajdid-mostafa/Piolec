@@ -5,25 +5,28 @@ const servicesData = [
     id: 1,
     image: "/assets/img/project/001.JPG",
     icon: "flaticon-electricity",
-    title: "Electricite et automatisme",
+    title: "Electricité & Automatisme",
     description:
       "We provide expert electrical installations for residential, commercial, and industrial projects, ensuring safety and efficiency.",
+      Link:"/service#electricite_automatisme",
   },
   {
     id: 2,
     image: "/assets/img/project/002.png",
     icon: "flaticon-automation",
-    title: "Controle dacces et surveillance",
+    title: "Contrôle d'accès & Surveillance",
     description:
       "Our automation solutions streamline operations, reduce costs, and enhance productivity for businesses.",
+      Link:"/service#contrôle_dacces_surveillance",
   },
   {
     id: 3,
     image: "/assets/img/project/003.png",
     icon: "flaticon-security",
-    title: "Detection incendie et intrusion",
+    title: "Détection incendie & intrusion",
     description:
       "We install advanced security systems, including access control, fire detection, and video surveillance, to protect your property.",
+      Link:"/service#detection_incendie_intrusion",
   },
   {
     id: 4,
@@ -32,22 +35,34 @@ const servicesData = [
     title: "Precablage informatique",
     description:
       "We design and implement robust IT networks, ensuring seamless connectivity and data security for your business.",
+      Link:"/service#precablage_informatique",
   },
   {
     id: 5,
     image: "/assets/img/project/005.png",
-    icon: "flaticon-renewable-energy",
-    title: "Panneau solaire",
+    icon: "/service#energies_renouvelables_travaux_divers",
+    title: "Energies renouvelables",
     description:
       "We offer sustainable energy solutions, including solar power systems, to help you reduce energy costs and environmental impact.",
+      Link:"/service#energies_renouvelables_travaux_divers",
   },
   {
     id: 6,
     image: "/assets/img/project/006.png",
     icon: "flaticon-maintenance",
-    title: "Maintenance et S.A.V",
+    title: "Maintenance & S.A.V",
     description:
       "Our maintenance and after-sales services ensure the longevity and optimal performance of your electrical and security systems.",
+      Link:"/service#maintenance_sav",
+  },
+  {
+    id: 7,
+    image: "/assets/img/project/006.png",
+    icon: "flaticon-maintenance",
+    title: "Travaux divers",
+    description:
+      "Our maintenance and after-sales services ensure the longevity and optimal performance of your electrical and security systems.",
+      Link:"/service#travaux-divers",
   },
 ];
 
@@ -90,10 +105,10 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
                 </div>
                 <div className="service-content">
                   <h3>
-                    <Link href="/service-details">{service.title}</Link>
+                    <Link href={service.Link}>{service.title}</Link>
                   </h3>
                   {/* <p>{service.description}</p> */}
-                  <Link href="/service-details" className="theme-btn bg-2">
+                  <Link href={service.Link} className="theme-btn bg-2">
                   En savoir plus <i className="far fa-arrow-right" />
                   </Link>
                 </div>
