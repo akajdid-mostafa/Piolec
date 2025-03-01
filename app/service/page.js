@@ -7,6 +7,7 @@ import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import Servicee from "@/components/servicee";
 import WorkingProcess from "@/components/WorkingProcess";
+import Steps from "@/components/steps";
 
 const electricite_automatisme = {
   id: "electricite_automatisme",
@@ -252,6 +253,7 @@ const page = () => {
       <Servicee {...energies_renouvelables} />
       <Servicee {...maintenance_sav} />
       <Servicee {...travaux_divers} />
+      <Steps/>
       <WorkingProcess
         title1="Découverte et analyse"
         desc1="Nous analysons vos besoins pour créer une solution sur mesure, adaptée à vos objectifs et contraintes."

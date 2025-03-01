@@ -12,7 +12,7 @@ const page = () => {
   return (
     <NextLayout>
       <Hero/>
-      <Steps/>
+      {/* <Steps/> */}
       {/* <section class="cs_bg_filed" data-src="/assets/img/how_to_work_bg.svg">
       <div class="cs_height_115 cs_height_lg_70"></div>
       <div class="container">
