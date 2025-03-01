@@ -14,11 +14,11 @@ const Steps = () => {
               data-wow-duration="0.9s"
               data-wow-delay="0.25s"
             >
-              <img
+              {/* <img
                 src="assets/img/icons/fan.svg"
                 alt=""
                 class="cs_section_subheading_icon"
-              />
+              /> */}
               Qui travailler ?
             </h3>
             <h4 class="cs_section_title cs_fs_48 cs_semibold mb-0">
