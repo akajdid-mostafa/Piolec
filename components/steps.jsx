@@ -21,9 +21,9 @@ const Steps = () => {
               />
               Qui travailler ?
             </h3>
-            <h2 class="cs_section_title cs_fs_48 cs_semibold mb-0">
+            <h4 class="cs_section_title cs_fs_48 cs_semibold mb-0">
               Processus de travail simple
-            </h2>
+            </h4>
           </div>
           <p class="mb-0">
             Nous achevons notre travail pour suivre Quelques moyens simples
@@ -35,7 +35,7 @@ const Steps = () => {
             <div class="cs_card cs_style_1">
               <div class="cs_card_in cs_white_bg">
                 <div class="cs_card_icon cs_center cs_mb_30">
-                  <img src="assets/img/icons/how_to_work_icon_1.svg" alt="" />
+                  <img src="assets/img/icons/decouverte_et_analyse.svg" alt="" />
                 </div>
                 <h3 class="cs_fs_24 cs_semibold cs_mb_6">
                   Découverte et analyse
@@ -73,7 +73,7 @@ const Steps = () => {
                   optimale.
                 </p>
                 <div class="cs_card_icon cs_center">
-                  <img src="assets/img/icons/how_to_work_icon_2.svg" alt="" />
+                  <img src="assets/img/icons/conception_et_planification.svg" alt="" />
                 </div>
               </div>
               <div class="cs_card_shape">
@@ -96,7 +96,7 @@ const Steps = () => {
             <div class="cs_card cs_style_1">
               <div class="cs_card_in cs_white_bg">
                 <div class="cs_card_icon cs_center cs_mb_30">
-                  <img src="assets/img/icons/how_to_work_icon_3.svg" alt="" />
+                  <img src="assets/img/icons/execution.svg" alt="" />
                 </div>
                 <h3 class="cs_fs_24 cs_semibold cs_mb_6">
                   Exécution et Mise en Œuvre
@@ -130,12 +130,12 @@ const Steps = () => {
                   Tests et réception de projet
                 </h3>
                 <p class="cs_fs_14 cs_mb_25">
-                  Nous effectuons des tests point à point de l'installation pour
+                  Nous effectuons des tests point à point de l&apos;installation pour
                   garantir une vérification approfondie des équipements et un
                   support technique continu.
                 </p>
                 <div class="cs_card_icon cs_center">
-                  <img src="assets/img/icons/how_to_work_icon_4.svg" alt="" />
+                  <img src="assets/img/icons/reception.svg" alt="" />
                 </div>
               </div>
               <div class="cs_card_shape">

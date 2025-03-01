@@ -10098,7 +10098,7 @@ p.sticky-label {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("/assets/img/how_to_work_bg.svg");
+  /* background-image: url("/assets/img/how_to_work_bg.svg"); */
 }
 .cs_height_115 {
   height: 115px;
@@ -10180,7 +10180,7 @@ p.sticky-label {
   }
 }
 .cs_semibold {
-  font-weight: 600;
+  font-weight:500;
 }
 .cs_height_45 {
   height: 45px;
@@ -10233,7 +10233,7 @@ p.sticky-label {
   position: absolute;
   bottom: 0;
   left: 0;
-  color: var(--hov);
+  color: var(--theme);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -10249,7 +10249,7 @@ p.sticky-label {
 .cs_card.cs_style_1 .cs_card_icon {
   height: 90px;
   width: 90px;
-  border: 5px solid var(--hov);
+  border: 5px solid var(--theme);
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -10260,10 +10260,10 @@ p.sticky-label {
   transition: all 0.4s ease;
 }
 .cs_card.cs_style_1:hover .cs_card_icon {
-  border-color: var(--theme);
+  border-color: var(--hov);
 }
 .cs_card.cs_style_1:hover .cs_card_shape {
-  color: var(--theme);
+  color: var(--hov);
 }
 .cs_card.cs_style_1.cs_type_1 {
   padding: 20px 20px 0 20px;
