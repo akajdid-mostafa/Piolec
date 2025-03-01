@@ -92,9 +92,9 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
                   <h3>
                     <Link href="/service-details">{service.title}</Link>
                   </h3>
-                  <p>{service.description}</p>
+                  {/* <p>{service.description}</p> */}
                   <Link href="/service-details" className="theme-btn bg-2">
-                    Learn More <i className="far fa-arrow-right" />
+                  En savoir plus <i className="far fa-arrow-right" />
                   </Link>
                 </div>
               </div>

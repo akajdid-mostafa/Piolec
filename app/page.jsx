@@ -337,9 +337,9 @@ const page = () => {
                       {/* <img src="assets/img/bale.png" alt="img" >/*/}
                       À propos de l'entreprise
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
                       PIOLEC : Électricité, Informatique et Sécurité
-                    </h2>
+                    </h2> */}
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                     PIOLEC, entreprise marocaine spécialisée en électricité,
