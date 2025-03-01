@@ -25,9 +25,9 @@ const Steps = () => {
               Processus de travail simple
             </h4>
           </div>
-          <p class="mb-0">
+          {/* <p class="mb-0">
             Nous achevons notre travail pour suivre Quelques moyens simples
-          </p>
+          </p> */}
         </div>
         <div class="cs_height_45 cs_height_lg_45"></div>
         <div class="cs_card_1_wrap">
