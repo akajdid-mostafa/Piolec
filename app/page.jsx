@@ -7,12 +7,13 @@ import {Service2} from "@/components/Services";
 import Faq from "@/components/Faq";
 import Hero from "@/components/hero";
 import Steps from "@/components/steps";
+import Cta from "@/components/Cta";
 
 const page = () => {
   return (
     <NextLayout>
       <Hero/>
-      {/* <Steps/> */}
+      
       {/* <section class="cs_bg_filed" data-src="/assets/img/how_to_work_bg.svg">
       <div class="cs_height_115 cs_height_lg_70"></div>
       <div class="container">
@@ -390,6 +391,8 @@ const page = () => {
       {/* Service Section Start */}
       <Service2 paddingTop={5} title="Our Services" />
 
+      <Steps/>
+
       {/* Cta Video Section Start */}
       {/* <div
         className="cta-video-section fix bg-cover"
@@ -712,7 +715,7 @@ const page = () => {
         </div>
       </section> */}
       {/* Popular Case Study Section Start */}
-      <section className="case-study-section fix section-padding theme-bg">
+      {/* <section className="case-study-section fix section-padding theme-bg">
         <div className="left-shape">
           <img src="assets/img/case-study/left-shape.png" alt="shape-img" />
         </div>
@@ -723,7 +726,6 @@ const page = () => {
           <div className="section-title-area">
             <div className="section-title">
               <span className="sub-content wow fadeInUp">
-                {/* <img src="assets/img/bale.png" alt="img" /> */}
                 Popular Case Study
               </span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
@@ -801,7 +803,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Pricing Section Start */}
       {/* <Pricing /> */}
       {/* Testimonial Section Start */}
@@ -823,12 +825,17 @@ const page = () => {
       </section> */}
       {/* News Section Start */}
       <Faq/>
+      <Cta
+        sectionPadding="true"
+        h2="Prêt à moderniser vos installations électriques ?"
+        p="Découvrez des solutions innovantes et fiables pour une performance énergétique optimale et une gestion simplifiée de vos systèmes électriques."
+      />
 
-      <section className="news-section section-padding pt-0 mt-20">
+      {/* <section className="news-section section-padding pt-0 mt-20">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              {/* <img src="assets/img/bale.png" alt="img" /> */}
+
               News &amp; Blog
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -910,7 +917,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </NextLayout>
   );
 };
