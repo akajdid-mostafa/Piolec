@@ -39,7 +39,7 @@ const ProjectDetailPage = () => {
   return (
     <NextLayout>
       <Breadcrumb
-        pageName={project.details.overview}
+        pageName={project.title}
         headingTag="h1"
         backgroundImage={project.image}
       />
@@ -54,18 +54,11 @@ const ProjectDetailPage = () => {
                   <p className="mt-4">{project.details.content}</p>
                   <h4 className="mt-50">Project Initiation</h4>
                   <ul className="project-list">
-                    <li>
-                      <i className="far fa-check" />
-                      Define the project scope, goals, and objectives
-                    </li>
-                    <li>
-                      <i className="far fa-check" />
-                      Identify the target audience and market research.
-                    </li>
-                    <li>
-                      <i className="far fa-check" />
-                      Determine the budget, timeline, and available resources.
-                    </li>
+                    {project.details.projectInitiation.map((step, index) => (
+                      <li key={index}>
+                        <FaCheck className="text-green-500" /> {step}
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
