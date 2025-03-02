@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     category: "Dépôt Hydrocarbures",
-    title: "Conception et installation de systèmes électriques",
+    title: "Installation électrique CMC Agadir",
     link: "industrial-electricity",
     details: {
       images: [
@@ -57,7 +57,7 @@ export const projects = [
   {
     id: 2,
     category: "Dépôt Hydrocarbures",
-    title: "Contrôle d'accès et systèmes d'évacuation",
+    title: "Installation armoire d'automatisme Casablanca",
     link: "access-control",
     details: {
       images: [
@@ -84,7 +84,7 @@ export const projects = [
   {
     id: 3,
     category: "Dépôt Hydrocarbures",
-    title: "Systèmes de détection d'incendie et d'intrusion",
+    title: "Mise à niveau éclairage extérieur Dakhla",
     link: "fire-detection",
     details: {
       images: [
@@ -127,7 +127,7 @@ export const projects = [
   {
     id: 4,
     category: "Dépôt Hydrocarbures",
-    title: "Câblage informatique et vidéosurveillance",
+    title: "Armoires électriques station de pompage Sidi Bennour",
     link: "it-cabling",
     details: {
       images: [

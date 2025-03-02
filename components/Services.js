@@ -87,9 +87,9 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
           {servicesData.map((service) => (
             <div
               key={service.id}
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
               data-wow-delay=".3s"
-              style={{ marginBottom: "30px" }} // Add margin-bottom to create space
+              style={{ marginBottom: "20px" }} // Add margin-bottom to create space
             >
               <div className="service-popular-items">
                 <div className="service-image">
@@ -104,9 +104,9 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
                   />
                 </div>
                 <div className="service-content">
-                  <h3>
+                  <h5>
                     <Link href={service.Link}>{service.title}</Link>
-                  </h3>
+                  </h5><br></br>
                   {/* <p>{service.description}</p> */}
                   <Link href={service.Link} className="theme-btn bg-2">
                   En savoir plus <i className="far fa-arrow-right" />

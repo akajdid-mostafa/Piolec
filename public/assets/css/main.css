@@ -4526,7 +4526,7 @@ select.main-search-input::placeholder {
   justify-content: space-between; /* Distribute space evenly */
 }
 .service-content h4 {
-  line-height: 1.6; /* Adjust this value to increase or decrease space between lines */
+  line-height: 1.4; /* Adjust this value to increase or decrease space between lines */
   /* margin-bottom: 10px; Add margin below the heading if needed */
 }
 .service-card-items {
@@ -4623,9 +4623,9 @@ select.main-search-input::placeholder {
 
 .service-popular-items {
   background-color: #f9fafb;
-  margin-top: 30px;
-  margin-bottom: -30px;
-  padding: 40px 50px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  padding:  15px;
   border: 1.2px solid #edeef0;
   border-radius: 16px;
   display: flex; /* Make the card a flex container */
@@ -4635,13 +4635,13 @@ select.main-search-input::placeholder {
 
 @media (max-width: 1399px) {
   .service-popular-items {
-    padding: 40px;
+    padding: 10px;
   }
 }
 
 @media (max-width: 575px) {
   .service-popular-items {
-    padding: 30px;
+    padding: 10px;
   }
 }
 
@@ -4692,6 +4692,7 @@ select.main-search-input::placeholder {
   background: rgba(135, 96, 253, 0.2);
   color: var(--theme);
   margin-top: auto; /* Push the button to the bottom of the card */
+  
 }
 
 .service-popular-items .service-content .theme-btn::before,
@@ -9101,6 +9102,12 @@ p.sticky-label {
 }
 .project-card-items.style-2 .project-content h3 a:hover {
   color: var(--theme);
+}
+.project-card-items .project-content h6 {
+  white-space: nowrap; /* Prevent the text from wrapping to the next line */
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Add an ellipsis (...) when the text overflows */
+  max-width: 100%; /* Ensure the title does not exceed the width of its container */
 }
 
 .project-details-wrapper {

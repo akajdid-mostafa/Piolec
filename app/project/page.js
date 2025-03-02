@@ -4,20 +4,15 @@ import Link from "next/link";
 import Cta from "@/components/Cta";
 import { projects } from "./data";
 
-
 const Page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="Galerie de travail" headingTag="h1" backgroundImage = "assets/img/back.png" />
-      <section className="project-section fix section-paddingg ">
+      <Breadcrumb pageName="Galerie de travail" headingTag="h1" backgroundImage="assets/img/back.png" />
+      <section className="project-section fix section-paddingg">
         <div className="container">
           <div className="section-title text-center">
-            {/* <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
-              Galerie de travail
-            </span> */}
             <h4 className="wow fadeInUp gallery-text" data-wow-delay=".3s">
-            Explorez la créativité et l’engagement qui animent notre travail à travers ces images, et profitez de la visite
+              Explorez la créativité et l&apos;engagement qui animent notre travail à travers ces images, et profitez de la visite
             </h4>
           </div>
           <div className="row justify-content-center">
@@ -41,19 +36,18 @@ const Page = () => {
                         }}
                       >
                         <Link href={`/project/${project.id}`}>
-                        <img
-                          src={project.details.images[0]}
-                          alt="img"
-                          style={{
-                            width: "100%", // Ensure the image fills the container
-                            height: "100%", // Ensure the image fills the container
-                            objectFit: "cover", // Ensure the image covers the container without distortion
-                          }}
-                        />
+                          <img
+                            src={project.details.images[0]}
+                            alt="img"
+                            style={{
+                              width: "100%", // Ensure the image fills the container
+                              height: "100%", // Ensure the image fills the container
+                              objectFit: "cover", // Ensure the image covers the container without distortion
+                            }}
+                          />
                         </Link>
                       </div>
                       <div className="project-content">
-                        {/* <p>{project.category}</p> */}
                         <h6>
                           <Link href={`/project/${project.id}`}>
                             {project.title}
@@ -69,10 +63,10 @@ const Page = () => {
         </div>
       </section>
       <Cta
-       sectionPadding={true}
-       h2="Prêt à optimiser vos installations électriques ?"
-       p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
-        />
+        sectionPadding={true}
+        h2="Prêt à optimiser vos installations électriques ?"
+        p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
+      />
     </NextLayout>
   );
 };
