@@ -65,7 +65,7 @@ const ProjectDetailPage = () => {
               </div>
               <div className="col-lg-4">
                 <div className="project-information">
-                  <h4>Project Information's</h4>
+                  <h4>Information de projet</h4>
                   <ul>
                     <li>Clients :</li>
                     <li>

@@ -2,18 +2,18 @@ export const projects = [
   {
     id: 1,
     category: "Dépôt Hydrocarbures",
-    title: "Installation électrique CMC Agadir",
+    title: "Installation Électrique CFA / CFO ",
     link: "industrial-electricity",
     details: {
       images: [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869681/IMG_20211110_181929_bxixlk.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869681/IMG_20211110_181910_c8vkhn.jpg",
+        // "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869681/IMG_20211110_181910_c8vkhn.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869673/WhatsApp_Image_2025-03-01_at_22.43.44_1_sard0e.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869673/WhatsApp_Image_2025-03-01_at_22.43.44_g2uh4j.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869672/WhatsApp_Image_2025-03-01_at_22.43.46_er7yip.jpg",
+        // "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869672/WhatsApp_Image_2025-03-01_at_22.43.46_er7yip.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869672/WhatsApp_Image_2025-03-01_at_22.43.45_avu3ci.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869672/WhatsApp_Image_2025-03-01_at_22.43.45_1_jx7oes.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869671/WhatsApp_Image_2025-03-01_at_22.43.46_1_cdiu1a.jpg",
+        // "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869671/WhatsApp_Image_2025-03-01_at_22.43.46_1_cdiu1a.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869671/WhatsApp_Image_2025-03-01_at_22.43.47_qi3jnh.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869670/WhatsApp_Image_2025-03-01_at_22.43.48_li29ls.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869670/WhatsApp_Image_2025-03-01_at_22.43.47_1_hwcced.jpg",
@@ -46,23 +46,23 @@ export const projects = [
         "Pose et raccordement équipement d’éclairage normale et secours et prise de courant .",
         "pose et raccordement un système de contrôle d’accès avec tourniquet a trois bras .",
       ],
-      content: "Electrification en courant fort et faible pour le projet de construction d’un atelier pédagogique (petite usine de mini-chaîne de production de jus d'orange). Au CMC AGADIR",
+      content: "Électrification en courant fort et faible pour le projet de construction d'un atelier pédagogique (petite usine de mini-chaîne pour la production de jus d'orange) au CMC d'Agadir.",
       information: {
         client: "ANODE ELECTRIC",
         date: "2021",
-        location: "Tanger Maroc",
+        location: "AGADIR",
       },
     },
   },
   {
     id: 2,
     category: "Dépôt Hydrocarbures",
-    title: "Installation armoire d'automatisme Casablanca",
+    title: "Armoire d’automatisme",
     link: "access-control",
     details: {
       images: [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740870572/WhatsApp_Image_2025-03-01_at_23.08.13_tsgixc.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740870570/WhatsApp_Image_2025-03-01_at_23.08.13_1_mszcmk.jpg",
+        // "https://res.cloudinary.com/dzqres7rq/image/upload/v1740870570/WhatsApp_Image_2025-03-01_at_23.08.13_1_mszcmk.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740870566/WhatsApp_Image_2025-03-01_at_23.08.14_1_rua1od.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740870567/WhatsApp_Image_2025-03-01_at_23.08.14_ttidc2.jpg",
       ],
@@ -84,7 +84,7 @@ export const projects = [
   {
     id: 3,
     category: "Dépôt Hydrocarbures",
-    title: "Mise à niveau éclairage extérieur Dakhla",
+    title: "Eclairage extérieur",
     link: "fire-detection",
     details: {
       images: [
@@ -127,7 +127,7 @@ export const projects = [
   {
     id: 4,
     category: "Dépôt Hydrocarbures",
-    title: "Armoires électriques station de pompage Sidi Bennour",
+    title: "Armoire électrique pour station de pompage ",
     link: "it-cabling",
     details: {
       images: [
