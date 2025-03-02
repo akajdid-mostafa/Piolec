@@ -2378,13 +2378,13 @@ select.main-search-input::placeholder {
   height: 90vh; /* Set height to full viewport height */
   background-size: cover;
   background-position: center;
-  animation: changeBackground 20s infinite; /* Add background animation */
+  animation: changeBackground 30s infinite; /* Add background animation */
 }
 
 /* Keyframes for background image animation */
 @keyframes changeBackground {
   0%, 100% {
-    background-image: url('/assets/img/hero/1.webp');
+    background-image: url('/assets/img/hero/1.jpg');
   }
   20% {
     background-image: url('/assets/img/hero/2.jpg');
@@ -2392,17 +2392,26 @@ select.main-search-input::placeholder {
   30% {
     background-image: url('/assets/img/hero/3.jpg');
   }
-  40% {
+  38% {
     background-image: url('/assets/img/hero/4.jpg');
   }
-  50% {
+  48% {
     background-image: url('/assets/img/hero/5.jpg');
   }
-  70% {
+  56% {
     background-image: url('/assets/img/hero/7.jpg');
   }
-  90% {
+  66% {
     background-image: url('/assets/img/hero/8.jpg');
+  }
+  74% {
+    background-image: url('/assets/img/hero/9.jpg');
+  }
+  84% {
+    background-image: url('/assets/img/hero/10.jpg');
+  }
+  92% {
+    background-image: url('/assets/img/hero/11.jpg');
   }
 }
 
