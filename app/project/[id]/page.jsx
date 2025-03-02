@@ -41,7 +41,7 @@ const ProjectDetailPage = () => {
       <Breadcrumb
         pageName={project.title}
         headingTag="h1"
-        backgroundImage={project.image}
+        backgroundImage="assets/img/back.png"
       />
       <section className="project-details-section fix section-paddingg">
         <div className="container">
@@ -51,8 +51,9 @@ const ProjectDetailPage = () => {
                 <div className="project-details-content">
                   {/* <h5>{project.category}</h5> */}
                   {/* <h2>{project.details.overview}</h2> */}
+                  <h4 className="mt-50">Objet de projet :</h4>
                   <p className="mt-4">{project.details.content}</p>
-                  <h4 className="mt-50">Project Initiation</h4>
+                  <h4 className="mt-50">Les tache réaliser :</h4>
                   <ul className="project-list">
                     {project.details.projectInitiation.map((step, index) => (
                       <li key={index}>
@@ -78,10 +79,10 @@ const ProjectDetailPage = () => {
                     <li>
                       <span>{project.details.information.date}</span>
                     </li>
-                    <li>Industrie :</li>
+                    {/* <li>Industrie :</li>
                     <li>
                       <span>{project.details.information.category}</span>
-                    </li>
+                    </li> */}
 
                     {/* <li>
                       Duration <span>{project.details.information.duration}</span>
