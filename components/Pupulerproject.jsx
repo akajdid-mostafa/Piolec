@@ -29,19 +29,37 @@ const Pupulerproject = () => {
               data-wow-delay=".3s"
             >
               <div className="case-study-items">
-                <div className="thumb">
-                  <Link href={`/project/${project.id}`}>
-                    <img
-                      src={project.details.images[0]}
-                      alt="img"
-                      style={{
-                        width: "100%", // Ensure the image fills the container
-                        height: "200px", // Set a fixed height for all images
-                        objectFit: "cover", // Ensure the image covers the container without distortion
-                      }}
-                    />
-                  </Link>
-                </div>
+              <div
+                        className="project-image"
+                        style={{
+                          display: "flex", // Keep images in the same row
+                          gap: "10px", // Add more spacing between images
+                          width: "100%", // Full width
+                          height: "210px", // Increase image height
+                          overflow: "hidden", // Prevent overflow
+                        }}
+                      >
+                        {project.details.images
+                          .slice(0, 4)
+                          .map((image, index) => (
+                            <Link
+                              key={index}
+                              href={`/project/${project.id}`}
+                              style={{ flex: "1" }}
+                            >
+                              <img
+                                src={image}
+                                alt={`image-${index}`}
+                                style={{
+                                  width: "100%", // Make sure each image takes equal width
+                                  height: "100%", // Increase height
+                                  objectFit: "cover", // Ensure proper fit without distortion
+                                  borderRadius: "10px", // Optional: for rounded corners
+                                }}
+                              />
+                            </Link>
+                          ))}
+                      </div>
                 <div className="content">
                   <h3>
                     <Link href={`/project/${project.id}`}>

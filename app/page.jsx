@@ -638,7 +638,7 @@ const page = () => {
         p="Découvrez des solutions innovantes et fiables pour une performance énergétique optimale et une gestion simplifiée de vos systèmes électriques."
       />
 
-      <section className="news-section section-padding pt-0 mt-20">
+      {/* <section className="news-section section-padding pt-0 mt-20">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
@@ -724,7 +724,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </NextLayout>
   );
 };
