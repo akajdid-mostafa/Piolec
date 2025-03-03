@@ -254,7 +254,7 @@ const page = () => {
       <Servicee {...maintenance_sav} />
       <Servicee {...travaux_divers} />
       <Steps/>
-      <WorkingProcess
+      {/* <WorkingProcess
         title1="Découverte et analyse"
         desc1="Nous analysons vos besoins pour créer une solution sur mesure, adaptée à vos objectifs et contraintes."
         title2="Conception et planification"
@@ -263,7 +263,7 @@ const page = () => {
         desc3="Nous procédons à l'exécution des travaux, en veillant à ce que toutes les étapes respectent les normes en vigueur."
         title4="Tests et réception de projet"
         desc4="Nous effectuons des tests point à point de l'installation à l'aide de fiches de tests spéciales pour garantir une vérification approfondie des équipements. De plus, nous offrons un support technique continu pour répondre aux besoins de nos clients."
-      />
+      /> */}
       <Faq />
       <Cta
         sectionPadding="true"
