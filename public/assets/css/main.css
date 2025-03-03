@@ -2386,32 +2386,26 @@ select.main-search-input::placeholder {
   0%, 100% {
     background-image: url('/assets/img/hero/1.jpg');
   }
-  20% {
+  12.5% {
     background-image: url('/assets/img/hero/2.jpg');
   }
-  30% {
+  25% {
     background-image: url('/assets/img/hero/3.jpg');
   }
-  38% {
+  37.5% {
     background-image: url('/assets/img/hero/4.jpg');
   }
-  48% {
+  50% {
     background-image: url('/assets/img/hero/5.jpg');
   }
-  56% {
+  62.5% {
+    background-image: url('/assets/img/hero/6.jpg');
+  }
+  75% {
     background-image: url('/assets/img/hero/7.jpg');
   }
-  66% {
+  87.5% {
     background-image: url('/assets/img/hero/8.jpg');
-  }
-  74% {
-    background-image: url('/assets/img/hero/9.jpg');
-  }
-  84% {
-    background-image: url('/assets/img/hero/10.jpg');
-  }
-  92% {
-    background-image: url('/assets/img/hero/11.jpg');
   }
 }
 
