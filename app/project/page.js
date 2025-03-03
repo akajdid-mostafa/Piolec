@@ -7,12 +7,17 @@ import { projects } from "./data";
 const Page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="Galerie de travail" headingTag="h1" backgroundImage="assets/img/back.png" />
+      <Breadcrumb
+        pageName="Galerie de travail"
+        headingTag="h1"
+        backgroundImage="assets/img/back.png"
+      />
       <section className="project-section fix section-paddingg">
         <div className="container">
           <div className="section-title text-center">
             <h4 className="wow fadeInUp gallery-text" data-wow-delay=".3s">
-              Explorez la créativité et l&apos;engagement qui animent notre travail à travers ces images, et profitez de la visite
+              Explorez la créativité et l&apos;engagement qui animent notre
+              travail à travers ces images, et profitez de la visite
             </h4>
           </div>
           <div className="row justify-content-center">
@@ -29,24 +34,35 @@ const Page = () => {
                       <div
                         className="project-image"
                         style={{
-                          width: "100%", // Full width of the container
-                          height: "300px", // Fixed height for all images
-                          position: "relative", // Required for Next.js Image component
-                          overflow: "hidden", // Ensure images don't overflow
+                          display: "flex", // Keep images in the same row
+                          gap: "10px", // Add more spacing between images
+                          width: "100%", // Full width
+                          height: "210px", // Increase image height
+                          overflow: "hidden", // Prevent overflow
                         }}
                       >
-                        <Link href={`/project/${project.id}`}>
-                          <img
-                            src={project.details.images[0]}
-                            alt="img"
-                            style={{
-                              width: "100%", // Ensure the image fills the container
-                              height: "100%", // Ensure the image fills the container
-                              objectFit: "cover", // Ensure the image covers the container without distortion
-                            }}
-                          />
-                        </Link>
+                        {project.details.images
+                          .slice(0, 4)
+                          .map((image, index) => (
+                            <Link
+                              key={index}
+                              href={`/project/${project.id}`}
+                              style={{ flex: "1" }}
+                            >
+                              <img
+                                src={image}
+                                alt={`image-${index}`}
+                                style={{
+                                  width: "100%", // Make sure each image takes equal width
+                                  height: "100%", // Increase height
+                                  objectFit: "cover", // Ensure proper fit without distortion
+                                  borderRadius: "10px", // Optional: for rounded corners
+                                }}
+                              />
+                            </Link>
+                          ))}
                       </div>
+
                       <div className="project-content">
                         <h6>
                           <Link href={`/project/${project.id}`}>
