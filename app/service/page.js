@@ -86,19 +86,19 @@ const detection_incendie_intrusion = {
   "En parallèle, nous proposons des systèmes de détection d'intrusion performants et fiables, comprenant des centrales d'alarme, des capteurs de mouvement et des contacts magnétiques pour portes et fenêtres. Tous nos systèmes de sécurité incluent une étude technique approfondie et une exécution rigoureuse, jusqu'au test point par point de manière pratique et réaliste. Avec PIOLEC, vous pouvez compter sur des solutions complètes et sécurisées pour protéger vos biens et vos collaborateurs.",
   images: [
     {
-      src: "/assets/img/about/0101.png",
+      src: "/assets/img/service/service3/01.png",
       alt: "Image 1",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0102.png",
+      src: "/assets/img/service/service3/02.png",
       alt: "Image 2",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0103.png",
+      src: "/assets/img/service/service3/03.png",
       alt: "Image 3",
       width: 300,
       height: 400,
@@ -120,19 +120,19 @@ const precablage_informatique = {
     "Nos équipes prennent en charge l’installation et la configuration de vos équipements réseau, garantissant une infrastructure robuste et prête à répondre à vos besoins actuels et futurs. Avec PIOLEC, vous bénéficiez d’une connectivité fluide et sécurisée pour tous vos projets informatiques.",
     images: [
     {
-      src: "/assets/img/about/0101.png",
+      src: "/assets/img/service/service4/01.png",
       alt: "Image 1",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0102.png",
+      src: "/assets/img/service/service4/02.png",
       alt: "Image 2",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0103.png",
+      src: "/assets/img/service/service4/03.png",
       alt: "Image 3",
       width: 300,
       height: 400,
@@ -152,19 +152,19 @@ const energies_renouvelables = {
   description2:"Nos experts vous conseillent et vous guident dans le choix des solutions les plus adaptées à vos besoins et à votre budget, vous permettant de réduire votre consommation d’énergie et votre empreinte carbone tout en réalisant des économies significatives. Avec PIOLEC, vous faites un pas vers un avenir plus durable.",
     images: [
     {
-      src: "/assets/img/about/0101.png",
+      src: "/assets/img/service/service5/01.png",
       alt: "Image 1",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0102.png",
+      src: "/assets/img/service/service5/02.png",
       alt: "Image 2",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0103.png",
+      src: "/assets/img/service/service5/03.png",
       alt: "Image 3",
       width: 300,
       height: 400,
@@ -185,19 +185,19 @@ const maintenance_sav = {
     "Nos techniciens effectuent des inspections régulières pour anticiper les pannes et garantir le bon fonctionnement de vos équipements. en cas de problème, notre équipe intervient rapidement pour résoudre les dysfonctionnements et minimiser les temps d’arrêt. de plus, nous proposons un support technique continu 24h/24 pour répondre à vos questions et vous accompagner dans l’utilisation de vos installations",
   images: [
     {
-      src: "/assets/img/about/0101.png",
+      src: "/assets/img/service/service6/01.png",
       alt: "Image 1",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0102.png",
+      src: "/assets/img/service/service6/02.png",
       alt: "Image 2",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0103.png",
+      src: "/assets/img/service/service6/03.png",
       alt: "Image 3",
       width: 300,
       height: 400,
@@ -216,19 +216,19 @@ const travaux_divers = {
     "En complément de nos services principaux, nous proposons également des travaux divers intégrés dans les projets d’électricité, tels que les travaux de génie civil, la menuiserie métallique, la peinture, et bien plus encore. Nos équipes sont capables de s'adapter et de suivre ces travaux divers pour garantir une exécution harmonieuse et cohérente.",
   images: [
     {
-      src: "/assets/img/about/0101.png",
+      src: "/assets/img/service/service7/01.png",
       alt: "Image 1",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0102.png",
+      src: "/assets/img/service/service7/02.png",
       alt: "Image 2",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0103.png",
+      src: "/assets/img/service/service7/03.png",
       alt: "Image 3",
       width: 300,
       height: 400,
