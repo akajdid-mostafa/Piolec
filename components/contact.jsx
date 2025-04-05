@@ -36,6 +36,8 @@ const Contact = () => {
               description="Contactez-nous à l'adresse suivante"
               link="mailto:piolec21@outlook.com"
               linkText="piolec21@outlook.com"
+              linkTextt=""
+              
             />
             <ContactCard
               icon={<FontAwesomeIcon icon={faPhoneVolume} className="contact-card-icon" />}
@@ -43,6 +45,7 @@ const Contact = () => {
               description="Nous Contacter par Téléphone"
               link="tel:+212662-241871"
               linkText="+212 662-241871"
+              linkTextt="+212 666491605"
             />
             <ContactCard
               icon={<FontAwesomeIcon icon={faLocationDot} className="contact-card-icon" />}
@@ -50,6 +53,7 @@ const Contact = () => {
               description="Nous Trouver dans Nos Centres"
               link="https://goo.gl/maps/QcWzYETAh4FS3KTD7"
               linkText="61 AV. Lalla yacout, N°39, 1er étage centre riad, casablanca"
+              linkTextt=""
             />
           </div>
         </div>
@@ -58,7 +62,7 @@ const Contact = () => {
   );
 };
 
-const ContactCard = ({ icon, title, description, link, linkText }) => (
+const ContactCard = ({ icon, title, description, link, linkText , linkTextt }) => (
   <div className="contact-card">
     <span className="contact-card-icon">
       {icon}
@@ -67,6 +71,8 @@ const ContactCard = ({ icon, title, description, link, linkText }) => (
     <p className="contact-card-description">{description}</p>
     <a href={link} className="contact-card-link">
       {linkText}
+      <br></br>
+      {linkTextt}
     </a>
   </div>
 );

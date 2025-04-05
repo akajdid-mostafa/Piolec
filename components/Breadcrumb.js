@@ -5,13 +5,15 @@ const Breadcrumb = ({
   pageTitle,
   headingTag = "h1",
   backgroundImage = "assets/img/breadcrumb.png", // Default image URL
+  backgroundCover = true, // New prop with default true
 }) => {
   // Create a dynamic heading element based on the prop
   const HeadingTag = headingTag;
+  const backgroundClass = backgroundCover ? "bg-cover" : "bg-coverr";
 
   return (
     <div
-      className="breadcrumb-wrapper section-padding bg-cover"
+    className={`breadcrumb-wrapper section-padding ${backgroundClass}`}
       style={{ backgroundImage: `url(${backgroundImage})` }} // Use dynamic image URL
     >
       <div className="container">

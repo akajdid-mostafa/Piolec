@@ -244,7 +244,7 @@ const travaux_divers = {
 const page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="Our Services" pageTitle="Nos Services" />
+      <Breadcrumb pageName="Our Services" pageTitle="Nos Services" backgroundImage="assets/img/service/Back.png" />
       <GrowBusiness paddingTop={8} />
       <Servicee {...electricite_automatisme} />
       <Servicee {...contrôle_dacces_surveillance} />

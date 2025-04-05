@@ -83,8 +83,8 @@ const Page = () => {
   };
 
   return (
-    <NextLayout>
-      <Breadcrumb pageName="CONTACTEZ-NOUS" />
+    <NextLayout> 
+      <Breadcrumb pageName="" backgroundImage="assets/img/cta/contact.png" backgroundCover={false} />
       <Contact />
       {/* Contact Section Section Start */}
       <section className="contact-section section-paddingg">
