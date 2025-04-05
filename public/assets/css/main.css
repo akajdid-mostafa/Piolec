@@ -2392,21 +2392,19 @@ select.main-search-input::placeholder {
   25% {
     background-image: url('/assets/img/hero/3.jpg');
   }
-  37.5% {
+  40.5% {
     background-image: url('/assets/img/hero/4.jpg');
   }
-  50% {
+  55% {
     background-image: url('/assets/img/hero/5.jpg');
   }
-  62.5% {
+  70.5% {
     background-image: url('/assets/img/hero/6.jpg');
   }
-  75% {
+  85% {
     background-image: url('/assets/img/hero/7.jpg');
   }
-  87.5% {
-    background-image: url('/assets/img/hero/8.jpg');
-  }
+  
 }
 
 .hero-1::before {
@@ -3502,74 +3500,87 @@ select.main-search-input::placeholder {
   font-size: 25px;
 }
 
-.about-wrapper .about-image-items {
+
+
+
+.about-image {
   position: relative;
-}
-.about-wrapper .about-image-items .experience-text {
-  background-color: var(--theme);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 17px;
-  padding: 16px 30px;
-  border-radius: 7px;
-  -webkit-transform: rotate(-11.223deg);
-          transform: rotate(-11.223deg);
-  position: absolute;
-  bottom: 8%;
-  left: 5%;
-}
-@media (max-width: 767px) {
-  .about-wrapper .about-image-items .experience-text {
-    gap: 12px;
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-    bottom: 0;
-    padding: 14px 15px;
-    width: 100%;
-    left: 0;
-    right: 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    bottom: 4%;
-  }
-}
-.about-wrapper .about-image-items .experience-text li {
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: -0.8px;
-}
-@media (max-width: 767px) {
-  .about-wrapper .about-image-items .experience-text li {
-    font-size: 16px;
-  }
-}
-@media (max-width: 767px) {
-  .about-wrapper .about-image-items .about-image {
-    height: 480px;
-  }
-}
-@media (max-width: 575px) {
-  .about-wrapper .about-image-items .about-image {
-    height: 400px;
-  }
-}
-.about-wrapper .about-image-items .about-image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.about-wrapper .digital-about-image img {
-  width: 100%;
+  flex-direction: column;
+  gap: 20px;
   height: 100%;
 }
+
+/* Style for the first column with two images */
+.col-md-6:first-child .about-image {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Style for the second column with one image */
+.col-md-6:last-child .about-image {
+  display: flex;
+}
+
+/* Image styling */
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.about-image img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* First image in first column */
+.col-md-6:first-child .about-image img:first-child {
+  border-bottom-right-radius: 50px;
+}
+
+/* Second image in first column */
+.col-md-6:first-child .about-image img:last-child {
+  border-top-left-radius: 50px;
+}
+
+/* Single image in second column */
+.col-md-6:last-child .about-image img {
+  border-radius: 20px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .about-image {
+    gap: 15px;
+  }
+  
+  .col-md-6:first-child .about-image,
+  .col-md-6:last-child .about-image {
+    grid-template-rows: auto;
+    height: auto;
+  }
+  
+  .about-image img {
+    height: 300px;
+  }
+  
+  .col-md-6:first-child .about-image img:first-child,
+  .col-md-6:first-child .about-image img:last-child,
+  .col-md-6:last-child .about-image img {
+    border-radius: 10px;
+  }
+}
+
+
+
 .about-wrapper .about-content {
   margin-left: 60px;
 }
@@ -5417,7 +5428,7 @@ select.main-search-input::placeholder {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8); /* Noir (black) color with 50% opacity */
+  background-color: rgba(0, 0, 0, 0.6); /* Noir (black) color with 50% opacity */
   z-index: 1; /* Ensure the overlay is above the background image */
 }
 

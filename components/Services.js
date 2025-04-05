@@ -3,7 +3,7 @@ import Link from "next/link";
 const servicesData = [
   {
     id: 1,
-    image: "/assets/img/service/serv1.jpg",
+    image: "/assets/img/service/service1.jpg",
     icon: "flaticon-electricity",
     title: "Electricité & Automatisme",
     description:
@@ -12,7 +12,7 @@ const servicesData = [
   },
   {
     id: 2,
-    image: "/assets/img/service/serv2.jpeg",
+    image: "/assets/img/service/service2.jpg",
     icon: "flaticon-automation",
     title: "Contrôle d'accès & Surveillance",
     description:
@@ -30,7 +30,7 @@ const servicesData = [
   },
   {
     id: 4,
-    image: "/assets/img/project/004.png",
+    image: "/assets/img/service/service4.jpg",
     icon: "flaticon-network",
     title: "Precablage informatique",
     description:
@@ -39,7 +39,7 @@ const servicesData = [
   },
   {
     id: 5,
-    image: "/assets/img/service/serv5.jpg",
+    image: "/assets/img/service/service5.jpg",
     icon: "/service#energies_renouvelables_travaux_divers",
     title: "Energies renouvelables",
     description:
@@ -48,7 +48,7 @@ const servicesData = [
   },
   {
     id: 6,
-    image: "/assets/img/service/serv6.jpg",
+    image: "/assets/img/service/service6.jpg",
     icon: "flaticon-maintenance",
     title: "Maintenance & S.A.V",
     description:

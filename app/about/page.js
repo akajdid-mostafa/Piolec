@@ -9,7 +9,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="À propos de l'entreprise" />
+      <Breadcrumb pageName="À propos de l'entreprise" backgroundImage="assets/img/about/about.jpg"/>
       {/* <Breadcrumb /> */}
       {/* About Section Start */}
       <section className="about-section fix section-paddingg pb-0">
