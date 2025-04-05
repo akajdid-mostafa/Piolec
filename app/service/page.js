@@ -19,19 +19,19 @@ const electricite_automatisme = {
     "Nous nous engageons à respecter les normes en vigueur et à fournir des installations sûres et performantes, que ce soit pour des courants forts ou faibles. Besoin d’une alimentation de secours avec des groupes électrogènes ou des onduleurs ? Ou d’une solution sur mesure pour vos équipements électriques ? PIOLEC est votre partenaire de confiance pour des projets électriques aboutis.",
     images: [
     {
-      src: "/assets/img/about/0101.png",
+      src: "/assets/img/service/service1/02.png",
       alt: "Image 1",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0102.png",
+      src: "/assets/img/service/service1/03.png",
       alt: "Image 2",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0103.png",
+      src: "/assets/img/service/service1/01.png",
       alt: "Image 3",
       width: 300,
       height: 400,
@@ -53,19 +53,19 @@ const contrôle_dacces_surveillance = {
     "En complément, nous installons également des systèmes de vidéosurveillance avec des caméras IP et analogiques, offrant une surveillance continue et en temps réel de vos espaces. Nos solutions de gestion centralisée vous permettent de superviser et de contrôler les accès de vos installations de manière intuitive et efficace. Avec PIOLEC, vous pouvez protéger vos biens et vos personnes en toute confiance.",
     images: [
     {
-      src: "/assets/img/about/0101.png",
+      src: "/assets/img/service/service2/01.png",
       alt: "Image 1",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0102.png",
+      src: "/assets/img/service/service2/02.png",
       alt: "Image 2",
       width: 300,
       height: 200,
     },
     {
-      src: "/assets/img/about/0103.png",
+      src: "/assets/img/service/service2/03.png",
       alt: "Image 3",
       width: 300,
       height: 400,

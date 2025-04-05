@@ -69,7 +69,7 @@ const page = () => {
               </div>
               <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                 <div className="about-image-4">
-                  <img src="assets/img/about/05.jpg" alt="img" />
+                  <img src="assets/img/about/about0.png" alt="img" />
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ const page = () => {
             <div className="row g-4 align-items-center">
               <div className="col-lg-5 wow  fadeInUp" data-wow-delay=".3s">
                 <div className="about-image-3">
-                  <img src="assets/img/about/06.jpg" alt="img" />
+                  <img src="assets/img/about/about1.png" alt="img" />
                 </div>
               </div>
               <div className="col-lg-7">
