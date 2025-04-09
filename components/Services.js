@@ -75,13 +75,8 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
       <div className="container">
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
-            {/* <img src="assets/img/bale.png" alt="img" /> */}
             {title}
           </span>
-          {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            We Provide the Best Solutions for <br />
-            Electricity, IT, Automation, and Security Systems
-          </h2> */}
         </div>
         <div className="row">
           {servicesData.map((service) => (
@@ -107,9 +102,8 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
                   <h5>
                     <Link href={service.Link}>{service.title}</Link>
                   </h5><br></br>
-                  {/* <p>{service.description}</p> */}
-                  <Link href={service.Link} className="theme-btn bg-2">
-                  En savoir plus <i className="far fa-arrow-right" />
+                  <Link href={service.Link} className="theme-btn">
+                  En savoir plus <i className="far fa-arrow-right " />
                   </Link>
                 </div>
               </div>
@@ -120,55 +114,4 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
     </section>
   );
 };
-
-
-
-
-const Services = () => {
-  return (
-    <section
-      className="service-section-4 fix bg-cover section-padding"
-      style={{
-        backgroundImage: 'url("assets/img/service/service-bg-min.jpg")',
-      }}
-      id="services"
-    >
-      <div className="container">
-        <div className="section-title text-center">
-          <span className="sub-content bg-color-3 wow fadeInUp">
-            <img src="assets/img/bale.png" alt="img" />
-            Our Services
-          </span>
-          <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-            We Provide the Best Solutions for <br />
-            Electricity, IT, Automation, and Security Systems
-          </h2>
-        </div>
-        <div className="row">
-          {servicesData.map((service) => (
-            <div
-              key={service.id}
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div className="service-box-items">
-                <div className="icon">
-                  <i className={service.icon} />
-                </div>
-                <div className="content">
-                  <h3>
-                    <Link href="service-details">{service.title}</Link>
-                  </h3>
-                  <p>{service.description}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-export default Services;
-
 

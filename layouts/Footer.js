@@ -69,7 +69,7 @@ const Footer1 = () => {
                     <a href="#">
                       <i className="fab fa-facebook-f" />
                     </a>
-                    <a href="#">
+                    {/* <a href="#">
                       <i className="fab fa-twitter" />
                     </a>
                     <a href="#">
@@ -77,7 +77,11 @@ const Footer1 = () => {
                     </a>
                     <a href="#">
                       <i className="fab fa-pinterest-p" />
+                    </a> */}
+                    <a href="#">
+                    <i className="fab fa-linkedin-in" />
                     </a>
+
                   </div>
                 </div>
               </div>

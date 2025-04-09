@@ -165,7 +165,7 @@ const Menu = ({ single, menu }) => {
               </ul> */}
           </li>
           <li>
-            <Link href="/about">A propos</Link>
+            <Link href="/A_propos">A propos</Link>
           </li>
           <li>
             <Link href="/service">
@@ -207,7 +207,7 @@ const Menu = ({ single, menu }) => {
             </ul>
           </li>
           <li>
-            <Link href="/project">Projets</Link>
+            <Link href="/Projets">Projets</Link>
           </li>
           {/* <li className="has-dropdown">
             <Link href="/news">
@@ -343,7 +343,7 @@ const MobileMenu = () => {
               </a>
             </li>
             <li>
-              <Link href="/project">Projets</Link>
+              <Link href="/Projets">Projets</Link>
             </li>
             {/* <li className="mean-last">
               <Link href="/contact">Contact</Link>
@@ -413,7 +413,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Mod-friday, 09am -05pm
+                      lundi au vendredi, de 09h00 à 17h00
                       </a>
                     </div>
                   </li>
@@ -440,12 +440,12 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                   <a href="#">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
+                  {/* <a href="#">
                     <i className="fab fa-twitter" />
                   </a>
                   <a href="#">
                     <i className="fab fa-youtube" />
-                  </a>
+                  </a> */}
                   <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>

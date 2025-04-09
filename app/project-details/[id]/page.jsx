@@ -6,7 +6,7 @@ import NextLayout from "@/layouts/NextLayout";
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import { projects } from "../../project/data";
+import { projects } from "../../Projets/data";
 
 // Import Fancybox
 import { Fancybox } from "@fancyapps/ui";

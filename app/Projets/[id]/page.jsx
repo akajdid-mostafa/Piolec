@@ -6,7 +6,7 @@ import NextLayout from "@/layouts/NextLayout";
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import { projects } from "../../project/data";
+import { projects } from "../data";
 import Cta from "@/components/Cta";
 
 // Import Fancybox
@@ -38,11 +38,11 @@ const ProjectDetailPage = () => {
 
   return (
     <NextLayout>
-      <Breadcrumb
+      {/* <Breadcrumb
         pageName={project.title}
         headingTag="h1"
         backgroundImage="assets/img/back.png"
-      />
+      /> */}
       <section className="project-details-section fix section-paddingg">
         <div className="container">
           <div className="project-details-wrapper">

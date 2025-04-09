@@ -102,9 +102,11 @@ Version: 1.0.0
 }
 .theme-btn.hover-white::before, .theme-btn.hover-white::after {
   background-color: var(--hov);
+  
 }
 .theme-btn.hover-white:hover {
-  color: var(--header);
+  color: var(--white);
+
 }
 .theme-btn.bg-2 {
   background: #9c8a5a;
@@ -132,10 +134,12 @@ Version: 1.0.0
   color: var(--white);
 }
 .theme-btn.white-border::before, .theme-btn.white-border::after {
-  background-color: var(--white);
+  background-color: var(--hov);
+  
 }
 .theme-btn.white-border:hover {
-  color: var(--header);
+  color: var(--white);
+  
 }
 
 .link-btn {
@@ -4693,21 +4697,21 @@ select.main-search-input::placeholder {
   color: var(--theme);
 }
 
-.service-popular-items .service-content .theme-btn {
+/* .service-popular-items .service-content .theme-btn {
   background: rgba(135, 96, 253, 0.2);
   color: var(--theme);
-  margin-top: auto; /* Push the button to the bottom of the card */
+  margin-top: auto; 
   
-}
+} */
 
-.service-popular-items .service-content .theme-btn::before,
+/* .service-popular-items .service-content .theme-btn::before,
 .service-popular-items .service-content .theme-btn::after {
   background: var(--theme);
-}
+} */
 
-.service-popular-items .service-content .theme-btn:hover {
+/* .service-popular-items .service-content .theme-btn:hover {
   color: var(--white);
-}
+} */
 
 .service-offer-section {
   padding: 247px 0 120px;
