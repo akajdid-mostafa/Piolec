@@ -2,10 +2,44 @@
 
 import { projects } from "@/app/Projets/data";
 import Link from "next/link";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+// import "./styles.css"; // Your custom CSS file
 
 const Pupulerproject = () => {
-  // Get the first 3 projects
-  const firstThreeProjects = projects.slice(0, 3);
+  // Get all projects you want to display (adjust the slice as needed)
+  const displayedProjects = projects.slice(0, 6); // Showing 6 projects for scrolling
+
+  // Slider settings
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // Default for large screens
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024, // Medium screens
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 768, // Mobile screens
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false
+        }
+      }
+    ]
+  };
 
   return (
     <section className="case-study-section fix section-paddingg theme-bg">
@@ -21,58 +55,41 @@ const Pupulerproject = () => {
             Voir plus de projets
           </Link>
         </div>
-        <div className="row">
-          {firstThreeProjects.map((project) => (
-            <div
-              key={project.id}
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div className="case-study-items">
-              <div
-                        className="project-image"
-                        style={{
-                          display: "flex", // Keep images in the same row
-                          gap: "10px", // Add more spacing between images
-                          width: "100%", // Full width
-                          height: "210px", // Increase image height
-                          overflow: "hidden", // Prevent overflow
-                        }}
+        
+        <div className="case-study-slider">
+          <Slider {...settings}>
+            {displayedProjects.map((project) => (
+              <div key={project.id} className="slide-item">
+                <div className="case-study-items">
+                  <div className="project-image">
+                    {project.details.images.slice(0, 4).map((image, index) => (
+                      <Link
+                        key={index}
+                        href={`/Projets/${project.id}`}
+                        className="project-image-link"
                       >
-                        {project.details.images
-                          .slice(0, 4)
-                          .map((image, index) => (
-                            <Link
-                              key={index}
-                              href={`/Projets/${project.id}`}
-                              style={{ flex: "1" }}
-                            >
-                              <img
-                                src={image}
-                                alt={`image-${index}`}
-                                style={{
-                                  width: "100%", // Make sure each image takes equal width
-                                  height: "100%", // Increase height
-                                  objectFit: "cover", // Ensure proper fit without distortion
-                                  borderRadius: "10px", // Optional: for rounded corners
-                                }}
-                              />
-                            </Link>
-                          ))}
-                      </div>
-                <div className="content">
-                  <h3>
-                    <Link href={`/Projets/${project.id}`}>
-                      {project.title}
+                        <img
+                          src={image}
+                          alt={`image-${index}`}
+                          className="project-thumbnail"
+                        />
+                      </Link>
+                    ))}
+                  </div>
+                  <div className="content">
+                    <h4 className="mt-4">
+                      <Link href={`/Projets/${project.id}`}>
+                        {project.title}
+                      </Link>
+                    </h4>
+                    <Link className="arrow-btn" href={`/Projets/${project.id}`}>
+                      <i className="far fa-arrow-right" />
                     </Link>
-                  </h3>
-                  <Link className="arrow-btn" href={`/Projets/${project.id}`}>
-                    <i className="far fa-arrow-right" />
-                  </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </Slider>
         </div>
       </div>
     </section>

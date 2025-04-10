@@ -8985,49 +8985,162 @@ p.sticky-label {
   margin-right: 1.5em;
   margin-bottom: 1.5em;
 }
+  
 
-.case-study-items {
+
+
+/* Case Study Slider */
+.case-study-slider {
   margin-top: 30px;
 }
-.case-study-items .thumb img {
-  width: 100%;
-  height: 200px; /* Set a fixed height for all images */
-  border-radius: 12px;
-  object-fit: cover; /* Ensure the image covers the container without distortion */
+
+.case-study-slider .slide-item {
+  padding: 0 15px;
 }
-.case-study-items .content {
-  padding-top: 20px;
-  overflow: hidden;
+
+/* Project Items */
+.case-study-items {
+  margin-top: 0;
+  transition: all 0.3s ease;
 }
+
+.case-study-items:hover {
+  transform: translateY(-5px);
+}
+
 .case-study-items .content p {
   color: var(--white);
   margin-bottom: 5px;
 }
-.case-study-items .content h3 {
-  font-size: 26px;
-  margin-bottom: 20px;
+
+.project-image {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
 }
-@media (max-width: 1399px) {
-  .case-study-items .content h3 {
-    font-size: 22px;
-  }
+
+.project-image-link {
+  flex: 1;
+  display: block;
+  height: 100%;
 }
+
+.project-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.project-image-link:hover .project-thumbnail {
+  transform: scale(1.05);
+}
+
+/* Slick slider overrides */
+.slick-slider {
+  position: relative;
+}
+
+.slick-list {
+  overflow: hidden;
+  margin: 0 -15px;
+}
+
+.slick-slide {
+  padding: 0 15px;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.slick-arrow:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  font-size: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+/* Responsive adjustments */
 @media (max-width: 1199px) {
-  .case-study-items .content h3 {
-    font-size: 24px;
+  .slick-prev {
+    left: -20px;
+  }
+  .slick-next {
+    right: -20px;
   }
 }
+
+@media (max-width: 991px) {
+  .project-image {
+    height: 180px;
+  }
+}
+
 @media (max-width: 767px) {
-  .case-study-items .content h3 {
-    font-size: 22px;
+  .slick-arrow {
+    display: none !important;
+  }
+  
+  .project-image {
+    height: 160px;
   }
 }
+
 @media (max-width: 575px) {
-  .case-study-items .content h3 {
-    font-size: 20px;
+  .project-image {
+    height: 140px;
   }
 }
-.case-study-items .content h3 a {
+
+.case-study-items .content h4 a {
   color: var(--white);
   background-image: -webkit-gradient(linear, left top, left bottom, from(var(--white)), to(var(--white)));
   background-image: linear-gradient(var(--white), var(--white));
@@ -9035,32 +9148,12 @@ p.sticky-label {
   background-repeat: no-repeat;
   background-size: 0% 2px;
 }
-.case-study-items .content h3 a:hover {
-  background-size: 100% 2px;
-}
-.case-study-items .content .arrow-btn {
-  color: var(--white);
-}
-.case-study-items .content .arrow-btn::before {
-  color: var(--white);
-}
 
-.case-study-section {
-  position: relative;
-  z-index: 9;
-}
-.case-study-section .left-shape {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
-.case-study-section .right-shape {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-}
+
+
+
+
+
 
 
 
