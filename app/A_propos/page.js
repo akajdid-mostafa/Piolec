@@ -9,36 +9,39 @@ import Link from "next/link";
 const page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="À propos de l'entreprise" backgroundImage="assets/img/about/about.jpg"/>
+      <Breadcrumb
+        pageName="À propos de l'entreprise"
+        backgroundImage="assets/img/about/about.jpg"
+      />
       {/* <Breadcrumb /> */}
       {/* About Section Start */}
       <section className="about-section fix section-paddingg pb-0">
         <div className="container">
           <div className="about-wrapper style-2">
             <div className="row g-4 align-items-center">
+              <div className="row g-4">
+              <p className="mt-6  wow fadeInUp" data-wow-delay=".5s">
+                Bienvenue sur le site web de PIOLEC, votre partenaire privilégié
+                en électricité, automatisme, pré-câblage informatique et
+                systèmes de sécurité. Depuis notre création, nous nous engageons
+                à fournir des solutions innovantes et sur mesure pour répondre
+                aux besoins de nos clients à travers le Maroc.
+              </p>
+              </div>
+             
               <div className="col-lg-6">
                 <div className="about-content ms-0 style-about">
-                  {/* <div className="section-title">
-                    <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />
-                      À propos de l'entreprise
-                    </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    Nous augmentons le nombre de visiteurs de votre site web et augmentons les ventes
-                    </h2>
-                  </div> */}
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Bienvenue sur le site web de PIOLEC, votre partenaire
-                    privilégié en électricité, automatisme, pré-câblage
-                    informatique et systèmes de sécurité. Depuis notre création,
-                    nous nous engageons à fournir des solutions innovantes et
-                    sur mesure pour répondre aux besoins de nos clients à
-                    travers le Maroc.
-                  </p>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
-                    <div className="dot" />
+                    {/* <div className="dot" /> */}
                     <div className="content">
-                      <h4>Qui sommes-nous ? </h4>
+                      <h4
+                        className="icon-items wow fadeInUp"
+                        data-wow-delay=".3s"
+                      >
+                        <div className="dot" />
+                        Qui sommes-nous ?
+                      </h4>
+                      {/* <h4>Qui sommes-nous ? </h4> */}
                       <p>
                         PIOLEC sarl est une entreprise marocaine crée en 2021
                         grâce aux deux jeunes passionnés par le domaine de
@@ -88,17 +91,12 @@ const page = () => {
               </div>
               <div className="col-lg-7">
                 <div className="about-content">
-                  <h4 className="wow fadeInUp" data-wow-delay=".3s">
+                  <h4 className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                    <div className="dot" />
                     Nos Domaines d&apos;Expertise
                   </h4>
-                  {/* <p className="mt-3 wow fadeInUp" data-wow-delay=".5s">
-                    In the early years, our dedicated team worked tirelessly to
-                    key Next milestones or achievements, such as product
-                    launches, partnerships or expansions these efforts laid the
-                    foundation
-                  </p> */}
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
-                    <div className="dot" />
+                    {/* <div className="dot" /> */}
                     <div className="content">
                       <h6>Electricité & Automatisme</h6>
                       <p>
@@ -109,7 +107,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
-                    <div className="dot" />
+                    {/* <div className="dot" /> */}
                     <div className="content">
                       <h6>Contrôle d'accès & Surveillance</h6>
                       <p>
@@ -120,7 +118,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
-                    <div className="dot" />
+                    {/* <div className="dot" /> */}
                     <div className="content">
                       <h6>Détection incendie & intrusion</h6>
                       <p>
@@ -131,7 +129,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
-                    <div className="dot" />
+                    {/* <div className="dot" /> */}
                     <div className="content">
                       <h6>Precablage informatique </h6>
                       <p>
@@ -141,7 +139,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
-                    <div className="dot" />
+                    {/* <div className="dot" /> */}
                     <div className="content">
                       <h6>Energies renouvelables</h6>
                       <p>
@@ -151,7 +149,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
-                    <div className="dot" />
+                    {/* <div className="dot" /> */}
                     <div className="content">
                       <h6>Maintenance & S.A.V</h6>
                       <p>
@@ -161,7 +159,7 @@ const page = () => {
                     </div>
                   </div>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
-                    <div className="dot" />
+                    {/* <div className="dot" /> */}
                     <div className="content">
                       <h6>Travaux divers</h6>
                       <p>

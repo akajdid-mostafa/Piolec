@@ -3,6 +3,7 @@ import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import Cta from "@/components/Cta";
 import { projects } from "./data";
+import ProjectPresentation from "@/components/ProjectPresentation";
 
 const Page = () => {
   return (
@@ -83,6 +84,8 @@ const Page = () => {
         h2="Prêt à optimiser vos installations électriques ?"
         p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
       />
+      <ProjectPresentation/>
+
     </NextLayout>
   );
 };

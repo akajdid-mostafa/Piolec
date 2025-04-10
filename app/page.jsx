@@ -195,7 +195,7 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <Service2 paddingTop={5} title="Our Services" />
+      <Service2 paddingTop={5} title="Nos services" />
 
       <Steps/>
 

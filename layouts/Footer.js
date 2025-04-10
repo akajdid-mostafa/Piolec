@@ -96,13 +96,13 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-items">
                   <li>
-                    <Link href="/service">Popular Services</Link>
+                    <Link href="/service">Nos services</Link>
                   </li>
                   <li>
-                    <Link href="/project">Projets</Link>
+                    <Link href="/Projets">Projets</Link>
                   </li>
                   <li>
-                    <Link href="/about">À propos de nous</Link>
+                    <Link href="/A_propos">À propos de nous</Link>
                   </li>
                   <li>
                     <Link href="/contact">Contactez-nous</Link>
@@ -133,16 +133,6 @@ const Footer1 = () => {
                       </p>
                     </div>
                   </div>
-                  {/* <div className="contact-items">
-                    <div className="icon">
-                      <i className="fas fa-map-marker-alt" />
-                    </div>
-                    <div className="content">
-                      <p>
-                        <spam>succursale :</spam> Agadir
-                      </p>
-                    </div>
-                  </div> */}
                   <div className="contact-items">
                     <div className="icon">
                       <i className="fas fa-envelope" />
