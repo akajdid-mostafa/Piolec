@@ -44,7 +44,7 @@ const Pupulerproject = () => {
                           .map((image, index) => (
                             <Link
                               key={index}
-                              href={`/project/${project.id}`}
+                              href={`/Projets/${project.id}`}
                               style={{ flex: "1" }}
                             >
                               <img
@@ -62,11 +62,11 @@ const Pupulerproject = () => {
                       </div>
                 <div className="content">
                   <h3>
-                    <Link href={`/project/${project.id}`}>
+                    <Link href={`/Projets/${project.id}`}>
                       {project.title}
                     </Link>
                   </h3>
-                  <Link className="arrow-btn" href={`/project/${project.id}`}>
+                  <Link className="arrow-btn" href={`/Projets/${project.id}`}>
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>

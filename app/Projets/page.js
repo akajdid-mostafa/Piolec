@@ -47,7 +47,7 @@ const Page = () => {
                           .map((image, index) => (
                             <Link
                               key={index}
-                              href={`/project/${project.id}`}
+                              href={`/Projets/${project.id}`}
                               style={{ flex: "1" }}
                             >
                               <img
@@ -66,7 +66,7 @@ const Page = () => {
 
                       <div className="project-content">
                         <h6>
-                          <Link href={`/project/${project.id}`}>
+                          <Link href={`/Projets/${project.id}`}>
                             {project.title}
                           </Link>
                         </h6>
