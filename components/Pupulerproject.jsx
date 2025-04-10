@@ -17,7 +17,7 @@ const Pupulerproject = () => {
               Découvrez nos projets les plus populaires Réalisé
             </h2>
           </div>
-          <Link href="/project" className="theme-btn white-border">
+          <Link href="/Projets" className="theme-btn white-border">
             Voir plus de projets
           </Link>
         </div>

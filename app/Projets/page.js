@@ -84,7 +84,7 @@ const Page = () => {
         h2="Prêt à optimiser vos installations électriques ?"
         p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
       />
-      <ProjectPresentation/>
+      {/* <ProjectPresentation/> */}
 
     </NextLayout>
   );
