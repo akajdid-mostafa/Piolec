@@ -61,6 +61,7 @@ export const projects = [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740870572/WhatsApp_Image_2025-03-01_at_23.08.13_tsgixc.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740870566/WhatsApp_Image_2025-03-01_at_23.08.14_1_rua1od.jpg",
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740870567/WhatsApp_Image_2025-03-01_at_23.08.14_ttidc2.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744492229/WhatsApp_Image_2025-04-12_at_22.10.02_bqgqhw.jpg",
       ],
       projectInitiation: [
         "Conception schéma de câblage .",
@@ -68,7 +69,7 @@ export const projects = [
         "Câblage et repérage les files .",
         "Teste point a point .",
       ],
-      content: "Montage et câblage Armoire d’automatisme de 110 entrées et 74 sorties logique avec 14 entrée et sortie analogique.",
+      content: "Montage et câblage Armoire d’automatisme pour station dessalement .",
       information: {
         client: "Sté SMART INEGRATION",
         date: "2022",
@@ -127,22 +128,25 @@ export const projects = [
     link: "it-cabling",
     details: {
       images: [
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740871874/WhatsApp_Image_2025-03-01_at_23.26.44_vwwoiu.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740871875/WhatsApp_Image_2025-03-01_at_23.26.43_vkyvft.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740871874/WhatsApp_Image_2025-03-01_at_23.26.44_1_x4kgxk.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740871874/WhatsApp_Image_2025-03-01_at_23.26.45_rkfpos.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740871874/WhatsApp_Image_2025-03-01_at_23.26.43_1_tc2jv1.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740871873/WhatsApp_Image_2025-03-01_at_23.26.45_1_gpnrdi.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740871873/WhatsApp_Image_2025-03-01_at_23.26.46_srr7lr.jpg",
-        "https://res.cloudinary.com/dzqres7rq/image/upload/v1740871873/WhatsApp_Image_2025-03-01_at_23.26.46_1_cbufox.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493028/WhatsApp_Image_2025-04-12_at_22.21.12_oby3cf.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493028/WhatsApp_Image_2025-04-12_at_22.21.11_1_z3fvpm.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493028/WhatsApp_Image_2025-04-12_at_22.21.11_kpfyre.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493026/WhatsApp_Image_2025-04-12_at_22.21.14_h22tb7.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493026/WhatsApp_Image_2025-04-12_at_22.21.13_irhzwg.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493027/WhatsApp_Image_2025-04-12_at_22.21.12_1_pthsoy.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493025/WhatsApp_Image_2025-04-12_at_22.21.16_1_ckii35.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493025/WhatsApp_Image_2025-04-12_at_22.21.15_1_l2h5hz.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493025/WhatsApp_Image_2025-04-12_at_22.21.15_d9i8pk.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493024/WhatsApp_Image_2025-04-12_at_22.21.17_xkyh2r.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493025/WhatsApp_Image_2025-04-12_at_22.21.16_miw4iw.jpg",
       ],
       projectInitiation: [
         "Établir un schéma électrique selon les besoins du projet.",
-        "Montage en atelier et câblage des armoires électriques.",
+        "Montage et câblage en atelier des armoires électriques et des coffrets de commande locale pour station de pompage et station de traitement.",
         "Assemblage et finalisation du câblage sur chantier.",
         "Raccordement et mise en service.",
       ],
-      content: "Armoires électriques de puissance et de commande pour station de pompage, y compris trois départs pour pompes de 30 kW, AGBT, et armoires d'auxiliaires et d'automatisme, au compte de la RADEEJ - Sidi Bennour :",
+      content: "Armoires électriques de puissance et de commande pour station de pompage, y compris trois départs pour pompes de 30 kW, AGBT, et armoires d'auxiliaires et d'automatisme, au compte de la RADEEJ - Sidi Bennour ",
       information: {
         client: "SCADELEC",
         date: "2023",
@@ -151,5 +155,65 @@ export const projects = [
       },
     },
   },
+  {
+    id: 5,
+    category: "Dépôt Hydrocarbures",
+    title: "Coffret électrique pour pompe de relevage",
+    link: "it-cabling",
+    details: {
+      images: [
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493520/WhatsApp_Image_2025-04-12_at_22.31.14_aodgs9.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493520/WhatsApp_Image_2025-04-12_at_22.31.15_j0kdfi.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493519/WhatsApp_Image_2025-04-12_at_22.31.15_1_q9mwni.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493519/WhatsApp_Image_2025-04-12_at_22.31.16_1_qfwmjp.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493519/WhatsApp_Image_2025-04-12_at_22.31.16_lp1kyk.jpg",
+      ],
+      projectInitiation: [
+        "Établir un schéma de commande et de puissance selon les besoins du client.",
+        "Monter et câbler le coffret en atelier.",
+        "Poser et raccorder le coffret sur le chantier.",
+        "Poser les électrodes de niveau au niveau de la bâche d’eau.",
+        "Effectuer la liaison des câbles de puissance et de commande avec le coffret.",
+        "Procéder à la mise en service et à la réception de la prestation.",
+      ],
+      content: "Fourniture et pose d'un coffret de puissance et de commande pour piloter deux pompes de relevage, en mode manuel via des boutons poussoirs et en mode automatique grâce à des électrodes de niveau.",
+      information: {
+        client: "Aman el baraka ",
+        date: "2023",
+        location: "Agadir",
+         
+      },
+    },
+  },
+  {
+    id: 6,
+    category: "Dépôt Hydrocarbures",
+    title: "Coffret électrique mobile ",
+    link: "it-cabling",
+    details: {
+      images: [
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493963/WhatsApp_Image_2025-04-12_at_22.38.48_vjhsa9.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493962/WhatsApp_Image_2025-04-12_at_22.38.49_mqfmah.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493961/WhatsApp_Image_2025-04-12_at_22.38.49_1_sz5ihi.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493961/WhatsApp_Image_2025-04-12_at_22.38.50_vmzmkg.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493960/WhatsApp_Image_2025-04-12_at_22.38.51_xvuiph.jpg",
+      ],
+      projectInitiation: [
+        "Réalisation d'un schéma électrique selon les besoins du client.",
+        "Montage et câblage du coffret en atelier.",
+        "Fabrication d'un chariot en acier galvanisé avec quatre roues.",
+        "Montage du coffret sur le chariot et raccordement d'un câble d’alimentation de longueur suffisante pour brancher le coffret sur le chantier, avec la facilité de le déplacer dans plusieurs zones.",
+      ],
+      content: "Fourniture des coffrets de prises de courant mono et triphasé, ainsi que de démarrage direct pour la commande de deux pompes, avec chariot mobile pour déplacer le coffret sur le chantier.",
+      information: {
+        client: "Aman el baraka ",
+        date: "2024",
+        location: "Agadir",
+         
+      },
+    },
+  },
+  
+
   
 ];
