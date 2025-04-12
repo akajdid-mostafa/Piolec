@@ -4741,6 +4741,48 @@ select.main-search-input::placeholder {
   color: var(--theme);
 }
 
+/* Desktop view (4 columns) */
+@media (min-width: 1200px) {
+  .service-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Center the last 3 items */
+  .service-section .row > div:nth-last-child(-n+3) {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+/* Tablet view (2 columns) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .service-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Center the last item */
+  .service-section .row > div:nth-child(7) {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Mobile view (1 column) - items are already centered by default */
+@media (max-width: 767px) {
+  .service-section .row > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
+
 /* .service-popular-items .service-content .theme-btn {
   background: rgba(135, 96, 253, 0.2);
   color: var(--theme);
