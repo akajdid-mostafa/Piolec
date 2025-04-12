@@ -407,7 +407,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                       </a>
                     </div>
                   </li>
-                  <li className="d-flex align-items-center">
+                  {/* <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="fal fa-clock" />
                     </div>
@@ -416,7 +416,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                       lundi au vendredi, de 09h00 à 17h00
                       </a>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="far fa-phone" />
