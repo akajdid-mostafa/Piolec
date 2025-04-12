@@ -41,7 +41,7 @@ const Pupulerproject = () => {
   };
 
   return (
-    <section className="case-study-section fix section-paddingg theme-bg">
+    <section className="case-study-section fix section-paddinggg theme-bg">
       <div className="container">
         <div className="section-title-area">
           <div className="section-title">

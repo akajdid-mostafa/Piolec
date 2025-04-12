@@ -866,6 +866,12 @@ select.main-search-input::placeholder {
   padding-bottom: 140px;
 }
 
+
+.section-paddinggg {
+  padding: 30px 0;
+  padding-bottom: 50px;
+}
+
 .section-padding {
   padding: 120px 0;
 }
