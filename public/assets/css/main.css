@@ -4320,6 +4320,50 @@ select.main-search-input::placeholder {
   color: var(--white);
 }
 
+
+
+/* Add this to your global CSS */
+.welcome-message {
+  max-width: 56rem; /* Same as max-w-4xl */
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid var(--hov); /* Blue accent */
+}
+
+.welcome-message::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0.5rem;
+  background: linear-gradient(90deg, var(--hov), var(--theme));
+}
+
+.welcome-message strong {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--theme);
+  margin-bottom: 1rem;
+}
+
+.welcome-message p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #4b5563;
+}
+
+
+
+
+
 @media (max-width: 767px) {
   .grow-business-wrapper-2 {
     margin-bottom: -40px;

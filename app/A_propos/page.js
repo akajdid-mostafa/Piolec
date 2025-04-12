@@ -19,16 +19,20 @@ const page = () => {
         <div className="container">
           <div className="about-wrapper style-2">
             <div className="row g-4 align-items-center">
-              <div className="row g-4">
-              <p className="mt-6  wow fadeInUp" data-wow-delay=".5s">
-                Bienvenue sur le site web de PIOLEC, votre partenaire privilégié
-                en électricité, automatisme, pré-câblage informatique et
-                systèmes de sécurité. Depuis notre création, nous nous engageons
-                à fournir des solutions innovantes et sur mesure pour répondre
-                aux besoins de nos clients à travers le Maroc.
-              </p>
+              <div className="row ">
+                <div
+                  className="welcome-message wow fadeInUp"
+                  data-wow-delay=".5s"
+                >
+                  <strong>Bienvenue</strong> sur le site web de PIOLEC, votre
+                  partenaire privilégié en électricité, automatisme, pré-câblage
+                  informatique et systèmes de sécurité. Depuis notre création,
+                  nous nous engageons à fournir des solutions innovantes et sur
+                  mesure pour répondre aux besoins de nos clients à travers le
+                  Maroc.
+                </div>
               </div>
-             
+
               <div className="col-lg-6">
                 <div className="about-content ms-0 style-about">
                   <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
@@ -41,7 +45,6 @@ const page = () => {
                         <div className="dot" />
                         Qui sommes-nous ?
                       </h4>
-                      {/* <h4>Qui sommes-nous ? </h4> */}
                       <p>
                         PIOLEC sarl est une entreprise marocaine crée en 2021
                         grâce aux deux jeunes passionnés par le domaine de
@@ -72,7 +75,7 @@ const page = () => {
               </div>
               <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                 <div className="about-image-4">
-                  <img src="assets/img/about/about0.png" alt="img" />
+                  <img src="assets/img/about/about12.png" alt="img" />
                 </div>
               </div>
             </div>
