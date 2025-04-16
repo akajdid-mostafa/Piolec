@@ -1,4 +1,7 @@
 {
-  "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js"
+  "/Projets/page": "app/Projets/page.js",
+  "/Projets/[id]/page": "app/Projets/[id]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/manifest.json/route": "app/manifest.json/route.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

@@ -1,9 +1,7 @@
 export const projects = [
   {
     id: 1,
-    category: "Dépôt Hydrocarbures",
     title: "Installation Électrique CFA / CFO ",
-    link: "industrial-electricity",
     details: {
       images: [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740869681/IMG_20211110_181929_bxixlk.jpg",
@@ -53,9 +51,7 @@ export const projects = [
   },
   {
     id: 2,
-    category: "Dépôt Hydrocarbures",
     title: "Armoire d’automatisme",
-    link: "access-control",
     details: {
       images: [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740870572/WhatsApp_Image_2025-03-01_at_23.08.13_tsgixc.jpg",
@@ -80,9 +76,7 @@ export const projects = [
   },
   {
     id: 3,
-    category: "Dépôt Hydrocarbures",
     title: "Eclairage extérieur",
-    link: "fire-detection",
     details: {
       images: [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1740871026/WhatsApp_Image_2025-03-01_at_23.14.12_1_jhiexr.jpg",
@@ -123,9 +117,7 @@ export const projects = [
   },
   {
     id: 4,
-    category: "Dépôt Hydrocarbures",
     title: "Armoire électrique pour station de pompage ",
-    link: "it-cabling",
     details: {
       images: [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493028/WhatsApp_Image_2025-04-12_at_22.21.12_oby3cf.jpg",
@@ -157,9 +149,7 @@ export const projects = [
   },
   {
     id: 5,
-    category: "Dépôt Hydrocarbures",
     title: "Coffret électrique pour pompe de relevage",
-    link: "it-cabling",
     details: {
       images: [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493520/WhatsApp_Image_2025-04-12_at_22.31.14_aodgs9.jpg",
@@ -187,9 +177,7 @@ export const projects = [
   },
   {
     id: 6,
-    category: "Dépôt Hydrocarbures",
     title: "Coffret électrique mobile ",
-    link: "it-cabling",
     details: {
       images: [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1744493963/WhatsApp_Image_2025-04-12_at_22.38.48_vjhsa9.jpg",
@@ -210,6 +198,150 @@ export const projects = [
         date: "2024",
         location: "Agadir",
          
+      },
+    },
+  },
+  {
+    id: 7,
+    title: "Armoires pour station de pompage de puissance 400 kW ",
+    details: {
+      images: [
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744832655/WhatsApp_Image_2025-04-16_at_20.21.19_nhsdfa.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744832654/WhatsApp_Image_2025-04-16_at_20.21.22_1_puvjzk.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744832656/WhatsApp_Image_2025-04-16_at_20.21.21_okz3s8.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744832654/WhatsApp_Image_2025-04-16_at_20.21.22_p3rwow.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744832658/WhatsApp_Image_2025-04-16_at_20.21.23_k62s3i.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744832657/WhatsApp_Image_2025-04-16_at_20.21.20_plq8ne.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744832656/WhatsApp_Image_2025-04-16_at_20.21.23_1_hhoiks.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744832655/WhatsApp_Image_2025-04-16_at_20.21.19_1_dy397i.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744832652/WhatsApp_Image_2025-04-16_at_20.21.20_1_yukcqf.jpg",
+      ],
+      projectInitiation: [
+        "Montage et câblage des armoires de puissance, auxiliaires et automatisme",
+        "Installation d’un Onduleur avec Batterie externe ",
+        "Installation d’un coffret de compensation de 50kvar",
+        "Raccordement les moteurs aux nouvelles armoires",
+        "Programmation et test de la télégestion des équipements d’automatisme ",
+      ],
+      content: "Fourniture et pose l’ensemble des armoires électrique de puissance et commande, Automatisme pour station de pompage eau potable de puissance totale, 400 kW (Au compte de RAMSA).",
+      information: {
+        client: "OMEGA FLUIDS",
+        date: "2023",
+        location: "Agadir",
+         
+      },
+    },
+  },
+  {
+    id: 8,
+    title: "Armoires électrique pour Station de pompage",
+    details: {
+      images: [
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836548/WhatsApp_Image_2025-04-16_at_21.42.02_clri9f.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836537/WhatsApp_Image_2025-04-16_at_21.41.59_ss9wqo.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836534/WhatsApp_Image_2025-04-16_at_21.42.00_bybcmt.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836534/WhatsApp_Image_2025-04-16_at_21.42.00_1_wqhdvb.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836533/WhatsApp_Image_2025-04-16_at_21.42.01_undj8t.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836533/WhatsApp_Image_2025-04-16_at_21.42.01_1_cdldaw.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836532/WhatsApp_Image_2025-04-16_at_21.42.04_ecxpzr.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836532/WhatsApp_Image_2025-04-16_at_21.42.03_e53zai.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836531/WhatsApp_Image_2025-04-16_at_21.42.04_1_wtrbep.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744836531/WhatsApp_Image_2025-04-16_at_21.42.02_1_kqnzzl.jpg",
+      ],
+      projectInitiation: [
+        "Réalisation du schéma électrique selon les besoins du client",
+        "Montage et câblage de quatre armoires, du coffret Normal/Secours et de l’éclairage",
+        "Transport et installation des armoires sur chantier, raccordement des pompes et des installations auxiliaires de la station",
+        "Installation de l’éclairage extérieur, y compris le coffret de commande",
+        "Mise en service et réception du projet",
+      ],
+      content: "Montage et installation des armoires de puissance et commande, automatisme pour station de pompage eau usée.",
+      information: {
+        client: "SCADELEC",
+        date: "2022",
+        location: "Guercif",
+         
+      },
+    },
+  },
+  {
+    id: 9,
+    title: "Caméra de surveillance IP",
+    details: {
+      images: [
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839018/WhatsApp_Image_2025-04-16_at_21.53.33_e7ropn.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839017/WhatsApp_Image_2025-04-16_at_21.53.34_wsuupg.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839017/WhatsApp_Image_2025-04-16_at_21.53.35_bz9n7f.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839016/WhatsApp_Image_2025-04-16_at_21.53.35_1_lr2aoe.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839015/WhatsApp_Image_2025-04-16_at_21.53.36_adcjk2.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839015/WhatsApp_Image_2025-04-16_at_21.53.36_1_wcf3o3.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839014/WhatsApp_Image_2025-04-16_at_21.53.37_gwhqpc.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839014/WhatsApp_Image_2025-04-16_at_21.53.37_1_jjjbie.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839013/WhatsApp_Image_2025-04-16_at_21.53.38_gwrlx4.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839013/WhatsApp_Image_2025-04-16_at_21.53.38_1_wfe00v.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839012/WhatsApp_Image_2025-04-16_at_21.53.39_q12ve7.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839012/WhatsApp_Image_2025-04-16_at_21.53.40_xrrpiv.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839011/WhatsApp_Image_2025-04-16_at_21.53.40_1_dhntyo.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839011/WhatsApp_Image_2025-04-16_at_21.53.41_1_yns2st.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839011/WhatsApp_Image_2025-04-16_at_21.53.41_rqunj1.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839010/WhatsApp_Image_2025-04-16_at_21.53.42_jofmll.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839010/WhatsApp_Image_2025-04-16_at_21.53.32_dqs3fq.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744839010/WhatsApp_Image_2025-04-16_at_21.53.33_1_ik0n22.jpg",
+      ],
+      projectInitiation: [
+        "Fixation des coffrets informatiques équipés de switches et de boîtes de fusionnement de la fibre optique.",
+        "Fixation des caméras de surveillance en tenant compte du champ visuel.",
+        "Liaison entre les switches par câble fibre optique.",
+        "Liaison entre les switches et les caméras par câble réseau CAT6A.",
+        "Branchement des onduleurs pour les armoires d’instrumentation.",
+        "Pose et raccordement des coffrets de compensation.",
+        "Montage, câblage et raccordement un coffret N/S pour inverser la source d’alimentation.",
+      ],
+      content: "Fourniture et pose d'une solution complète de surveillance, avec la mise en service des armoires électriques pour un station de traitement et de pompage.",
+      information: {
+        client: "SCADELEC",
+        date: "2024",
+        location: "Beni Mellal",
+         
+      },
+    },
+  },
+  {
+    id: 10,
+    title: "Equipement électrique pour station de traitement des eaux Ussé",
+    details: {
+      images: [
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845485/WhatsApp_Image_2025-04-16_at_22.49.10_df7mjk.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845485/WhatsApp_Image_2025-04-16_at_22.49.10_1_clmhnj.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845485/WhatsApp_Image_2025-04-16_at_22.49.11_1_lidvx1.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845488/WhatsApp_Image_2025-04-16_at_22.49.09_lbordh.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845486/WhatsApp_Image_2025-04-16_at_22.49.09_1_dmx8ee.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845485/WhatsApp_Image_2025-04-16_at_22.49.11_phchp5.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845484/WhatsApp_Image_2025-04-16_at_22.49.12_nxfqbh.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845484/WhatsApp_Image_2025-04-16_at_22.49.13_1_pdw4ry.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845483/WhatsApp_Image_2025-04-16_at_22.49.12_1_inqu62.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845482/WhatsApp_Image_2025-04-16_at_22.49.14_vhgmfo.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845481/WhatsApp_Image_2025-04-16_at_22.49.13_qfg3x7.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845480/WhatsApp_Image_2025-04-16_at_22.49.07_1_dyzy2j.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845480/WhatsApp_Image_2025-04-16_at_22.49.07_ozycsa.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845480/WhatsApp_Image_2025-04-16_at_22.49.08_gvj8hf.jpg",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1744845480/WhatsApp_Image_2025-04-16_at_22.49.08_1_lnpg0w.jpg",
+      ],
+      projectInitiation: [
+        "Mise à jour du dossier d’exécution",
+        "Montage et câblage de l’ensemble des armoires en atelier",
+        "Pose des câbles Basse Tension (BT) pour l’alimentation de tous les équipements de la STEP",
+        "Installation et raccordement sur site des armoires électriques avec l’ensemble des équipements BT",
+        "Pose de la liaison en fibre optique, incluant les accessoires de jonction, pour connecter les automates programmables au local de supervision",
+        "Installation de l’éclairage intérieur et extérieur",
+        "Raccordement partie électrique de l’unité de prétraitement",
+        "Tests fonctionnels et mise en service de l’ensemble des équipements",
+      ],
+      content: "Montage et câblage et installation l’ensemble de dix-sept armoires de puissance et commande pour station de traitement avec la pose et raccordement câble BT et éclairage intérieur et extérieur",
+      information: {
+        client: "SCADELEC",
+        date: "2023",
+        location: "BERKANE",
       },
     },
   },

@@ -6,6 +6,13 @@ import { projects } from "./data";
 import ProjectPresentation from "@/components/ProjectPresentation";
 
 const Page = () => {
+  // Sort projects by date (newest first)
+  const sortedProjects = [...projects].sort((a, b) => {
+    const dateA = new Date(a.details.information.date);
+    const dateB = new Date(b.details.information.date);
+    return dateB - dateA; // For descending order (newest first)
+  });
+
   return (
     <NextLayout>
       <Breadcrumb
@@ -24,7 +31,7 @@ const Page = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="row justify-content-center">
-                {projects.map((project) => (
+                {sortedProjects.map((project) => (
                   <div
                     key={project.id}
                     className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
@@ -35,11 +42,11 @@ const Page = () => {
                       <div
                         className="project-image"
                         style={{
-                          display: "flex", // Keep images in the same row
-                          gap: "10px", // Add more spacing between images
-                          width: "100%", // Full width
-                          height: "210px", // Increase image height
-                          overflow: "hidden", // Prevent overflow
+                          display: "flex",
+                          gap: "10px",
+                          width: "100%",
+                          height: "210px",
+                          overflow: "hidden",
                         }}
                       >
                         {project.details.images
@@ -54,10 +61,10 @@ const Page = () => {
                                 src={image}
                                 alt={`image-${index}`}
                                 style={{
-                                  width: "100%", // Make sure each image takes equal width
-                                  height: "100%", // Increase height
-                                  objectFit: "cover", // Ensure proper fit without distortion
-                                  borderRadius: "10px", // Optional: for rounded corners
+                                  width: "100%",
+                                  height: "100%",
+                                  objectFit: "cover",
+                                  borderRadius: "10px",
                                 }}
                               />
                             </Link>
@@ -70,6 +77,10 @@ const Page = () => {
                             {project.title}
                           </Link>
                         </h6>
+                        {/* Optional: Display the date if you want */}
+                        {/* <p className="project-date" style={{ fontSize: '0.8rem', color: '#666' }}>
+                          {new Date(project.details.information.date).toLocaleDateString()}
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -84,8 +95,6 @@ const Page = () => {
         h2="Prêt à optimiser vos installations électriques ?"
         p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
       />
-      {/* <ProjectPresentation/> */}
-
     </NextLayout>
   );
 };
