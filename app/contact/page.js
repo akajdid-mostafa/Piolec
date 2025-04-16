@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
@@ -44,13 +44,16 @@ const Page = () => {
 
     try {
       // Send a POST request to the API
-      const response = await fetch("https://email-lemon-pi.vercel.app/api/Piolec", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(apiData),
-      });
+      const response = await fetch(
+        "https://email-lemon-pi.vercel.app/api/Piolec",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(apiData),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Failed to send message");
@@ -83,8 +86,12 @@ const Page = () => {
   };
 
   return (
-    <NextLayout> 
-      <Breadcrumb pageName="" backgroundImage="assets/img/cta/contact.png" backgroundCover={false} />
+    <NextLayout>
+      <Breadcrumb
+        pageName="CONTACTEZ-NOUS"
+        backgroundImage="assets/img/cta/contact1.png"
+        backgroundCover={true}
+      />
       <Contact />
       {/* Contact Section Section Start */}
       <section className="contact-section section-paddingg">
@@ -92,23 +99,27 @@ const Page = () => {
           <div className="contact-wrapper">
             <div className="row g-4">
               <div className="col-lg-4">
-                <div className="contact-content wow fadeInUp"
-                data-wow-delay=".4s"
+                <div
+                  className="contact-content wow fadeInUp"
+                  data-wow-delay=".4s"
                 >
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
-                      Nous contacter
+                      Contactez-nous
                     </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
                       N'hésitez pas à nous contacter <br />
                       Notre équipe
-                    </h2>
+                    </h2> */}
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Sed ut perspiciatis unde omnis iste natus error voluptatem
-                    accusantium <br />
-                    doloremque laudantium, totam rem aperiam
+                    Chez PIOLEC, nous sommes à votre écoute pour concrétiser vos
+                    projets en électricité, informatique et systèmes de
+                    sécurité. Notre équipe d'experts est prête à vous
+                    accompagner avec des solutions sur mesure, innovantes et
+                    conformes aux normes les plus exigeantes.​
                   </p>
+                  
                   {/* <ul
                     className="contact-list wow fadeInUp"
                     data-wow-delay=".3s"
@@ -145,9 +156,7 @@ const Page = () => {
                             value={formData.name}
                             onChange={handleInputChange}
                             onFocus={(e) => (e.target.placeholder = "")} // Remove placeholder on focus
-                            onBlur={(e) =>
-                              (e.target.placeholder = "Votre Nom")
-                            } // Restore placeholder on blur
+                            onBlur={(e) => (e.target.placeholder = "Votre Nom")} // Restore placeholder on blur
                             required
                           />
                         </div>
@@ -232,9 +241,7 @@ const Page = () => {
                             value={formData.message}
                             onChange={handleInputChange}
                             onFocus={(e) => (e.target.placeholder = "")} // Remove placeholder on focus
-                            onBlur={(e) =>
-                              (e.target.placeholder = "Message")
-                            } // Restore placeholder on blur
+                            onBlur={(e) => (e.target.placeholder = "Message")} // Restore placeholder on blur
                             required
                           />
                         </div>
