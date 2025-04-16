@@ -2394,25 +2394,25 @@ select.main-search-input::placeholder {
 /* Keyframes for background image animation */
 @keyframes changeBackground {
   0%, 100% {
-    background-image: url('/assets/img/hero/1.jpg');
+    background-image: url('/assets/img/hero/01.jpg');
   }
   12.5% {
-    background-image: url('/assets/img/hero/2.jpg');
+    background-image: url('/assets/img/hero/02.jpg');
   }
   25% {
-    background-image: url('/assets/img/hero/3.jpg');
+    background-image: url('/assets/img/hero/03.jpg');
   }
   40.5% {
-    background-image: url('/assets/img/hero/4.jpg');
+    background-image: url('/assets/img/hero/04.jpg');
   }
   55% {
-    background-image: url('/assets/img/hero/5.jpg');
+    background-image: url('/assets/img/hero/05.jpg');
   }
   70.5% {
-    background-image: url('/assets/img/hero/6.jpg');
+    background-image: url('/assets/img/hero/06.jpg');
   }
   85% {
-    background-image: url('/assets/img/hero/7.jpg');
+    background-image: url('/assets/img/hero/07.jpg');
   }
   
 }
