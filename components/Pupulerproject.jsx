@@ -7,20 +7,22 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Pupulerproject = () => {
-  const displayedProjects = projects.slice(0, 6);
+  // Sort projects by date (newest first) and then take the first 6
+  const displayedProjects = [...projects]
+    .sort((a, b) => new Date(b.details.information.date) - new Date(a.details.information.date))
+    .slice(0, 6);
 
-  // Slider settings for continuous slow scrolling
   const settings = {
     dots: true,
     infinite: true,
-    speed: 5000,        // Slower transition (3 seconds per slide)
+    speed: 5000,        
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 0,   // No delay between transitions (continuous scroll)
-    pauseOnHover: false, // Disable pause on hover for uninterrupted scrolling
+    autoplaySpeed: 0,   
+    pauseOnHover: false, 
     arrows: true,
-    cssEase: 'linear',  // Smooth linear animation (no easing)
+    cssEase: 'linear',  
     responsive: [
       {
         breakpoint: 1024,
