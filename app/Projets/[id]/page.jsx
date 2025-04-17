@@ -53,7 +53,7 @@ const ProjectDetailPage = () => {
                   {/* <h2>{project.details.overview}</h2> */}
                   <h4 className="mt-50">Objet de projet :</h4>
                   <p className="mt-4">{project.details.content}</p>
-                  <h4 className="mt-50">Les tache réaliser :</h4>
+                  <h4 className="mt-50">Travaux effectués :</h4>
                   <ul className="project-list">
                     {project.details.projectInitiation.map((step, index) => (
                       <li key={index}>
