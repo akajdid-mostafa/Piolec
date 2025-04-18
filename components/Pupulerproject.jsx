@@ -7,10 +7,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Pupulerproject = () => {
-  // Sort projects by date (newest first) and then take the first 6
+ 
   const displayedProjects = [...projects]
-    .sort((a, b) => new Date(b.details.information.date) - new Date(a.details.information.date))
-    .slice(0, 6);
+    .sort((a, b) => new Date(b.details.information.date) - new Date(a.details.information.date));
 
   const settings = {
     dots: true,
