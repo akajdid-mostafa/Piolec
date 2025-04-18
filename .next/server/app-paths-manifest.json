@@ -1,6 +1,7 @@
 {
-  "/Projets/[id]/page": "app/Projets/[id]/page.js",
-  "/manifest.json/route": "app/manifest.json/route.js",
+  "/page": "app/page.js",
   "/Projets/page": "app/Projets/page.js",
-  "/page": "app/page.js"
+  "/A_propos/page": "app/A_propos/page.js",
+  "/service/page": "app/service/page.js",
+  "/contact/page": "app/contact/page.js"
 }

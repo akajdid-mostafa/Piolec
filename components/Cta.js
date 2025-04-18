@@ -18,11 +18,11 @@ const Cta = ({ sectionPadding = false ,h2,p }) => {
             </p>
           </div>
           <div className="thumb wow fadeInUp" data-wow-delay=".6s">
-            <img src="assets/img/cta/logo.png" alt="img" />
-            <div className="circle-shape">
-              <img src="assets/img/cta/circle-shape.png" alt="shape-img" />
+              <img src="https://res.cloudinary.com/dzqres7rq/image/upload/v1744972853/logo_djbfso.png" alt="img" />
+              <div className="circle-shape">
+                <img src="https://res.cloudinary.com/dzqres7rq/image/upload/v1744972853/circle-shape_vdgnp4.png" alt="shape-img" />
+              </div>
             </div>
-          </div>
           <Link
             href="/contact"
             className="theme-btn bg-2 wow fadeInUp"

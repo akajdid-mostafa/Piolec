@@ -13,8 +13,6 @@ const page = () => {
         pageName="À propos de l'entreprise"
         backgroundImage="assets/img/about/about.jpg"
       />
-      {/* <Breadcrumb /> */}
-      {/* About Section Start */}
       <section className="about-section fix section-paddingg pb-0">
         <div className="container">
           <div className="about-wrapper style-2">
