@@ -1,5 +1,8 @@
 {
   "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/manifest.json/route": "app/manifest.json/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/A_propos/page": "app/A_propos/page.js",
+  "/service/page": "app/service/page.js",
+  "/Projets/page": "app/Projets/page.js"
 }

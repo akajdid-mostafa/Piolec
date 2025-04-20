@@ -21,7 +21,7 @@ const Menu = ({ single, menu }) => {
   const singleMenu = menu
     ? menu
     : [
-        { id: 1, href: "/about", title: "A propos" },
+        { id: 1, href: "/A_propos", title: "A propos" },
         { id: 2, href: "/services", title: "Services" },
         { id: 3, href: "/team", title: "L'équipe " },
         { id: 4, href: "/blog", title: "Blog" },
@@ -292,7 +292,7 @@ const MobileMenu = () => {
               </Link>
             </li>
             <li>
-              <Link href="/about">A propos</Link>
+              <Link href="/A_propos">A propos</Link>
             </li>
             <li>
               <a href="/service" onClick={() => activeMenuSet("Services")}>
@@ -465,7 +465,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
 
 const Header1 = ({ single, menu }) => {
   const singleMenu = [
-    { id: 1, href: "/about", title: "About" },
+    { id: 1, href: "/A_propos", title: "About" },
     { id: 2, href: "/services", title: "Services" },
     { id: 3, href: "/projects", title: "Projects" },
     { id: 4, href: "/testimonial", title: "Testimonial" },
