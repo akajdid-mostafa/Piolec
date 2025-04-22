@@ -27,21 +27,6 @@ const Footer1 = () => {
   return (
     <footer className="footer-section footer-bg">
       <div className="container">
-        {/* <div className="discussed-items">
-          <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
-            <Link href="/">
-              <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
-            </Link>
-          </div>
-          <div className="discussed-content wow fadeInUp" data-wow-delay=".5s">
-            <h2>
-              Let’s Discussed About <span>Your Projects</span>
-            </h2>
-            <Link href="contact" className="theme-btn hover-white">
-              Get Started <i className="far fa-arrow-right" />
-            </Link>
-          </div>
-        </div> */}
         <div className="footer-widgets-wrapper">
           <div className="row">
             <div
@@ -49,9 +34,6 @@ const Footer1 = () => {
               data-wow-delay=".2s"
             >
               <div className="single-footer-widget">
-                {/* <div className="widget-head">
-                  <h4>About Us</h4>
-                </div> */}
                 <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
                   <Link href="/">
                     <img src="/assets/img/logo/white-logo.svg" alt="logo-img" />
