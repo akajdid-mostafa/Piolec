@@ -46,9 +46,9 @@ const Pupulerproject = () => {
       <div className="container">
         <div className="section-title-area">
           <div className="section-title">
-            <span className="sub-content wow fadeInUp">Projets populaires</span>
+            <span className="sub-content wow fadeInUp">Nos projet</span>
             <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-              Découvrez nos projets les plus populaires Réalisé
+            Découvrez une sélection de projets
             </h2>
           </div>
           <Link href="/Projets" className="theme-btn white-border">

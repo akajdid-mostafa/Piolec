@@ -638,8 +638,8 @@ const page = () => {
       <Faq/>
       <Cta
         sectionPadding="true"
-        h2="Prêt à moderniser vos installations électriques ?"
-        p="Découvrez des solutions innovantes et fiables pour une performance énergétique optimale et une gestion simplifiée de vos systèmes électriques."
+        h2="Prêt à optimiser vos installations électriques ?"
+        p="Découvrez des solutions sur mesure pour plus de performance et de sécurité."
       />
 
       {/* <section className="news-section section-padding pt-0 mt-20">
