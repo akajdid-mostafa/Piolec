@@ -9,6 +9,7 @@ import Hero from "@/components/hero";
 import Steps from "@/components/steps";
 import Pupulerproject from "@/components/Pupulerproject";
 import Cta from "@/components/Cta";
+import Mark from "@/components/mark";
 
 const page = () => {
   return (
@@ -636,6 +637,7 @@ const page = () => {
       <Pupulerproject/>
       {/* News Section Start */}
       <Faq/>
+      <Mark/>
       <Cta
         sectionPadding="true"
         h2="Prêt à optimiser vos installations électriques ?"
