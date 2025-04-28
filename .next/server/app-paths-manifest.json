@@ -1,4 +1,4 @@
 {
   "/page": "app/page.js",
-  "/A_propos/page": "app/A_propos/page.js"
+  "/manifest.json/route": "app/manifest.json/route.js"
 }
