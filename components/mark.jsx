@@ -77,7 +77,7 @@ export default function Mark() {
             Nos partenaires
           </span>
           {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
-          Questions fréquemment posées
+          Questions fréquemment posées sssss
           </h2> */}
         </div>
       <div className="mark-inner">
