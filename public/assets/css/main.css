@@ -2385,7 +2385,7 @@ select.main-search-input::placeholder {
   padding: 120px 0;
   position: relative;
   overflow: hidden; /* Ensure the background animation doesn't overflow */
-  height: 90vh; /* Set height to full viewport height */
+  height: 100vh; /* Set height to full viewport height */
   background-size: cover;
   background-position: center;
   animation: changeBackground 30s infinite; /* Add background animation */
