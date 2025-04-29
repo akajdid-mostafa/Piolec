@@ -4788,6 +4788,39 @@ select.main-search-input::placeholder {
 }
 
 
+.service-popular-items {
+  background-color: #f9fafb;
+  margin-top: 10px;
+  padding: 15px;
+  border: 1.2px solid #edeef0;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Remove the inline margin-bottom and control it via CSS */
+.service-section .row > div {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .service-section .row > div {
+    margin-bottom: 15px; /* Reduced for mobile */
+  }
+  
+  .service-popular-items {
+    margin-bottom: 0; /* Remove any negative margins */
+  }
+  
+  .service-popular-items .service-content {
+    margin-top: 20px;
+    min-height: auto; /* Remove fixed min-height */
+  }
+}
+
+/* Keep your other existing styles... */
+
 
 /* .service-popular-items .service-content .theme-btn {
   background: rgba(135, 96, 253, 0.2);

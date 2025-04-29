@@ -81,10 +81,10 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
         <div className="row">
           {servicesData.map((service) => (
             <div
-              key={service.id}
-              className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".3s"
-              style={{ marginBottom: "20px" }} // Add margin-bottom to create space
+            key={service.id}
+            className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+            data-wow-delay=".3s"
+            style={{ marginBottom: "30px" }}
             >
               <div className="service-popular-items">
                 <div className="service-image">

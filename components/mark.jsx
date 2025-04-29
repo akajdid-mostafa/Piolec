@@ -77,7 +77,7 @@ export default function Mark() {
             Nos partenaires
           </span>
           {/* <h2 className="wow fadeInUp" data-wow-delay=".3s">
-          Questions fréquemment posées sssss
+          Questions fréquemment posées 
           </h2> */}
         </div>
       <div className="mark-inner">
@@ -89,8 +89,8 @@ export default function Mark() {
                   <Image
                     src={item.imgSrc}
                     alt="carousel-image"
-                    width={200} // make width bigger
-                    height={100} // adjust height
+                    width={200} 
+                    height={100} 
                     className="mark-image"
                   />
                 </div>
