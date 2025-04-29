@@ -2211,135 +2211,18 @@ select.main-search-input::placeholder {
   height: 100%;
 }
 
-/* .mean-container a.meanmenu-reveal {
-  display: none;
-} */
+
 
 .mean-container .mean-nav {
   /* background: white; */
   margin-top: 0;
 }
 
-/* .mean-container .mean-bar {
-  padding: 0;
-  min-height: auto;
-  background: none;
-  border-radius: 5%;
-} */
-
-/* .mean-container .mean-nav > ul {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  list-style-type: none;
-  display: block !important;
-  border-radius: 5%;
-} */
-/* .mean-container .mean-nav > ul .homemenu {
-  position: relative;
-} */
-/* .mean-container .mean-nav > ul .homemenu .homemenu-thumb {
-  position: relative;
-  width: 280px;
-} */
-/* .mean-container .mean-nav > ul .homemenu .homemenu-thumb .demo-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 60%;
-  gap: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-} */
 
 .padding-soc{
   padding-bottom: 40px;
 }
-/* .mean-container .mean-nav > ul .homemenu .homemenu-thumb .demo-button .theme-btn {
-  padding: 10px 30px;
-  color: black !important;
-  width: initial;
-  font-size: 14px;
-  text-align: center;
-} */
-/* .mean-container .mean-nav > ul .homemenu .homemenu-thumb .demo-button .theme-btn:hover {
-  color: var(--black) !important;
-} */
-/* .mean-container .mean-nav > ul .homemenu .homemenu-thumb::before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(99, 92, 92, 0)), to(#292930));
-  background: linear-gradient(to bottom, rgba(99, 92, 92, 0) 0%, #292930 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  overflow: hidden;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  content: "";
-} */
-/* .mean-container .mean-nav > ul .homemenu .homemenu-thumb:hover::before {
-  visibility: visible;
-  opacity: 1;
-} */
-/* .mean-container .mean-nav > ul .homemenu .homemenu-thumb:hover .demo-button {
-  opacity: 1;
-  visibility: visible;
-  margin-top: 0;
-} */
-/* .mean-container .mean-nav > ul .homemenu .homemenu-thumb:hover .homemenu-btn {
-  opacity: 1;
-  visibility: visible;
-  bottom: 50%;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
-} */
-/* .mean-container .mean-nav > ul .homemenu .homemenu-thumb img {
-  width: 100%;
-} */
-/* .mean-container .mean-nav > ul .homemenu .homemenu-content .homemenu-title {
-  margin-top: 15px;
-  display: inline-block;
-  font-size: 16px;
-} */
 
-/* .mean-container a.meanmenu-reveal {
-  display: none !important;
-} */
-
-/* .mean-container .mean-nav ul li Link {
-  width: 100%;
-  padding: 10px 0;
-  color: red;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-} */
-/* .mean-container .mean-nav ul li a:hover {
-  color: var(--hov);
-} */
-
-/* .mean-container .mean-nav ul li a:last-child {
-  border-bottom: 0;
-} */
 
 .mean-container .mean-nav ul li a:hover {
   color: var(--hov);
@@ -2353,33 +2236,6 @@ select.main-search-input::placeholder {
   display: inline-block;
 }
 
-/* .mean-container .mean-nav > ul > li:first-child > a {
-  border-top: 0;
-} */
-
-/* .mean-container .mean-nav ul li a.mean-expand.mean-clicked i {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-} */
-
-/* .mean-container .mean-nav ul li .mega-menu li a {
-  height: 200px;
-  width: 100%;
-  padding: 0;
-  border-top: 0;
-  margin-bottom: 20px;
-} */
-
-/* @media (max-width: 1199px) {
-  .mean-container .mean-nav ul li.menu-thumb {
-    display: none;
-  }
-} */
 
 .hero-1 {
   padding: 120px 0;

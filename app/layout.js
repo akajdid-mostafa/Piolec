@@ -31,7 +31,7 @@ export const metadata = {
     siteName: "PIOLEC",
     images: [
       {
-        url: "https://www.piolec.com/og-image.jpg", // Remplacez par l'URL de votre image Open Graph
+        url: "https://www.piolec.ma/assets/img/logo/black-logo.svg", // Remplacez par l'URL de votre image Open Graph
         width: 1200,
         height: 630,
         alt: "PIOLEC - Solutions Innovantes en Électricité, Informatique et Sécurité",
