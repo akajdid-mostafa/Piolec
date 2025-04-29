@@ -52,7 +52,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="apple-mobile-web-app-title" content="Piolec" />
+      <head>
+        <link
+          rel="icon"
+          type="image/png"
+          href="/web-app-manifest-192x192.png"
+          sizes="96x96"
+        />
+        <link rel="icon" type="image/svg+xml" href="/web-app-manifest-192x192.png" />
+        <link rel="shortcut icon" href="/web-app-manifest-192x192.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/web-app-manifest-192x192.png"
+        />
+        <meta name="apple-mobile-web-app-title" content="Piolec" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </head>
       <body>
       {children}
       </body>
