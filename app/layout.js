@@ -10,9 +10,9 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "PIOLEC - Votre Partenaire de Confiance en Électricité, Informatique et Systèmes de Sécurité",
+  title: "PIOLEC - Installation & Maintenance Electrique CFA / CFO Travaux Divers",
   description:
-    "PIOLEC est spécialisé dans les installations électriques, les réseaux informatiques, l'automatisation et les systèmes de sécurité. Nous fournissons des solutions innovantes pour les projets résidentiels, commerciaux et industriels.",
+    "PIOLEC, expert en électricité, automatisme et technologies innovantes. Installations sécurisées, réseaux performants. Engagement client, respect des délais et normes pour votre avantage concurrentiel.",
   keywords: [
     "électricité",
     "solutions informatiques",
@@ -24,17 +24,17 @@ export const metadata = {
   ],
   author: "PIOLEC",
   openGraph: {
-    title: "PIOLEC - Votre Partenaire de Confiance en Électricité, Informatique et Systèmes de Sécurité",
+    title: "PIOLEC - Installation & Maintenance Electrique CFA / CFO Travaux Divers",
     description:
-      "PIOLEC est spécialisé dans les installations électriques, les réseaux informatiques, l'automatisation et les systèmes de sécurité. Nous fournissons des solutions innovantes pour les projets résidentiels, commerciaux et industriels.",
-    url: "https://www.piolec.com",
+    "PIOLEC, expert en électricité, automatisme et technologies innovantes. Installations sécurisées, réseaux performants. Engagement client, respect des délais et normes pour votre avantage concurrentiel.",
+    url: "https://www.piolec.ma",
     siteName: "PIOLEC",
     images: [
       {
         url: "https://www.piolec.ma/assets/img/logo/black-logo.svg", // Remplacez par l'URL de votre image Open Graph
         width: 1200,
         height: 630,
-        alt: "PIOLEC - Solutions Innovantes en Électricité, Informatique et Sécurité",
+        alt: "PIOLEC - Installation & Maintenance Electrique CFA / CFO Travaux Divers",
       },
     ],
     locale: "fr_FR", // Langue et région en français
@@ -42,9 +42,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "PIOLEC - Votre Partenaire de Confiance en Électricité, Informatique et Systèmes de Sécurité",
+    title: "PIOLEC - Installation & Maintenance Electrique CFA / CFO Travaux Divers",
     description:
-      "PIOLEC est spécialisé dans les installations électriques, les réseaux informatiques, l'automatisation et les systèmes de sécurité. Nous fournissons des solutions innovantes pour les projets résidentiels, commerciaux et industriels.",
+    "PIOLEC, expert en électricité, automatisme et technologies innovantes. Installations sécurisées, réseaux performants. Engagement client, respect des délais et normes pour votre avantage concurrentiel.",
     images: ["https://www.piolec.com/twitter-image.jpg"], // Remplacez par l'URL de votre image Twitter
   },
 };
