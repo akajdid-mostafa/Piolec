@@ -6,6 +6,16 @@ import WorkingProcess2 from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Cta from "@/components/Cta";
 import Link from "next/link";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "À propos de l'entreprise",
+  description:
+    "Découvrez PIOLEC, entreprise marocaine experte en électricité CFA/CFO, automatisme, pré-câblage informatique et systèmes de sécurité. Partenaire de confiance sur tout le territoire national.",
+  path: "/A_propos",
+  keywords: ["entreprise électricité Maroc", "à propos PIOLEC"],
+});
+
 const page = () => {
   return (
     <NextLayout>

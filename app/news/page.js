@@ -1,6 +1,14 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Actualités",
+  description: "Actualités et articles PIOLEC sur l'électricité, l'automatisme et les systèmes de sécurité au Maroc.",
+  path: "/news",
+  noIndex: true,
+});
 
 const page = () => {
   return (

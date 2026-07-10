@@ -3,6 +3,15 @@ import Cta from "@/components/Cta";
 import { TestimonialSlider1 } from "@/components/TestimonialSlider";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Notre équipe",
+  description:
+    "Rencontrez l'équipe PIOLEC, des techniciens et ingénieurs qualifiés en électricité, automatisme et systèmes de sécurité au service de vos projets au Maroc.",
+  path: "/team",
+  keywords: ["équipe PIOLEC", "techniciens électricité Maroc"],
+});
 
 const page = () => {
   return (

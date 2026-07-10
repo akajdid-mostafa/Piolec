@@ -7,51 +7,35 @@ import "@css/meanmenu.css";
 import "@css/nice-select.css";
 import "@css/swiper-bundle.min.css";
 import "./globals.css";
-
+import JsonLd from "@/components/JsonLd";
+import {
+  createMetadata,
+  organizationJsonLd,
+  SITE_URL,
+} from "@/lib/seo";
 
 export const metadata = {
-  title: "PIOLEC - Installation & Maintenance Electrique CFA / CFO Travaux Divers",
-  description:
-    "PIOLEC, expert en électricité, automatisme et technologies innovantes. Installations sécurisées, réseaux performants. Engagement client, respect des délais et normes pour votre avantage concurrentiel.",
-  keywords: [
-    "électricité",
-    "solutions informatiques",
-    "systèmes d'automatisation",
-    "systèmes de sécurité",
-    "installations électriques",
-    "énergie renouvelable",
-    "Maroc",
-  ],
-  author: "PIOLEC",
-  openGraph: {
-    title: "PIOLEC - Installation & Maintenance Electrique CFA / CFO Travaux Divers",
-    description:
-    "PIOLEC, expert en électricité, automatisme et technologies innovantes. Installations sécurisées, réseaux performants. Engagement client, respect des délais et normes pour votre avantage concurrentiel.",
-    url: "https://www.piolec.ma",
-    siteName: "PIOLEC",
-    images: [
-      {
-        url: "https://www.piolec.ma/assets/img/logo/black-logo.svg", // Remplacez par l'URL de votre image Open Graph
-        width: 1200,
-        height: 630,
-        alt: "PIOLEC - Installation & Maintenance Electrique CFA / CFO Travaux Divers",
-      },
-    ],
-    locale: "fr_FR", // Langue et région en français
-    type: "website",
+  metadataBase: new URL(SITE_URL),
+  ...createMetadata({}),
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "PIOLEC - Installation & Maintenance Electrique CFA / CFO Travaux Divers",
-    description:
-    "PIOLEC, expert en électricité, automatisme et technologies innovantes. Installations sécurisées, réseaux performants. Engagement client, respect des délais et normes pour votre avantage concurrentiel.",
-    images: ["https://www.piolec.com/twitter-image.jpg"], // Remplacez par l'URL de votre image Twitter
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
   },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
         <link
           rel="icon"
@@ -70,7 +54,8 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body>
-      {children}
+        <JsonLd data={organizationJsonLd} />
+        {children}
       </body>
     </html>
   );

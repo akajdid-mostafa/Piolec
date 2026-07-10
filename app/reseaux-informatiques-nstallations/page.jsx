@@ -7,6 +7,19 @@ import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import * as servicess from "@/components/servicess";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Réseaux informatiques et pré-câblage",
+  description:
+    "PIOLEC installe et configure vos réseaux informatiques et infrastructures de pré-câblage structuré pour bureaux, industries et bâtiments commerciaux au Maroc.",
+  path: "/reseaux-informatiques-nstallations",
+  keywords: [
+    "réseaux informatiques Maroc",
+    "pré-câblage informatique",
+    "câblage structuré",
+  ],
+});
 
 const page = () => {
   return (

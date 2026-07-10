@@ -8,6 +8,20 @@ import Link from "next/link";
 import Servicee from "@/components/servicee";
 import WorkingProcess from "@/components/WorkingProcess";
 import Steps from "@/components/steps";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Nos services électriques et techniques",
+  description:
+    "Services PIOLEC : électricité & automatisme, contrôle d'accès, détection incendie, pré-câblage informatique, énergies renouvelables et maintenance SAV au Maroc.",
+  path: "/service",
+  keywords: [
+    "services électriques Maroc",
+    "automatisme industriel",
+    "contrôle d'accès",
+    "détection incendie",
+  ],
+});
 
 const electricite_automatisme = {
   id: "electricite_automatisme",

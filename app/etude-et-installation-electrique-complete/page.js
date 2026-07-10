@@ -7,6 +7,19 @@ import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import * as servicess from "@/components/servicess";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Étude et installation électrique complète",
+  description:
+    "PIOLEC réalise l'étude, la conception et l'installation électrique complète CFA/CFO pour l'industrie, le tertiaire et le résidentiel au Maroc. Normes respectées, délais tenus.",
+  path: "/etude-et-installation-electrique-complete",
+  keywords: [
+    "étude électrique",
+    "installation électrique complète",
+    "courant fort courant faible",
+  ],
+});
 
 const page = () => {
   return (

@@ -7,6 +7,19 @@ import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import * as servicess from "@/components/servicess";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Maintenance et service après-vente",
+  description:
+    "Service de maintenance et SAV PIOLEC pour vos installations électriques, automatisme et systèmes de sécurité. Intervention rapide et suivi technique partout au Maroc.",
+  path: "/maintenance-et-service-apres-vente",
+  keywords: [
+    "maintenance électrique Maroc",
+    "service après-vente électricité",
+    "dépannage électrique",
+  ],
+});
 
 const page = () => {
   return (

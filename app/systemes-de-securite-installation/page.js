@@ -7,6 +7,20 @@ import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import * as servicess from "@/components/servicess";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Systèmes de sécurité - Installation",
+  description:
+    "Installation de systèmes de sécurité par PIOLEC : contrôle d'accès, vidéosurveillance, détection incendie et intrusion. Solutions fiables pour entreprises et industries au Maroc.",
+  path: "/systemes-de-securite-installation",
+  keywords: [
+    "systèmes de sécurité Maroc",
+    "vidéosurveillance",
+    "contrôle d'accès",
+    "détection incendie",
+  ],
+});
 
 const page = () => {
   return (

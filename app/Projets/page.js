@@ -4,6 +4,19 @@ import Link from "next/link";
 import Cta from "@/components/Cta";
 import { projects } from "./data";
 import ProjectPresentation from "@/components/ProjectPresentation";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Nos projets réalisés",
+  description:
+    "Portfolio des projets PIOLEC : installations électriques CFA/CFO, armoires d'automatisme, stations de pompage, caméras de surveillance et équipements industriels au Maroc.",
+  path: "/Projets",
+  keywords: [
+    "projets électriques Maroc",
+    "réalisations électricité industrielle",
+    "portfolio PIOLEC",
+  ],
+});
 
 const Page = () => {
   // Sort projects by date (newest first)

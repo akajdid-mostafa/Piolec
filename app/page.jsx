@@ -10,6 +10,19 @@ import Steps from "@/components/steps";
 import Pupulerproject from "@/components/Pupulerproject";
 import Cta from "@/components/Cta";
 import Mark from "@/components/mark";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Installation & Maintenance Électrique CFA / CFO",
+  description:
+    "PIOLEC, entreprise marocaine spécialisée en électricité CFA/CFO, automatisme, réseaux informatiques et systèmes de sécurité. Solutions sur mesure à Casablanca, Agadir et partout au Maroc.",
+  path: "/",
+  keywords: [
+    "installation électrique Maroc",
+    "électricien professionnel",
+    "travaux électriques CFA CFO",
+  ],
+});
 
 const page = () => {
   return (
@@ -26,11 +39,11 @@ const page = () => {
                       <div className="about-image">
                         <img
                           src="assets/img/about/about3.jpg"
-                          alt="about-img"
+                          alt="Installation électrique PIOLEC au Maroc"
                         />
                         <img
                           src="assets/img/about/about4.jpeg"
-                          alt="about-img"
+                          alt="Équipe PIOLEC - électricité et automatisme"
                         />
                       </div>
                     </div>
@@ -38,7 +51,7 @@ const page = () => {
                       <div className="about-image">
                         <img
                           src="assets/img/about/img2.png"
-                          alt="about-img"
+                          alt="Projets électriques réalisés par PIOLEC"
                         />
                       </div>
                     </div>
@@ -78,7 +91,7 @@ const page = () => {
                     data-wow-delay=".5s"
                   >
                     <div className="about-button">
-                      <Link href="/about" className=" theme-btn hover-white">
+                      <Link href="/A_propos" className=" theme-btn hover-white">
                         En savoir plus
                         <i className="far fa-arrow-right" />
                       </Link>
