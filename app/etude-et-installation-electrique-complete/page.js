@@ -7,7 +7,22 @@ import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import * as servicess from "@/components/servicess";
-import { createMetadata } from "@/lib/seo";
+import { createMetadata, createServiceJsonLd } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
+
+const serviceJsonLd = createServiceJsonLd({
+  name: "Étude et installation électrique complète CFA/CFO",
+  description:
+    "PIOLEC réalise l'étude, la conception et l'installation électrique complète CFA/CFO pour l'industrie, le tertiaire et le résidentiel au Maroc. Normes respectées, délais tenus.",
+  path: "/etude-et-installation-electrique-complete",
+  keywords: [
+    "étude électrique Maroc",
+    "installation électrique CFA CFO",
+    "courant fort courant faible",
+    "électricien professionnel Casablanca",
+    "installation électrique industrielle",
+  ],
+});
 
 export const metadata = createMetadata({
   title: "Étude et installation électrique complète",
@@ -24,6 +39,7 @@ export const metadata = createMetadata({
 const page = () => {
   return (
     <NextLayout>
+      <JsonLd data={serviceJsonLd} />
       <Breadcrumb pageName="Étude et installation électrique complète." />
       {/* About Section Start */}
       <section className="about-section fix section-padding">

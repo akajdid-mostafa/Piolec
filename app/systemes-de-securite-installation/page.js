@@ -7,7 +7,22 @@ import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import * as servicess from "@/components/servicess";
-import { createMetadata } from "@/lib/seo";
+import { createMetadata, createServiceJsonLd } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
+
+const serviceJsonLd = createServiceJsonLd({
+  name: "Installation de systèmes de sécurité",
+  description:
+    "Installation de systèmes de sécurité par PIOLEC : contrôle d'accès, vidéosurveillance, détection incendie et intrusion. Solutions fiables pour entreprises et industries au Maroc.",
+  path: "/systemes-de-securite-installation",
+  keywords: [
+    "systèmes de sécurité Maroc",
+    "vidéosurveillance Casablanca",
+    "contrôle d'accès biométrique",
+    "détection incendie Maroc",
+    "alarme intrusion",
+  ],
+});
 
 export const metadata = createMetadata({
   title: "Systèmes de sécurité - Installation",
@@ -25,6 +40,7 @@ export const metadata = createMetadata({
 const page = () => {
   return (
     <NextLayout>
+      <JsonLd data={serviceJsonLd} />
       {/* <Breadcrumb pageName="Étude et installation électrique complète." /> */}
       {/* About Section Start */}
       <section className="about-section fix section-padding">

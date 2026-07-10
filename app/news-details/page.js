@@ -1,440 +1,346 @@
-import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Détails de l'actualité",
+  title: "L'importance du câblage CFA/CFO dans les bâtiments modernes au Maroc",
   description:
-    "Découvrez les détails de nos articles de blog et actualités techniques chez PIOLEC Maroc.",
+    "Découvrez pourquoi le câblage CFA/CFO est essentiel pour tout bâtiment moderne au Maroc : sécurité, performance et conformité aux normes électriques. Conseils d'experts PIOLEC.",
   path: "/news-details",
-  noIndex: true,
+  keywords: [
+    "câblage CFA CFO Maroc",
+    "installation électrique bâtiment",
+    "normes électriques Maroc",
+    "électricien professionnel Casablanca",
+  ],
 });
+
+const recentPosts = [
+  {
+    image: "assets/img/news/pp1.jpg",
+    title: "Câblage CFA/CFO dans les bâtiments modernes",
+    date: "15 Juin 2025",
+  },
+  {
+    image: "assets/img/news/pp2.jpg",
+    title: "Vidéosurveillance et contrôle d'accès entreprise",
+    date: "02 Juin 2025",
+  },
+  {
+    image: "assets/img/news/pp3.jpg",
+    title: "Pré-câblage informatique structuré",
+    date: "20 Mai 2025",
+  },
+];
+
+const categories = [
+  { label: "Installation Électrique CFA/CFO", count: 3 },
+  { label: "Systèmes de Sécurité", count: 2 },
+  { label: "Réseaux Informatiques", count: 2 },
+  { label: "Automatisme Industriel", count: 1 },
+  { label: "Maintenance & SAV", count: 2 },
+];
+
+const tags = [
+  "Électricité",
+  "CFA CFO",
+  "Sécurité",
+  "Réseaux",
+  "Automatisme",
+  "Maintenance",
+  "Maroc",
+  "PIOLEC",
+];
 
 const page = () => {
   return (
     <NextLayout>
-      {/* <Breadcrumb pageName="Blog Standard" /> */}
       <section className="blog-wrapper news-wrapper section-padding">
         <div className="container">
           <div className="news-area">
             <div className="row">
+              {/* Article Detail */}
               <div className="col-12 col-lg-8">
                 <div className="blog-post-details border-wrap mt-0">
                   <div className="single-blog-post post-details mt-0">
                     <div className="post-content pt-0">
-                      <h2 className="mt-0">
-                        Your Guide To Becoming A Preferred Shipper
-                      </h2>
+                      <h1 className="mt-0">
+                        L&apos;importance du câblage CFA/CFO dans les bâtiments modernes au Maroc
+                      </h1>
                       <div className="post-meta mt-3">
                         <span>
                           <i className="fal fa-user" />
-                          Shikhon .Ha
+                          Équipe PIOLEC
                         </span>
                         <span>
-                          <i className="fal fa-comments" />
-                          15 Comments
+                          <i className="fal fa-tag" />
+                          Installation Électrique
                         </span>
                         <span>
                           <i className="fal fa-calendar-alt" />
-                          4th February 2024
+                          15 Juin 2025
                         </span>
                       </div>
+
                       <p>
-                        With worldwide annual spend on digital advertising
-                        surpassing $325 billion, it’s no surprise that different
-                        approaches to online marketing are becoming available.
-                        One of these new approaches is performance marketing or
-                        digital performance marketing. Keep reading to learn all
-                        about performance marketing, from how it works to how it
-                        compares to digital marketing. Plus, get insight into
-                        the benefits and risks of performance marketing and how
-                        it can affect your company’s long-term success and
-                        profitability.
+                        Dans tout projet de construction ou de rénovation, l&apos;installation
+                        électrique représente l&apos;une des étapes les plus critiques. Le câblage
+                        CFA (Courants Faibles et Analogiques) et CFO (Courants Forts) constitue
+                        la colonne vertébrale de tout bâtiment moderne, qu&apos;il s&apos;agisse
+                        d&apos;un immeuble résidentiel, d&apos;un complexe industriel ou d&apos;un
+                        bâtiment commercial. Une installation bien planifiée garantit la sécurité
+                        des occupants, la performance des équipements et la conformité aux normes
+                        marocaines en vigueur.
                       </p>
+
                       <p>
-                        With worldwide annual spend on digital advertising
-                        surpassing $325 billion, it’s no surprise that different
-                        approaches to online marketing are becoming available.
-                        One of these new approaches is performance marketing or
-                        digital performance marketing. Keep reading to learn all
-                        about performance marketing, from how it works to how it
-                        compares to digital marketing. Plus, get insight into
-                        the benefits and risks of performance marketing and how
-                        it can affect your company’s long-term success and
-                        profitability.
+                        Au Maroc, les installations électriques sont encadrées par des normes
+                        strictes, notamment la norme NM 03-5-226 pour les installations basse
+                        tension. Ces réglementations imposent des exigences précises en matière
+                        de dimensionnement des câbles, de protection des circuits et de mise à la
+                        terre. Le non-respect de ces normes peut entraîner des risques
+                        d&apos;incendie, d&apos;électrocution et des pannes coûteuses.
                       </p>
+
                       <img
                         src="assets/img/news/post-4.jpg"
-                        alt="blog__img"
+                        alt="Installation électrique CFA CFO PIOLEC Maroc"
                         className="single-post-image"
                       />
-                      <h2>Elegant Design Runway to Real Life</h2>
+
+                      <h2>Qu&apos;est-ce que le câblage CFA et CFO ?</h2>
+
                       <p>
-                        Performance marketing is an approach to digital
-                        marketing or advertising where businesses only pay when
-                        a specific result occurs. This result could be a new
-                        lead, sale, or other outcome agreed upon by the
-                        advertiser and business. Performance marketing involves
-                        channels such as affiliate marketing, online
-                        advertising.
+                        Le <strong>câblage CFO (Courants Forts)</strong> regroupe tout ce qui
+                        concerne l&apos;alimentation électrique : distribution d&apos;énergie,
+                        éclairage, prises de courant, alimentation des machines industrielles et
+                        tableaux de distribution. Il requiert une attention particulière aux
+                        protections différentielles et aux disjoncteurs adaptés à chaque circuit.
                       </p>
+
+                      <p>
+                        Le <strong>câblage CFA (Courants Faibles)</strong>, quant à lui, couvre
+                        l&apos;ensemble des systèmes à basse tension : réseaux informatiques,
+                        téléphonie, vidéosurveillance, contrôle d&apos;accès, systèmes
+                        d&apos;alarme incendie et interphonie. Ces systèmes sont devenus
+                        indispensables dans tout bâtiment intelligent.
+                      </p>
+
                       <blockquote>
-                        Diam luctus nostra dapibus varius et semper semper
-                        rutrum ad risus felis eros. Cursus libero viverra tempus
-                        netus diam vestibulum
+                        &laquo; Une installation électrique de qualité n&apos;est pas une dépense,
+                        c&apos;est un investissement qui protège vos biens, vos équipements et
+                        surtout vos équipes. &raquo;
+                        <br />
+                        <strong>— Équipe technique PIOLEC</strong>
                       </blockquote>
+
+                      <h2>Les étapes d&apos;une installation électrique réussie</h2>
                       <p>
-                        With worldwide annual spend on digital advertising
-                        surpassing $325 billion, it’s no surprise that different
-                        approaches to online marketing are becoming available.
-                        One of these new approaches is performance marketing or
-                        digital performance marketing. Keep reading to learn all
-                        about performance marketing
+                        Chez PIOLEC, chaque projet électrique suit un processus rigoureux en
+                        plusieurs phases :
                       </p>
+
                       <ul className="checked-list mb-4">
-                        <li>Cooking is love made visible</li>
-                        <li>We’re an open book</li>
-                        <li>100% goes to the field</li>
-                        <li>Received the highest grades</li>
+                        <li>
+                          <strong>Étude et conception :</strong> Analyse des besoins,
+                          dimensionnement des câbles et rédaction des plans d&apos;exécution
+                          conformes aux normes marocaines.
+                        </li>
+                        <li>
+                          <strong>Fourniture et installation :</strong> Pose des câbles, tableaux
+                          électriques, prises, luminaires et équipements selon les plans validés.
+                        </li>
+                        <li>
+                          <strong>Mise en service et tests :</strong> Vérification des circuits,
+                          tests d&apos;isolement, mesures de prise de terre et contrôle de la
+                          conformité.
+                        </li>
+                        <li>
+                          <strong>Maintenance préventive :</strong> Suivi régulier des
+                          installations pour garantir leur durabilité et leur sécurité dans le
+                          temps.
+                        </li>
                       </ul>
-                      <h4>Easy &amp; Most Powerful Server Platform.</h4>
-                      <p>
-                        With worldwide annual spend on digital advertising
-                        surpassing $325 billion, it’s no surprise that different
-                        approaches to online marketing are becoming available.
-                        One of these new approaches is performance marketing or
-                        digital performance marketing. Keep reading to learn all
-                        about performance marketing, from how it works to how it
-                        compares to digital marketing. Plus, get insight into
-                        the benefits and risks of performance marketing and how
-                        it can affect your company’s long-term success and
-                        profitability.
-                      </p>
+
                       <img
                         className="alignleft"
                         src="assets/img/news/post-10.jpg"
-                        alt="blog__img"
+                        alt="Techniciens PIOLEC au travail installation électrique"
                       />
+
+                      <h4>Pourquoi choisir PIOLEC pour vos installations électriques ?</h4>
                       <p>
-                        With worldwide annual spend on digital advertising
-                        surpassing $325 billion, it’s no surprise that different
-                        approaches to online marketing are becoming available.
-                        One of these new approaches is performance marketing or
-                        digital performance marketing. Keep reading to learn all
-                        about performance marketing
+                        Forte de plusieurs années d&apos;expérience dans le domaine de
+                        l&apos;électricité et des systèmes intégrés au Maroc, PIOLEC accompagne
+                        ses clients à Casablanca, Agadir et dans toutes les régions du Royaume.
+                        Nos équipes d&apos;ingénieurs et techniciens certifiés maîtrisent
+                        l&apos;ensemble des domaines : électricité CFA/CFO, automatisme
+                        industriel, réseaux informatiques et systèmes de sécurité.
                       </p>
                       <p>
-                        With worldwide annual spend on digital advertising
-                        surpassing $325 billion, it’s no surprise that different
-                        approaches to online marketing are becoming available.
-                        One of these new approaches is performance marketing or
-                        digital performance marketing. Keep reading to learn all
-                        about performance marketing
+                        Nous mettons un point d&apos;honneur à respecter les délais, les budgets
+                        et les normes les plus strictes, afin de vous livrer des installations
+                        fiables, sécurisées et durables. Contactez-nous pour un devis gratuit et
+                        personnalisé adapté à votre projet.
                       </p>
                     </div>
                   </div>
+
+                  {/* Tags & Share */}
                   <div className="row tag-share-wrap">
                     <div className="col-lg-8 col-12">
-                      <h4>Releted Tags</h4>
+                      <h4>Tags de l&apos;article</h4>
                       <div className="tagcloud">
-                        <Link href="news-details">Course</Link>
-                        <Link href="news-details">Education</Link>
-                        <Link href="news-details">Training</Link>
+                        <Link href="news">Électricité</Link>
+                        <Link href="news">CFA CFO</Link>
+                        <Link href="news">Maroc</Link>
+                        <Link href="news">Installation</Link>
                       </div>
                     </div>
                     <div className="col-lg-4 col-12 mt-3 mt-lg-0 text-lg-end">
-                      <h4>Social Share</h4>
+                      <h4>Partager</h4>
                       <div className="social-share">
-                        <a href="#">
+                        <a
+                          href="https://www.facebook.com/piolec/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className="fab fa-facebook-f" />
                         </a>
-                        <a href="#">
-                          <i className="fab fa-twitter" />
-                        </a>
-                        <a href="#">
-                          <i className="fab fa-instagram" />
-                        </a>
-                        <a href="#">
+                        <a
+                          href="https://ma.linkedin.com/company/timnstec"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className="fab fa-linkedin-in" />
                         </a>
                       </div>
                     </div>
                   </div>
-                  {/* comments section wrap start */}
-                  <div className="comments-section-wrap">
-                    <div className="comments-heading pt-5">
-                      <h3>03 Comments</h3>
-                    </div>
-                    <ul className="comments-item-list">
-                      <li className="single-comment-item">
-                        <div className="author-img">
-                          <img src="assets/img/news/author-1.jpg" alt="img" />
-                        </div>
-                        <div className="author-info-comment">
-                          <div className="info">
-                            <h5>
-                              <a href="#">Rosalina Kelian</a>
-                            </h5>
-                            <span>19th May 2024</span>
-                            <a href="#" className="theme-btn minimal-btn">
-                              <i className="fal fa-reply" />
-                              Reply
-                            </a>
-                          </div>
-                          <div className="comment-text">
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit, sed do eiusmod tempor incididunt
-                              ut labore et dolore magna. Ut enim ad minim
-                              veniam, quis nostrud laboris nisi ut aliquip ex ea
-                              commodo consequat.
-                            </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="single-comment-item">
-                        <div className="author-img">
-                          <img src="assets/img/news/author-2.jpg" alt="img" />
-                        </div>
-                        <div className="author-info-comment">
-                          <div className="info">
-                            <h5>
-                              <a href="#">Arista Williamson</a>
-                            </h5>
-                            <span>21th Feb 2024</span>
-                            <a href="#" className="theme-btn minimal-btn">
-                              <i className="fal fa-reply" />
-                              Reply
-                            </a>
-                          </div>
-                          <div className="comment-text">
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit, sed do eiusmod tempor incididunt
-                              ut labore et dolore magna aliqua. Ut enim ad minim
-                              veniam, quis nostrud exercitation ullamco nisi ut
-                              aliquip ex ea commodo consequat.
-                            </p>
-                          </div>
-                        </div>
-                        <ul className="replay-comment">
-                          <li className="single-comment-item">
-                            <div className="author-img">
-                              <img
-                                src="assets/img/news/author-3.jpg"
-                                alt="img"
-                              />
-                            </div>
-                            <div className="author-info-comment">
-                              <div className="info">
-                                <h5>
-                                  <a href="#">Salman Ahmed</a>
-                                </h5>
-                                <span>29th Jan 2021</span>
-                                <a href="#" className="theme-btn minimal-btn">
-                                  <i className="fal fa-reply" />
-                                  Reply
-                                </a>
-                              </div>
-                              <div className="comment-text">
-                                <p>
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipisicing elit, sed do eiusmod tempor
-                                  incididunt ut labore et dolore magna aliqua.
-                                  Ut enim ad minim veniam..
-                                </p>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
+
+                  {/* Comment Form */}
                   <div className="comment-form-wrap mt-40">
-                    <h3>Post Comment</h3>
+                    <h3>Laisser un commentaire</h3>
                     <form action="#" className="comment-form">
                       <div className="single-form-input">
-                        <textarea
-                          placeholder="Type your comments...."
-                          defaultValue={""}
-                        />
+                        <textarea placeholder="Votre commentaire..." defaultValue={""} />
                       </div>
                       <div className="single-form-input">
-                        <input type="text" placeholder="Type your name...." />
+                        <input type="text" placeholder="Votre nom..." />
                       </div>
                       <div className="single-form-input">
-                        <input type="email" placeholder="Type your email...." />
-                      </div>
-                      <div className="single-form-input">
-                        <input
-                          type="text"
-                          placeholder="Type your website...."
-                        />
+                        <input type="email" placeholder="Votre adresse e-mail..." />
                       </div>
                       <button className="theme-btn center" type="submit">
                         <span>
                           <i className="fal fa-comments" />
-                          Post Comment
+                          Publier le commentaire
                         </span>
                       </button>
                     </form>
                   </div>
                 </div>
               </div>
+
+              {/* Sidebar */}
               <div className="col-12 col-lg-4">
                 <div className="main-sidebar">
+                  {/* Search */}
                   <div className="single-sidebar-widget">
                     <div className="wid-title">
-                      <h3>Search</h3>
+                      <h3>Rechercher</h3>
                     </div>
                     <div className="search_widget">
                       <form action="#">
-                        <input type="text" placeholder="Keywords here...." />
+                        <input type="text" placeholder="Mots-clés..." />
                         <button type="submit">
                           <i className="fal fa-search" />
                         </button>
                       </form>
                     </div>
                   </div>
+
+                  {/* Recent Posts */}
                   <div className="single-sidebar-widget">
                     <div className="wid-title">
-                      <h3>Popular Feeds</h3>
+                      <h3>Articles Récents</h3>
                     </div>
                     <div className="popular-posts">
-                      <div className="single-post-item">
-                        <div
-                          className="thumb bg-cover"
-                          style={{
-                            backgroundImage: 'url("assets/img/news/pp1.jpg")',
-                          }}
-                        />
-                        <div className="post-content">
-                          <h5>
-                            <Link href="news-details">
-                              Achieving Fashion Runway to Real Life
-                            </Link>
-                          </h5>
-                          <div className="post-date">
-                            <i className="far fa-calendar-alt" />
-                            24th March 2024
+                      {recentPosts.map((post, index) => (
+                        <div className="single-post-item" key={index}>
+                          <div
+                            className="thumb bg-cover"
+                            style={{
+                              backgroundImage: `url("${post.image}")`,
+                            }}
+                          />
+                          <div className="post-content">
+                            <h5>
+                              <Link href="news-details">{post.title}</Link>
+                            </h5>
+                            <div className="post-date">
+                              <i className="far fa-calendar-alt" />
+                              {post.date}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div className="single-post-item">
-                        <div
-                          className="thumb bg-cover"
-                          style={{
-                            backgroundImage: 'url("assets/img/news/pp2.jpg")',
-                          }}
-                        />
-                        <div className="post-content">
-                          <h5>
-                            <Link href="news-details">
-                              {" "}
-                              Achieving Fashion Runway to Real Life
-                            </Link>
-                          </h5>
-                          <div className="post-date">
-                            <i className="far fa-calendar-alt" />
-                            25th March 2024
-                          </div>
-                        </div>
-                      </div>
-                      <div className="single-post-item">
-                        <div
-                          className="thumb bg-cover"
-                          style={{
-                            backgroundImage: 'url("assets/img/news/pp3.jpg")',
-                          }}
-                        />
-                        <div className="post-content">
-                          <h5>
-                            <Link href="news-details">
-                              {" "}
-                              Achieving Fashion Runway to Real Life
-                            </Link>
-                          </h5>
-                          <div className="post-date">
-                            <i className="far fa-calendar-alt" />
-                            26th March 2024
-                          </div>
-                        </div>
-                      </div>
+                      ))}
                     </div>
                   </div>
+
+                  {/* Categories */}
                   <div className="single-sidebar-widget">
                     <div className="wid-title">
-                      <h3>Categories</h3>
+                      <h3>Catégories</h3>
                     </div>
                     <div className="widget_categories">
                       <ul>
-                        <li>
-                          <Link href="news">
-                            Digital Marketing <span>02</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="news">
-                            SEO optimization <span>05</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="news">
-                            Content Marketing <span>10</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="news">
-                            Marketing <span>03</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="news">
-                            Keywords Research <span>10</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="news">
-                            Technical Adult <span>03</span>
-                          </Link>
-                        </li>
+                        {categories.map((cat, index) => (
+                          <li key={index}>
+                            <Link href="news">
+                              {cat.label}{" "}
+                              <span>{String(cat.count).padStart(2, "0")}</span>
+                            </Link>
+                          </li>
+                        ))}
                       </ul>
                     </div>
                   </div>
+
+                  {/* Social */}
                   <div className="single-sidebar-widget">
                     <div className="wid-title">
-                      <h3>Never Miss News</h3>
+                      <h3>Suivez-nous</h3>
                     </div>
                     <div className="social-link">
-                      <a href="#">
+                      <a
+                        href="https://www.facebook.com/piolec/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-facebook-f" />
                       </a>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                      <a href="#">
+                      <a
+                        href="https://ma.linkedin.com/company/timnstec"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-linkedin-in" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-youtube" />
                       </a>
                     </div>
                   </div>
+
+                  {/* Tags */}
                   <div className="single-sidebar-widget">
                     <div className="wid-title">
-                      <h3>Popular Tags</h3>
+                      <h3>Mots-clés</h3>
                     </div>
                     <div className="tagcloud">
-                      <Link href="news-details">Marketing</Link>
-                      <Link href="news-details">Product</Link>
-                      <Link href="news-details">Social Media</Link>
-                      <Link href="news-details">SEO Optimize</Link>
-                      <Link href="news-details">Content</Link>
-                      <Link href="news-details">Design</Link>
+                      {tags.map((tag, index) => (
+                        <Link href="news" key={index}>
+                          {tag}
+                        </Link>
+                      ))}
                     </div>
                   </div>
                 </div>

@@ -7,7 +7,22 @@ import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import * as servicess from "@/components/servicess";
-import { createMetadata } from "@/lib/seo";
+import { createMetadata, createServiceJsonLd } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
+
+const serviceJsonLd = createServiceJsonLd({
+  name: "Maintenance électrique et service après-vente (SAV)",
+  description:
+    "Service de maintenance et SAV PIOLEC pour vos installations électriques, automatisme et systèmes de sécurité. Intervention rapide et suivi technique partout au Maroc.",
+  path: "/maintenance-et-service-apres-vente",
+  keywords: [
+    "maintenance électrique Maroc",
+    "service après-vente électricité",
+    "dépannage électrique",
+    "maintenance préventive",
+    "contrat maintenance industrielle",
+  ],
+});
 
 export const metadata = createMetadata({
   title: "Maintenance et service après-vente",
@@ -24,6 +39,7 @@ export const metadata = createMetadata({
 const page = () => {
   return (
     <NextLayout>
+      <JsonLd data={serviceJsonLd} />
       {/* <Breadcrumb pageName="Étude et installation électrique complète." /> */}
       {/* About Section Start */}
       <section className="about-section fix section-padding">

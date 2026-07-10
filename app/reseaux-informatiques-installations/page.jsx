@@ -7,7 +7,22 @@ import WorkingProcess from "@/components/WorkingProcess";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 import * as servicess from "@/components/servicess";
-import { createMetadata } from "@/lib/seo";
+import { createMetadata, createServiceJsonLd } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
+
+const serviceJsonLd = createServiceJsonLd({
+  name: "Réseaux informatiques et pré-câblage structuré",
+  description:
+    "PIOLEC installe et configure vos réseaux informatiques et infrastructures de pré-câblage structuré pour bureaux, industries et bâtiments commerciaux au Maroc.",
+  path: "/reseaux-informatiques-installations",
+  keywords: [
+    "réseaux informatiques Maroc",
+    "pré-câblage informatique",
+    "câblage structuré",
+    "fibre optique Maroc",
+    "infrastructure réseau entreprise",
+  ],
+});
 
 export const metadata = createMetadata({
   title: "Réseaux informatiques et pré-câblage",
@@ -24,6 +39,7 @@ export const metadata = createMetadata({
 const page = () => {
   return (
     <NextLayout>
+      <JsonLd data={serviceJsonLd} />
       {/* <Breadcrumb pageName="Étude et installation électrique complète." /> */}
       {/* About Section Start */}
       <section className="about-section fix section-padding">
