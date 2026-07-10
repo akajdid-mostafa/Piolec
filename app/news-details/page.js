@@ -1,6 +1,15 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
+import { createMetadata } from "@/lib/seo";
+
+export const metadata = createMetadata({
+  title: "Détails de l'actualité",
+  description:
+    "Découvrez les détails de nos articles de blog et actualités techniques chez PIOLEC Maroc.",
+  path: "/news-details",
+  noIndex: true,
+});
 
 const page = () => {
   return (

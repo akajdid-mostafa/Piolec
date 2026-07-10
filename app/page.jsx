@@ -11,6 +11,7 @@ import Pupulerproject from "@/components/Pupulerproject";
 import Cta from "@/components/Cta";
 import Mark from "@/components/mark";
 import { createMetadata } from "@/lib/seo";
+import Image from "next/image";
 
 export const metadata = createMetadata({
   title: "Installation & Maintenance Électrique CFA / CFO",
@@ -37,21 +38,30 @@ const page = () => {
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="about-image">
-                        <img
-                          src="assets/img/about/about3.jpg"
+                        <Image
+                          src="/assets/img/about/about3.jpg"
                           alt="Installation électrique PIOLEC au Maroc"
+                          width={400}
+                          height={450}
+                          style={{ width: "100%", height: "auto", objectFit: "cover" }}
                         />
-                        <img
-                          src="assets/img/about/about4.jpeg"
+                        <Image
+                          src="/assets/img/about/about4.jpeg"
                           alt="Équipe PIOLEC - électricité et automatisme"
+                          width={400}
+                          height={450}
+                          style={{ width: "100%", height: "auto", objectFit: "cover" }}
                         />
                       </div>
                     </div>
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                       <div className="about-image">
-                        <img
-                          src="assets/img/about/img2.png"
+                        <Image
+                          src="/assets/img/about/img2.png"
                           alt="Projets électriques réalisés par PIOLEC"
+                          width={400}
+                          height={600}
+                          style={{ width: "100%", height: "auto", objectFit: "cover" }}
                         />
                       </div>
                     </div>

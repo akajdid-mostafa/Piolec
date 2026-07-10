@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const servicesData = [
   {
@@ -86,9 +87,11 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
             >
               <div className="service-popular-items">
                 <div className="service-image">
-                  <img
+                  <Image
                     src={service.image}
                     alt={service.title}
+                    width={300}
+                    height={200}
                     style={{
                       width: "100%",
                       height: "200px",

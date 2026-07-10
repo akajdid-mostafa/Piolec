@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="col-lg-7">
             <div className="hero-content">
               <h1 className="wow fadeInUp" data-wow-delay=".2s">
-                Installation & Maintenance Electrique CFA / CFO Travaux Divers
+                Installation & Maintenance Électrique CFA / CFO Travaux Divers
               </h1>
               <br></br>
               <h5 className="wow fadeInUp" data-wow-delay=".2s">

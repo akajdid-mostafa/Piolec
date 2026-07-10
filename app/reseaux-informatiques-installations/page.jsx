@@ -13,7 +13,7 @@ export const metadata = createMetadata({
   title: "Réseaux informatiques et pré-câblage",
   description:
     "PIOLEC installe et configure vos réseaux informatiques et infrastructures de pré-câblage structuré pour bureaux, industries et bâtiments commerciaux au Maroc.",
-  path: "/reseaux-informatiques-nstallations",
+  path: "/reseaux-informatiques-installations",
   keywords: [
     "réseaux informatiques Maroc",
     "pré-câblage informatique",
