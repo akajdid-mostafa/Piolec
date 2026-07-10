@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SOCIAL_LINKS } from "@/lib/seo";
 
 const Footer = ({ footer }) => {
   switch (footer) {
@@ -48,7 +49,7 @@ const Footer1 = () => {
                     de ses clients.
                   </p>
                   <div className="social-icon d-flex align-items-center">
-                    <a href="#">
+                    <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer">
                       <i className="fab fa-facebook-f" />
                     </a>
                     {/* <a href="#">
@@ -60,8 +61,8 @@ const Footer1 = () => {
                     <a href="#">
                       <i className="fab fa-pinterest-p" />
                     </a> */}
-                    <a href="#">
-                    <i className="fab fa-linkedin-in" />
+                    <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
+                      <i className="fab fa-linkedin-in" />
                     </a>
 
                   </div>

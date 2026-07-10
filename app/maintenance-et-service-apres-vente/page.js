@@ -102,7 +102,7 @@ const page = () => {
                           data-wow-delay=".3s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/0401.png" alt="img" />
+                            <img src="assets/img/about/0401.png" alt="Technicien en maintenance électrique inspectant un tableau électrique" />
                           </div>
                         </div>
                         <div
@@ -110,14 +110,14 @@ const page = () => {
                           data-wow-delay=".5s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/0402.png" alt="img" />
+                            <img src="assets/img/about/0402.png" alt="Outils de test et de mesure de tension de sécurité électrique" />
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
                       <div className="about-thumbs">
-                        <img src="assets/img/about/0403.png" alt="img" />
+                        <img src="assets/img/about/0403.png" alt="Électricien effectuant un dépannage électrique d'urgence" />
                       </div>
                     </div>
                   </div>
@@ -134,7 +134,7 @@ const page = () => {
             <div className="row align-items-center">
               <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                 <div className="service-video-image">
-                  <img src="assets/img/about/0404.png" alt="img" />
+                  <img src="assets/img/about/0404.png" alt="Contrôle périodique et maintenance préventive d'équipements industriels" />
                   <div className="video-box">
                     <a
                       href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"

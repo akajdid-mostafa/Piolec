@@ -2,6 +2,7 @@
 import { nextUtility } from "@/utility";
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
+import { SOCIAL_LINKS } from "@/lib/seo";
 
 const Header = ({ header, single }) => {
   useEffect(() => {
@@ -244,10 +245,10 @@ const Sidebar = ({ sidebarToggle, close }) => {
                   </Link>
                 </div>
                 <div className="social-icon d-flex align-items-center padding-soc">
-                  <a href="#">
+                  <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
+                  <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>

@@ -99,7 +99,7 @@ const page = () => {
                           data-wow-delay=".3s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/0101.png" alt="img" />
+                            <img src="assets/img/about/0101.png" alt="Plans d'étude et conception de schémas électriques" />
                           </div>
                         </div>
                         <div
@@ -107,14 +107,14 @@ const page = () => {
                           data-wow-delay=".5s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/0102.png" alt="img" />
+                            <img src="assets/img/about/0102.png" alt="Armoire électrique de distribution industrielle raccordée" />
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
                       <div className="about-thumbs">
-                        <img src="assets/img/about/0103.png" alt="img" />
+                        <img src="assets/img/about/0103.png" alt="Techniciens réalisant une installation électrique CFA CFO" />
                       </div>
                     </div>
                   </div>
@@ -131,7 +131,7 @@ const page = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="service-video-image">
-                  <img src="assets/img/about/0104.png" alt="img" />
+                  <img src="assets/img/about/0104.png" alt="Mise en service d'installations électriques sous tension au Maroc" />
                   {/* <div className="video-box">
                     <a
                       href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"

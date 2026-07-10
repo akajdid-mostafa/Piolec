@@ -100,7 +100,7 @@ const page = () => {
                           data-wow-delay=".3s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/0201.png" alt="img" />
+                            <img src="assets/img/about/0201.png" alt="Installation de caméras de vidéosurveillance IP" />
                           </div>
                         </div>
                         <div
@@ -108,14 +108,14 @@ const page = () => {
                           data-wow-delay=".5s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/0202.png" alt="img" />
+                            <img src="assets/img/about/0202.png" alt="Système de détection d'incendie centrale Esser" />
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
                       <div className="about-thumbs">
-                        <img src="assets/img/about/0203.png" alt="img" />
+                        <img src="assets/img/about/0203.png" alt="Tourniquets et contrôle d'accès biométrique de sécurité" />
                       </div>
                     </div>
                   </div>
@@ -132,7 +132,7 @@ const page = () => {
             <div className="row align-items-center">
               <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                 <div className="service-video-image">
-                  <img src="assets/img/about/0304.png" alt="img" />
+                  <img src="assets/img/about/0304.png" alt="Installation de centrale d'alarme et équipements de surveillance" />
                   <div className="video-box">
                     <a
                       href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"

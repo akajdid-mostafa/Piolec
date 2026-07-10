@@ -102,7 +102,7 @@ const page = () => {
                           data-wow-delay=".3s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/0301.png" alt="img" />
+                            <img src="assets/img/about/0301.png" alt="Installation de baie de brassage et armoire réseau informatique" />
                           </div>
                         </div>
                         <div
@@ -110,14 +110,14 @@ const page = () => {
                           data-wow-delay=".5s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/0302.png" alt="img" />
+                            <img src="assets/img/about/0302.png" alt="Câblage structuré RJ45 cat6 et cat7 avec switches" />
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
                       <div className="about-thumbs">
-                        <img src="assets/img/about/0303.png" alt="img" />
+                        <img src="assets/img/about/0303.png" alt="Raccordement de fibre optique de haute vitesse" />
                       </div>
                     </div>
                   </div>
@@ -134,7 +134,7 @@ const page = () => {
             <div className="row align-items-center">
               <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                 <div className="service-video-image">
-                  <img src="assets/img/about/0304.png" alt="img" />
+                  <img src="assets/img/about/0304.png" alt="Serveur d'entreprise proprement pré-câblé et configuré" />
                   <div className="video-box">
                     <a
                       href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
