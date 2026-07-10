@@ -1,6 +1,7 @@
 {
-  "name": "Piolec",
-  "short_name": "Piolec",
+  "name": "PIOLEC - Électricité & Automatisme",
+  "short_name": "PIOLEC",
+  "lang": "fr",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

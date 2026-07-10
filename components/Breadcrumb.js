@@ -23,7 +23,7 @@ const Breadcrumb = ({
           </HeadingTag>
           {/* <ul className="breadcrumb-items  wow fadeInUp" data-wow-delay=".5s">
             <li>
-              <Link href="/" >Home</Link>
+              <Link href="/">Accueil</Link>
             </li>
             <li>
               <i className="fas fa-chevron-right" />

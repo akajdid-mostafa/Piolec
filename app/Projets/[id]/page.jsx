@@ -77,7 +77,8 @@ const ProjectDetailPage = () => {
                           style={{
                             objectFit: "cover",
                             borderRadius: "12px",
-                          }}/>
+                          }}
+                        />
                       </a>
                     </div>
                   ))}

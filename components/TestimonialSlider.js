@@ -11,16 +11,16 @@ export const TestimonialSlider1 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <p>
-              We denounce with right indignation dislike men who are so beguile
-              and demoralized by the charms of pleasure of the moment, so
-              blinded by desire cannot foresee
+              PIOLEC a réalisé une installation électrique impeccable pour notre
+              usine. Équipe professionnelle, respect des délais et conformité
+              aux normes. Je recommande vivement leurs services.
             </p>
             <div className="author-items">
               <div className="author-image">
                 <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Lucas J. Swe / <span>CO Founder</span>
+                    Ahmed B. / <span>Directeur technique</span>
                   </h5>
                 </div>
               </div>
@@ -31,16 +31,16 @@ export const TestimonialSlider1 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <p>
-              We denounce with right indignation dislike men who are so beguile
-              and demoralized by the charms of pleasure of the moment, so
-              blinded by desire cannot foresee
+              PIOLEC a réalisé une installation électrique impeccable pour notre
+              usine. Équipe professionnelle, respect des délais et conformité
+              aux normes. Je recommande vivement leurs services.
             </p>
             <div className="author-items">
               <div className="author-image">
                 <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Lucas J. Swe / <span>CO Founder</span>
+                    Ahmed B. / <span>Directeur technique</span>
                   </h5>
                 </div>
               </div>
@@ -51,16 +51,16 @@ export const TestimonialSlider1 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <p>
-              We denounce with right indignation dislike men who are so beguile
-              and demoralized by the charms of pleasure of the moment, so
-              blinded by desire cannot foresee
+              PIOLEC a réalisé une installation électrique impeccable pour notre
+              usine. Équipe professionnelle, respect des délais et conformité
+              aux normes. Je recommande vivement leurs services.
             </p>
             <div className="author-items">
               <div className="author-image">
                 <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Lucas J. Swe / <span>CO Founder</span>
+                    Ahmed B. / <span>Directeur technique</span>
                   </h5>
                 </div>
               </div>
@@ -71,16 +71,16 @@ export const TestimonialSlider1 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <p>
-              We denounce with right indignation dislike men who are so beguile
-              and demoralized by the charms of pleasure of the moment, so
-              blinded by desire cannot foresee
+              PIOLEC a réalisé une installation électrique impeccable pour notre
+              usine. Équipe professionnelle, respect des délais et conformité
+              aux normes. Je recommande vivement leurs services.
             </p>
             <div className="author-items">
               <div className="author-image">
                 <img src="assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
-                    Lucas J. Swe / <span>CO Founder</span>
+                    Ahmed B. / <span>Directeur technique</span>
                   </h5>
                 </div>
               </div>

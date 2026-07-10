@@ -28,10 +28,10 @@ const electricite_automatisme = {
   title: "Electricité & Automatisme",
   description:
     "Nous excellons dans la conception, l’installation et la maintenance de systèmes électriques et d’automatisation, répondant aux besoins industriels, commerciaux et résidentiels. Nos services couvrent l’étude, le dimensionnement et la mise en service de vos installations, la préparation d’armoires électriques, l’automatisation des processus industriels, ainsi que la mise en œuvre de solutions de variation de vitesse et de démarrage spécifique.",
-  
-    description2:
+
+  description2:
     "Nous nous engageons à respecter les normes en vigueur et à fournir des installations sûres et performantes, que ce soit pour des courants forts ou faibles. Besoin d’une alimentation de secours avec des groupes électrogènes ou des onduleurs ? Ou d’une solution sur mesure pour vos équipements électriques ? PIOLEC est votre partenaire de confiance pour des projets électriques aboutis.",
-    images: [
+  images: [
     {
       src: "/assets/img/service/service1/02.png",
       alt: "Image 1",
@@ -62,10 +62,10 @@ const contrôle_dacces_surveillance = {
   title: "Contrôle d'accès & Surveillance ",
   description:
     "La sécurité de vos bâtiments et sites est une priorité pour PIOLEC. Nous proposons des systèmes de contrôle d’accès modernes et performants, incluant des lecteurs biométriques, des badges et des claviers à code, pour gérer les accès physiques de manière sécurisée.",
-  
-    description2:
+
+  description2:
     "En complément, nous installons également des systèmes de vidéosurveillance avec des caméras IP et analogiques, offrant une surveillance continue et en temps réel de vos espaces. Nos solutions de gestion centralisée vous permettent de superviser et de contrôler les accès de vos installations de manière intuitive et efficace. Avec PIOLEC, vous pouvez protéger vos biens et vos personnes en toute confiance.",
-    images: [
+  images: [
     {
       src: "/assets/img/service/service2/01.png",
       alt: "Image 1",
@@ -97,7 +97,7 @@ const detection_incendie_intrusion = {
   description:
     "Chez PIOLEC, la protection de vos locaux est une priorité absolue. Nos systèmes de détection d'incendie de haute qualité incluent des centrales d'alarme, des détecteurs de fumée et des détecteurs thermiques, ainsi que des logiciels de supervision avancés pour une gestion centralisée. Conçus pour réagir rapidement en cas d'urgence, nos systèmes vous alertent immédiatement, permettant de prendre les mesures nécessaires sans délai et de minimiser les risques.",
   description2:
-  "En parallèle, nous proposons des systèmes de détection d'intrusion performants et fiables, comprenant des centrales d'alarme, des capteurs de mouvement et des contacts magnétiques pour portes et fenêtres. Tous nos systèmes de sécurité incluent une étude technique approfondie et une exécution rigoureuse, jusqu'au test point par point de manière pratique et réaliste. Avec PIOLEC, vous pouvez compter sur des solutions complètes et sécurisées pour protéger vos biens et vos collaborateurs.",
+    "En parallèle, nous proposons des systèmes de détection d'intrusion performants et fiables, comprenant des centrales d'alarme, des capteurs de mouvement et des contacts magnétiques pour portes et fenêtres. Tous nos systèmes de sécurité incluent une étude technique approfondie et une exécution rigoureuse, jusqu'au test point par point de manière pratique et réaliste. Avec PIOLEC, vous pouvez compter sur des solutions complètes et sécurisées pour protéger vos biens et vos collaborateurs.",
   images: [
     {
       src: "/assets/img/service/service3/01.png",
@@ -129,10 +129,10 @@ const precablage_informatique = {
   title: "Precablage informatique ",
   description:
     "Dans un monde de plus en plus connecté, une infrastructure réseau fiable est indispensable. Chez PIOLEC, nous proposons des services de pré-câblage informatique pour assurer une connectivité optimale et sécurisée. Nous installons des câbles RJ45 et fibre optique avec leurs accessoires de raccordement, des panneaux de brassage, des switches et des chemins de câbles pour créer des réseaux performants et évolutifs. ",
-    
-    description2:
+
+  description2:
     "Nos équipes prennent en charge l’installation et la configuration de vos équipements réseau, garantissant une infrastructure robuste et prête à répondre à vos besoins actuels et futurs. Avec PIOLEC, vous bénéficiez d’une connectivité fluide et sécurisée pour tous vos projets informatiques.",
-    images: [
+  images: [
     {
       src: "/assets/img/service/service4/01.png",
       alt: "Image 1",
@@ -163,8 +163,9 @@ const energies_renouvelables = {
   title: "Energies renouvelables ",
   description:
     "Nous vous accompagnons dans la transition vers des énergies plus propres et durables. Nous proposons des solutions innovantes en énergies renouvelables pour le pompage ou l’injection, par l’installation de panneaux solaires photovoltaïques produisant de l’électricité à partir de l’énergie solaire. ",
-  description2:"Nos experts vous conseillent et vous guident dans le choix des solutions les plus adaptées à vos besoins et à votre budget, vous permettant de réduire votre consommation d’énergie et votre empreinte carbone tout en réalisant des économies significatives. Avec PIOLEC, vous faites un pas vers un avenir plus durable.",
-    images: [
+  description2:
+    "Nos experts vous conseillent et vous guident dans le choix des solutions les plus adaptées à vos besoins et à votre budget, vous permettant de réduire votre consommation d’énergie et votre empreinte carbone tout en réalisant des économies significatives. Avec PIOLEC, vous faites un pas vers un avenir plus durable.",
+  images: [
     {
       src: "/assets/img/service/service5/01.png",
       alt: "Image 1",
@@ -195,7 +196,7 @@ const maintenance_sav = {
   title: "Maintenance & S.A.V",
   description:
     "Pour assurer la longévité et le bon fonctionnement de vos installations, PIOLEC propose des services de maintenance préventive et corrective, ainsi qu’un support après-vente réactif et professionnel.",
-    description2:
+  description2:
     "Nos techniciens effectuent des inspections régulières pour anticiper les pannes et garantir le bon fonctionnement de vos équipements. en cas de problème, notre équipe intervient rapidement pour résoudre les dysfonctionnements et minimiser les temps d’arrêt. de plus, nous proposons un support technique continu 24h/24 pour répondre à vos questions et vous accompagner dans l’utilisation de vos installations",
   images: [
     {
@@ -258,7 +259,11 @@ const travaux_divers = {
 const page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="Our Services" pageTitle="Nos Services" backgroundImage="assets/img/service/Back.png" />
+      <Breadcrumb
+        pageName="Our Services"
+        pageTitle="Nos Services"
+        backgroundImage="assets/img/service/Back.png"
+      />
       <GrowBusiness paddingTop={8} />
       <Servicee {...electricite_automatisme} />
       <Servicee {...contrôle_dacces_surveillance} />
@@ -267,7 +272,7 @@ const page = () => {
       <Servicee {...energies_renouvelables} />
       <Servicee {...maintenance_sav} />
       <Servicee {...travaux_divers} />
-      <Steps/>
+      <Steps />
       {/* <WorkingProcess
         title1="Découverte et analyse"
         desc1="Nous analysons vos besoins pour créer une solution sur mesure, adaptée à vos objectifs et contraintes."

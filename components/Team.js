@@ -7,10 +7,10 @@ const Team = () => {
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
             <img src="assets/img/bale.png" alt="img" />
-            Team Member
+            Membres de l&apos;équipe
           </span>
           <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-            Meet Our Professional Team Members
+            Rencontrez nos professionnels qualifiés
           </h2>
         </div>
         <div className="row">
@@ -192,17 +192,18 @@ export const Team2 = () => {
     <div className="col-lg-6">
       <div className="section-title">
         <span className="sub-content wow fadeInUp">
-          <img src="assets/img/bale.png" alt="img" />
-          Team Member
+          <img src="assets/img/bale.png" alt="Équipe PIOLEC" />
+          Membres de l&apos;équipe
         </span>
         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-          Meet Our Professional <br />
-          Team Members
+          Rencontrez nos professionnels <br />
+          qualifiés
         </h2>
       </div>
       <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-        Sed ut perspiciatis unde omnis iste natus error sit volupta
-        temes <br /> accusantium doloremque laudantium, totam rem
+        Notre équipe d&apos;experts en électricité, automatisme et sécurité
+        accompagne vos projets avec professionnalisme <br /> et engagement sur
+        tout le territoire marocain.
       </p>
     </div>
     <div
@@ -425,7 +426,7 @@ export const Team2 = () => {
       data-wow-delay=".8s"
     >
       <Link href="team" className="theme-btn">
-        View More Members
+        Voir plus de membres
       </Link>
     </div>
   </div>

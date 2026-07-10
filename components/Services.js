@@ -7,8 +7,8 @@ const servicesData = [
     icon: "flaticon-electricity",
     title: "Electricité & Automatisme",
     description:
-      "We provide expert electrical installations for residential, commercial, and industrial projects, ensuring safety and efficiency.",
-      Link:"/service#electricite_automatisme",
+      "Installations électriques expertes pour projets résidentiels, commerciaux et industriels, garantissant sécurité et efficacité.",
+    Link: "/service#electricite_automatisme",
   },
   {
     id: 2,
@@ -16,8 +16,8 @@ const servicesData = [
     icon: "flaticon-automation",
     title: "Contrôle d'accès & Surveillance",
     description:
-      "Our automation solutions streamline operations, reduce costs, and enhance productivity for businesses.",
-      Link:"/service#contrôle_dacces_surveillance",
+      "Solutions d'automatisation pour optimiser vos opérations, réduire les coûts et améliorer la productivité de votre entreprise.",
+    Link: "/service#contrôle_dacces_surveillance",
   },
   {
     id: 3,
@@ -25,26 +25,26 @@ const servicesData = [
     icon: "flaticon-security",
     title: "Détection incendie & intrusion",
     description:
-      "We install advanced security systems, including access control, fire detection, and video surveillance, to protect your property.",
-      Link:"/service#detection_incendie_intrusion",
+      "Installation de systèmes de sécurité avancés : contrôle d'accès, détection incendie et vidéosurveillance pour protéger vos locaux.",
+    Link: "/service#detection_incendie_intrusion",
   },
   {
     id: 4,
     image: "/assets/img/service/service4.jpg",
     icon: "flaticon-network",
-    title: "Precablage informatique",
+    title: "Précâblage informatique",
     description:
-      "We design and implement robust IT networks, ensuring seamless connectivity and data security for your business.",
-      Link:"/service#precablage_informatique",
+      "Conception et mise en place de réseaux informatiques performants, assurant connectivité fluide et sécurité des données.",
+    Link: "/service#precablage_informatique",
   },
   {
     id: 5,
     image: "/assets/img/service/service5.jpg",
     icon: "/service#energies_renouvelables_travaux_divers",
-    title: "Energies renouvelables",
+    title: "Énergies renouvelables",
     description:
-      "We offer sustainable energy solutions, including solar power systems, to help you reduce energy costs and environmental impact.",
-      Link:"/service#energies_renouvelables_travaux_divers",
+      "Solutions d'énergie durable, notamment l'énergie solaire, pour réduire vos coûts énergétiques et votre impact environnemental.",
+    Link: "/service#energies_renouvelables_travaux_divers",
   },
   {
     id: 6,
@@ -52,8 +52,8 @@ const servicesData = [
     icon: "flaticon-maintenance",
     title: "Maintenance & S.A.V",
     description:
-      "Our maintenance and after-sales services ensure the longevity and optimal performance of your electrical and security systems.",
-      Link:"/service#maintenance_sav",
+      "Services de maintenance et SAV pour garantir la longévité et les performances optimales de vos installations électriques et de sécurité.",
+    Link: "/service#maintenance_sav",
   },
   {
     id: 7,
@@ -61,8 +61,8 @@ const servicesData = [
     icon: "flaticon-maintenance",
     title: "Travaux divers",
     description:
-      "Our maintenance and after-sales services ensure the longevity and optimal performance of your electrical and security systems.",
-      Link:"/service#travaux-divers",
+      "Travaux complémentaires intégrés à vos projets électriques : génie civil, menuiserie métallique, peinture et bien plus encore.",
+    Link: "/service#travaux-divers",
   },
 ];
 
@@ -74,17 +74,15 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
     >
       <div className="container">
         <div className="section-title text-center">
-          <span className="sub-content wow fadeInUp">
-            {title}
-          </span>
+          <span className="sub-content wow fadeInUp">{title}</span>
         </div>
         <div className="row">
           {servicesData.map((service) => (
             <div
-            key={service.id}
-            className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay=".3s"
-            style={{ marginBottom: "30px" }}
+              key={service.id}
+              className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".3s"
+              style={{ marginBottom: "30px" }}
             >
               <div className="service-popular-items">
                 <div className="service-image">
@@ -101,9 +99,10 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
                 <div className="service-content">
                   <h5>
                     <Link href={service.Link}>{service.title}</Link>
-                  </h5><br></br>
+                  </h5>
+                  <br></br>
                   <Link href={service.Link} className="theme-btn">
-                  En savoir plus <i className="far fa-arrow-right " />
+                    En savoir plus <i className="far fa-arrow-right " />
                   </Link>
                 </div>
               </div>
@@ -114,4 +113,3 @@ export const Service2 = ({ paddingTop = 0, title = "Popular Services" }) => {
     </section>
   );
 };
-

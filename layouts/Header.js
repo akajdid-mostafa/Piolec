@@ -24,7 +24,7 @@ const Menu = ({ menu }) => {
         { id: 1, href: "/A_propos", title: "A propos" },
         { id: 2, href: "/services", title: "Services" },
         { id: 3, href: "/team", title: "L'équipe " },
-        { id: 4, href: "/blog", title: "Blog" },
+        { id: 4, href: "/news", title: "Actualités" },
       ];
   return (
     <Fragment>
@@ -266,10 +266,10 @@ const Sidebar = ({ sidebarToggle, close }) => {
 
 const Header1 = ({ single }) => {
   const singleMenu = [
-    { id: 1, href: "/A_propos", title: "About" },
-    { id: 2, href: "/services", title: "Services" },
-    { id: 3, href: "/projects", title: "Projects" },
-    { id: 4, href: "/testimonial", title: "Testimonial" },
+    { id: 1, href: "/A_propos", title: "À propos" },
+    { id: 2, href: "/service", title: "Services" },
+    { id: 3, href: "/Projets", title: "Projets" },
+    { id: 4, href: "/contact", title: "Contact" },
   ];
 
   const [sidebarToggle, setSidebarToggle] = useState(false);

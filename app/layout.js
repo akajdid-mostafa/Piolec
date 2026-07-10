@@ -8,11 +8,7 @@ import "@css/nice-select.css";
 import "@css/swiper-bundle.min.css";
 import "./globals.css";
 import JsonLd from "@/components/JsonLd";
-import {
-  createMetadata,
-  organizationJsonLd,
-  SITE_URL,
-} from "@/lib/seo";
+import { createMetadata, organizationJsonLd, SITE_URL } from "@/lib/seo";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -43,7 +39,11 @@ export default function RootLayout({ children }) {
           href="/web-app-manifest-192x192.png"
           sizes="96x96"
         />
-        <link rel="icon" type="image/svg+xml" href="/web-app-manifest-192x192.png" />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="/web-app-manifest-192x192.png"
+        />
         <link rel="shortcut icon" href="/web-app-manifest-192x192.png" />
         <link
           rel="apple-touch-icon"
