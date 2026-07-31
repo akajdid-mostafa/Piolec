@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Team = () => {
   return (
@@ -6,7 +7,7 @@ const Team = () => {
       <div className="container">
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
-            <img src="assets/img/bale.png" alt="img" />
+            <img src="assets/img/bale.png" alt="" aria-hidden="true" />
             Membres de l&apos;équipe
           </span>
           <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
@@ -20,36 +21,18 @@ const Team = () => {
           >
             <div className="team-card-items">
               <div className="team-image">
-                <img src="assets/img/team/06.jpg" alt="team-img" />
+                <Image src="/assets/img/team/06.jpg" alt="Membre de l'équipe PIOLEC" width={400} height={450} style={{ width: "100%", height: "auto" }} />
                 <div className="icon-list">
                   <ul>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-pinterest-p" />
-                      </a>
-                    </li>
+                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+                    <li><a href="#"><i className="fab fa-twitter" /></a></li>
+                    <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
+                    <li><a href="#"><i className="fab fa-pinterest-p" /></a></li>
                   </ul>
                 </div>
               </div>
               <div className="team-content">
-                <h4>
-                  <Link href="team-details">Eduardo D. Howard</Link>
-                </h4>
+                <h4><Link href="team-details">Eduardo D. Howard</Link></h4>
                 <p>CEO &amp; Founder</p>
               </div>
             </div>
@@ -60,36 +43,18 @@ const Team = () => {
           >
             <div className="team-card-items">
               <div className="team-image">
-                <img src="assets/img/team/07.jpg" alt="team-img" />
+                <Image src="/assets/img/team/07.jpg" alt="Membre de l'équipe PIOLEC" width={400} height={450} style={{ width: "100%", height: "auto" }} />
                 <div className="icon-list">
                   <ul>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-pinterest-p" />
-                      </a>
-                    </li>
+                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+                    <li><a href="#"><i className="fab fa-twitter" /></a></li>
+                    <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
+                    <li><a href="#"><i className="fab fa-pinterest-p" /></a></li>
                   </ul>
                 </div>
               </div>
               <div className="team-content">
-                <h4>
-                  <Link href="team-details">Jeremiah D. Marshall</Link>
-                </h4>
+                <h4><Link href="team-details">Jeremiah D. Marshall</Link></h4>
                 <p>Business Consultant</p>
               </div>
             </div>
@@ -100,36 +65,18 @@ const Team = () => {
           >
             <div className="team-card-items">
               <div className="team-image">
-                <img src="assets/img/team/08.jpg" alt="team-img" />
+                <Image src="/assets/img/team/08.jpg" alt="Membre de l'équipe PIOLEC" width={400} height={450} style={{ width: "100%", height: "auto" }} />
                 <div className="icon-list">
                   <ul>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-pinterest-p" />
-                      </a>
-                    </li>
+                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+                    <li><a href="#"><i className="fab fa-twitter" /></a></li>
+                    <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
+                    <li><a href="#"><i className="fab fa-pinterest-p" /></a></li>
                   </ul>
                 </div>
               </div>
               <div className="team-content">
-                <h4>
-                  <Link href="team-details">Jeremy B. Forsberg</Link>
-                </h4>
+                <h4><Link href="team-details">Jeremy B. Forsberg</Link></h4>
                 <p>Senior Manager</p>
               </div>
             </div>
@@ -140,36 +87,18 @@ const Team = () => {
           >
             <div className="team-card-items">
               <div className="team-image">
-                <img src="assets/img/team/09.jpg" alt="team-img" />
+                <Image src="/assets/img/team/09.jpg" alt="Membre de l'équipe PIOLEC" width={400} height={450} style={{ width: "100%", height: "auto" }} />
                 <div className="icon-list">
                   <ul>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-pinterest-p" />
-                      </a>
-                    </li>
+                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+                    <li><a href="#"><i className="fab fa-twitter" /></a></li>
+                    <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
+                    <li><a href="#"><i className="fab fa-pinterest-p" /></a></li>
                   </ul>
                 </div>
               </div>
               <div className="team-content">
-                <h4>
-                  <Link href="team-details">Duane V. McCormick</Link>
-                </h4>
+                <h4><Link href="team-details">Duane V. McCormick</Link></h4>
                 <p>Junior Consultant</p>
               </div>
             </div>
@@ -192,7 +121,7 @@ export const Team2 = () => {
     <div className="col-lg-6">
       <div className="section-title">
         <span className="sub-content wow fadeInUp">
-          <img src="assets/img/bale.png" alt="Équipe PIOLEC" />
+          <img src="assets/img/bale.png" alt="" aria-hidden="true" />
           Membres de l&apos;équipe
         </span>
         <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -212,39 +141,19 @@ export const Team2 = () => {
     >
       <div className="team-items">
         <div className="team-image">
-          <img src="assets/img/team/01.jpg" alt="img" />
+          <Image src="/assets/img/team/01.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4>
-            <Link href="team-details">Robert E. Whitmore</Link>
-          </h4>
+          <h4><Link href="team-details">Robert E. Whitmore</Link></h4>
           <p>Product Designer</p>
           <div className="social-profile">
             <ul>
-              <li>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-linkedin-in" />
-                </a>
-              </li>
+              <li><a href="#"><i className="fab fa-twitter" /></a></li>
+              <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+              <li><a href="#"><i className="fab fa-instagram" /></a></li>
+              <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
             </ul>
-            <span className="plus-btn">
-              <i className="far fa-plus" />
-            </span>
+            <span className="plus-btn"><i className="far fa-plus" /></span>
           </div>
         </div>
       </div>
@@ -255,39 +164,19 @@ export const Team2 = () => {
     >
       <div className="team-items">
         <div className="team-image">
-          <img src="assets/img/team/02.jpg" alt="img" />
+          <Image src="/assets/img/team/02.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4>
-            <Link href="team-details">Johnny M. Smith</Link>
-          </h4>
+          <h4><Link href="team-details">Johnny M. Smith</Link></h4>
           <p>IT Consultant</p>
           <div className="social-profile">
             <ul>
-              <li>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-linkedin-in" />
-                </a>
-              </li>
+              <li><a href="#"><i className="fab fa-twitter" /></a></li>
+              <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+              <li><a href="#"><i className="fab fa-instagram" /></a></li>
+              <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
             </ul>
-            <span className="plus-btn">
-              <i className="far fa-plus" />
-            </span>
+            <span className="plus-btn"><i className="far fa-plus" /></span>
           </div>
         </div>
       </div>
@@ -298,39 +187,19 @@ export const Team2 = () => {
     >
       <div className="team-items">
         <div className="team-image">
-          <img src="assets/img/team/03.jpg" alt="img" />
+          <Image src="/assets/img/team/03.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4>
-            <Link href="team-details">Angelo H. Tomlin</Link>
-          </h4>
+          <h4><Link href="team-details">Angelo H. Tomlin</Link></h4>
           <p>Senior Manager</p>
           <div className="social-profile">
             <ul>
-              <li>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-linkedin-in" />
-                </a>
-              </li>
+              <li><a href="#"><i className="fab fa-twitter" /></a></li>
+              <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+              <li><a href="#"><i className="fab fa-instagram" /></a></li>
+              <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
             </ul>
-            <span className="plus-btn">
-              <i className="far fa-plus" />
-            </span>
+            <span className="plus-btn"><i className="far fa-plus" /></span>
           </div>
         </div>
       </div>
@@ -341,39 +210,19 @@ export const Team2 = () => {
     >
       <div className="team-items">
         <div className="team-image">
-          <img src="assets/img/team/04.jpg" alt="img" />
+          <Image src="/assets/img/team/04.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4>
-            <Link href="team-details">Robert E. Whitmore</Link>
-          </h4>
+          <h4><Link href="team-details">Robert E. Whitmore</Link></h4>
           <p>Web Designer</p>
           <div className="social-profile">
             <ul>
-              <li>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-linkedin-in" />
-                </a>
-              </li>
+              <li><a href="#"><i className="fab fa-twitter" /></a></li>
+              <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+              <li><a href="#"><i className="fab fa-instagram" /></a></li>
+              <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
             </ul>
-            <span className="plus-btn">
-              <i className="far fa-plus" />
-            </span>
+            <span className="plus-btn"><i className="far fa-plus" /></span>
           </div>
         </div>
       </div>
@@ -384,39 +233,19 @@ export const Team2 = () => {
     >
       <div className="team-items">
         <div className="team-image">
-          <img src="assets/img/team/05.jpg" alt="img" />
+          <Image src="/assets/img/team/05.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4>
-            <Link href="team-details">Manuel G. Wilmer</Link>
-          </h4>
+          <h4><Link href="team-details">Manuel G. Wilmer</Link></h4>
           <p>CEO &amp; Founder</p>
           <div className="social-profile">
             <ul>
-              <li>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fab fa-linkedin-in" />
-                </a>
-              </li>
+              <li><a href="#"><i className="fab fa-twitter" /></a></li>
+              <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+              <li><a href="#"><i className="fab fa-instagram" /></a></li>
+              <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
             </ul>
-            <span className="plus-btn">
-              <i className="far fa-plus" />
-            </span>
+            <span className="plus-btn"><i className="far fa-plus" /></span>
           </div>
         </div>
       </div>
