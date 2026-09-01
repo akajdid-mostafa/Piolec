@@ -58,6 +58,12 @@ export default function RootLayout({ children }) {
         />
         <meta name="apple-mobile-web-app-title" content="Piolec" />
         <link rel="manifest" href="/manifest.json" />
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/img/hero/01.jpg"
+          fetchPriority="high"
+        />
       </head>
       <body>
         <JsonLd data={organizationJsonLd} />

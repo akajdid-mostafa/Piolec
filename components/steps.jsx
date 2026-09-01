@@ -35,7 +35,12 @@ const Steps = () => {
             <div class="cs_card cs_style_1">
               <div class="cs_card_in cs_white_bg">
                 <div class="cs_card_icon cs_center cs_mb_30">
-                  <img src="assets/img/icons/decouverte_et_analyse.svg" alt="" />
+                  <img
+                    src="assets/img/icons/decouverte_et_analyse.svg"
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
                 <h3 class="cs_fs_24 cs_semibold cs_mb_6">
                   Découverte et analyse
@@ -73,7 +78,12 @@ const Steps = () => {
                   optimale.
                 </p>
                 <div class="cs_card_icon cs_center">
-                  <img src="assets/img/icons/conception_et_planification.svg" alt="" />
+                  <img
+                    src="assets/img/icons/conception_et_planification.svg"
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
               </div>
               <div class="cs_card_shape">
@@ -96,7 +106,12 @@ const Steps = () => {
             <div class="cs_card cs_style_1">
               <div class="cs_card_in cs_white_bg">
                 <div class="cs_card_icon cs_center cs_mb_30">
-                  <img src="assets/img/icons/execution.svg" alt="" />
+                  <img
+                    src="assets/img/icons/execution.svg"
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
                 <h3 class="cs_fs_24 cs_semibold cs_mb_6">
                   Exécution et Mise en Œuvre
@@ -135,7 +150,12 @@ const Steps = () => {
                   support technique continu.
                 </p>
                 <div class="cs_card_icon cs_center">
-                  <img src="assets/img/icons/reception.svg" alt="" />
+                  <img
+                    src="assets/img/icons/reception.svg"
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
               </div>
               <div class="cs_card_shape">

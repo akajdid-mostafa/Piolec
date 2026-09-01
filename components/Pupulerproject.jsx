@@ -119,6 +119,8 @@ const Pupulerproject = () => {
                           src={image}
                           alt={`image-${index}`}
                           className="project-thumbnail"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </Link>
                     ))}
