@@ -72,7 +72,7 @@ const ProjectDetailPage = () => {
                       <a href={image} data-fancybox="gallery">
                         <Image
                           src={image}
-                          alt={`Project Image ${index + 1}`}
+                          alt={`Projet ${project.title.trim()} à ${project.details.information.location.trim()} — photo ${index + 1}`}
                           width={500}
                           height={300}
                           style={{

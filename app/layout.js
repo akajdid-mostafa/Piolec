@@ -7,8 +7,12 @@ import "@css/meanmenu.css";
 import "@css/nice-select.css";
 import "@css/swiper-bundle.min.css";
 import "./globals.css";
+import Script from "next/script";
 import JsonLd from "@/components/JsonLd";
 import { createMetadata, organizationJsonLd, SITE_URL } from "@/lib/seo";
+
+const GOOGLE_ANALYTICS_ID =
+  process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "G-M70Q9HX2KC";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -58,6 +62,18 @@ export default function RootLayout({ children }) {
       <body>
         <JsonLd data={organizationJsonLd} />
         {children}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GOOGLE_ANALYTICS_ID}');
+          `}
+        </Script>
       </body>
     </html>
   );
