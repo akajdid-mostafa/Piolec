@@ -6,7 +6,8 @@
  
 @font-face {
     font-family: "flaticon";
-    src: url("../fonts/flaticon.woff2") format("woff2"), 
+    font-display: swap;
+    src: url("../fonts/flaticon.woff2") format("woff2"),
     url("../fonts/flaticon.woff") format("woff"), 
     url("../fonts/flaticon.eot?#iefix") format("embedded-opentype");
 }

@@ -6,7 +6,6 @@ Description: Multipurpose HTML5 Template
 Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300..900;1,300..900&display=swap");
 :root {
   --body: #fff;
   --black: #000;
@@ -10513,7 +10512,6 @@ p.sticky-label {
   padding-top: 3.5rem; /* py-14 = 56px */
   padding-bottom: 3.5rem;
 }
-
 
 
 

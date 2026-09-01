@@ -7,6 +7,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+const getProjectThumbnailSrc = (src) => {
+  if (!src?.includes("res.cloudinary.com/")) return src;
+
+  return src.replace(
+    "/image/upload/",
+    "/image/upload/f_auto,q_auto,w_640/"
+  );
+};
+
 const Pupulerproject = () => {
   const sliderRef = useRef(null);
 
@@ -116,7 +125,7 @@ const Pupulerproject = () => {
                         className="project-image-link"
                       >
                         <img
-                          src={image}
+                          src={getProjectThumbnailSrc(image)}
                           alt={`image-${index}`}
                           className="project-thumbnail"
                           loading="lazy"
