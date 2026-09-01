@@ -158,9 +158,11 @@ const MobileMenu = () => {
               <a
                 className="mean-expand"
                 href="#"
+                aria-label={`${activeMenu === "Services" ? "Fermer" : "Ouvrir"} le sous-menu Services`}
+                aria-expanded={activeMenu === "Services"}
                 onClick={() => activeMenuSet("Services")}
               >
-                <i className="far fa-plus" />
+                <i className="far fa-plus" aria-hidden="true" />
               </a>
             </li>
             <li>
