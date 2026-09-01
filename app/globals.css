@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-/* Keep the project title semantic for SEO without letting it dominate the layout. */
+/* Keep the project title ser SEO without letting it dominate the layout. */
 .project-details-content > h1 {
   font-size: clamp(2rem, 3vw, 3rem);
   line-height: 1.15;
