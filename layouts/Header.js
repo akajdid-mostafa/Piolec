@@ -187,8 +187,8 @@ const Sidebar = ({ sidebarToggle, close }) => {
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>
-                  <button>
-                    <i className="fas fa-times" />
+                  <button type="button" aria-label="Fermer le menu">
+                    <i className="fas fa-times" aria-hidden="true" />
                   </button>
                 </div>
               </div>
@@ -245,11 +245,21 @@ const Sidebar = ({ sidebarToggle, close }) => {
                   </Link>
                 </div>
                 <div className="social-icon d-flex align-items-center padding-soc">
-                  <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-facebook-f" />
+                  <a
+                    href={SOCIAL_LINKS.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook de PIOLEC"
+                  >
+                    <i className="fab fa-facebook-f" aria-hidden="true" />
                   </a>
-                  <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-linkedin-in" />
+                  <a
+                    href={SOCIAL_LINKS.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn de PIOLEC"
+                  >
+                    <i className="fab fa-linkedin-in" aria-hidden="true" />
                   </a>
                 </div>
               </div>

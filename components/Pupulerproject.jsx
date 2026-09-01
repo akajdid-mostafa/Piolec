@@ -2,11 +2,58 @@
 
 import { projects } from "@/app/Projets/data";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
 const Pupulerproject = () => {
+  const sliderRef = useRef(null);
+
+  useEffect(() => {
+    const slider = sliderRef.current;
+    if (!slider) return undefined;
+
+    const focusableSelector = "a, button, input, select, textarea, [tabindex]";
+    const syncHiddenSlides = () => {
+      slider.querySelectorAll(".slick-slide").forEach((slide) => {
+        const isHidden = slide.getAttribute("aria-hidden") === "true";
+
+        slide.querySelectorAll(focusableSelector).forEach((element) => {
+          if (isHidden) {
+            if (!element.hasAttribute("data-slick-original-tabindex")) {
+              element.setAttribute(
+                "data-slick-original-tabindex",
+                element.getAttribute("tabindex") ?? ""
+              );
+            }
+            element.setAttribute("tabindex", "-1");
+          } else if (element.hasAttribute("data-slick-original-tabindex")) {
+            const originalTabIndex = element.getAttribute(
+              "data-slick-original-tabindex"
+            );
+
+            if (originalTabIndex) {
+              element.setAttribute("tabindex", originalTabIndex);
+            } else {
+              element.removeAttribute("tabindex");
+            }
+            element.removeAttribute("data-slick-original-tabindex");
+          }
+        });
+      });
+    };
+
+    syncHiddenSlides();
+    const observer = new MutationObserver(syncHiddenSlides);
+    observer.observe(slider, {
+      subtree: true,
+      attributes: true,
+      attributeFilter: ["aria-hidden", "class"],
+    });
+
+    return () => observer.disconnect();
+  }, []);
  
   const displayedProjects = [...projects]
     .sort((a, b) => new Date(b.details.information.date) - new Date(a.details.information.date));
@@ -56,7 +103,7 @@ const Pupulerproject = () => {
           </Link>
         </div>
         
-        <div className="case-study-slider">
+        <div ref={sliderRef} className="case-study-slider">
           <Slider {...settings}>
             {displayedProjects.map((project) => (
               <div key={project.id} className="slide-item">
@@ -82,8 +129,12 @@ const Pupulerproject = () => {
                         {project.title}
                       </Link>
                     </h4>
-                    <Link className="arrow-btn" href={`/Projets/${project.id}`}>
-                      <i className="far fa-arrow-right" />
+                    <Link
+                      className="arrow-btn"
+                      href={`/Projets/${project.id}`}
+                      aria-label={`Voir le projet ${project.title}`}
+                    >
+                      <i className="far fa-arrow-right" aria-hidden="true" />
                     </Link>
                   </div>
                 </div>
