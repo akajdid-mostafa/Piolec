@@ -1,2 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
+/* Keep the project title semantic for SEO without letting it dominate the layout. */
+.project-details-content > h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.15;
+  margin: 0 0 2rem;
+}
+
+@media (max-width: 767px) {
+  .project-details-content > h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Keep service section headings visually identical to the original labels. */
+.section-title h2.sub-contentt {
+  margin: 0 0 15px;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  color: #000;
+}

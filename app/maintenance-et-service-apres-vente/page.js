@@ -11,28 +11,30 @@ import { createMetadata, createServiceJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 
 const serviceJsonLd = createServiceJsonLd({
-  name: "Maintenance électrique et service après-vente (SAV)",
+  name: "Maintenance électrique industrielle et SAV",
   description:
-    "Service de maintenance et SAV PIOLEC pour vos installations électriques, automatisme et systèmes de sécurité. Intervention rapide et suivi technique partout au Maroc.",
+    "PIOLEC assure la maintenance préventive et corrective des installations électriques, armoires, automatismes et systèmes de sécurité pour les entreprises au Maroc.",
   path: "/maintenance-et-service-apres-vente",
   keywords: [
-    "maintenance électrique Maroc",
-    "service après-vente électricité",
-    "dépannage électrique",
+    "maintenance électrique industrielle Maroc",
+    "maintenance préventive électrique",
+    "dépannage électrique industriel",
+    "SAV installation électrique",
     "maintenance préventive",
     "contrat maintenance industrielle",
   ],
 });
 
 export const metadata = createMetadata({
-  title: "Maintenance et service après-vente",
+  title: "Maintenance électrique industrielle au Maroc",
   description:
-    "Service de maintenance et SAV PIOLEC pour vos installations électriques, automatisme et systèmes de sécurité. Intervention rapide et suivi technique partout au Maroc.",
+    "Maintenance électrique industrielle préventive et corrective, dépannage d'armoires et SAV pour entreprises à Casablanca, Agadir et partout au Maroc avec PIOLEC.",
   path: "/maintenance-et-service-apres-vente",
   keywords: [
-    "maintenance électrique Maroc",
-    "service après-vente électricité",
-    "dépannage électrique",
+    "maintenance électrique industrielle Maroc",
+    "dépannage électrique industriel",
+    "maintenance préventive entreprise",
+    "contrat de maintenance électrique",
   ],
 });
 

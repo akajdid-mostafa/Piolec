@@ -13,6 +13,7 @@ export const metadata = createMetadata({
     "normes électriques Maroc",
     "électricien professionnel Casablanca",
   ],
+  noIndex: true,
 });
 
 const recentPosts = [
@@ -191,10 +192,10 @@ const page = () => {
                     <div className="col-lg-8 col-12">
                       <h4>Tags de l&apos;article</h4>
                       <div className="tagcloud">
-                        <Link href="news">Électricité</Link>
-                        <Link href="news">CFA CFO</Link>
-                        <Link href="news">Maroc</Link>
-                        <Link href="news">Installation</Link>
+                        <Link href="/news">Électricité</Link>
+                        <Link href="/news">CFA CFO</Link>
+                        <Link href="/news">Maroc</Link>
+                        <Link href="/news">Installation</Link>
                       </div>
                     </div>
                     <div className="col-lg-4 col-12 mt-3 mt-lg-0 text-lg-end">
@@ -276,7 +277,7 @@ const page = () => {
                           />
                           <div className="post-content">
                             <h5>
-                              <Link href="news-details">{post.title}</Link>
+                              <Link href="/news-details">{post.title}</Link>
                             </h5>
                             <div className="post-date">
                               <i className="far fa-calendar-alt" />

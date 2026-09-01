@@ -13,6 +13,7 @@ export const metadata = createMetadata({
     "sécurité électrique bâtiment",
     "automatisme industriel Maroc",
   ],
+  noIndex: true,
 });
 
 const articles = [
@@ -151,11 +152,11 @@ const page = () => {
                           </span>
                         </div>
                         <h2>
-                          <Link href="news-details">{article.title}</Link>
+                          <Link href="/news-details">{article.title}</Link>
                         </h2>
                         <p>{article.excerpt}</p>
                         <Link
-                          href="news-details"
+                          href="/news-details"
                           className="theme-btn mt-4 line-height"
                         >
                           <span>
@@ -228,7 +229,7 @@ const page = () => {
                           />
                           <div className="post-content">
                             <h5>
-                              <Link href="news-details">{post.title}</Link>
+                              <Link href="/news-details">{post.title}</Link>
                             </h5>
                             <div className="post-date">
                               <i className="far fa-calendar-alt" />

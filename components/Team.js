@@ -32,7 +32,7 @@ const Team = () => {
                 </div>
               </div>
               <div className="team-content">
-                <h4><Link href="team-details">Eduardo D. Howard</Link></h4>
+                <h4><Link href="/team">Eduardo D. Howard</Link></h4>
                 <p>CEO &amp; Founder</p>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Team = () => {
                 </div>
               </div>
               <div className="team-content">
-                <h4><Link href="team-details">Jeremiah D. Marshall</Link></h4>
+                <h4><Link href="/team">Jeremiah D. Marshall</Link></h4>
                 <p>Business Consultant</p>
               </div>
             </div>
@@ -76,7 +76,7 @@ const Team = () => {
                 </div>
               </div>
               <div className="team-content">
-                <h4><Link href="team-details">Jeremy B. Forsberg</Link></h4>
+                <h4><Link href="/team">Jeremy B. Forsberg</Link></h4>
                 <p>Senior Manager</p>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Team = () => {
                 </div>
               </div>
               <div className="team-content">
-                <h4><Link href="team-details">Duane V. McCormick</Link></h4>
+                <h4><Link href="/team">Duane V. McCormick</Link></h4>
                 <p>Junior Consultant</p>
               </div>
             </div>
@@ -144,7 +144,7 @@ export const Team2 = () => {
           <Image src="/assets/img/team/01.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4><Link href="team-details">Robert E. Whitmore</Link></h4>
+                <h4><Link href="/team">Robert E. Whitmore</Link></h4>
           <p>Product Designer</p>
           <div className="social-profile">
             <ul>
@@ -167,7 +167,7 @@ export const Team2 = () => {
           <Image src="/assets/img/team/02.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4><Link href="team-details">Johnny M. Smith</Link></h4>
+                <h4><Link href="/team">Johnny M. Smith</Link></h4>
           <p>IT Consultant</p>
           <div className="social-profile">
             <ul>
@@ -190,7 +190,7 @@ export const Team2 = () => {
           <Image src="/assets/img/team/03.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4><Link href="team-details">Angelo H. Tomlin</Link></h4>
+                <h4><Link href="/team">Angelo H. Tomlin</Link></h4>
           <p>Senior Manager</p>
           <div className="social-profile">
             <ul>
@@ -213,7 +213,7 @@ export const Team2 = () => {
           <Image src="/assets/img/team/04.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4><Link href="team-details">Robert E. Whitmore</Link></h4>
+                <h4><Link href="/team">Robert E. Whitmore</Link></h4>
           <p>Web Designer</p>
           <div className="social-profile">
             <ul>
@@ -236,7 +236,7 @@ export const Team2 = () => {
           <Image src="/assets/img/team/05.jpg" alt="Expert PIOLEC en électricité et automatisme" width={400} height={450} style={{ width: "100%", height: "auto" }} />
         </div>
         <div className="team-content">
-          <h4><Link href="team-details">Manuel G. Wilmer</Link></h4>
+                <h4><Link href="/team">Manuel G. Wilmer</Link></h4>
           <p>CEO &amp; Founder</p>
           <div className="social-profile">
             <ul>

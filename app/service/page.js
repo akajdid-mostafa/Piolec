@@ -11,15 +11,16 @@ import Steps from "@/components/steps";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Nos services électriques et techniques",
+  title: "Services électriques et techniques au Maroc",
   description:
-    "Services PIOLEC : électricité & automatisme, contrôle d'accès, détection incendie, pré-câblage informatique, énergies renouvelables et maintenance SAV au Maroc.",
+    "Découvrez les services PIOLEC au Maroc : électricité industrielle, automatisme, vidéosurveillance, contrôle d'accès, pré-câblage informatique, énergie solaire et maintenance.",
   path: "/service",
   keywords: [
-    "services électriques Maroc",
+    "services électriques industriels Maroc",
     "automatisme industriel",
-    "contrôle d'accès",
-    "détection incendie",
+    "installation vidéosurveillance Maroc",
+    "pré-câblage informatique entreprise",
+    "maintenance électrique industrielle",
   ],
 });
 
@@ -34,19 +35,19 @@ const electricite_automatisme = {
   images: [
     {
       src: "/assets/img/service/service1/02.png",
-      alt: "Image 1",
+      alt: "Armoire électrique industrielle pour installation électrique",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service1/03.png",
-      alt: "Image 2",
+      alt: "Câblage et équipements électriques industriels",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service1/01.png",
-      alt: "Image 3",
+      alt: "Tableau électrique pour installation industrielle",
       width: 300,
       height: 400,
     },
@@ -68,19 +69,19 @@ const contrôle_dacces_surveillance = {
   images: [
     {
       src: "/assets/img/service/service2/01.png",
-      alt: "Image 1",
+      alt: "Système de contrôle d'accès par badge et lecteur",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service2/02.png",
-      alt: "Image 2",
+      alt: "Caméra de vidéosurveillance pour site professionnel",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service2/03.png",
-      alt: "Image 3",
+      alt: "Installation de contrôle d'accès et vidéosurveillance",
       width: 300,
       height: 400,
     },
@@ -101,19 +102,19 @@ const detection_incendie_intrusion = {
   images: [
     {
       src: "/assets/img/service/service3/01.png",
-      alt: "Image 1",
+      alt: "Détecteur de fumée pour système de sécurité incendie",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service3/02.png",
-      alt: "Image 2",
+      alt: "Centrale de détection incendie professionnelle",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service3/03.png",
-      alt: "Image 3",
+      alt: "Système d'alarme anti-intrusion pour entreprise",
       width: 300,
       height: 400,
     },
@@ -135,19 +136,19 @@ const precablage_informatique = {
   images: [
     {
       src: "/assets/img/service/service4/01.png",
-      alt: "Image 1",
+      alt: "Baie de brassage pour réseau informatique",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service4/02.png",
-      alt: "Image 2",
+      alt: "Câblage réseau RJ45 professionnel",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service4/03.png",
-      alt: "Image 3",
+      alt: "Installation de pré-câblage informatique",
       width: 300,
       height: 400,
     },
@@ -168,19 +169,19 @@ const energies_renouvelables = {
   images: [
     {
       src: "/assets/img/service/service5/01.png",
-      alt: "Image 1",
+      alt: "Panneaux solaires photovoltaïques",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service5/02.png",
-      alt: "Image 2",
+      alt: "Installation solaire pour pompage",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service5/03.png",
-      alt: "Image 3",
+      alt: "Équipement d'énergie renouvelable",
       width: 300,
       height: 400,
     },
@@ -201,19 +202,19 @@ const maintenance_sav = {
   images: [
     {
       src: "/assets/img/service/service6/01.png",
-      alt: "Image 1",
+      alt: "Maintenance d'une installation électrique industrielle",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service6/02.png",
-      alt: "Image 2",
+      alt: "Diagnostic et maintenance d'équipements électriques",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service6/03.png",
-      alt: "Image 3",
+      alt: "Intervention de maintenance électrique",
       width: 300,
       height: 400,
     },
@@ -232,19 +233,19 @@ const travaux_divers = {
   images: [
     {
       src: "/assets/img/service/service7/01.png",
-      alt: "Image 1",
+      alt: "Travaux de génie civil pour installation technique",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service7/02.png",
-      alt: "Image 2",
+      alt: "Menuiserie métallique pour projet industriel",
       width: 300,
       height: 200,
     },
     {
       src: "/assets/img/service/service7/03.png",
-      alt: "Image 3",
+      alt: "Travaux divers liés à une installation électrique",
       width: 300,
       height: 400,
     },
@@ -262,7 +263,7 @@ const page = () => {
       <Breadcrumb
         pageName="Our Services"
         pageTitle="Nos Services"
-        backgroundImage="assets/img/service/Back.png"
+        backgroundImage="/assets/img/service/Back.png"
       />
       <GrowBusiness paddingTop={8} />
       <Servicee {...electricite_automatisme} />

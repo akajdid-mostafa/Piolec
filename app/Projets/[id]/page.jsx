@@ -33,6 +33,7 @@ const ProjectDetailPage = () => {
             <div className="row g-4 justify-content-between">
               <div className="col-lg-7">
                 <div className="project-details-content">
+                  <h1 className="mt-0">{project.title.trim()}</h1>
                   <h4 className="mt-50">Objet de projet :</h4>
                   <p className="mt-4">{project.details.content}</p>
                   <h4 className="mt-50">Travaux effectués :</h4>

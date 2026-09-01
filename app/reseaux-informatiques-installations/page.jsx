@@ -11,28 +11,29 @@ import { createMetadata, createServiceJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 
 const serviceJsonLd = createServiceJsonLd({
-  name: "Réseaux informatiques et pré-câblage structuré",
+  name: "Pré-câblage informatique et réseaux d'entreprise",
   description:
-    "PIOLEC installe et configure vos réseaux informatiques et infrastructures de pré-câblage structuré pour bureaux, industries et bâtiments commerciaux au Maroc.",
+    "PIOLEC conçoit et installe le pré-câblage informatique, les réseaux d'entreprise, les baies de brassage et la fibre optique pour les professionnels au Maroc.",
   path: "/reseaux-informatiques-installations",
   keywords: [
-    "réseaux informatiques Maroc",
-    "pré-câblage informatique",
-    "câblage structuré",
-    "fibre optique Maroc",
-    "infrastructure réseau entreprise",
+    "pré-câblage informatique Maroc",
+    "installation réseau informatique entreprise",
+    "câblage structuré Cat6",
+    "fibre optique entreprise Maroc",
+    "baie de brassage réseau",
   ],
 });
 
 export const metadata = createMetadata({
-  title: "Réseaux informatiques et pré-câblage",
+  title: "Pré-câblage informatique et réseaux au Maroc",
   description:
-    "PIOLEC installe et configure vos réseaux informatiques et infrastructures de pré-câblage structuré pour bureaux, industries et bâtiments commerciaux au Maroc.",
+    "Installation de pré-câblage informatique, réseaux structurés, baies de brassage et fibre optique pour entreprises à Casablanca, Agadir et partout au Maroc.",
   path: "/reseaux-informatiques-installations",
   keywords: [
-    "réseaux informatiques Maroc",
-    "pré-câblage informatique",
-    "câblage structuré",
+    "pré-câblage informatique entreprise",
+    "installation réseau informatique Maroc",
+    "câblage structuré Cat6 et fibre optique",
+    "baie informatique entreprise",
   ],
 });
 

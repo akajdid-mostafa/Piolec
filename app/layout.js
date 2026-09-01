@@ -25,7 +25,9 @@ export const metadata = {
     },
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+    google:
+      process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ||
+      "MMOH798Js4KtXqpHlViSaeQXy9EXBHZxuagKGLNH4gQ",
   },
 };
 
@@ -51,7 +53,7 @@ export default function RootLayout({ children }) {
           href="/web-app-manifest-192x192.png"
         />
         <meta name="apple-mobile-web-app-title" content="Piolec" />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body>
         <JsonLd data={organizationJsonLd} />

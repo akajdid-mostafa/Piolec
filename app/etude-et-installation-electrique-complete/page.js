@@ -11,28 +11,30 @@ import { createMetadata, createServiceJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 
 const serviceJsonLd = createServiceJsonLd({
-  name: "Étude et installation électrique complète CFA/CFO",
+  name: "Installation électrique industrielle CFA/CFO",
   description:
-    "PIOLEC réalise l'étude, la conception et l'installation électrique complète CFA/CFO pour l'industrie, le tertiaire et le résidentiel au Maroc. Normes respectées, délais tenus.",
+    "PIOLEC réalise l'étude, la conception et l'installation électrique industrielle CFA/CFO pour les entreprises au Maroc, avec armoires, câblage, mise en service et maintenance.",
   path: "/etude-et-installation-electrique-complete",
   keywords: [
     "étude électrique Maroc",
-    "installation électrique CFA CFO",
-    "courant fort courant faible",
-    "électricien professionnel Casablanca",
+    "installation électrique industrielle Maroc",
+    "armoire électrique industrielle",
+    "électricité courant fort courant faible",
+    "électricien industriel Casablanca",
     "installation électrique industrielle",
   ],
 });
 
 export const metadata = createMetadata({
-  title: "Étude et installation électrique complète",
+  title: "Installation électrique CFA/CFO au Maroc",
   description:
-    "PIOLEC réalise l'étude, la conception et l'installation électrique complète CFA/CFO pour l'industrie, le tertiaire et le résidentiel au Maroc. Normes respectées, délais tenus.",
+    "Étude et installation électrique industrielle CFA/CFO au Maroc : armoires, câblage, raccordement et mise en service par PIOLEC à Casablanca, Agadir et partout au pays.",
   path: "/etude-et-installation-electrique-complete",
   keywords: [
-    "étude électrique",
-    "installation électrique complète",
-    "courant fort courant faible",
+    "installation électrique industrielle Maroc",
+    "armoires électriques industrielles",
+    "câblage électrique industriel",
+    "mise en service électrique",
   ],
 });
 

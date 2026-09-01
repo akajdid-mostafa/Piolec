@@ -17,7 +17,7 @@ const ProjectSlider = () => {
               <div className="project-content">
                 <p>Product Sales</p>
                 <h3>
-                  <Link href="case-study-details">
+                  <Link href="/Projets">
                     Product Sale Revenue And How to Growth your product Sales
                   </Link>
                 </h3>
@@ -32,7 +32,7 @@ const ProjectSlider = () => {
               <div className="project-content">
                 <p>Digital Marketing</p>
                 <h3>
-                  <Link href="case-study-details">
+                  <Link href="/Projets">
                     How to Improve your Digital Product Marketing to grow
                     business
                   </Link>
@@ -48,7 +48,7 @@ const ProjectSlider = () => {
               <div className="project-content">
                 <p>SEO Analysis</p>
                 <h3>
-                  <Link href="case-study-details">
+                  <Link href="/Projets">
                     How Important SEO for Develop Product Marketing
                   </Link>
                 </h3>
@@ -63,7 +63,7 @@ const ProjectSlider = () => {
               <div className="project-content">
                 <p>Web Optimization</p>
                 <h3>
-                  <Link href="case-study-details">
+                  <Link href="/Projets">
                     Top 10 Resources for Build Web Traffic and grow Web
                     Optimization
                   </Link>
@@ -79,7 +79,7 @@ const ProjectSlider = () => {
               <div className="project-content">
                 <p>Product Sales</p>
                 <h3>
-                  <Link href="case-study-details">
+                  <Link href="/Projets">
                     Product Sale Revenue And How to Growth your product Sales
                   </Link>
                 </h3>
@@ -94,7 +94,7 @@ const ProjectSlider = () => {
               <div className="project-content">
                 <p>Digital Marketing</p>
                 <h3>
-                  <Link href="case-study-details">
+                  <Link href="/Projets">
                     How to Improve your Digital Product Marketing to grow
                     business
                   </Link>
@@ -110,7 +110,7 @@ const ProjectSlider = () => {
               <div className="project-content">
                 <p>SEO Analysis</p>
                 <h3>
-                  <Link href="case-study-details">
+                  <Link href="/Projets">
                     How Important SEO for Develop Product Marketing
                   </Link>
                 </h3>
@@ -125,7 +125,7 @@ const ProjectSlider = () => {
               <div className="project-content">
                 <p>Web Optimization</p>
                 <h3>
-                  <Link href="case-study-details">
+                  <Link href="/Projets">
                     Top 10 Resources for Build Web Traffic and grow Web
                     Optimization
                   </Link>

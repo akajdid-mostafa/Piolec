@@ -11,29 +11,31 @@ import { createMetadata, createServiceJsonLd } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 
 const serviceJsonLd = createServiceJsonLd({
-  name: "Installation de systèmes de sécurité",
+  name: "Vidéosurveillance et contrôle d'accès au Maroc",
   description:
-    "Installation de systèmes de sécurité par PIOLEC : contrôle d'accès, vidéosurveillance, détection incendie et intrusion. Solutions fiables pour entreprises et industries au Maroc.",
+    "PIOLEC installe des caméras de surveillance, systèmes de vidéosurveillance, contrôle d'accès et détection incendie pour les entreprises et sites industriels au Maroc.",
   path: "/systemes-de-securite-installation",
   keywords: [
-    "systèmes de sécurité Maroc",
-    "vidéosurveillance Casablanca",
-    "contrôle d'accès biométrique",
+    "installation caméra surveillance Maroc",
+    "vidéosurveillance entreprise Casablanca",
+    "vidéosurveillance Agadir",
+    "contrôle d'accès entreprise",
     "détection incendie Maroc",
-    "alarme intrusion",
+    "alarme anti-intrusion",
   ],
 });
 
 export const metadata = createMetadata({
-  title: "Systèmes de sécurité - Installation",
+  title: "Vidéosurveillance et contrôle d'accès au Maroc",
   description:
-    "Installation de systèmes de sécurité par PIOLEC : contrôle d'accès, vidéosurveillance, détection incendie et intrusion. Solutions fiables pour entreprises et industries au Maroc.",
+    "Installation de caméras de surveillance, vidéosurveillance, contrôle d'accès et détection incendie pour entreprises à Casablanca, Agadir et partout au Maroc avec PIOLEC.",
   path: "/systemes-de-securite-installation",
   keywords: [
-    "systèmes de sécurité Maroc",
-    "vidéosurveillance",
-    "contrôle d'accès",
-    "détection incendie",
+    "installation caméra surveillance Maroc",
+    "vidéosurveillance entreprise",
+    "vidéosurveillance Casablanca Agadir",
+    "contrôle d'accès biométrique",
+    "détection incendie et intrusion",
   ],
 });
 

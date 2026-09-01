@@ -172,7 +172,7 @@ const Footer1 = () => {
                         <li>Nov 25, 2024</li>
                       </ul>
                       <h6>
-                        <Link href="news-details">
+                        <Link href="/news-details">
                           How achieve more <br /> your nine to five
                         </Link>
                       </h6>
@@ -190,7 +190,7 @@ const Footer1 = () => {
                         <li>Nov 29, 2024</li>
                       </ul>
                       <h6>
-                        <Link href="news-details">
+                        <Link href="/news-details">
                           Discover a better way of company.
                         </Link>
                       </h6>

@@ -14,14 +14,15 @@ import { createMetadata } from "@/lib/seo";
 import Image from "next/image";
 
 export const metadata = createMetadata({
-  title: "Installation & Maintenance Électrique CFA / CFO",
+  title: "Électricité industrielle & automatisme au Maroc",
   description:
-    "PIOLEC, entreprise marocaine spécialisée en électricité CFA/CFO, automatisme, réseaux informatiques et systèmes de sécurité. Solutions sur mesure à Casablanca, Agadir et partout au Maroc.",
+    "PIOLEC accompagne les entreprises au Maroc en électricité industrielle CFA/CFO, automatisme, sécurité électronique et réseaux informatiques, de l'étude à la maintenance.",
   path: "/",
   keywords: [
-    "installation électrique Maroc",
-    "électricien professionnel",
-    "travaux électriques CFA CFO",
+    "installation électrique industrielle Maroc",
+    "armoires électriques et automatisme",
+    "électricien industriel Casablanca",
+    "électricien industriel Agadir",
   ],
 });
 
