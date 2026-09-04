@@ -42,6 +42,7 @@ export const projects = [
         "pose et raccordement un système de contrôle d’accès avec tourniquet a trois bras .",
       ],
       content: "Électrification en courant fort et faible pour le projet de construction d'un atelier pédagogique (petite usine de mini-chaîne pour la production de jus d'orange) au CMC d'Agadir.",
+      contentplus: "",
       information: {
         client: "ANODE ELECTRIC",
         date: "2021",
@@ -66,6 +67,7 @@ export const projects = [
         "Teste point a point .",
       ],
       content: "Montage et câblage Armoire d’automatisme pour station dessalement .",
+      contentplus: "",
       information: {
         client: "Sté SMART INEGRATION",
         date: "2022",
@@ -107,6 +109,7 @@ export const projects = [
         " Mise en service et réception des travaux.",
       ],
       content: "Travaux de mise à niveau de l'éclairage extérieur",
+      contentplus: "",
       information: {
         client: "Institut des techniciens spécialisés en agriculture de Dakhla",
         date: "2022",
@@ -139,6 +142,7 @@ export const projects = [
         "Raccordement et mise en service.",
       ],
       content: "Armoires électriques de puissance et de commande pour station de pompage, y compris trois départs pour pompes de 30 kW, AGBT, et armoires d'auxiliaires et d'automatisme, au compte de la RADEEJ - Sidi Bennour ",
+      contentplus: "",
       information: {
         client: "SCADELEC",
         date: "2023",
@@ -167,6 +171,7 @@ export const projects = [
         "Procéder à la mise en service et à la réception de la prestation.",
       ],
       content: "Fourniture et pose d'un coffret de puissance et de commande pour piloter deux pompes de relevage, en mode manuel via des boutons poussoirs et en mode automatique grâce à des électrodes de niveau.",
+      contentplus: "",
       information: {
         client: "Aman el baraka ",
         date: "2023",
@@ -193,6 +198,7 @@ export const projects = [
         "Montage du coffret sur le chariot et raccordement d'un câble d’alimentation de longueur suffisante pour brancher le coffret sur le chantier, avec la facilité de le déplacer dans plusieurs zones.",
       ],
       content: "Fourniture des coffrets de prises de courant mono et triphasé, ainsi que de démarrage direct pour la commande de deux pompes, avec chariot mobile pour déplacer le coffret sur le chantier.",
+      contentplus: "",
       information: {
         client: "Aman el baraka ",
         date: "2024",
@@ -224,6 +230,7 @@ export const projects = [
         "Programmation et test de la télégestion des équipements d’automatisme ",
       ],
       content: "Fourniture et pose l’ensemble des armoires électrique de puissance et commande, Automatisme pour station de pompage eau potable de puissance totale, 400 kW (Au compte de RAMSA).",
+      contentplus: "",
       information: {
         client: "OMEGA FLUIDS",
         date: "2023",
@@ -256,6 +263,7 @@ export const projects = [
         "Mise en service et réception du projet",
       ],
       content: "Montage et installation des armoires de puissance et commande, automatisme pour station de pompage eau usée.",
+      contentplus: "",
       information: {
         client: "SCADELEC",
         date: "2022",
@@ -298,6 +306,7 @@ export const projects = [
         "Montage, câblage et raccordement un coffret N/S pour inverser la source d’alimentation.",
       ],
       content: "Fourniture et pose d'une solution complète de surveillance, avec la mise en service des armoires électriques pour un station de traitement et de pompage.",
+      contentplus: "",
       information: {
         client: "SCADELEC",
         date: "2024",
@@ -338,6 +347,7 @@ export const projects = [
         "Tests fonctionnels et mise en service de l’ensemble des équipements",
       ],
       content: "Montage et câblage et installation l’ensemble de dix-sept armoires de puissance et commande pour station de traitement avec la pose et raccordement câble BT et éclairage intérieur et extérieur",
+      contentplus: "",
       information: {
         client: "SCADELEC",
         date: "2023",
@@ -374,6 +384,7 @@ export const projects = [
         "Tests fonctionnels, mise en service générale et réception des travaux",
       ],
       content: "Pose et raccordement de 7 km de câble RO2V 1x240 mm² pour l’alimentation des coffrets de prises 630 A, destinés à l’alimentation des grues de déchargement de navires, incluant la mise en place des liaisons de terre et de masse.",
+      contentplus: "",
       information: {
         client: "P Prime ",
         date: "2025",
@@ -405,6 +416,7 @@ export const projects = [
         "Tests et réception de projet ",
       ],
       content: "Montage et câblage deux armoires de puissance et commande pour démarrage deux pompe de 375kw et l’ajouter un inverseur pour groupe électrogène de puissance 1200KVA et armoire de compensation",
+      contentplus: "",
       information: {
         client: "SCADELEC",
         date: "2023",
@@ -443,6 +455,51 @@ export const projects = [
         client: "SCADELEC",
         date: "2023",
         location: "ERRACHIDIA",
+      },
+    },
+  },
+  {
+    id: 14,
+    title: "Installation et raccordement électrique BT – Projet industriel",
+    details: {
+      images: [
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521812/piolec/general/1788521812463-371437811382.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788522007/piolec/general/1788522007417-8513bc823192.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521952/piolec/general/1788521952530-8bb7921b58ff.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521961/piolec/general/1788521961636-64bb28be0f88.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521869/piolec/general/1788521869581-b5e22c922b68.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788523705/piolec/general/1788523705782-4dce12e34d9a.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788522027/piolec/general/1788522027112-4bfba01939f6.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788522019/piolec/general/1788522018974-929adb3837f5.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521997/piolec/general/1788521997622-846f30bc8512.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521881/piolec/general/1788521881255-6c2177d206fb.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521930/piolec/general/1788521930310-175e66828bf6.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521988/piolec/general/1788521988490-57c885fe0f43.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521978/piolec/general/1788521978576-80af8655525e.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521920/piolec/general/1788521920690-23bf36332029.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521970/piolec/general/1788521970411-3e9a4baf6199.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521941/piolec/general/1788521941639-758892fcedb6.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521892/piolec/general/1788521892250-b3572015cea5.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521824/piolec/general/1788521824773-30187156047b.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521910/piolec/general/1788521910473-4e1b47902d8f.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521901/piolec/general/1788521901734-0632cbfeb173.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521856/piolec/general/1788521856559-4de3e2d55f55.webp",
+        "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521833/piolec/general/1788521833611-b93817b4b4c6.webp",
+      ],
+      projectInitiation: [
+        "Installation et raccordement des AGBT principaux :  AGBT : 3500 A AGBT 1 : 2500 A AGBT 2 : 2500 A",
+        "Installation et raccordement des TGBT 1 et TGBT 2.",
+        "Installation et raccordement des tableaux électriques Normal/Secours : DB2, DB4, DB6, TG UTL et Guérite. ",
+        "Tirage de câbles U1000 R2V pour l’alimentation des différents tableaux et équipements.",
+        "Réalisation des raccordements et connexions nécessaires à la distribution électrique basse tension.",
+        "Vérification et contrôle des raccordements avant la mise en service des installations.",
+      ],
+      content: "Réalisation des travaux d’installation, de tirage et de raccordement des réseaux électriques basse tension au sein de l’usine HARCO à Taroudant.",
+      contentplus: "Les prestations comprennent l’installation et le raccordement des armoires générales basse tension et des tableaux de distribution, notamment l’AGBT principal de 3500 A, les AGBT 1 et AGBT 2 de 2500 A, ainsi que les TGBT 1 et TGBT 2 et les différents tableaux Normal/Secours dédiés aux zones DB2, DB4, DB6, TG UTL et Guérite. ",
+      information: {
+        client: "PPRIME-COPAG",
+        date: "2026",
+        location: "TAROUDANT",
       },
     },
   },

@@ -36,6 +36,7 @@ const ProjectDetailPage = () => {
                   <h1 className="mt-0">{project.title.trim()}</h1>
                   <h4 className="mt-50">Objet de projet :</h4>
                   <p className="mt-4">{project.details.content}</p>
+                  <p className="mt-4">{project.details.contentplus}</p>
                   <h4 className="mt-50">Travaux effectués :</h4>
                   <ul className="project-list">
                     {project.details.projectInitiation.map((step, index) => (
