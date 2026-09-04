@@ -487,7 +487,7 @@ export const projects = [
         "https://res.cloudinary.com/dzqres7rq/image/upload/v1788521833/piolec/general/1788521833611-b93817b4b4c6.webp",
       ],
       projectInitiation: [
-        "Installation et raccordement des AGBT principaux :  AGBT : 3500 A AGBT 1 : 2500 A AGBT 2 : 2500 A",
+        "Installation et raccordement des AGBT principaux :  AGBT : 3500 A AGBT 1 : 2500 A AGBT 2 : 2500A",
         "Installation et raccordement des TGBT 1 et TGBT 2.",
         "Installation et raccordement des tableaux électriques Normal/Secours : DB2, DB4, DB6, TG UTL et Guérite. ",
         "Tirage de câbles U1000 R2V pour l’alimentation des différents tableaux et équipements.",
