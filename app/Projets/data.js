@@ -495,7 +495,7 @@ export const projects = [
         
       ],
       projectInitiation: [
-        "Installation et raccordement d’une armoire générale basse tension (TGBT) d’une capacité de 3 500 A.",
+        "Installation et raccordement d’une armoire générale basse tension (TGBT) d’une capacité de 3500 A.",
         "Installation et raccordement de deux tableaux électriques de 2 500 A destinés à l’alimentation des lignes de production.",
         "Installation et raccordement des différents tableaux de distribution électrique destinés à l’alimentation des autres machines et équipements.",
         "Pose de câbles U-1000 R2V, de sections comprises entre 25 et 300 mm², pour l’ensemble des liaisons électriques entre les TGBT, les tableaux de distribution et les machines.",
